@@ -19,6 +19,12 @@ https://courses.kaupenjoe.net/
 
 ~~CREDIT TO THE NEW FILES OF THIS MOD~~
 Custom models and textures included
+
+===MODELS AND TEXTURES===
 ----kyraltre----
 BUTTERFLY
 PUMPKIN_GRAND
+
+===TEXTURES ONLY===
+----kyraltre----
+PASTURE_BLANKET_RAINBOW
