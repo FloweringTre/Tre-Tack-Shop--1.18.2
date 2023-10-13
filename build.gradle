@@ -165,10 +165,10 @@ dependencies {
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.10'
 
-    runtimeOnly fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:0.4.0+1.18")
+    implementation  fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:0.4.0+1.18")
     //runtimeOnly fg.deobf("curse.maven:playeranimator-658587:4111518")
-    runtimeOnly fg.deobf("curse.maven:geckolib-388172:4181370") // the only one that works
-    runtimeOnly fg.deobf("curse.maven:swem-582697:4710622")
+    implementation  fg.deobf("curse.maven:geckolib-388172:4181370") // the only one that works
+    implementation  fg.deobf("curse.maven:swem-582697:4710622")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     //compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
