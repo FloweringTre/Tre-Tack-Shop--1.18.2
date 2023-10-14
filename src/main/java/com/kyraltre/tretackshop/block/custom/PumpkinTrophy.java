@@ -48,8 +48,5 @@ public class PumpkinTrophy extends Block {
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(FACING);
     }
-    /* FACING CODE FROM KAUPENJOE's 1.18.2 TUTORIALMOD SERIES*/
-
-
 
 }
