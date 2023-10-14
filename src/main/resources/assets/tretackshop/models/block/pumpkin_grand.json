@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "tretackshop:block/pumpkin_grand",
-		"texture": "tretackshop:block/pumpkin_grand"
+		"particle": "tretackshop:blocks/pumpkin_grand",
+		"texture": "tretackshop:blocks/pumpkin_grand"
 	},
 	"elements": [
 		{
