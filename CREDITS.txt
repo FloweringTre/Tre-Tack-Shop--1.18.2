@@ -8,7 +8,7 @@ https://modrinth.com/mod/swem
 Join their discord
 https://www.discord.gg/swem
 
-Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation.
+Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
 
 ~~GUIDANCE CREDIT~~
