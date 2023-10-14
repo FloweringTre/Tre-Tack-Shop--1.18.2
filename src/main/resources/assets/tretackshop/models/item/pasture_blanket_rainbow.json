@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackmod:items/pasture_blanket_rainbow_icon"
+    "layer0": "swem:items/pasture_blanket_rainbow_icon"
   }
 }
