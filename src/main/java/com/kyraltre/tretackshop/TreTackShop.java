@@ -1,6 +1,5 @@
 package com.kyraltre.tretackshop;
 
-import com.alaharranhonor.swem.forge.registry.SWEMItems;
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.item.TackItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
