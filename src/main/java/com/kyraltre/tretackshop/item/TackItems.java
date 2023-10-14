@@ -15,7 +15,6 @@ import java.util.List;
 public class TackItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TreTackShop.MOD_ID);
-    public static final List<RegistryObject<PastureBlanketItem>> TRE_PASTURE_BLANKETS = null;
     public static final RegistryObject<Item> BUTTERFLY = ITEMS.register("butterfly",
             () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
 
