@@ -15,8 +15,18 @@ import java.util.List;
 public class TackItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TreTackShop.MOD_ID);
+
     public static final RegistryObject<Item> BUTTERFLY = ITEMS.register("butterfly",
+            () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)))
+            ;// Icon for mod
+
+    public static final RegistryObject<Item> TROPHY_1 = ITEMS.register("trophy_1",
             () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+    public static final RegistryObject<Item> TROPHY_2 = ITEMS.register("trophy_2",
+            () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+    public static final RegistryObject<Item> TROPHY_3 = ITEMS.register("trophy_3",
+            () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)))
+            ; // Adding 3 CIT trophy variants
 
     public static final RegistryObject<Item> PASTURE_BLANKET_RAINBOW = ITEMS.register("pasture_blanket_rainbow",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
