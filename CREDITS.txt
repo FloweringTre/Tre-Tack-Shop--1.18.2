@@ -1,6 +1,7 @@
 
 ~~CREDIT TO THE MAIN MOD THIS IS AN ADD ON TO~~~
-All models and animations (unless otherwise specified below) are from the SWEM mod and their team of talented animators, coders, and designers.
+ALL MODELS AND ANIMATIONS (unless otherwise specified below) ARE FROM THE SWEM MOD and their team of talented animators, coders, and designers. This mod makes no claim to their models and designs. When they are used explicit credit is given, and they are only used in their original format or in ways to be true to their original formats.
+
 Please see their mod at the link below.
 https://modrinth.com/mod/swem
 
@@ -24,7 +25,13 @@ Custom models and textures included
 ----kyraltre----
 BUTTERFLY
 PUMPKIN_GRAND
+PUMPKIN_RESERVE
 
 ===TEXTURES ONLY===
 ----kyraltre----
 PASTURE_BLANKET_RAINBOW
+PASTURE_BLANKET_[1 thru 12]
+RIBBON_THREE_TAILS_[1 thru 6]
+RIBBON_TWO_TAILS_[1 thru 6]
+RIBBON_ONE_TAIL_[1 thru 6]
+ROSETTE_[1 thru 6]
