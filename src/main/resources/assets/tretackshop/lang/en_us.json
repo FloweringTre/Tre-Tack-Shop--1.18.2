@@ -1,9 +1,22 @@
 {
   "item.tretackshop.butterfly": "Tre's Butterfly",
-  "item.tretackshop.pasture_blanket_rainbow": "Rainbow Pasture Blanket",
-
-
   "block.tretackshop.pumpkin_grand": "Pumpkin Grand Champion Trophy",
+  "block.tretackshop.pumpkin_reserve": "Pumpkin Reserve Grand Champion Trophy",
+  "itemGroup.tretacktab": "Tre's Tack Shop Mod",
 
-  "itemGroup.tretacktab": "Tre's Tack Shop Mod"
+
+  "item.tretackshop.pasture_blanket_rainbow": "Rainbow Pasture Blanket",
+  "item.tretackshop.pasture_blanket_1": "Tack Shop Blanket 1",
+  "item.tretackshop.pasture_blanket_2": "Tack Shop Blanket 2",
+  "item.tretackshop.pasture_blanket_3": "Tack Shop Blanket 3",
+  "item.tretackshop.pasture_blanket_4": "Tack Shop Blanket 4",
+  "item.tretackshop.pasture_blanket_5": "Tack Shop Blanket 5",
+  "item.tretackshop.pasture_blanket_6": "Tack Shop Blanket 6",
+  "item.tretackshop.pasture_blanket_7": "Tack Shop Blanket 7",
+  "item.tretackshop.pasture_blanket_8": "Tack Shop Blanket 8",
+  "item.tretackshop.pasture_blanket_9": "Tack Shop Blanket 9",
+  "item.tretackshop.pasture_blanket_10": "Tack Shop Blanket 10",
+  "item.tretackshop.pasture_blanket_11": "Tack Shop Blanket 11",
+  "item.tretackshop.pasture_blanket_12": "Tack Shop Blanket 12"
+
 }
