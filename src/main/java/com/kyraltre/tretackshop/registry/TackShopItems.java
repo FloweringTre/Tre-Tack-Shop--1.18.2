@@ -21,6 +21,11 @@ public class TackShopItems {
     public static final DeferredRegister<Item> ITEMS;
 
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
+    public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
+    public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
+    public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
+    public static final List<RegistryObject<Item>> ROSETTE;
+
 
 
     public TackShopItems() {
@@ -50,6 +55,35 @@ public class TackShopItems {
             }));
             ++rContext.var2;
         }
+
+
+        RIBBON_THREE_TAILS = new ArrayList();
+        RIBBON_TWO_TAILS = new ArrayList();
+        RIBBON_ONE_TAIL = new ArrayList();
+        ROSETTE = new ArrayList();
+         int r = 7;
+         var Context = new Object() {
+             int b = 1;
+         };
+
+         while (Context.b < r) {
+             int counter = Context.b;
+
+             RIBBON_THREE_TAILS.add(ITEMS.register("ribbon_three_tails_" + Integer.toString(counter), () -> {
+                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
+             }));
+             RIBBON_TWO_TAILS.add(ITEMS.register("ribbon_two_tails_" + Integer.toString(counter), () -> {
+                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
+             }));
+             RIBBON_ONE_TAIL.add(ITEMS.register("ribbon_one_tail_" + Integer.toString(counter), () -> {
+                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
+             }));
+             ROSETTE.add(ITEMS.register("rosette_" + Integer.toString(counter), () -> {
+                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
+             }));
+
+             ++Context.b;
+         }
 
     }
 }
