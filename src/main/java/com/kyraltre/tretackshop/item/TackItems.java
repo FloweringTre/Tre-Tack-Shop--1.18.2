@@ -9,17 +9,19 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.List;
 
-public class ModItems {
+
+public class TackItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TreTackShop.MOD_ID);
-
+    public static final List<RegistryObject<PastureBlanketItem>> TRE_PASTURE_BLANKETS = null;
     public static final RegistryObject<Item> BUTTERFLY = ITEMS.register("butterfly",
-            () -> new Item(new Item.Properties().tab(ModCreativeModTab.TRETACK_TAB)));
+            () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
 
     public static final RegistryObject<Item> PASTURE_BLANKET_RAINBOW = ITEMS.register("pasture_blanket_rainbow",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "pasture_blanket_rainbow", new Item.Properties().tab(ModCreativeModTab.TRETACK_TAB)));
+                    "pasture_blanket_rainbow", new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
