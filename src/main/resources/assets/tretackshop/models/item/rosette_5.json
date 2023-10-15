@@ -1,6 +1,6 @@
 {
   "parent": "tretackshop:item/rosette_template",
   "textures": {
-    "texture": "tretackshop:items/rosette_5"
+    "texture": "tretackshop:items/awards/rosette/rosette_5"
   }
 }
