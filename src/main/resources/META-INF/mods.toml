@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="MIT" # SWEM is All rights reserved - Do not overstep this.
-#Tre's Tack Shop welcomes others help and use to make it better for the community use though <3
+license="All Rights Reserved unless otherwise explicitly stated." # SWEM is All rights reserved and due to this mod being heavily tied to their code, this mod is also listed as All Rights reservered...
+#HOWEVER -- I am open for branches and collaboration on my mod that respects SWEM's rights. Reach out to me and we can discuss your plans and ideas!
 
 issueTrackerURL="https://github.com/FloweringTre/Tre-Tack-Shop/issues"
 
@@ -22,12 +22,15 @@ credits="The SWEM Team for use of their models/entities/classes"
 authors="kyraltre"
 
 
-description=''' This mod adds new tack and prize items from SWEM for resource pack uses.
+description='''An addon mod to SWEM that expands the number of tack items in the game for the community to use to add new textures to the game without overriding the original tack items. It also includes ribbons and trophy models from the original SWEM mod in order to produce ribbons and trophies that can be displayed as the creators intended them to be but now in an item frame instead of a placeable block, thus keeping the name/NBT data of the item.
 
- Some new models are added of my own design but most items in this pack are just adding new versions of the original SWEM items.
+**All items only be obtainable in the creative menu / give commands, there are no recipes in this mod.**
+Basically, a little add-on mod that acts like a custom tack shop for players and servers to use to gain custom tack based on their resource packs.
 
- Please see the link below for our discord for updates, questions, and a how-to guide for making resource packs for this mod.
- https://discord.gg/GuYRWK22Mx'''
+Also include new models of my own design as I make them.
+
+Please see the link below for our discord for updates, questions, and a how-to guide for making resource packs for this mod.
+https://discord.gg/GuYRWK22Mx'''
 
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
