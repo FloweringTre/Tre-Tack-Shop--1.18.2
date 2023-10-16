@@ -5,7 +5,7 @@ An addon mod to SWEM that expands the number of tack items in the game for the c
 
 Also include new models of my own design as I make them. -- currently added a cute pumpkin trophy
 
-All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures made by Moon Flower. [Click here to see her links](https://moon-flower-info.carrd.co/ 'Moon Flower's Carrd)
+All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures made by Moon Flower. [Click here to see her links!](https://moon-flower-info.carrd.co )
 
 ### Note to resources pack makers
 All tack items have two textures attached to them, the texture on the horse and the icon in the menus/inventory. To change rendered horse textures, you must replace the numbered .png file in the ***swem*** assets folder. To change the icon textures, you must replace the numbered .png file in the ***tretackshop*** assets folder.
