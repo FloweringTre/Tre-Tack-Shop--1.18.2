@@ -29,10 +29,15 @@ PUMPKIN_RESERVE
 
 ===TEXTURES ONLY===
 ----kyraltre----
-PASTURE_BLANKET_RAINBOW
+pasture_blanket_rainbow_icon
+pasture_blanket_rainbow_armored_icon
 PASTURE_BLANKET_[1 thru 12]
 RIBBON_THREE_TAILS_[1 thru 6]
 RIBBON_TWO_TAILS_[1 thru 6]
 RIBBON_ONE_TAIL_[1 thru 6]
 ROSETTE_[1 thru 6]
 TROPHY_[1 thru 3]
+
+----Moon_Flower----
+PASTURE_BLANKET_RAINBOW
+PASTURE_BLANKET_RAINBOW_ARMORED
