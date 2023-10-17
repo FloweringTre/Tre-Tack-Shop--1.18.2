@@ -10,6 +10,9 @@ https://www.discord.gg/swem
 
 Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
+~~CREDIT TO THE TEXTURE ARTIST~~
+Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work
+https://moon-flower-info.carrd.co/
 
 ~~GUIDANCE CREDIT~~
 Thank you to MagnusHJenson (legenden) for your support in helping make this add on to your mod (SWEM). Thank you for answering so many questions!
@@ -20,6 +23,10 @@ https://courses.kaupenjoe.net/
 
 ~~CREDIT TO THE NEW FILES OF THIS MOD~~
 Custom models and textures included
+
+
+-----------------------------------------------------------------------
+
 
 ===MODELS AND TEXTURES===
 ----kyraltre----
