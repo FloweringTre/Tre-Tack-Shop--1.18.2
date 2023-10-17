@@ -142,16 +142,15 @@
 		},
 		"gui": {
 			"rotation": [0, 180, 0],
-			"translation": [0.25, 1.75, 0],
-			"scale": [1, 1, 0.81]
+			"translation": [0.25, 1.75, 0]
 		},
 		"head": {
 			"translation": [0, -1.25, -12.25],
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"fixed": {
-			"translation": [0, 1.25, -8.25],
-			"scale": [2.5, 2.5, 0.99]
+			"translation": [0, 1.25, -20],
+			"scale": [2.5, 2.5, 2.5]
 		}
 	},
 	"groups": [
