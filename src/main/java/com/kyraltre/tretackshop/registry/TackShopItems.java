@@ -5,12 +5,12 @@
 
 package com.kyraltre.tretackshop.registry;
 
-import com.alaharranhonor.swem.forge.SWEM;
-import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem.HorseArmorTier;
+
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -52,13 +52,13 @@ public class TackShopItems {
             //DyeColor color = var0[var2];
             int counter = rContext.var2;
             PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + Integer.toString(counter), () -> {
-                return new PastureBlanketItem(HorseArmorTier.NONE, 0,
+                return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
 
             PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + Integer.toString(counter) + "_armored", () -> {
-                return new PastureBlanketItem(HorseArmorTier.DIAMOND, 37,
+                return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
                         "pasture_blanket_" + Integer.toString(counter) + "_armored", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
