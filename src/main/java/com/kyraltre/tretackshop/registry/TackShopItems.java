@@ -6,6 +6,8 @@
 package com.kyraltre.tretackshop.registry;
 
 
+import com.alaharranhonor.swem.forge.SWEM;
+import com.alaharranhonor.swem.forge.items.tack.HalterItem;
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +29,7 @@ public class TackShopItems {
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> ROSETTE;
+    public static final List<RegistryObject<HalterItem>> HALTERS;
 
 
 
@@ -40,9 +43,11 @@ public class TackShopItems {
     static {
         ITEMS = DeferredRegister.create(Keys.ITEMS, "tretackshop");
 
+        // 12 Count Items
         PASTURE_BLANKETS = new ArrayList();
         PASTURE_BLANKETS_ARMORED = new ArrayList();
-        //DyeColor[] var0 = DyeColor.values();
+        HALTERS = new ArrayList();
+
         int var1 = 13;
         var rContext = new Object() {
             int var2 = 1;
@@ -62,10 +67,16 @@ public class TackShopItems {
                         "pasture_blanket_" + Integer.toString(counter) + "_armored", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
+
+            HALTERS.add(ITEMS.register("halter_" + Integer.toString(counter), () -> {
+                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+
             ++rContext.var2;
         }
 
-
+        // 6 Count Items
         RIBBON_THREE_TAILS = new ArrayList();
         RIBBON_TWO_TAILS = new ArrayList();
         RIBBON_ONE_TAIL = new ArrayList();

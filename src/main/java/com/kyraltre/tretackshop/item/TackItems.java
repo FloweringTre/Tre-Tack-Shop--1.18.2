@@ -2,6 +2,7 @@ package com.kyraltre.tretackshop.item;
 
 import com.alaharranhonor.swem.forge.SWEM;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
+import com.alaharranhonor.swem.forge.items.tack.HalterItem;
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
 import com.kyraltre.tretackshop.TreTackShop;
 import net.minecraft.world.item.Item;
@@ -12,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 
-
+// ONE OFF ITEM REGISTRY
 public class TackItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TreTackShop.MOD_ID);
@@ -36,6 +37,11 @@ public class TackItems {
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
                         "pasture_blanket_rainbow_armored",
                         (new Item.Properties()).tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
+    public static final RegistryObject<Item> HALTER_RAINBOW = ITEMS.register("halter_rainbow",
+            () -> new HalterItem("halter_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+    );
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
