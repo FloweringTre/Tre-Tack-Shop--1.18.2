@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package com.kyraltre.tretackshop.registry;
 
 
@@ -42,9 +37,6 @@ public class TackShopItems {
     public TackShopItems() {
     }
 
-    public static void init(IEventBus modBus) {
-        ITEMS.register(modBus);
-    }
 
     static {
         ITEMS = DeferredRegister.create(Keys.ITEMS, "tretackshop");
