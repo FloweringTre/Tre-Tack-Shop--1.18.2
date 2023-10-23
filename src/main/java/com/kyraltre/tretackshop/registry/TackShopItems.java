@@ -36,7 +36,7 @@ public class TackShopItems {
 
     public TackShopItems() {
     }
-
+    public static void init(IEventBus eventBus) { ITEMS.register(eventBus); }
 
     static {
         ITEMS = DeferredRegister.create(Keys.ITEMS, "tretackshop");
