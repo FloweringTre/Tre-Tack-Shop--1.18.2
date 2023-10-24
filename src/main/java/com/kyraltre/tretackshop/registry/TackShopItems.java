@@ -2,8 +2,8 @@ package com.kyraltre.tretackshop.registry;
 
 
 import com.alaharranhonor.swem.forge.SWEM;
-import com.alaharranhonor.swem.forge.items.tack.HalterItem;
-import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
+import com.alaharranhonor.swem.forge.items.tack.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +25,12 @@ public class TackShopItems {
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW_ARMORED;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS_ARMORED;
+    public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_RAINBOW;
+    public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_RAINBOW;
+    public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_RAINBOW;
+    public static final List<RegistryObject<AdventureBlanketItem>> ADVENTURE_BLANKETS;
+    public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKETS;
+    public static final List<RegistryObject<WesternBlanketItem>> WESTERN_BLANKETS;
     public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
@@ -45,24 +51,41 @@ public class TackShopItems {
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
 
 
+        // Rainbow Tack
         HALTER_RAINBOW = ITEMS.register("halter_rainbow",
                 () -> new HalterItem("halter_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
+        ADVENTURE_BLANKET_RAINBOW = ITEMS.register("adventure_blanket_rainbow",
+                () -> new AdventureBlanketItem("adventure_blanket_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
+        WESTERN_BLANKET_RAINBOW = ITEMS.register("western_blanket_rainbow",
+                () -> new WesternBlanketItem("western_blanket_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
+        ENGLISH_BLANKET_RAINBOW = ITEMS.register("english_blanket_rainbow",
+                () -> new EnglishBlanketItem("english_blanket_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
         PASTURE_BLANKET_RAINBOW = ITEMS.register("pasture_blanket_rainbow",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                        "pasture_blanket_rainbow", new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+                        "pasture_blanket_rainbow", new Item.Properties()
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
         PASTURE_BLANKET_RAINBOW_ARMORED = ITEMS.register("pasture_blanket_rainbow_armored",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                        "pasture_blanket_rainbow_armored",
-                        (new Item.Properties()).tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+                        "pasture_blanket_rainbow_armored", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
 
         // 12 Count Items
         PASTURE_BLANKETS = new ArrayList();
         PASTURE_BLANKETS_ARMORED = new ArrayList();
         HALTERS = new ArrayList();
+        ADVENTURE_BLANKETS = new ArrayList();
+        WESTERN_BLANKETS = new ArrayList();
+        ENGLISH_BLANKETS = new ArrayList();
 
         int var1 = 13;
         var rContext = new Object() {
@@ -72,6 +95,26 @@ public class TackShopItems {
         while (rContext.var2 < var1) {
             //DyeColor color = var0[var2];
             int counter = rContext.var2;
+            HALTERS.add(ITEMS.register("halter_" + Integer.toString(counter), () -> {
+                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+
+            ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + Integer.toString(counter), () -> {
+                return new AdventureBlanketItem("adventure_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+
+            WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + Integer.toString(counter), () -> {
+                return new WesternBlanketItem("western_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+
+            ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + Integer.toString(counter), () -> {
+                return new EnglishBlanketItem("english_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+
             PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + Integer.toString(counter), () -> {
                 return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_" + Integer.toString(counter), (new Item.Properties())
@@ -81,11 +124,6 @@ public class TackShopItems {
             PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + Integer.toString(counter) + "_armored", () -> {
                 return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
                         "pasture_blanket_" + Integer.toString(counter) + "_armored", (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-
-            HALTERS.add(ITEMS.register("halter_" + Integer.toString(counter), () -> {
-                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
 
