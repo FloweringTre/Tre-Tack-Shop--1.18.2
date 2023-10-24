@@ -11,4 +11,7 @@ public class TackShopCreativeModTab {
             return new ItemStack(TackShopItems.BUTTERFLY.get()); //this item is the icon of the tab
         }
     };
+    public boolean hasSearchBar() {
+        return true;
+    }
 }
