@@ -10,7 +10,7 @@ https://www.discord.gg/swem
 
 Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
-~~CREDIT TO THE TEXTURE ARTIST~~
+~~CREDIT TO THE RAINBOW TEXTURE ARTIST~~
 Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work
 https://moon-flower-info.carrd.co/
 
@@ -20,13 +20,9 @@ Thank you to MagnusHJenson (legenden) for your support in helping make this add 
 Thank you to Kaupenjoe for your amazing courses and YouTube tutorials. I have learned so much <3
 https://courses.kaupenjoe.net/
 
-
+-----------------------------------------------------------------------
 ~~CREDIT TO THE NEW FILES OF THIS MOD~~
 Custom models and textures included
-
-
------------------------------------------------------------------------
-
 
 ===MODELS AND TEXTURES===
 ----kyraltre----
@@ -48,9 +44,18 @@ TROPHY_[1 thru 3]
 bridle_rack_halter_ [1 thru 12 + Rainbow] (Rack display texture)
 halter_[1 thru 12 + Rainbow] (GUI Icon)
 HALTER_[1 thru 12]
+adventure_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
+ADVENTURE_BLANKET_[1 thru 12]
+english_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
+ENGLISH_BLANKET_[1 thru 12]
+western_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
+WESTERN_BLANKET_[1 thru 12]
 
 ----Moon_Flower----
 (On Horse Renders only)
 PASTURE_BLANKET_RAINBOW
 PASTURE_BLANKET_RAINBOW_ARMORED
 HALTER_RAINBOW
+ADVENTURE_BLANKET_RAINBOW
+ENGLISH_BLANKET_RAINBOW
+WESTERN_BLANKET_RAINBOW
