@@ -31,6 +31,15 @@ PUMPKIN_GRAND
 PUMPKIN_RESERVE
 
 ===TEXTURES ONLY===
+----Moon_Flower----
+(On Horse Renders only)
+PASTURE_BLANKET_RAINBOW
+PASTURE_BLANKET_RAINBOW_ARMORED
+HALTER_RAINBOW
+ADVENTURE_BLANKET_RAINBOW
+ENGLISH_BLANKET_RAINBOW
+WESTERN_BLANKET_RAINBOW
+
 ----kyraltre----
 pasture_blanket_rainbow_icon (GUI Icon)
 pasture_blanket_rainbow_armored_icon (GUI Icon)
@@ -50,12 +59,6 @@ english_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
 ENGLISH_BLANKET_[1 thru 12]
 western_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
 WESTERN_BLANKET_[1 thru 12]
-
-----Moon_Flower----
-(On Horse Renders only)
-PASTURE_BLANKET_RAINBOW
-PASTURE_BLANKET_RAINBOW_ARMORED
-HALTER_RAINBOW
-ADVENTURE_BLANKET_RAINBOW
-ENGLISH_BLANKET_RAINBOW
-WESTERN_BLANKET_RAINBOW
+FLYMASK_[1 thru 12]
+flymask_[1 thru 12] (GUI Icon)
+bridle_rack_flymask_ [1 thru 12] (Rack display texture)
