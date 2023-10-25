@@ -21,6 +21,7 @@ public class TackShopItems {
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<HalterItem> HALTER_RAINBOW;
     public static final List<RegistryObject<HalterItem>> HALTERS;
+    public static final List<RegistryObject<HalterItem>> FLYMASKS;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW_ARMORED;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
@@ -78,11 +79,11 @@ public class TackShopItems {
                         "pasture_blanket_rainbow_armored", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
-
         // 12 Count Items
         PASTURE_BLANKETS = new ArrayList();
         PASTURE_BLANKETS_ARMORED = new ArrayList();
         HALTERS = new ArrayList();
+        FLYMASKS = new ArrayList();
         ADVENTURE_BLANKETS = new ArrayList();
         WESTERN_BLANKETS = new ArrayList();
         ENGLISH_BLANKETS = new ArrayList();
@@ -97,6 +98,11 @@ public class TackShopItems {
             int counter = rContext.var2;
             HALTERS.add(ITEMS.register("halter_" + Integer.toString(counter), () -> {
                 return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+
+            FLYMASKS.add(ITEMS.register("flymask_" + Integer.toString(counter), () -> {
+                return new HalterItem("flymask_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
 
