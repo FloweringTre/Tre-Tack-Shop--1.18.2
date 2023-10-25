@@ -1,7 +1,6 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
-import com.kyraltre.tretackshop.item.TackItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -28,7 +27,7 @@ public class TreTackShop
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        TackItems.register(eventBus); // registers the deferred items in ModItems
+        //TackItems.register(eventBus); // registers the deferred items in ModItems
         TackShopItems.init(eventBus);
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 

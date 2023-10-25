@@ -10,7 +10,7 @@ https://www.discord.gg/swem
 
 Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
-~~CREDIT TO THE TEXTURE ARTIST~~
+~~CREDIT TO THE RAINBOW TEXTURE ARTIST~~
 Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work
 https://moon-flower-info.carrd.co/
 
@@ -21,8 +21,7 @@ Thank you to Kaupenjoe for your amazing courses and YouTube tutorials. I have le
 https://courses.kaupenjoe.net/
 
 -----------------------------------------------------------------------
-
-~~~~CREDIT TO THE NEW FILES OF THIS MOD~~~~
+~~CREDIT TO THE NEW FILES OF THIS MOD~~
 Custom models and textures included
 
 ===MODELS AND TEXTURES===
@@ -32,16 +31,34 @@ PUMPKIN_GRAND
 PUMPKIN_RESERVE
 
 ===TEXTURES ONLY===
+----Moon_Flower----
+(On Horse Renders only)
+PASTURE_BLANKET_RAINBOW
+PASTURE_BLANKET_RAINBOW_ARMORED
+HALTER_RAINBOW
+ADVENTURE_BLANKET_RAINBOW
+ENGLISH_BLANKET_RAINBOW
+WESTERN_BLANKET_RAINBOW
+
 ----kyraltre----
-pasture_blanket_rainbow_icon
-pasture_blanket_rainbow_armored_icon
+pasture_blanket_rainbow_icon (GUI Icon)
+pasture_blanket_rainbow_armored_icon (GUI Icon)
 PASTURE_BLANKET_[1 thru 12]
+PASTURE_BLANKET_ARMORED [1 thru 12]
 RIBBON_THREE_TAILS_[1 thru 6]
 RIBBON_TWO_TAILS_[1 thru 6]
 RIBBON_ONE_TAIL_[1 thru 6]
 ROSETTE_[1 thru 6]
 TROPHY_[1 thru 3]
-
-----Moon_Flower----
-PASTURE_BLANKET_RAINBOW
-PASTURE_BLANKET_RAINBOW_ARMORED
+bridle_rack_halter_ [1 thru 12 + Rainbow] (Rack display texture)
+halter_[1 thru 12 + Rainbow] (GUI Icon)
+HALTER_[1 thru 12]
+adventure_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
+ADVENTURE_BLANKET_[1 thru 12]
+english_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
+ENGLISH_BLANKET_[1 thru 12]
+western_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
+WESTERN_BLANKET_[1 thru 12]
+FLYMASK_[1 thru 12]
+flymask_[1 thru 12] (GUI Icon)
+bridle_rack_flymask_ [1 thru 12] (Rack display texture)
