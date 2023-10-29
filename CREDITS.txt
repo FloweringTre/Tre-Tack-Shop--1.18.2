@@ -11,8 +11,11 @@ https://www.discord.gg/swem
 Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
 ~~CREDIT TO THE RAINBOW TEXTURE ARTIST~~
-Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work
+Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work!
 https://moon-flower-info.carrd.co/
+
+RileyCasper is the artist who made the ribbon and trophy textures this mod uses. Please join their discord to see all the things they get up to!
+https://discord.gg/cZ6bVAuuJj
 
 ~~GUIDANCE CREDIT~~
 Thank you to MagnusHJenson (legenden) for your support in helping make this add on to your mod (SWEM). Thank you for answering so many questions!
@@ -39,17 +42,21 @@ HALTER_RAINBOW
 ADVENTURE_BLANKET_RAINBOW
 ENGLISH_BLANKET_RAINBOW
 WESTERN_BLANKET_RAINBOW
+WESTERN_LEG_WRAPS_RAINBOW
+ENGLISH_LEG_WRAPS_RAINBOW
+
+----RileyCasper---
+RIBBON_THREE_TAILS_[All Variants]
+RIBBON_TWO_TAILS_[All Variants]
+RIBBON_ONE_TAIL_[All Variants]
+ROSETTE_[All Variants]
+TROPHY_[1 thru 3]
 
 ----kyraltre----
 pasture_blanket_rainbow_icon (GUI Icon)
 pasture_blanket_rainbow_armored_icon (GUI Icon)
 PASTURE_BLANKET_[1 thru 12]
 PASTURE_BLANKET_ARMORED [1 thru 12]
-RIBBON_THREE_TAILS_[1 thru 6]
-RIBBON_TWO_TAILS_[1 thru 6]
-RIBBON_ONE_TAIL_[1 thru 6]
-ROSETTE_[1 thru 6]
-TROPHY_[1 thru 3]
 bridle_rack_halter_ [1 thru 12 + Rainbow] (Rack display texture)
 halter_[1 thru 12 + Rainbow] (GUI Icon)
 HALTER_[1 thru 12]
@@ -62,3 +69,8 @@ WESTERN_BLANKET_[1 thru 12]
 FLYMASK_[1 thru 12]
 flymask_[1 thru 12] (GUI Icon)
 bridle_rack_flymask_ [1 thru 12] (Rack display texture)
+western_leg_wraps_[1 thru 12 + Rainbow] (GUI Icon)
+english_leg_wraps_[1 thru 12 + Rainbow] (GUI Icon)
+WESTERN_LEG_WRAPS_[1 thru 12]
+ENGLISH_LEG_WRAPS_[1 thru 12]
+

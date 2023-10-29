@@ -7,6 +7,8 @@ Also include new models of my own design as I make them. -- currently added a cu
 
 All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures made by Moon Flower. [Click here to see her links!](https://moon-flower-info.carrd.co )
 
+The Ribbons and Rosette textures along with the standard Trophy textures are made by RileyCasper. [Click here to join their discord!](https://discord.gg/cZ6bVAuuJj)
+
 ### Note to resources pack makers
 All tack items have two textures attached to them, the texture on the horse and the icon in the menus/inventory. To change rendered horse textures, you must replace the numbered .png file in the ***swem*** assets folder. To change the icon textures, you must replace the numbered .png file in the ***tretackshop*** assets folder.
 
