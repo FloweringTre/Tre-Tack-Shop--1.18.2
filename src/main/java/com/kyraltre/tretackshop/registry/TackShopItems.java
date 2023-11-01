@@ -79,7 +79,7 @@ public class TackShopItems {
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
         ADVENTURE_LEG_WRAPS_RAINBOW = ITEMS.register("adventure_leg_wraps_rainbow",
-                () -> new AdventureLegWraps("adventure_leg_wraps", (new Item.Properties())
+                () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
                     .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
 
         WESTERN_LEG_WRAPS_RAINBOW = ITEMS.register("western_leg_wraps_rainbow",
