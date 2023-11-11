@@ -48,6 +48,9 @@ public class TackShopItems {
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
     public static final RegistryObject<Item> TROPHY_3;
+    public static final RegistryObject<Item> MEDAL_1;
+    public static final RegistryObject<Item> MEDAL_2;
+    public static final RegistryObject<Item> MEDAL_3;
 
 
     public TackShopItems() {
@@ -211,6 +214,12 @@ public class TackShopItems {
         TROPHY_2 = ITEMS.register("trophy_2",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
         TROPHY_3 = ITEMS.register("trophy_3",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+        MEDAL_1 = ITEMS.register("medal_1",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+        MEDAL_2 = ITEMS.register("medal_2",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+        MEDAL_3 = ITEMS.register("medal_3",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
 
     }

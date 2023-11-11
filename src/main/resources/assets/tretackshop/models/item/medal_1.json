@@ -1,0 +1,7 @@
+{
+  "parent": "tretackshop:item/medal_template",
+  "textures": {
+    "texture": "tretackshop:items/awards/medal_1"
+
+  }
+}
