@@ -10,12 +10,16 @@ https://www.discord.gg/swem
 
 Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
-~~CREDIT TO THE RAINBOW TEXTURE ARTIST~~
+~~CREDIT TO THE TEXTURE ARTISTS~~
 Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work!
 https://moon-flower-info.carrd.co/
 
 RileyCasper is the artist who made the ribbon and trophy textures this mod uses. Please join their discord to see all the things they get up to!
 https://discord.gg/cZ6bVAuuJj
+
+~~CREDIT TO THE HELPING DEV~~
+Thank you to Mothfet for lending an ear and helping assist in the development of this mod through code checking and providing tailored guidance. Please click the link below to learn more about their work!
+https://mothfetart.carrd.co/
 
 ~~GUIDANCE CREDIT~~
 Thank you to MagnusHJenson (legenden) for your support in helping make this add on to your mod (SWEM). Thank you for answering so many questions!
@@ -32,6 +36,7 @@ Custom models and textures included
 BUTTERFLY
 PUMPKIN_GRAND
 PUMPKIN_RESERVE
+MEDAL (all)
 
 ===TEXTURES ONLY===
 ----Moon_Flower----
@@ -44,6 +49,9 @@ ENGLISH_BLANKET_RAINBOW
 WESTERN_BLANKET_RAINBOW
 WESTERN_LEG_WRAPS_RAINBOW
 ENGLISH_LEG_WRAPS_RAINBOW
+ADVENTURE_SADDLE_RAINBOW (+ Saddle Rack texture)
+WESTERN_SADDLE_RAINBOW (+ Saddle Rack texture)
+ENGLISH_SADDLE_RAINBOW (+ Saddle Rack texture)
 
 ----RileyCasper---
 RIBBON_THREE_TAILS_[All Variants]
@@ -73,4 +81,10 @@ western_leg_wraps_[1 thru 12 + Rainbow] (GUI Icon)
 english_leg_wraps_[1 thru 12 + Rainbow] (GUI Icon)
 WESTERN_LEG_WRAPS_[1 thru 12]
 ENGLISH_LEG_WRAPS_[1 thru 12]
+ADVENTURE_SADDLE_[1 thru 12]
+WESTERN_SADDLE_[1 thru 12]
+ENGLISH_SADDLE_[1 thru 12]
+adventure_saddle_[1 thru 12 + Rainbow] (GUI Icon)
+western_saddle_[1 thru 12 + Rainbow] (GUI Icon)
+english_saddle_[1 thru 12 + Rainbow] (GUI Icon)
 
