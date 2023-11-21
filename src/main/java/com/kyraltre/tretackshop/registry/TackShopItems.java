@@ -1,7 +1,6 @@
 package com.kyraltre.tretackshop.registry;
 
 
-import com.alaharranhonor.swem.forge.SWEM;
 import com.alaharranhonor.swem.forge.items.tack.*;
 
 import java.util.ArrayList;
@@ -9,10 +8,8 @@ import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import com.kyraltre.tretackshop.item.dyabletack.DyedPastureBlanket;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SaddleItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
