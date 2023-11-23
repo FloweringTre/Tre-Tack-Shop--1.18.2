@@ -40,6 +40,9 @@ public class TackShopItems {
     public static final RegistryObject<AdventureSaddleItem> ADVENTURE_SADDLE_RAINBOW;
     public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_RAINBOW;
     public static final RegistryObject<EnglishSaddleItem> ENGLISH_SADDLE_RAINBOW;
+    public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_RAINBOW;
+    public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_RAINBOW;
+    public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_RAINBOW;
 
     // NUMBERED TACK
     public static final List<RegistryObject<HalterItem>> HALTERS;
@@ -55,6 +58,10 @@ public class TackShopItems {
     public static final List<RegistryObject<AdventureSaddleItem>> ADVENTURE_SADDLES;
     public static final List<RegistryObject<WesternSaddleItem>> WESTERN_SADDLES;
     public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLES;
+    public static final List<RegistryObject<AdventureBreastCollarItem>> ADVENTURE_BREAST_COLLARS;
+    public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_BREAST_COLLARS;
+    public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
+    public static final List<RegistryObject<EnglishBreastCollar>> CLOTH_BREAST_COLLARS;
 
 
     // Awards
@@ -101,6 +108,9 @@ public class TackShopItems {
         ADVENTURE_BLANKET_RAINBOW = ITEMS.register("adventure_blanket_rainbow",
                 () -> new AdventureBlanketItem("adventure_blanket_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        ADVENTURE_BREAST_COLLAR_RAINBOW = ITEMS.register("adventure_breast_collar_rainbow",
+                () -> new AdventureBreastCollarItem("adventure_breast_collar_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ADVENTURE_LEG_WRAPS_RAINBOW = ITEMS.register("adventure_leg_wraps_rainbow",
                 () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
@@ -111,6 +121,9 @@ public class TackShopItems {
         WESTERN_BLANKET_RAINBOW = ITEMS.register("western_blanket_rainbow",
                 () -> new WesternBlanketItem("western_blanket_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        WESTERN_BREAST_COLLAR_RAINBOW = ITEMS.register("western_breast_collar_rainbow",
+                () -> new WesternBreastCollarItem("western_breast_collar_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         WESTERN_LEG_WRAPS_RAINBOW = ITEMS.register("western_leg_wraps_rainbow",
                 () ->  new WesternLegWraps("western_leg_wraps_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
@@ -120,6 +133,9 @@ public class TackShopItems {
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
         ENGLISH_BLANKET_RAINBOW = ITEMS.register("english_blanket_rainbow",
                 () -> new EnglishBlanketItem("english_blanket_rainbow", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        ENGLISH_BREAST_COLLAR_RAINBOW = ITEMS.register("english_breast_collar_rainbow",
+                () -> new EnglishBreastCollar("english_breast_collar_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ENGLISH_LEG_WRAPS_RAINBOW = ITEMS.register("english_leg_wraps_rainbow",
                 () -> new EnglishLegWraps("english_leg_wraps_rainbow", (new Item.Properties())
@@ -150,6 +166,10 @@ public class TackShopItems {
         ADVENTURE_SADDLES = new ArrayList();
         WESTERN_SADDLES = new ArrayList();
         ENGLISH_SADDLES = new ArrayList();
+        ADVENTURE_BREAST_COLLARS = new ArrayList();
+        WESTERN_BREAST_COLLARS = new ArrayList();
+        ENGLISH_BREAST_COLLARS = new ArrayList();
+        CLOTH_BREAST_COLLARS = new ArrayList();
 
         int var1 = 13;
         var rContext = new Object() {
@@ -176,6 +196,10 @@ public class TackShopItems {
                 return new AdventureBlanketItem("adventure_blanket_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
+            ADVENTURE_BREAST_COLLARS.add(ITEMS.register("adventure_breast_collar_" + Integer.toString(counter), () -> {
+                return new AdventureBreastCollarItem("adventure_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
             ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + Integer.toString(counter), () -> {
                 return new AdventureLegWraps("adventure_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
@@ -189,6 +213,10 @@ public class TackShopItems {
                 return new WesternBlanketItem("western_blanket_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
+            WESTERN_BREAST_COLLARS.add(ITEMS.register("western_breast_collar_" + Integer.toString(counter), () -> {
+                return new WesternBreastCollarItem("western_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
             WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + Integer.toString(counter), () -> {
                 return new WesternLegWraps("western_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
@@ -200,6 +228,14 @@ public class TackShopItems {
             }));
             ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + Integer.toString(counter), () -> {
                 return new EnglishBlanketItem("english_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+            ENGLISH_BREAST_COLLARS.add(ITEMS.register("english_breast_collar_" + Integer.toString(counter), () -> {
+                return new EnglishBreastCollar("english_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
+            }));
+            CLOTH_BREAST_COLLARS.add(ITEMS.register("cloth_breast_collar_" + Integer.toString(counter), () -> {
+                return new EnglishBreastCollar("cloth_breast_collar_" + Integer.toString(counter), (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
             ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + Integer.toString(counter), () -> {
