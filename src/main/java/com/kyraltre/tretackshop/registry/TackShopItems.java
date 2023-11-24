@@ -18,9 +18,9 @@ import net.minecraftforge.registries.ForgeRegistries.Keys;
 public class TackShopItems {
     public static final DeferredRegister<Item> ITEMS;
 
-
+// THIS IS FOR TACK ITEMS THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
-
+//besides this butterfly that is just for the pretty icon <3 we love it <3
 
     // TACK ITEMS
 
@@ -44,7 +44,7 @@ public class TackShopItems {
     public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_RAINBOW;
     public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_RAINBOW;
 
-    // NUMBERED TACK
+    // CRAFTABLE NUMBERED TACK
     public static final List<RegistryObject<HalterItem>> HALTERS;
     public static final List<RegistryObject<HalterItem>> FLYMASKS;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
@@ -63,22 +63,6 @@ public class TackShopItems {
     public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBreastCollar>> CLOTH_BREAST_COLLARS;
 
-
-    // Awards
-    public static  final RegistryObject<Item> RIBBON_THREE_TAILS_GRAND;
-    public static  final RegistryObject<Item> RIBBON_THREE_TAILS_RESERVE;
-    public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
-    public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
-    public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
-    public static final List<RegistryObject<Item>> ROSETTE;
-    public static final RegistryObject<Item> TROPHY_1;
-    public static final RegistryObject<Item> TROPHY_2;
-    public static final RegistryObject<Item> TROPHY_3;
-    public static final RegistryObject<Item> MEDAL_1;
-    public static final RegistryObject<Item> MEDAL_2;
-    public static final RegistryObject<Item> MEDAL_3;
-
-
     public TackShopItems() {
     }
     public static void init(IEventBus eventBus) { ITEMS.register(eventBus); }
@@ -87,7 +71,8 @@ public class TackShopItems {
         ITEMS = DeferredRegister.create(Keys.ITEMS, "tretackshop");
 
         BUTTERFLY = ITEMS.register("butterfly",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        // Listed under award tab since it is not craftable... listed here as it is the mod's icon
 
 // TACK ITEMS
 
@@ -152,24 +137,24 @@ public class TackShopItems {
 
 
 
-    // Numbered Tack Items -- 12 Count Items
-        PASTURE_BLANKETS = new ArrayList();
-        PASTURE_BLANKETS_ARMORED = new ArrayList();
-        HALTERS = new ArrayList();
-        FLYMASKS = new ArrayList();
-        ADVENTURE_BLANKETS = new ArrayList();
-        WESTERN_BLANKETS = new ArrayList();
-        ENGLISH_BLANKETS = new ArrayList();
-        ENGLISH_LEG_WRAPS = new ArrayList();
-        WESTERN_LEG_WRAPS = new ArrayList();
-        ADVENTURE_LEG_WRAPS = new ArrayList();
-        ADVENTURE_SADDLES = new ArrayList();
-        WESTERN_SADDLES = new ArrayList();
-        ENGLISH_SADDLES = new ArrayList();
-        ADVENTURE_BREAST_COLLARS = new ArrayList();
-        WESTERN_BREAST_COLLARS = new ArrayList();
-        ENGLISH_BREAST_COLLARS = new ArrayList();
-        CLOTH_BREAST_COLLARS = new ArrayList();
+    // Craftable Numbered Tack Items -- 12 Count Items
+        PASTURE_BLANKETS = new ArrayList<>();
+        PASTURE_BLANKETS_ARMORED = new ArrayList<>();
+        HALTERS = new ArrayList<>();
+        FLYMASKS = new ArrayList<>();
+        ADVENTURE_BLANKETS = new ArrayList<>();
+        WESTERN_BLANKETS = new ArrayList<>();
+        ENGLISH_BLANKETS = new ArrayList<>();
+        ENGLISH_LEG_WRAPS = new ArrayList<>();
+        WESTERN_LEG_WRAPS = new ArrayList<>();
+        ADVENTURE_LEG_WRAPS = new ArrayList<>();
+        ADVENTURE_SADDLES = new ArrayList<>();
+        WESTERN_SADDLES = new ArrayList<>();
+        ENGLISH_SADDLES = new ArrayList<>();
+        ADVENTURE_BREAST_COLLARS = new ArrayList<>();
+        WESTERN_BREAST_COLLARS = new ArrayList<>();
+        ENGLISH_BREAST_COLLARS = new ArrayList<>();
+        CLOTH_BREAST_COLLARS = new ArrayList<>();
 
         int var1 = 13;
         var rContext = new Object() {
@@ -179,127 +164,82 @@ public class TackShopItems {
         while (rContext.var2 < var1) {
             //DyeColor color = var0[var2];
             int counter = rContext.var2;
-            HALTERS.add(ITEMS.register("halter_" + Integer.toString(counter), () -> {
-                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
+            HALTERS.add(ITEMS.register("halter_" + counter, () -> {
+                return new HalterItem("halter_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            FLYMASKS.add(ITEMS.register("flymask_" + Integer.toString(counter), () -> {
-                return new HalterItem("flymask_" + Integer.toString(counter), (new Item.Properties())
+            FLYMASKS.add(ITEMS.register("flymask_" + counter, () -> {
+                return new HalterItem("flymask_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
 
-            ADVENTURE_SADDLES.add(ITEMS.register("adventure_saddle_" + Integer.toString(counter), () -> {
-                return new AdventureSaddleItem("adventure_saddle_" + Integer.toString(counter), (new Item.Properties())
+            ADVENTURE_SADDLES.add(ITEMS.register("adventure_saddle_" + counter, () -> {
+                return new AdventureSaddleItem("adventure_saddle_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1));
             }));
-            ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + Integer.toString(counter), () -> {
-                return new AdventureBlanketItem("adventure_blanket_" + Integer.toString(counter), (new Item.Properties())
+            ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + counter, () -> {
+                return new AdventureBlanketItem("adventure_blanket_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            ADVENTURE_BREAST_COLLARS.add(ITEMS.register("adventure_breast_collar_" + Integer.toString(counter), () -> {
-                return new AdventureBreastCollarItem("adventure_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+            ADVENTURE_BREAST_COLLARS.add(ITEMS.register("adventure_breast_collar_" + counter, () -> {
+                return new AdventureBreastCollarItem("adventure_breast_collar_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + Integer.toString(counter), () -> {
-                return new AdventureLegWraps("adventure_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
+            ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + counter, () -> {
+                return new AdventureLegWraps("adventure_leg_wraps_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
             }));
 
-            WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + Integer.toString(counter), () -> {
-                return new WesternSaddleItem("western_saddle_" + Integer.toString(counter), (new Item.Properties())
+            WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + counter, () -> {
+                return new WesternSaddleItem("western_saddle_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1));
             }));
-            WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + Integer.toString(counter), () -> {
-                return new WesternBlanketItem("western_blanket_" + Integer.toString(counter), (new Item.Properties())
+            WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + counter, () -> {
+                return new WesternBlanketItem("western_blanket_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            WESTERN_BREAST_COLLARS.add(ITEMS.register("western_breast_collar_" + Integer.toString(counter), () -> {
-                return new WesternBreastCollarItem("western_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+            WESTERN_BREAST_COLLARS.add(ITEMS.register("western_breast_collar_" + counter, () -> {
+                return new WesternBreastCollarItem("western_breast_collar_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + Integer.toString(counter), () -> {
-                return new WesternLegWraps("western_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
+            WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + counter, () -> {
+                return new WesternLegWraps("western_leg_wraps_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
             }));
 
-            ENGLISH_SADDLES.add(ITEMS.register("english_saddle_" + Integer.toString(counter), () -> {
-                return new EnglishSaddleItem("english_saddle_" + Integer.toString(counter), (new Item.Properties())
+            ENGLISH_SADDLES.add(ITEMS.register("english_saddle_" + counter, () -> {
+                return new EnglishSaddleItem("english_saddle_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1));
             }));
-            ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + Integer.toString(counter), () -> {
-                return new EnglishBlanketItem("english_blanket_" + Integer.toString(counter), (new Item.Properties())
+            ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + counter, () -> {
+                return new EnglishBlanketItem("english_blanket_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            ENGLISH_BREAST_COLLARS.add(ITEMS.register("english_breast_collar_" + Integer.toString(counter), () -> {
-                return new EnglishBreastCollar("english_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+            ENGLISH_BREAST_COLLARS.add(ITEMS.register("english_breast_collar_" + counter, () -> {
+                return new EnglishBreastCollar("english_breast_collar_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            CLOTH_BREAST_COLLARS.add(ITEMS.register("cloth_breast_collar_" + Integer.toString(counter), () -> {
-                return new EnglishBreastCollar("cloth_breast_collar_" + Integer.toString(counter), (new Item.Properties())
+            CLOTH_BREAST_COLLARS.add(ITEMS.register("cloth_breast_collar_" + counter, () -> {
+                return new EnglishBreastCollar("cloth_breast_collar_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + Integer.toString(counter), () -> {
-                return new EnglishLegWraps("english_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
+            ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + counter, () -> {
+                return new EnglishLegWraps("english_leg_wraps_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
             }));
 
-            PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + Integer.toString(counter), () -> {
+            PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + counter, () -> {
                 return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                        "pasture_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        "pasture_blanket_" + counter, (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
-            PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + Integer.toString(counter) + "_armored", () -> {
+            PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + counter + "_armored", () -> {
                 return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                        "pasture_blanket_" + Integer.toString(counter) + "_armored", (new Item.Properties())
+                        "pasture_blanket_" + counter + "_armored", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
             }));
 
             ++rContext.var2;
         }
-
-// AWARD ITEMS
-
-    // Dye Color number items
-        RIBBON_THREE_TAILS = new ArrayList();
-        RIBBON_TWO_TAILS = new ArrayList();
-        RIBBON_ONE_TAIL = new ArrayList();
-        ROSETTE = new ArrayList();
-        DyeColor[] var0 = DyeColor.values();
-        int var3 = var0.length;
-
-        for(int var2 = 0; var2 < var3; ++var2) {
-            DyeColor color = var0[var2];
-             RIBBON_THREE_TAILS.add(ITEMS.register("ribbon_three_tails_" + color.getName(), () -> {
-                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
-             }));
-             RIBBON_TWO_TAILS.add(ITEMS.register("ribbon_two_tails_" + color.getName(), () -> {
-                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
-             }));
-             RIBBON_ONE_TAIL.add(ITEMS.register("ribbon_one_tail_" + color.getName(), () -> {
-                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
-             }));
-             ROSETTE.add(ITEMS.register("rosette_" + color.getName(), () -> {
-                 return new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB));
-             }));
-         }
-
-    // One off award items
-        RIBBON_THREE_TAILS_GRAND = ITEMS.register("ribbon_three_tails_grand",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        RIBBON_THREE_TAILS_RESERVE = ITEMS.register("ribbon_three_tails_reserve",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        TROPHY_1 = ITEMS.register("trophy_1",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        TROPHY_2 = ITEMS.register("trophy_2",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        TROPHY_3 = ITEMS.register("trophy_3",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        MEDAL_1 = ITEMS.register("medal_1",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        MEDAL_2 = ITEMS.register("medal_2",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        MEDAL_3 = ITEMS.register("medal_3",
-                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-
     }
 }
