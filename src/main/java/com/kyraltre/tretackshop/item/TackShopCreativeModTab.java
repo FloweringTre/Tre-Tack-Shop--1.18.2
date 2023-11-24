@@ -1,5 +1,6 @@
 package com.kyraltre.tretackshop.item;
 
+import com.kyraltre.tretackshop.registry.AwardShopItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.core.NonNullList;
 import net.minecraft.resources.ResourceLocation;
@@ -18,5 +19,18 @@ public class TackShopCreativeModTab {
 
 
     }.setBackgroundImage(new ResourceLocation("minecraft","textures/gui/container/creative_inventory/tab_item_search.png"));
+
+    public static final CreativeModeTab TREAWARD_TAB = new CreativeModeTab("treawardtab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(AwardShopItems.RIBBON_THREE_TAILS_GRAND.get()); //this item is the icon of the tab
+        }
+        @Override
+        public boolean hasSearchBar() { return true; }
+
+
+
+    }.setBackgroundImage(new ResourceLocation("minecraft","textures/gui/container/creative_inventory/tab_item_search.png"));
+
 
 }
