@@ -23,11 +23,11 @@ public class TackShopBlocks {
 
     public static final RegistryObject<Block> PUMPKIN_GRAND = registerBlock("pumpkin_grand",
             () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TRETACK_TAB);
+            ), TackShopCreativeModTab.TREAWARD_TAB);
 
     public static final RegistryObject<Block> PUMPKIN_RESERVE = registerBlock("pumpkin_reserve",
             () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TRETACK_TAB);
+            ), TackShopCreativeModTab.TREAWARD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
