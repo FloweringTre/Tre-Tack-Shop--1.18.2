@@ -1,6 +1,7 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
+import com.kyraltre.tretackshop.registry.AwardShopItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -29,6 +30,7 @@ public class TreTackShop
 
         //TackItems.register(eventBus); // registers the deferred items in ModItems
         TackShopItems.init(eventBus);
+        AwardShopItems.init(eventBus);
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 
         eventBus.addListener(this::setup);
