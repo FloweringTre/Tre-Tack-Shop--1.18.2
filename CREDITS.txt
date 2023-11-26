@@ -40,18 +40,22 @@ MEDAL (all)
 
 ===TEXTURES ONLY===
 ----Moon_Flower----
-(On Horse Renders only)
+(On Horse and Rack Renders only -- kyraltre does GUI textures)
 PASTURE_BLANKET_RAINBOW
 PASTURE_BLANKET_RAINBOW_ARMORED
 HALTER_RAINBOW
 ADVENTURE_BLANKET_RAINBOW
 ENGLISH_BLANKET_RAINBOW
 WESTERN_BLANKET_RAINBOW
+ADVENTURE_LEG_WRAPS_RAINBOW
 WESTERN_LEG_WRAPS_RAINBOW
 ENGLISH_LEG_WRAPS_RAINBOW
 ADVENTURE_SADDLE_RAINBOW (+ Saddle Rack texture)
 WESTERN_SADDLE_RAINBOW (+ Saddle Rack texture)
 ENGLISH_SADDLE_RAINBOW (+ Saddle Rack texture)
+ADVENTURE_BREAST_COLLAR_RAINBOW
+WESTERN_BREAST_COLLAR_RAINBOW
+ENGLISH_BREAST_COLLAR_RAINBOW
 
 ----RileyCasper---
 RIBBON_THREE_TAILS_[All Variants]
@@ -61,30 +65,23 @@ ROSETTE_[All Variants]
 TROPHY_[1 thru 3]
 
 ----kyraltre----
-pasture_blanket_rainbow_icon (GUI Icon)
-pasture_blanket_rainbow_armored_icon (GUI Icon)
+***ALL RAINBOW TACK GUI TEXTURES***
+***ALL AWARD TEXTURES***
+*Both Render and GUI textures for the following items*
 PASTURE_BLANKET_[1 thru 12]
 PASTURE_BLANKET_ARMORED [1 thru 12]
-bridle_rack_halter_ [1 thru 12 + Rainbow] (Rack display texture)
-halter_[1 thru 12 + Rainbow] (GUI Icon)
 HALTER_[1 thru 12]
-adventure_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
 ADVENTURE_BLANKET_[1 thru 12]
-english_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
 ENGLISH_BLANKET_[1 thru 12]
-western_blanekt_[1 thru 12 + Rainbow] (GUI Icon)
 WESTERN_BLANKET_[1 thru 12]
 FLYMASK_[1 thru 12]
-flymask_[1 thru 12] (GUI Icon)
-bridle_rack_flymask_ [1 thru 12] (Rack display texture)
-western_leg_wraps_[1 thru 12 + Rainbow] (GUI Icon)
-english_leg_wraps_[1 thru 12 + Rainbow] (GUI Icon)
 WESTERN_LEG_WRAPS_[1 thru 12]
+ADVENTURE_LEG_WRAPS_[1 thru 12]
 ENGLISH_LEG_WRAPS_[1 thru 12]
 ADVENTURE_SADDLE_[1 thru 12]
 WESTERN_SADDLE_[1 thru 12]
 ENGLISH_SADDLE_[1 thru 12]
-adventure_saddle_[1 thru 12 + Rainbow] (GUI Icon)
-western_saddle_[1 thru 12 + Rainbow] (GUI Icon)
-english_saddle_[1 thru 12 + Rainbow] (GUI Icon)
-
+ADVENTURE_BREAST_COLLAR_[1 thru 12]
+WESTERN_BREAST_COLLAR_[1 thru 12]
+ENGLISH_BREAST_COLLAR_[1 thru 12]
+CLOTH_BREAST_COLLAR_[1 thru 12]
