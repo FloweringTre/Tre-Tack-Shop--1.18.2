@@ -8,7 +8,6 @@ import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -164,80 +163,80 @@ public class TackShopItems {
         while (rContext.var2 < var1) {
             //DyeColor color = var0[var2];
             int counter = rContext.var2;
-            HALTERS.add(ITEMS.register("halter_" + counter, () -> {
-                return new HalterItem("halter_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            FLYMASKS.add(ITEMS.register("flymask_" + counter, () -> {
-                return new HalterItem("flymask_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
+            HALTERS.add(ITEMS.register("halter_" + counter, () ->
+                new HalterItem("halter_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            FLYMASKS.add(ITEMS.register("flymask_" + counter, () ->
+                new HalterItem("flymask_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
 
-            ADVENTURE_SADDLES.add(ITEMS.register("adventure_saddle_" + counter, () -> {
-                return new AdventureSaddleItem("adventure_saddle_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1));
-            }));
-            ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + counter, () -> {
-                return new AdventureBlanketItem("adventure_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            ADVENTURE_BREAST_COLLARS.add(ITEMS.register("adventure_breast_collar_" + counter, () -> {
-                return new AdventureBreastCollarItem("adventure_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + counter, () -> {
-                return new AdventureLegWraps("adventure_leg_wraps_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
-            }));
+            ADVENTURE_SADDLES.add(ITEMS.register("adventure_saddle_" + counter, () ->
+                new AdventureSaddleItem("adventure_saddle_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+            ));
+            ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + counter, () ->
+                new AdventureBlanketItem("adventure_blanket_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ADVENTURE_BREAST_COLLARS.add(ITEMS.register("adventure_breast_collar_" + counter, () ->
+                new AdventureBreastCollarItem("adventure_breast_collar_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + counter, () ->
+                new AdventureLegWraps("adventure_leg_wraps_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+            ));
 
-            WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + counter, () -> {
-                return new WesternSaddleItem("western_saddle_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1));
-            }));
-            WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + counter, () -> {
-                return new WesternBlanketItem("western_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            WESTERN_BREAST_COLLARS.add(ITEMS.register("western_breast_collar_" + counter, () -> {
-                return new WesternBreastCollarItem("western_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + counter, () -> {
-                return new WesternLegWraps("western_leg_wraps_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
-            }));
+            WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + counter, () ->
+                new WesternSaddleItem("western_saddle_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+            ));
+            WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + counter, () ->
+                new WesternBlanketItem("western_blanket_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            WESTERN_BREAST_COLLARS.add(ITEMS.register("western_breast_collar_" + counter, () ->
+                new WesternBreastCollarItem("western_breast_collar_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + counter, () ->
+                new WesternLegWraps("western_leg_wraps_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+            ));
 
-            ENGLISH_SADDLES.add(ITEMS.register("english_saddle_" + counter, () -> {
-                return new EnglishSaddleItem("english_saddle_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1));
-            }));
-            ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + counter, () -> {
-                return new EnglishBlanketItem("english_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            ENGLISH_BREAST_COLLARS.add(ITEMS.register("english_breast_collar_" + counter, () -> {
-                return new EnglishBreastCollar("english_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            CLOTH_BREAST_COLLARS.add(ITEMS.register("cloth_breast_collar_" + counter, () -> {
-                return new EnglishBreastCollar("cloth_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + counter, () -> {
-                return new EnglishLegWraps("english_leg_wraps_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64));
-            }));
+            ENGLISH_SADDLES.add(ITEMS.register("english_saddle_" + counter, () ->
+                new EnglishSaddleItem("english_saddle_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+            ));
+            ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + counter, () ->
+                new EnglishBlanketItem("english_blanket_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ENGLISH_BREAST_COLLARS.add(ITEMS.register("english_breast_collar_" + counter, () ->
+                new EnglishBreastCollar("english_breast_collar_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            CLOTH_BREAST_COLLARS.add(ITEMS.register("cloth_breast_collar_" + counter, () ->
+                new EnglishBreastCollar("cloth_breast_collar_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + counter, () ->
+                new EnglishLegWraps("english_leg_wraps_" + counter, (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+            ));
 
-            PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + counter, () -> {
-                return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+            PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + counter, () ->
+                new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
-            PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + counter + "_armored", () -> {
-                return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + counter + "_armored", () ->
+                new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
                         "pasture_blanket_" + counter + "_armored", (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16));
-            }));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
 
             ++rContext.var2;
         }
