@@ -1,18 +1,6 @@
 {
   "replace": false,
   "values": [
-    "treetackshop:english_leg_wraps_rainbow",
-    "treetackshop:english_leg_wraps_1",
-    "treetackshop:english_leg_wraps_2",
-    "treetackshop:english_leg_wraps_3",
-    "treetackshop:english_leg_wraps_4",
-    "treetackshop:english_leg_wraps_5",
-    "treetackshop:english_leg_wraps_6",
-    "treetackshop:english_leg_wraps_7",
-    "treetackshop:english_leg_wraps_8",
-    "treetackshop:english_leg_wraps_9",
-    "treetackshop:english_leg_wraps_10",
-    "treetackshop:english_leg_wraps_11",
-    "treetackshop:english_leg_wraps_12"
+    "#tretackshop:craft/english_leg_wraps"
   ]
 }

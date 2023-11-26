@@ -1,18 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:english_blanket_rainbow",
-    "tretackshop:english_blanket_1",
-    "tretackshop:english_blanket_2",
-    "tretackshop:english_blanket_3",
-    "tretackshop:english_blanket_4",
-    "tretackshop:english_blanket_5",
-    "tretackshop:english_blanket_6",
-    "tretackshop:english_blanket_7",
-    "tretackshop:english_blanket_8",
-    "tretackshop:english_blanket_9",
-    "tretackshop:english_blanket_10",
-    "tretackshop:english_blanket_11",
-    "tretackshop:english_blanket_12"
+    "#tretackshop:craft/english_blankets"
   ]
 }

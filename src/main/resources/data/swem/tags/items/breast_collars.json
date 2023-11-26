@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#swem:english_breast_collars",
-    "#swem:cloth_breast_collars",
-    "#swem:adventure_breast_collars"
+    "#tretackshop:craft/english_breast_collars",
+    "#tretackshop:craft/cloth_breast_collars",
+    "#tretackshop:craft/adventure_breast_collars"
   ]
 }

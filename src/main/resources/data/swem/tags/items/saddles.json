@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#swem:english_saddles"
+    "#tretackshop:craft/english_saddles",
+    "#tretackshop:craft/western/saddles",
+    "#tretackshop:craft/adventure_saddles"
+
   ]
 }
