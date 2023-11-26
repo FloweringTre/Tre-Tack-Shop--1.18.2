@@ -15,6 +15,6 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         generator.addProvider(new TreRecipeProvider(generator));
-//        generator.addProvider(new ModItemModelProvider(generator, existingFileHelper));
+        generator.addProvider(new TreItemModelProvider(generator, existingFileHelper));
     }
 }
