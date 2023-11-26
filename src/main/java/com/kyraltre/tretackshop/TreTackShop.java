@@ -6,6 +6,7 @@ import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +23,9 @@ public class TreTackShop
     public static final String MOD_ID = "tretackshop";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-
+    public static ResourceLocation resloc(String name) {
+        return new ResourceLocation("tretackshop", name);
+    }
 
     public TreTackShop()
     {
