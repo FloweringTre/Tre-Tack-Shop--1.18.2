@@ -81,7 +81,7 @@ public class TackShopItems {
 //                        "pasture_blanket_dyed", new Item.Properties()
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
-        // Rainbow Tack
+    // Rainbow Tack
         HALTER_RAINBOW = ITEMS.register("halter_rainbow",
                 () -> new HalterItem("halter_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
@@ -137,10 +137,10 @@ public class TackShopItems {
 
 
     // Craftable Numbered Tack Items -- 12 Count Items
-        PASTURE_BLANKETS = new ArrayList<>();
-        PASTURE_BLANKETS_ARMORED = new ArrayList<>();
         HALTERS = new ArrayList<>();
         FLYMASKS = new ArrayList<>();
+        PASTURE_BLANKETS = new ArrayList<>();
+        PASTURE_BLANKETS_ARMORED = new ArrayList<>();
         ADVENTURE_BLANKETS = new ArrayList<>();
         WESTERN_BLANKETS = new ArrayList<>();
         ENGLISH_BLANKETS = new ArrayList<>();
