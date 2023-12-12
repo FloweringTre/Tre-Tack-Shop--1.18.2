@@ -1,8 +1,6 @@
 package com.kyraltre.tretackshop.registry;
 
 
-import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
-import com.alaharranhonor.swem.forge.items.tack.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
@@ -21,22 +19,22 @@ public class AwardShopItems {
     
 
 // TACK ITEMS
-    public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
-    public static final List<RegistryObject<HalterItem>> AWARD_FLYMASKS;
-    public static final List<RegistryObject<PastureBlanketItem>> AWARD_PASTURE_BLANKETS;
-    public static final List<RegistryObject<PastureBlanketItem>> AWARD_PASTURE_BLANKETS_ARMORED;
-    public static final List<RegistryObject<AdventureBlanketItem>> AWARD_ADVENTURE_BLANKETS;
-    public static final List<RegistryObject<EnglishBlanketItem>> AWARD_ENGLISH_BLANKETS;
-    public static final List<RegistryObject<WesternBlanketItem>> AWARD_WESTERN_BLANKETS;
-    public static final List<RegistryObject<AdventureLegWraps>> AWARD_ADVENTURE_LEG_WRAPS;
-    public static final List<RegistryObject<LegWrapsItem>> AWARD_ENGLISH_LEG_WRAPS;
-    public static final List<RegistryObject<LegWrapsItem>> AWARD_WESTERN_LEG_WRAPS;
-    public static final List<RegistryObject<AdventureSaddleItem>> AWARD_ADVENTURE_SADDLES;
-    public static final List<RegistryObject<WesternSaddleItem>> AWARD_WESTERN_SADDLES;
-    public static final List<RegistryObject<EnglishSaddleItem>> AWARD_ENGLISH_SADDLES;
-    public static final List<RegistryObject<AdventureBreastCollarItem>> AWARD_ADVENTURE_BREAST_COLLARS;
-    public static final List<RegistryObject<WesternBreastCollarItem>> AWARD_WESTERN_BREAST_COLLARS;
-    public static final List<RegistryObject<EnglishBreastCollar>> AWARD_ENGLISH_BREAST_COLLARS;
+    public static final List<RegistryObject<Item>> AWARD_HALTERS;
+    public static final List<RegistryObject<Item>> AWARD_FLYMASKS;
+    public static final List<RegistryObject<Item>> AWARD_PASTURE_BLANKETS;
+    public static final List<RegistryObject<Item>> AWARD_PASTURE_BLANKETS_ARMORED;
+    public static final List<RegistryObject<Item>> AWARD_ADVENTURE_BLANKETS;
+    public static final List<RegistryObject<Item>> AWARD_ENGLISH_BLANKETS;
+    public static final List<RegistryObject<Item>> AWARD_WESTERN_BLANKETS;
+    public static final List<RegistryObject<Item>> AWARD_ADVENTURE_LEG_WRAPS;
+    public static final List<RegistryObject<Item>> AWARD_ENGLISH_LEG_WRAPS;
+    public static final List<RegistryObject<Item>> AWARD_WESTERN_LEG_WRAPS;
+    public static final List<RegistryObject<Item>> AWARD_ADVENTURE_SADDLES;
+    public static final List<RegistryObject<Item>> AWARD_WESTERN_SADDLES;
+    public static final List<RegistryObject<Item>> AWARD_ENGLISH_SADDLES;
+    public static final List<RegistryObject<Item>> AWARD_ADVENTURE_BREAST_COLLARS;
+    public static final List<RegistryObject<Item>> AWARD_WESTERN_BREAST_COLLARS;
+    public static final List<RegistryObject<Item>> AWARD_ENGLISH_BREAST_COLLARS;
 
 
 // AWARD RIBBONS AND TROPHIES
@@ -84,73 +82,71 @@ public class AwardShopItems {
         for(int var2 = 1; var2 < var1; ++var2) {
             int counter = var2;
             AWARD_HALTERS.add(ITEMS.register("award_halter_" + counter,
-                    () -> new HalterItem("award_halter_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_FLYMASKS.add(ITEMS.register("award_flymask_" + counter,
-                    () -> new HalterItem("award_flymask_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
 
             AWARD_ADVENTURE_SADDLES.add(ITEMS.register("award_adventure_saddle_" + counter, () ->
-                    new AdventureSaddleItem("award_adventure_saddle_" + counter, (new Item.Properties())
+                    new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_BLANKETS.add(ITEMS.register("award_adventure_blanket_" + counter,
-                    () -> new AdventureBlanketItem("award_adventure_blanket_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_BREAST_COLLARS.add(ITEMS.register("award_adventure_breast_collar_" + counter,
-                    () -> new AdventureBreastCollarItem("award_adventure_breast_collar_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_LEG_WRAPS.add(ITEMS.register("award_adventure_leg_wraps_" + counter,
-                    () -> new AdventureLegWraps("award_adventure_leg_wraps_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
 
             AWARD_WESTERN_SADDLES.add(ITEMS.register("award_western_saddle_" + counter,
-                    () -> new WesternSaddleItem("award_western_saddle_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_WESTERN_BLANKETS.add(ITEMS.register("award_western_blanket_" + counter,
-                    () -> new WesternBlanketItem("award_western_blanket_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_WESTERN_BREAST_COLLARS.add(ITEMS.register("award_western_breast_collar_" + counter,
-                    () -> new WesternBreastCollarItem("award_western_breast_collar_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_WESTERN_LEG_WRAPS.add(ITEMS.register("award_western_leg_wraps_" + counter,
-                    () -> new WesternLegWraps("award_western_leg_wraps_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
 
             AWARD_ENGLISH_SADDLES.add(ITEMS.register("award_english_saddle_" + counter,
-                    () -> new EnglishSaddleItem("award_english_saddle_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ENGLISH_BLANKETS.add(ITEMS.register("award_english_blanket_" + counter,
-                    () -> new EnglishBlanketItem("award_english_blanket_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ENGLISH_BREAST_COLLARS.add(ITEMS.register("award_english_breast_collar_" + counter,
-                    () -> new EnglishBreastCollar("award_english_breast_collar_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ENGLISH_LEG_WRAPS.add(ITEMS.register("award_english_leg_wraps_" + counter,
-                    () -> new EnglishLegWraps("award_english_leg_wraps_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
 
             AWARD_PASTURE_BLANKETS.add(ITEMS.register("award_pasture_blanket_" + counter,
-                    () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "award_pasture_blanket_" + counter, (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_PASTURE_BLANKETS_ARMORED.add(ITEMS.register("award_pasture_blanket_" + counter + "_armored",
-                    () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                    "award_pasture_blanket_" + counter + "_armored", (new Item.Properties())
+                    () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
         }
