@@ -1,21 +1,8 @@
-# Tre's Tack Shop 
-An addon mod to SWEM that expands the number of tack items in the game for the community to use to add new textures to the game without overriding the original tack items. It also includes ribbons and trophy models from the original SWEM mod in order to produce ribbons and trophies that can be displayed as the creators intended them to be but now in an item frame instead of a placeable block, thus keeping the name/NBT data of the item. 
+# The Dummy Data Gen Branch
+Welcome to the testing world of our recipe and json files. This branch is only used for data gen and has all the items we add to the mod added as normal minecraft items so they can be used within the data generation system. 
 
-*All items only be obtainable in the creative menu / give commands, there are no recipes in this mod.* Basically, a little add-on mod that acts like a custom tack shop for players and servers to use to gain custom tack based on their resource packs. 
+This branch is needed for data generation due to the issues with SWEM's data gen system calling on a sheet that we do not have permissions to view/call. Since we have to call SWEM in our mod as it is a key part of it, we must have it as implimentation and thus when we run our data gen, so is SWEM's... and thus the error with the permissions occurs. 
 
-Also include new models of my own design as I make them. -- currently added a cute pumpkin trophy
+Thus, we have this branch. A weird little off shoot that allows me to stop making all the json files be hand like I did for the first 300~ items we initally added to the mod before we started work on this branch.
 
-All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures made by Moon Flower. [Click here to see her links!](https://moon-flower-info.carrd.co )
-
-The Ribbons and Rosette textures along with the standard Trophy textures are made by RileyCasper. [Click here to join their discord!](https://discord.gg/cZ6bVAuuJj)
-
-Big thanks to Mothfet for their help with decoding bugs and future additions. [Click here to see their links](https://mothfetart.carrd.co)
-
-### Note to resources pack makers
-All tack items have two textures attached to them, the texture on the horse and the icon in the menus/inventory. To change rendered horse textures, you must replace the numbered .png file in the ***swem*** assets folder. To change the icon textures, you must replace the numbered .png file in the ***tretackshop*** assets folder.
-
-**A template texture pack that includes instructions in a read-me file along with all of this mod's template textures is shared in our discord**
-[Come to our discord!](https://discord.gg/GuYRWK22Mx 'Invite to the server')
-
-### Note to Modpack makers
-Feel free to add to your pack! Please ensure that SWEM and its dependencies are included. If your pack is for 1.20.1, please double check your SWEM version as sometimes it auto-generates with the wrong SWEM version.
+***Please do not use this branch for anything other than reviewing the data generation system as this branch has __NO__ functionality as we intend the mod to run.***
