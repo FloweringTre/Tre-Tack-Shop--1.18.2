@@ -21,6 +21,8 @@ public class TackShopItems {
     public static final RegistryObject<Item> BUTTERFLY;
 //besides this butterfly that is just for the pretty icon <3 we love it <3
 
+    public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
+
     // TACK ITEMS
 
     // DYED TACK
@@ -72,6 +74,10 @@ public class TackShopItems {
         BUTTERFLY = ITEMS.register("butterfly",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         // Listed under award tab since it is not craftable... listed here as it is the mod's icon
+
+        RAINBOW_INA_BOTTLE = ITEMS.register("rainbow_ina_bottle",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
+        // This is what we use to make the rainbow tack
 
 // TACK ITEMS
 
