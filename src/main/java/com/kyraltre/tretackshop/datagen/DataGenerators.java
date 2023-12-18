@@ -13,9 +13,9 @@ public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
-        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
-
-        generator.addProvider(new TreItemModelProvider(generator, existingFileHelper));
+//        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+//
+//        generator.addProvider(new TreItemModelProvider(generator, existingFileHelper));
 
         if (event.includeServer()) {
             generator.addProvider(new TreRecipeProvider(generator));
