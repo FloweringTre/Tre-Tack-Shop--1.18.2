@@ -79,7 +79,7 @@ public class AwardShopItems {
         AWARD_ADVENTURE_BREAST_COLLARS = new ArrayList<>();
         AWARD_WESTERN_BREAST_COLLARS = new ArrayList<>();
         AWARD_ENGLISH_BREAST_COLLARS = new ArrayList<>();
-        int var1 = 13;
+        int var1 = 15;
         
         for(int var2 = 1; var2 < var1; ++var2) {
             int counter = var2;

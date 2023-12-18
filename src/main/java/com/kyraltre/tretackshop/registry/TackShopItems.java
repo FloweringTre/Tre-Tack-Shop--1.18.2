@@ -161,7 +161,7 @@ public class TackShopItems {
         ENGLISH_BREAST_COLLARS = new ArrayList<>();
         CLOTH_BREAST_COLLARS = new ArrayList<>();
 
-        int var1 = 13;
+        int var1 = 15;
         var rContext = new Object() {
             int var2 = 1;
             };
