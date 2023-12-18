@@ -19,6 +19,7 @@ public class SWTags {
     public static final TagKey<Item> SADDLES = ItemTags.create(TreTackShop.swresloc("saddles"));
     public static final TagKey<Item> WESTERN_SADDLES = ItemTags.create(TreTackShop.swresloc("western/saddles"));
     public static final TagKey<Item> BREAST_COLLARS = ItemTags.create(TreTackShop.swresloc("breast_collars"));
+    public static final TagKey<Item> REFINED_LEATHER = ItemTags.create(TreTackShop.swresloc("refined_leather"));
     public static final TagKey<Item> WESTERN_BREAST_COLLARS = ItemTags.create(TreTackShop.swresloc("western/breast_collars"));
 
     public SWTags() {
