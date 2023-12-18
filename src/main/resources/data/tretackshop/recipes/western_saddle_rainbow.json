@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "swem:western/saddles"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_saddle_rainbow"
+  }
+}

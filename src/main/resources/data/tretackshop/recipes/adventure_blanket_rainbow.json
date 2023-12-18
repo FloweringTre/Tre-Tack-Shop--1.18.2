@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_blankets"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_blanket_rainbow"
+  }
+}
