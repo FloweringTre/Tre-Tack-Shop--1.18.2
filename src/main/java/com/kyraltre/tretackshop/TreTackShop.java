@@ -26,6 +26,9 @@ public class TreTackShop
     public static ResourceLocation resloc(String name) {
         return new ResourceLocation("tretackshop", name);
     }
+    public static ResourceLocation swresloc(String name) {
+        return new ResourceLocation("swem", name);
+    }
 
     public TreTackShop()
     {
