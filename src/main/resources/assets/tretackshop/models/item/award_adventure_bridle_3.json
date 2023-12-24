@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:items/awards/tack/breast_collars/award_adventure_bridle_3"
+    "layer0": "tretackshop:items/awards/tack/bridles/award_adventure_bridle_3"
   }
 }

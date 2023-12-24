@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:items/breast_collars/cloth_bridle_11"
+    "layer0": "tretackshop:items/bridles/cloth_bridle_11"
   }
 }
