@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/awards/tack/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "tretackshop:items/awards/tack/girth_straps/award_western_girth_strap_1"
   }
