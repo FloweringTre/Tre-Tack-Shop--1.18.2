@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass",
+    "minecraft:lime_dye",
+    "minecraft:birch_leaves"
+
+  ]
+}
