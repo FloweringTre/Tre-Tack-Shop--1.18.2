@@ -1,11 +1,13 @@
-# Tre's Tack Shop 
-An addon mod to SWEM that expands the number of tack items in the game for the community to use to add new textures to the game without overriding the original tack items. It also includes ribbons and trophy models from the original SWEM mod in order to produce ribbons and trophies that can be displayed as the creators intended them to be but now in an item frame instead of a placeable block, thus keeping the name/NBT data of the item. 
+# Tre's Tack Shop
+An addon mod to SWEM that expands the number of tack items in the game for the community to use to add new textures to the game without overriding the original tack items. It also includes ribbons and trophy models from the original SWEM mod in order to produce ribbons and trophies that can be displayed as the creators intended them to be but now in an item frame instead of a placeable block, thus keeping the name/NBT data of the item.
 
-*All items only be obtainable in the creative menu / give commands, there are no recipes in this mod.* Basically, a little add-on mod that acts like a custom tack shop for players and servers to use to gain custom tack based on their resource packs. 
+### *Now featuring crafting recipes!*
+This mod started as just a place for resource artists to stash new textures on; but now it includes fully rendered and designed tack in all types including some new ones! It also now includes survival crafting recipes for those items as a 'Tack Set' and also has an uncraftable 'Award Set' so servers can have custom tack items for their server that are uncraftable by players.
 
-Also include new models of my own design as I make them. -- currently added a cute pumpkin trophy
+Also include new models of my own design as I make them. -- currently added a cute pumpkin trophy and 'wearable' medals!
 
-All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures made by Moon Flower. [Click here to see her links!](https://moon-flower-info.carrd.co )
+### Thank you to our helpers!
+All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures made by Moon Flower. [Click here to see their links!](https://moon-flower-info.carrd.co )
 
 The Ribbons and Rosette textures along with the standard Trophy textures are made by RileyCasper. [Click here to join their discord!](https://discord.gg/cZ6bVAuuJj)
 
