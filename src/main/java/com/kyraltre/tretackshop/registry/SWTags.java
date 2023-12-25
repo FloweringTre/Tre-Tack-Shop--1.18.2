@@ -12,6 +12,8 @@ public class SWTags {
     public static final TagKey<Item> BLANKETS = ItemTags.create(TreTackShop.swresloc("blankets"));
     public static final TagKey<Item> ENGLISH_BLANKETS = ItemTags.create(TreTackShop.swresloc("english_blankets"));
     public static final TagKey<Item> WESTERN_BLANKETS = ItemTags.create(TreTackShop.swresloc("western/blankets"));
+    public static final TagKey<Item> WESTERN_BRIDLES = ItemTags.create(TreTackShop.swresloc("western/bridles"));
+    public static final TagKey<Item> WESTERN_GIRTH_STRAPS = ItemTags.create(TreTackShop.swresloc("western/girth_straps"));
     public static final TagKey<Item> LEG_WRAPS = ItemTags.create(TreTackShop.swresloc("leg_wraps"));
     public static final TagKey<Item> ENGLISH_LEG_WRAPS = ItemTags.create(TreTackShop.swresloc("english_leg_wraps"));
     public static final TagKey<Item> WESTERN_LEG_WRAPS = ItemTags.create(TreTackShop.swresloc("western/leg_wraps"));

@@ -31,12 +31,10 @@ public class TreTags {
 
     public static final TagKey<Item> ADVENTURE_BRIDLES = ItemTags.create(TreTackShop.resloc("craft/adventure_bridles"));
     public static final TagKey<Item> ENGLISH_BRIDLES = ItemTags.create(TreTackShop.resloc("craft/english_bridles"));
-    public static final TagKey<Item> WESTERN_BRIDLES = ItemTags.create(TreTackShop.resloc("craft/western/bridles"));
     public static final TagKey<Item> CLOTH_BRIDLES = ItemTags.create(TreTackShop.resloc("craft/cloth_bridles"));
 
     public static final TagKey<Item> ADVENTURE_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/adventure_girth_straps"));
     public static final TagKey<Item> ENGLISH_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/english_girth_straps"));
-    public static final TagKey<Item> WESTERN_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/western/girth_straps"));
     public static final TagKey<Item> CLOTH_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/cloth_girth_straps"));
 
 
