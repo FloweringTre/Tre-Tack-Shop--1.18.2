@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:butterfly"
+    ]
+  },
+  "criteria": {
+    "has_worms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:star_worms"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:butterfly"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_worms",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_breast_collars"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_breast_collar_rainbow"
+  }
+}
