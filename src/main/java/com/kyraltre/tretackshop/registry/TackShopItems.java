@@ -29,8 +29,15 @@ public class TackShopItems {
 
     // DYED TACK
     //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
+
+    //ONE OFF TACK
     public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BLACK;
     public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BROWN;
+    public static final RegistryObject<AdventureBridleItem> DOUBLE_BRIDLE;
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE;
+    public static final RegistryObject<WesternSaddleItem> BAREBACK_SADDLE;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET;
+    public static final RegistryObject<WesternGirthStrapItem> BAREBACK_GIRTH_STRAP;
 
 
     // RAINBOW TACK
@@ -120,6 +127,21 @@ public class TackShopItems {
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         PELHAM_BRIDLE_BROWN = ITEMS.register("pelham_bridle_brown",
                 () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_bridle_brown", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        DOUBLE_BRIDLE = ITEMS.register("double_bridle",
+                () -> new AdventureBridleItem("double_bridle", "double_bridle", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BITLESS_BRIDLE = ITEMS.register("bitless_bridle",
+                () -> new EnglishBridleItem("bitless_bridle", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BAREBACK_SADDLE = ITEMS.register("bareback_saddle",
+                () -> new WesternSaddleItem("bareback_saddle", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
+        BAREBACK_BLANKET = ITEMS.register("bareback_blanket",
+                () -> new WesternBlanketItem("bareback_blanket", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BAREBACK_GIRTH_STRAP = ITEMS.register("bareback_girth_strap",
+                () -> new WesternGirthStrapItem("bareback_girth_strap", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
         // Rainbow Tack
