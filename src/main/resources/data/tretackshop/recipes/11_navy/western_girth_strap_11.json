@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "western_girth_strap",
+  "pattern": [
+    "xyA",
+    " zB",
+    "Cyx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "y": {
+      "tag": "minecraft:carpets"
+    },
+    "z": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/navy"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:western_girth_strap_11"
+  }
+}

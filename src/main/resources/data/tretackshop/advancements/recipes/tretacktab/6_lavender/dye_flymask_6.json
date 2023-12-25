@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:6_lavender/dye_flymask_6"
+    ]
+  },
+  "criteria": {
+    "has_flymasks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/flymasks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:6_lavender/dye_flymask_6"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flymasks",
+      "has_the_recipe"
+    ]
+  ]
+}

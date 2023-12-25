@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_leg_wraps",
+  "pattern": [
+    "x x",
+    "A B",
+    "yCy"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:carpets"
+    },
+    "y": {
+      "item": "minecraft:dried_kelp"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/topaz"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_leg_wraps_14"
+  }
+}

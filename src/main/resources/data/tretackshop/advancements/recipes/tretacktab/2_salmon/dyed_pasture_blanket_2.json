@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:2_salmon/dyed_pasture_blanket_2"
+    ]
+  },
+  "criteria": {
+    "has_pasture_blanket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:pasture_blankets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:2_salmon/dyed_pasture_blanket_2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pasture_blanket",
+      "has_the_recipe"
+    ]
+  ]
+}

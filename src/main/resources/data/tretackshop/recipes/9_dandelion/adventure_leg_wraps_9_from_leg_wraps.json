@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_leg_wraps",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_leg_wraps"
+    },
+    {
+      "tag": "tretackshop:dyes/dandelion"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_leg_wraps_9"
+  }
+}

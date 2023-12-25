@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_blanket",
+  "ingredients": [
+    {
+      "tag": "swem:english_blankets"
+    },
+    {
+      "tag": "tretackshop:dyes/dandelion"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_blanket_9"
+  }
+}

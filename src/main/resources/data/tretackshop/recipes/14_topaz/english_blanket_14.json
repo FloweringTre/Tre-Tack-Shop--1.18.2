@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_blanket",
+  "pattern": [
+    "xyx",
+    "xx ",
+    "ACB"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:carpets"
+    },
+    "y": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/topaz"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_blanket_14"
+  }
+}

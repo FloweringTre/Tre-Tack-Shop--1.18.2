@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cloth_breast_collar",
+  "pattern": [
+    "xCx",
+    "A B",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:wool"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/salmon"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cloth_breast_collar_2"
+  }
+}

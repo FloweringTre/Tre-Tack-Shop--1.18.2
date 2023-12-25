@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_saddle",
+  "ingredients": [
+    {
+      "tag": "swem:adventure_saddles"
+    },
+    {
+      "tag": "tretackshop:dyes/ruby"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_saddle_8"
+  }
+}

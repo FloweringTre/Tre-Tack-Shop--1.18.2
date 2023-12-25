@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_girth_strap",
+  "pattern": [
+    "xz ",
+    "ACB",
+    " zx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "z": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/navy"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_girth_strap_11"
+  }
+}

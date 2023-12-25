@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "adventure_girth_strap",
+  "pattern": [
+    "yxA",
+    " xB",
+    "Cxy"
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "y": {
+      "tag": "forge:ingots/iron"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/rose"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:adventure_girth_strap_1"
+  }
+}

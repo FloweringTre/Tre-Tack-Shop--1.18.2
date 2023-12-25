@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "quarter_sheet",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/quarter_sheets"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:quarter_sheet_white_rainbow"
+  }
+}

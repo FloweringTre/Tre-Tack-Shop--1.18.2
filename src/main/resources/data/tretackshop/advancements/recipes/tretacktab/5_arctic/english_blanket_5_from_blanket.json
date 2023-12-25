@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:5_arctic/english_blanket_5_from_blanket"
+    ]
+  },
+  "criteria": {
+    "has_english_blanket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:english_blankets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:5_arctic/english_blanket_5_from_blanket"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_blanket",
+      "has_the_recipe"
+    ]
+  ]
+}

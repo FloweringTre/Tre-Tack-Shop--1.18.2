@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bridle",
+  "ingredients": [
+    {
+      "tag": "swem:western/bridles"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_bridle_rainbow"
+  }
+}

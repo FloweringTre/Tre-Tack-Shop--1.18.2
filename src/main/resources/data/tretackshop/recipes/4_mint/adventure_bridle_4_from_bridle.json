@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_bridles"
+    },
+    {
+      "tag": "tretackshop:dyes/mint"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_bridle_4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:13_creamsicle/adventure_saddle_13_from_saddle"
+    ]
+  },
+  "criteria": {
+    "has_adventure_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:adventure_saddles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:13_creamsicle/adventure_saddle_13_from_saddle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_adventure_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

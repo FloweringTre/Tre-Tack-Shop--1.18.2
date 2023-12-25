@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:bareback/bitless_bridle_from_bridle"
+    ]
+  },
+  "criteria": {
+    "has_english_bridle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_bridles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:bareback/bitless_bridle_from_bridle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_bridle",
+      "has_the_recipe"
+    ]
+  ]
+}

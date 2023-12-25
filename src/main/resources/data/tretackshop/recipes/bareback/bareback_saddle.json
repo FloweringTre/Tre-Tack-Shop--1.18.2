@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bareback_saddle",
+  "pattern": [
+    "x x",
+    "xxx",
+    "y C"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_wool"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:bareback_saddle"
+  }
+}

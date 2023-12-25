@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_girth_strap",
+  "ingredients": [
+    {
+      "tag": "swem:western/girth_straps"
+    },
+    {
+      "tag": "tretackshop:dyes/topaz"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_girth_strap_14"
+  }
+}
