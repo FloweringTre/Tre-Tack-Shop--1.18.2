@@ -101,7 +101,6 @@ public class TackShopItems {
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
         BUTTERFLY_MONARCH = ITEMS.register("butterfly_monarch",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        // Listed under award tab since it is not craftable... listed here as it is the mod's icon
 
         RAINBOW_INA_BOTTLE = ITEMS.register("rainbow_ina_bottle",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
