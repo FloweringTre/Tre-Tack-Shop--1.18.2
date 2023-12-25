@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "adventure_blanket",
+  "pattern": [
+    "yxy",
+    "AyB",
+    "yCy"
+  ],
+  "key": {
+    "y": {
+      "tag": "minecraft:carpets"
+    },
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/ruby"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:adventure_blanket_8"
+  }
+}

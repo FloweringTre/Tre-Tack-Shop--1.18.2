@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:13_creamsicle/pasture_blanket_armored_13"
+    ]
+  },
+  "criteria": {
+    "has_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:carpets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:13_creamsicle/pasture_blanket_armored_13"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_carpet",
+      "has_the_recipe"
+    ]
+  ]
+}

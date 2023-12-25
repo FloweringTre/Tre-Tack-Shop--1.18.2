@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:3_sunshine/adventure_leg_wraps_3_from_leg_wraps"
+    ]
+  },
+  "criteria": {
+    "has_adventure_leg_wraps": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/adventure_leg_wraps"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:3_sunshine/adventure_leg_wraps_3_from_leg_wraps"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_adventure_leg_wraps",
+      "has_the_recipe"
+    ]
+  ]
+}

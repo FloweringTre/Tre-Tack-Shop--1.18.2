@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "quarter_sheet",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/quarter_sheets"
+    },
+    {
+      "tag": "forge:dyes/purple"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:quarter_sheet_purple"
+  }
+}

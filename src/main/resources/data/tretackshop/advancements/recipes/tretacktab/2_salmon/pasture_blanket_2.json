@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:2_salmon/pasture_blanket_2"
+    ]
+  },
+  "criteria": {
+    "has_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:carpets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:2_salmon/pasture_blanket_2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_carpet",
+      "has_the_recipe"
+    ]
+  ]
+}

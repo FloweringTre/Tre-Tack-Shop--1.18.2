@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_bridles"
+    },
+    {
+      "tag": "tretackshop:dyes/orchid"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_bridle_12"
+  }
+}

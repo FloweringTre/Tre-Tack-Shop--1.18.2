@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_breast_collars"
+    },
+    {
+      "tag": "tretackshop:dyes/arctic"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_breast_collar_5"
+  }
+}

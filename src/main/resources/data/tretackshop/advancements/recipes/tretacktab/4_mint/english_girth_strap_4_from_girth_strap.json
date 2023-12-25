@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:4_mint/english_girth_strap_4_from_girth_strap"
+    ]
+  },
+  "criteria": {
+    "has_english_girth_strap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_girth_straps"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:4_mint/english_girth_strap_4_from_girth_strap"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_girth_strap",
+      "has_the_recipe"
+    ]
+  ]
+}

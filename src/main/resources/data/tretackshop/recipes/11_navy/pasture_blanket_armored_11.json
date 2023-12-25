@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pasture_blanket_armored",
+  "pattern": [
+    "y##",
+    "A#B",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:carpets"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/navy"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    },
+    "y": {
+      "item": "minecraft:iron_chestplate"
+    }
+  },
+  "result": {
+    "item": "tretackshop:pasture_blanket_11_armored"
+  }
+}

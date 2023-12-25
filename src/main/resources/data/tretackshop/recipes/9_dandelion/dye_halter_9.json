@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "swem:halters"
+    },
+    {
+      "tag": "tretackshop:dyes/dandelion"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:halter_9"
+  }
+}

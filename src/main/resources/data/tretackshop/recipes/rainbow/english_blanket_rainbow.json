@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blanket",
+  "ingredients": [
+    {
+      "tag": "swem:english_blankets"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_blanket_rainbow"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_leg_wraps",
+  "ingredients": [
+    {
+      "tag": "swem:western/leg_wraps"
+    },
+    {
+      "tag": "tretackshop:dyes/arctic"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_leg_wraps_5"
+  }
+}

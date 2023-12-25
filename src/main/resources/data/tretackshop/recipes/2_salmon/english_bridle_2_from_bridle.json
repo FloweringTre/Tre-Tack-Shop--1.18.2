@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_bridles"
+    },
+    {
+      "tag": "tretackshop:dyes/salmon"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_bridle_2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bareback_blanket",
+  "ingredients": [
+    {
+      "tag": "swem:english_blankets"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_blanket"
+  }
+}

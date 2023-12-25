@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_breast_collar",
+  "ingredients": [
+    {
+      "tag": "swem:western/breast_collars"
+    },
+    {
+      "tag": "tretackshop:dyes/salmon"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_breast_collar_2"
+  }
+}

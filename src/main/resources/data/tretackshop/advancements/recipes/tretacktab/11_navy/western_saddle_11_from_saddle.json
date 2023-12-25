@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:11_navy/western_saddle_11_from_saddle"
+    ]
+  },
+  "criteria": {
+    "has_western_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:western/saddles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:11_navy/western_saddle_11_from_saddle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_western_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

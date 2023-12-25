@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:6_lavender/english_breast_collar_6_from_breast_collar"
+    ]
+  },
+  "criteria": {
+    "has_english_breast_collar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_breast_collars"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:6_lavender/english_breast_collar_6_from_breast_collar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_breast_collar",
+      "has_the_recipe"
+    ]
+  ]
+}

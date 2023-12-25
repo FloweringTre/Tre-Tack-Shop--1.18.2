@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:7_fuchsia/dye_halter_7"
+    ]
+  },
+  "criteria": {
+    "has_halters": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:halters"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:7_fuchsia/dye_halter_7"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_halters",
+      "has_the_recipe"
+    ]
+  ]
+}

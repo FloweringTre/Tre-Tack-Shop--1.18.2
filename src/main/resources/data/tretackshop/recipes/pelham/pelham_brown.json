@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pelham_bridle",
+  "pattern": [
+    "C w",
+    "ywB",
+    "xyA"
+  ],
+  "key": {
+    "w": {
+      "tag": "swem:refined_leather"
+    },
+    "x": {
+      "tag": "forge:nuggets/iron"
+    },
+    "y": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:brown_dye"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:pelham_bridle_brown"
+  }
+}

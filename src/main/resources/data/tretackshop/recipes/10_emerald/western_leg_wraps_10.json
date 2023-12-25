@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "western_leg_wraps",
+  "pattern": [
+    "x x",
+    "xCx",
+    "AyB"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:carpets"
+    },
+    "y": {
+      "item": "minecraft:dried_kelp"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/emerald"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:western_leg_wraps_10"
+  }
+}

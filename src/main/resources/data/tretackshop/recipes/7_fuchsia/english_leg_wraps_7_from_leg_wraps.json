@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_leg_wraps",
+  "ingredients": [
+    {
+      "tag": "swem:english_leg_wraps"
+    },
+    {
+      "tag": "tretackshop:dyes/fuchsia"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_leg_wraps_7"
+  }
+}
