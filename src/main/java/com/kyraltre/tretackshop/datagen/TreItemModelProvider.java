@@ -76,22 +76,22 @@ public class TreItemModelProvider extends ItemModelProvider {
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/saddles/western_saddle_" + var2));
 //
 //            ((ItemModelBuilder) this.withExistingParent("adventure_bridle_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/adventure_bridle_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/adventure_bridle_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("english_bridle_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/english_bridle_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/english_bridle_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("western_bridle_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/western_bridle_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/western_bridle_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("cloth_bridle_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/cloth_bridle_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/cloth_bridle_" + var2));
 //
 //            ((ItemModelBuilder) this.withExistingParent("adventure_girth_strap_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/adventure_girth_strap_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/adventure_girth_strap_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("english_girth_strap_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/english_girth_strap_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/english_girth_strap_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("western_girth_strap_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/western_girth_strap_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/western_girth_strap_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("cloth_girth_strap_" + var2, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/cloth_girth_strap_" + var2));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/cloth_girth_strap_" + var2));
 //
 //            ++var2;
 //        }
@@ -144,18 +144,18 @@ public class TreItemModelProvider extends ItemModelProvider {
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_western_saddle_" + var4));
 //
 //            ((ItemModelBuilder) this.withExistingParent("award_adventure_bridle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_adventure_bridle_" + var4));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_adventure_bridle_" + var4));
 //            ((ItemModelBuilder) this.withExistingParent("award_english_bridle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_english_bridle_" + var4));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_english_bridle_" + var4));
 //            ((ItemModelBuilder) this.withExistingParent("award_western_bridle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_western_bridle_" + var4));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_western_bridle_" + var4));
 //
 //            ((ItemModelBuilder) this.withExistingParent("award_adventure_girth_strap_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_adventure_girth_strap_" + var4));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_adventure_girth_strap_" + var4));
 //            ((ItemModelBuilder) this.withExistingParent("award_english_girth_strap_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_english_girth_strap_" + var4));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_english_girth_strap_" + var4));
 //            ((ItemModelBuilder) this.withExistingParent("award_western_girth_strap_" + var4, "item/awards/tack/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_western_girth_strap_" + var4));
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_western_girth_strap_" + var4));
 //
 //            ++var4;
 //        }
@@ -207,18 +207,18 @@ public class TreItemModelProvider extends ItemModelProvider {
 //                .texture("layer0", new ResourceLocation("tretackshop", "items/saddles/western_saddle_" + "rainbow"));
 //
 //        ((ItemModelBuilder) this.withExistingParent("adventure_bridle_" + "rainbow", "item/generated"))
-//                .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/adventure_bridle_" + "rainbow"));
+//                .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/adventure_bridle_" + "rainbow"));
 //        ((ItemModelBuilder) this.withExistingParent("english_bridle_" + "rainbow", "item/generated"))
-//                .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/english_bridle_" + "rainbow"));
+//                .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/english_bridle_" + "rainbow"));
 //        ((ItemModelBuilder) this.withExistingParent("western_bridle_" + "rainbow", "item/generated"))
-//                .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/western_bridle_" + "rainbow"));
+//                .texture("layer0", new ResourceLocation("tretackshop", "items/bridles/western_bridle_" + "rainbow"));
 //
 //        ((ItemModelBuilder) this.withExistingParent("adventure_girth_strap_" + "rainbow", "item/generated"))
-//                .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/adventure_girth_strap_" + "rainbow"));
+//                .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/adventure_girth_strap_" + "rainbow"));
 //        ((ItemModelBuilder) this.withExistingParent("english_girth_strap_" + "rainbow", "item/generated"))
-//                .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/english_girth_strap_" + "rainbow"));
+//                .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/english_girth_strap_" + "rainbow"));
 //        ((ItemModelBuilder) this.withExistingParent("western_girth_strap_" + "rainbow", "item/generated"))
-//                .texture("layer0", new ResourceLocation("tretackshop", "items/breast_collars/western_girth_strap_" + "rainbow"));
+//                .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/western_girth_strap_" + "rainbow"));
 //
 //        ++var9;
 //    }
