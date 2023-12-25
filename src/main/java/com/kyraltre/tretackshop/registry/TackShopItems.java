@@ -21,8 +21,6 @@ public class TackShopItems {
     // THIS IS FOR TACK ITEMS THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
-//besides this butterfly that is just for the pretty icon <3 we love it <3
-
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
 
     // TACK ITEMS
@@ -355,10 +353,6 @@ public class TackShopItems {
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
-            QUARTER_SHEETS_NUMBERED.add(ITEMS.register("quarter_sheet_" + counter, () ->
-                    new AdventureBreastCollarItem("quarter_sheet_" + counter, (new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
-            ));
             PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + counter, () ->
                     new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                             "pasture_blanket_" + counter, (new Item.Properties())
@@ -367,6 +361,10 @@ public class TackShopItems {
             PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + counter + "_armored", () ->
                     new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
                             "pasture_blanket_" + counter + "_armored", (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            QUARTER_SHEETS_NUMBERED.add(ITEMS.register("quarter_sheet_" + counter, () ->
+                    new AdventureBreastCollarItem("quarter_sheet_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
