@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "swem:leather_refined",
-    {
-      "id": "#sweconm:refined_leather",
-      "required": false
-    }
+      "minecraft:leather"
   ]
 }
