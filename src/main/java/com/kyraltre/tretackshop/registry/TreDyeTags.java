@@ -24,20 +24,8 @@ public class TreDyeTags {
 
 
     // FOR TONING PASTEL OR JEWEL TONE
-    public static final TagKey<Item> TONER_1 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_2 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_3 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_4 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_5 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_6 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_7 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
-    public static final TagKey<Item> TONER_8 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
-    public static final TagKey<Item> TONER_9 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
-    public static final TagKey<Item> TONER_10 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
-    public static final TagKey<Item> TONER_11 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
-    public static final TagKey<Item> TONER_12 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
-    public static final TagKey<Item> TONER_13 = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
-    public static final TagKey<Item> TONER_14 = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
+    public static final TagKey<Item> TONER_PASTEL = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
+    public static final TagKey<Item> TONER_JEWEL = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
 
 
     public TreDyeTags() {

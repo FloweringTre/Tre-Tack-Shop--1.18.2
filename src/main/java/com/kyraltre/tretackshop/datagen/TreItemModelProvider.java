@@ -16,7 +16,7 @@ public class TreItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(TackShopItems.RAINBOW_INA_BOTTLE.get());
+//        simpleItem(TackShopItems.RAINBOW_INA_BOTTLE.get());
     }
 
     private ItemModelBuilder simpleItem(Item item) {
