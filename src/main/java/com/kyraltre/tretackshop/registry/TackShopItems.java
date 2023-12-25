@@ -18,7 +18,7 @@ public class TackShopItems {
 // THIS IS FOR TACK ITEMS THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
-//besides this butterfly that is just for the pretty icon <3 we love it <3
+//besides this butterfly that is just for the pretty icon <13 we love it <13
 
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
 
@@ -28,6 +28,11 @@ public class TackShopItems {
     //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
     public static final RegistryObject<Item> PELHAM_BRIDLE_BLACK;
     public static final RegistryObject<Item> PELHAM_BRIDLE_BROWN;
+    public static final RegistryObject<Item> DOUBLE_BRIDLE;
+    public static final RegistryObject<Item> BITLESS_BRIDLE;
+    public static final RegistryObject<Item> BAREBACK_SADDLE;
+    public static final RegistryObject<Item> BAREBACK_BLANKET;
+    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP;
 
     // RAINBOW TACK
     public static final RegistryObject<Item> HALTER_RAINBOW;
@@ -54,66 +59,66 @@ public class TackShopItems {
     public static final RegistryObject<Item> WESTERN_GIRTH_STRAP_RAINBOW;
     public static final RegistryObject<Item> ENGLISH_GIRTH_STRAP_RAINBOW;
 
-    // SINGLE USE FOR CRAFTING RECIPES ONLY - PASTLE TONES
-    public static final RegistryObject<Item> HALTER_MORPHO;
-    public static final RegistryObject<Item>  FLYMASK_MORPHO;
-    public static final RegistryObject<Item>  PASTURE_BLANKET_MORPHO;
-    public static final RegistryObject<Item>  PASTURE_BLANKET_MORPHO_ARMORED;
-    public static final RegistryObject<Item>  ADVENTURE_BLANKET_MORPHO;
-    public static final RegistryObject<Item>  ENGLISH_BLANKET_MORPHO;
-    public static final RegistryObject<Item>  WESTERN_BLANKET_MORPHO;
-    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_MORPHO;
-    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_MORPHO;
-    public static final RegistryObject<Item>  WESTERN_LEG_WRAPS_MORPHO;
-    public static final RegistryObject<Item>  ADVENTURE_SADDLE_MORPHO;
-    public static final RegistryObject<Item>  WESTERN_SADDLE_MORPHO;
-    public static final RegistryObject<Item> ENGLISH_SADDLE_MORPHO;
-    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<Item> QUARTER_SHEET_MORPHO;
-    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_MORPHO;
-    public static final RegistryObject<Item>  WESTERN_BRIDLE_MORPHO;
-    public static final RegistryObject<Item> ENGLISH_BRIDLE_MORPHO;
-    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_MORPHO;
-    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_MORPHO;
-    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_MORPHO;
-    public static final RegistryObject<Item>  CLOTH_BRIDLE_MORPHO;
-    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_MORPHO;
-
-    // SINGLE USE FOR CRAFTING RECIPES ONLY - JEWEL TONES
-    public static final RegistryObject<Item>  HALTER_MONARCH;
-    public static final RegistryObject<Item>  FLYMASK_MONARCH;
-    public static final RegistryObject<Item>  PASTURE_BLANKET_MONARCH;
-    public static final RegistryObject<Item>  PASTURE_BLANKET_MONARCH_ARMORED;
-    public static final RegistryObject<Item>  ADVENTURE_BLANKET_MONARCH;
-    public static final RegistryObject<Item>  ENGLISH_BLANKET_MONARCH;
-    public static final RegistryObject<Item>  WESTERN_BLANKET_MONARCH;
-    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_MONARCH;
-    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_MONARCH;
-    public static final RegistryObject<Item> WESTERN_LEG_WRAPS_MONARCH;
-    public static final RegistryObject<Item> ADVENTURE_SADDLE_MONARCH;
-    public static final RegistryObject<Item>  WESTERN_SADDLE_MONARCH;
-    public static final RegistryObject<Item>  ENGLISH_SADDLE_MONARCH;
-    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<Item> QUARTER_SHEET_MONARCH;
-    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_MONARCH;
-    public static final RegistryObject<Item>  WESTERN_BRIDLE_MONARCH;
-    public static final RegistryObject<Item>  ENGLISH_BRIDLE_MONARCH;
-    public static final RegistryObject<Item>  CLOTH_BRIDLE_MONARCH;
-    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_MONARCH;
-    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_MONARCH;
-        public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_MONARCH;
-    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_MONARCH;
-
-
+//    // SINGLE USE FOR CRAFTING RECIPES ONLY - PASTLE TONES
+//    public static final RegistryObject<Item> HALTER_13;
+//    public static final RegistryObject<Item>  FLYMASK_13;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_13;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_13_ARMORED;
+//    public static final RegistryObject<Item>  ADVENTURE_BLANKET_13;
+//    public static final RegistryObject<Item>  ENGLISH_BLANKET_13;
+//    public static final RegistryObject<Item>  WESTERN_BLANKET_13;
+//    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_13;
+//    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_13;
+//    public static final RegistryObject<Item>  WESTERN_LEG_WRAPS_13;
+//    public static final RegistryObject<Item>  ADVENTURE_SADDLE_13;
+//    public static final RegistryObject<Item>  WESTERN_SADDLE_13;
+//    public static final RegistryObject<Item> ENGLISH_SADDLE_13;
+//    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_13;
+//    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_13;
+//    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_13;
+//    public static final RegistryObject<Item> QUARTER_SHEET_13;
+//    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_13;
+//    public static final RegistryObject<Item>  WESTERN_BRIDLE_13;
+//    public static final RegistryObject<Item> ENGLISH_BRIDLE_13;
+//    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_13;
+//    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_13;
+//    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_13;
+//    public static final RegistryObject<Item>  CLOTH_BRIDLE_13;
+//    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_13;
+//    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_13;
+//
+//    // SINGLE USE FOR CRAFTING RECIPES ONLY - JEWEL TONES
+//    public static final RegistryObject<Item>  HALTER_14;
+//    public static final RegistryObject<Item>  FLYMASK_14;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_14;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_14_ARMORED;
+//    public static final RegistryObject<Item>  ADVENTURE_BLANKET_14;
+//    public static final RegistryObject<Item>  ENGLISH_BLANKET_14;
+//    public static final RegistryObject<Item>  WESTERN_BLANKET_14;
+//    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_14;
+//    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_14;
+//    public static final RegistryObject<Item> WESTERN_LEG_WRAPS_14;
+//    public static final RegistryObject<Item> ADVENTURE_SADDLE_14;
+//    public static final RegistryObject<Item>  WESTERN_SADDLE_14;
+//    public static final RegistryObject<Item>  ENGLISH_SADDLE_14;
+//    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_14;
+//    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_14;
+//    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_14;
+//    public static final RegistryObject<Item> QUARTER_SHEET_14;
+//    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_14;
+//    public static final RegistryObject<Item>  WESTERN_BRIDLE_14;
+//    public static final RegistryObject<Item>  ENGLISH_BRIDLE_14;
+//    public static final RegistryObject<Item>  CLOTH_BRIDLE_14;
+//    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_14;
+//    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_14;
+//    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_14;
+//    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_14;
+//    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_14;
 
 
-    // CRAFTABLE NUMBERED TACK
+
+
+//CRAFTABLE NUMBERED TACK
     public static final List<RegistryObject<Item>> HALTERS;
     public static final List<RegistryObject<Item>> FLYMASKS;
     public static final List<RegistryObject<Item>> PASTURE_BLANKETS;
@@ -151,7 +156,7 @@ public class TackShopItems {
 
         BUTTERFLY = ITEMS.register("butterfly",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BUTTERFLY_MONARCH = ITEMS.register("butterfly_monarch",
+        BUTTERFLY_MONARCH = ITEMS.register("butterfly_14",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
         // Listed under award tab since it is not craftable... listed here as it is the mod's icon
 
@@ -162,176 +167,176 @@ public class TackShopItems {
 // TACK ITEMS
 
 
-        // PASTEL TONE SINGLE USE CRAFTING TACK FOR RECIPE GENERATION
-        HALTER_MORPHO = ITEMS.register("halter_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        FLYMASK_MORPHO = ITEMS.register("flymask_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        ADVENTURE_SADDLE_MORPHO = ITEMS.register("adventure_saddle_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_BLANKET_MORPHO = ITEMS.register("adventure_blanket_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_BREAST_COLLAR_MORPHO = ITEMS.register("adventure_breast_collar_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_LEG_WRAPS_MORPHO = ITEMS.register("adventure_leg_wraps_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_BRIDLE_MORPHO = ITEMS.register("adventure_bridle_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_GIRTH_STRAP_MORPHO = ITEMS.register("adventure_girth_strap_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        WESTERN_SADDLE_MORPHO = ITEMS.register("western_saddle_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_BLANKET_MORPHO = ITEMS.register("western_blanket_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_BREAST_COLLAR_MORPHO = ITEMS.register("western_breast_collar_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_LEG_WRAPS_MORPHO = ITEMS.register("western_leg_wraps_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_BRIDLE_MORPHO = ITEMS.register("western_bridle_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_GIRTH_STRAP_MORPHO = ITEMS.register("western_girth_strap_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        ENGLISH_SADDLE_MORPHO = ITEMS.register("english_saddle_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_BLANKET_MORPHO = ITEMS.register("english_blanket_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_BREAST_COLLAR_MORPHO = ITEMS.register("english_breast_collar_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_LEG_WRAPS_MORPHO = ITEMS.register("english_leg_wraps_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_BRIDLE_MORPHO = ITEMS.register("english_bridle_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_GIRTH_STRAP_MORPHO = ITEMS.register("english_girth_strap_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        CLOTH_BRIDLE_MORPHO = ITEMS.register("pasture_blanket_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-       CLOTH_BREAST_COLLAR_MORPHO = ITEMS.register("pasture_blanket_morpho_armored",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        CLOTH_GIRTH_STRAP_MORPHO = ITEMS.register("quarter_sheet_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        PASTURE_BLANKET_MORPHO = ITEMS.register("pasture_blanket_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        PASTURE_BLANKET_MORPHO_ARMORED = ITEMS.register("pasture_blanket_morpho_armored",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        QUARTER_SHEET_MORPHO = ITEMS.register("quarter_sheet_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        //JEWEL TONE SINGLE USE CRAFTING TACK FOR RECIPE GENERATION
-        HALTER_MONARCH = ITEMS.register("halter_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        FLYMASK_MONARCH = ITEMS.register("flymask_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        ADVENTURE_SADDLE_MONARCH = ITEMS.register("adventure_saddle_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_BLANKET_MONARCH = ITEMS.register("adventure_blanket_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_BREAST_COLLAR_MONARCH = ITEMS.register("adventure_breast_collar_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_LEG_WRAPS_MONARCH = ITEMS.register("adventure_leg_wraps_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_BRIDLE_MONARCH = ITEMS.register("adventure_bridle_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ADVENTURE_GIRTH_STRAP_MONARCH = ITEMS.register("adventure_girth_strap_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        WESTERN_SADDLE_MONARCH = ITEMS.register("western_saddle_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_BLANKET_MONARCH = ITEMS.register("western_blanket_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_BREAST_COLLAR_MONARCH = ITEMS.register("western_breast_collar_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_LEG_WRAPS_MONARCH = ITEMS.register("western_leg_wraps_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_BRIDLE_MONARCH = ITEMS.register("western_bridle_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        WESTERN_GIRTH_STRAP_MONARCH = ITEMS.register("western_girth_strap_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        ENGLISH_SADDLE_MONARCH = ITEMS.register("english_saddle_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_BLANKET_MONARCH = ITEMS.register("english_blanket_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_BREAST_COLLAR_MONARCH = ITEMS.register("english_breast_collar_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_LEG_WRAPS_MONARCH = ITEMS.register("english_leg_wraps_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_BRIDLE_MONARCH = ITEMS.register("english_bridle_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        ENGLISH_GIRTH_STRAP_MONARCH = ITEMS.register("english_girth_strap_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        CLOTH_BRIDLE_MONARCH = ITEMS.register("pasture_blanket_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        CLOTH_BREAST_COLLAR_MONARCH = ITEMS.register("pasture_blanket_morpho_armored",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        CLOTH_GIRTH_STRAP_MONARCH = ITEMS.register("quarter_sheet_morpho",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        PASTURE_BLANKET_MONARCH = ITEMS.register("pasture_blanket_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        PASTURE_BLANKET_MONARCH_ARMORED = ITEMS.register("pasture_blanket_monarch_armored",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        QUARTER_SHEET_MONARCH = ITEMS.register("quarter_sheet_monarch",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
+//        // PASTEL TONE SINGLE USE CRAFTING TACK FOR RECIPE GENERATION
+//        HALTER_13 = ITEMS.register("halter_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        FLYMASK_13 = ITEMS.register("flymask_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        ADVENTURE_SADDLE_13 = ITEMS.register("adventure_saddle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_BLANKET_13 = ITEMS.register("adventure_blanket_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_BREAST_COLLAR_13 = ITEMS.register("adventure_breast_collar_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_LEG_WRAPS_13 = ITEMS.register("adventure_leg_wraps_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_BRIDLE_13 = ITEMS.register("adventure_bridle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_GIRTH_STRAP_13 = ITEMS.register("adventure_girth_strap_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        WESTERN_SADDLE_13 = ITEMS.register("western_saddle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_BLANKET_13 = ITEMS.register("western_blanket_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_BREAST_COLLAR_13 = ITEMS.register("western_breast_collar_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_LEG_WRAPS_13 = ITEMS.register("western_leg_wraps_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_BRIDLE_13 = ITEMS.register("western_bridle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_GIRTH_STRAP_13 = ITEMS.register("western_girth_strap_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        ENGLISH_SADDLE_13 = ITEMS.register("english_saddle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_BLANKET_13 = ITEMS.register("english_blanket_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_BREAST_COLLAR_13 = ITEMS.register("english_breast_collar_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_LEG_WRAPS_13 = ITEMS.register("english_leg_wraps_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_BRIDLE_13 = ITEMS.register("english_bridle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_GIRTH_STRAP_13 = ITEMS.register("english_girth_strap_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        CLOTH_BRIDLE_13 = ITEMS.register("cloth_bridle_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//       CLOTH_BREAST_COLLAR_13 = ITEMS.register("cloth_breast_collar_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        CLOTH_GIRTH_STRAP_13 = ITEMS.register("cloth_girth_strap_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        PASTURE_BLANKET_13 = ITEMS.register("pasture_blanket_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        PASTURE_BLANKET_13_ARMORED = ITEMS.register("pasture_blanket_13_armored",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        QUARTER_SHEET_13 = ITEMS.register("quarter_sheet_13",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        //JEWEL TONE SINGLE USE CRAFTING TACK FOR RECIPE GENERATION
+//        HALTER_14 = ITEMS.register("halter_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        FLYMASK_14 = ITEMS.register("flymask_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        ADVENTURE_SADDLE_14 = ITEMS.register("adventure_saddle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_BLANKET_14 = ITEMS.register("adventure_blanket_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_BREAST_COLLAR_14 = ITEMS.register("adventure_breast_collar_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_LEG_WRAPS_14 = ITEMS.register("adventure_leg_wraps_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_BRIDLE_14 = ITEMS.register("adventure_bridle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ADVENTURE_GIRTH_STRAP_14 = ITEMS.register("adventure_girth_strap_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        WESTERN_SADDLE_14 = ITEMS.register("western_saddle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_BLANKET_14 = ITEMS.register("western_blanket_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_BREAST_COLLAR_14 = ITEMS.register("western_breast_collar_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_LEG_WRAPS_14 = ITEMS.register("western_leg_wraps_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_BRIDLE_14 = ITEMS.register("western_bridle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        WESTERN_GIRTH_STRAP_14 = ITEMS.register("western_girth_strap_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        ENGLISH_SADDLE_14 = ITEMS.register("english_saddle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_BLANKET_14 = ITEMS.register("english_blanket_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_BREAST_COLLAR_14 = ITEMS.register("english_breast_collar_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_LEG_WRAPS_14 = ITEMS.register("english_leg_wraps_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_BRIDLE_14 = ITEMS.register("english_bridle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        ENGLISH_GIRTH_STRAP_14 = ITEMS.register("english_girth_strap_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        CLOTH_BRIDLE_14 = ITEMS.register("cloth_bridle_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        CLOTH_BREAST_COLLAR_14 = ITEMS.register("cloth_breast_collar_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        CLOTH_GIRTH_STRAP_14 = ITEMS.register("cloth_girth_strap_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
+//        PASTURE_BLANKET_14 = ITEMS.register("pasture_blanket_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        PASTURE_BLANKET_14_ARMORED = ITEMS.register("pasture_blanket_14_armored",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//        QUARTER_SHEET_14 = ITEMS.register("quarter_sheet_14",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+//
 
 
 
@@ -351,6 +356,22 @@ public class TackShopItems {
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
+        DOUBLE_BRIDLE = ITEMS.register("double_bridle",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BITLESS_BRIDLE = ITEMS.register("bitless_bridle",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BAREBACK_SADDLE = ITEMS.register("bareback_saddle",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BAREBACK_BLANKET = ITEMS.register("bareback_blanket",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        BAREBACK_GIRTH_STRAP = ITEMS.register("bareback_girth_strap",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
 
     // Rainbow Tack
         HALTER_RAINBOW = ITEMS.register("halter_rainbow",
@@ -359,7 +380,7 @@ public class TackShopItems {
 
         ADVENTURE_SADDLE_RAINBOW = ITEMS.register("adventure_saddle_rainbow",
                 () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(13)));
         ADVENTURE_BLANKET_RAINBOW = ITEMS.register("adventure_blanket_rainbow",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
@@ -368,7 +389,7 @@ public class TackShopItems {
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ADVENTURE_LEG_WRAPS_RAINBOW = ITEMS.register("adventure_leg_wraps_rainbow",
                 () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ADVENTURE_BRIDLE_RAINBOW = ITEMS.register("adventure_bridle_rainbow",
                 () -> new Item(
                         (new Item.Properties())
@@ -380,7 +401,7 @@ public class TackShopItems {
 
         WESTERN_SADDLE_RAINBOW = ITEMS.register("western_saddle_rainbow",
                 () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(13)));
         WESTERN_BLANKET_RAINBOW = ITEMS.register("western_blanket_rainbow",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
@@ -389,7 +410,7 @@ public class TackShopItems {
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         WESTERN_LEG_WRAPS_RAINBOW = ITEMS.register("western_leg_wraps_rainbow",
                 () ->  new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         WESTERN_BRIDLE_RAINBOW = ITEMS.register("western_bridle_rainbow",
                 () -> new Item(
                         (new Item.Properties())
@@ -401,7 +422,7 @@ public class TackShopItems {
 
         ENGLISH_SADDLE_RAINBOW = ITEMS.register("english_saddle_rainbow",
                 () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(13)));
         ENGLISH_BLANKET_RAINBOW = ITEMS.register("english_blanket_rainbow",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
@@ -410,7 +431,7 @@ public class TackShopItems {
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ENGLISH_LEG_WRAPS_RAINBOW = ITEMS.register("english_leg_wraps_rainbow",
                 () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ENGLISH_BRIDLE_RAINBOW = ITEMS.register("english_bridle_rainbow",
                 () -> new Item(
                         (new Item.Properties())
@@ -438,7 +459,7 @@ public class TackShopItems {
 
 
 
-    // Craftable Numbered Tack Items -- 12 Count Items
+    // Craftable Numbered Tack Items -- 16 Count Items
         HALTERS = new ArrayList<>();
         FLYMASKS = new ArrayList<>();
         PASTURE_BLANKETS = new ArrayList<>();
@@ -466,10 +487,10 @@ public class TackShopItems {
         CLOTH_GIRTH_STRAPS = new ArrayList<>();
         QUARTER_SHEETS_NUMBERED = new ArrayList<>();
 
-        int var1 = 13;
+        int var1 = 15;
         var rContext = new Object() {
             int var2 = 1;
-            };
+        };
 
         while (rContext.var2 < var1) {
             //DyeColor color = var0[var2];
@@ -485,7 +506,7 @@ public class TackShopItems {
 
             ADVENTURE_SADDLES.add(ITEMS.register("adventure_saddle_" + counter, () ->
                 new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(13))
             ));
             ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + counter, () ->
                 new Item((new Item.Properties())
@@ -497,20 +518,20 @@ public class TackShopItems {
             ));
             ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + counter, () ->
                 new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ADVENTURE_BRIDLES.add(ITEMS.register("adventure_bridle_" + counter, () ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS.add(ITEMS.register("adventure_girth_strap_" + counter, () ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
             WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + counter, () ->
                 new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(13))
             ));
             WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + counter, () ->
                 new Item((new Item.Properties())
@@ -522,20 +543,20 @@ public class TackShopItems {
             ));
             WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + counter, () ->
                 new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             WESTERN_BRIDLES.add(ITEMS.register("western_bridle_" + counter,() ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             WESTERN_GIRTH_STRAPS.add(ITEMS.register("western_girth_strap_" + counter,() ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
             ENGLISH_SADDLES.add(ITEMS.register("english_saddle_" + counter, () ->
                 new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(13))
             ));
             ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + counter, () ->
                 new Item((new Item.Properties())
@@ -551,24 +572,24 @@ public class TackShopItems {
             ));
             ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + counter, () ->
                 new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ENGLISH_BRIDLES.add(ITEMS.register("english_bridle_" + counter,() ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ENGLISH_GIRTH_STRAPS.add(ITEMS.register("english_girth_strap_" + counter,() ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
             CLOTH_BRIDLES.add(ITEMS.register("cloth_bridle_" + counter,() ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             CLOTH_GIRTH_STRAPS.add(ITEMS.register("cloth_girth_strap_" + counter,() ->
                     new Item((new Item.Properties())
-                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
             QUARTER_SHEETS_NUMBERED.add(ITEMS.register("quarter_sheet_" + counter, () ->
@@ -591,7 +612,7 @@ public class TackShopItems {
 
             ++rContext.var2;
         }
-        //DYED TACK ITEMS - Craftable still :3
+    //DYED TACK ITEMS - Craftable still :13
         QUARTER_SHEETS_DYED = new ArrayList<>();
 
         DyeColor[] var0 = DyeColor.values();
