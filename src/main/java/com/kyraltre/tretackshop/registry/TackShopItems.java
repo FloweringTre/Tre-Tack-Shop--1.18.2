@@ -129,8 +129,8 @@ public class TackShopItems {
         DOUBLE_BRIDLE = ITEMS.register("double_bridle",
                 () -> new AdventureBridleItem("double_bridle", "double_bridle", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        BITLESS_BRIDLE = ITEMS.register("bitless_bridle",
-                () -> new EnglishBridleItem("bitless_bridle", (new Item.Properties())
+        BITLESS_BRIDLE = ITEMS.register("english_bridle_bitless",
+                () -> new EnglishBridleItem("english_bridle_bitless", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         BAREBACK_SADDLE = ITEMS.register("bareback_saddle",
                 () -> new WesternSaddleItem("bareback_saddle", (new Item.Properties())
