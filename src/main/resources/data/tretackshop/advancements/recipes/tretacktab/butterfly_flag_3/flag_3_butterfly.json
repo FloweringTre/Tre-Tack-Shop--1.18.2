@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "tretackshop:butterfly_flag_3/flag_3_butterfly"
+      "tretackshop:butterfly_flag_3/flag_butterfly_3"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "tretackshop:butterfly_flag_3/flag_3_butterfly"
+        "recipe": "tretackshop:butterfly_flag_3/flag_butterfly_3"
       }
     }
   },

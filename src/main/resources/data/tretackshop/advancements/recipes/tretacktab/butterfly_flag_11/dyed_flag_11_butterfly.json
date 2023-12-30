@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "tretackshop:butterfly_flag_11/dyed_flag_11_butterfly"
+      "tretackshop:butterfly_flag_11/dyed_flag_butterfly_11"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "tretackshop:butterfly_flag_11/dyed_flag_11_butterfly"
+        "recipe": "tretackshop:butterfly_flag_11/dyed_flag_butterfly_11"
       }
     }
   },
