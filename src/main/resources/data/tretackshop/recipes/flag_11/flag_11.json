@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flags",
+  "pattern": [
+    "yzx",
+    "yAB",
+    "yC "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "z": {
+      "tag": "minecraft:banners"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/navy"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    }
+  },
+  "result": {
+    "item": "tretackshop:flag_11"
+  }
+}

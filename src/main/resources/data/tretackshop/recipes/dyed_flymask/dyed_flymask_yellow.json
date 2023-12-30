@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flymasks"
+    },
+    {
+      "tag": "forge:dyes/yellow"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:flymask_yellow"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flags",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flags"
+    },
+    {
+      "tag": "tretackshop:dyes/lavender"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:flag_6"
+  }
+}
