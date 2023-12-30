@@ -10,7 +10,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
 import net.minecraftforge.registries.RegistryObject;
+import org.lwjgl.system.CallbackI;
 
+import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,6 +20,10 @@ public class AwardShopItems {
     public static final DeferredRegister<Item> ITEMS;
 
 // THIS IS FOR AWARD ITEMS THAT CAN NOT BE CRAFTED
+
+    public static final List<RegistryObject<Item>> AWARD_FLAGS;
+    public static final RegistryObject<Item> FLAG_MONARCH;
+    public static final RegistryObject<Item> FLAG_MORPHO;
     
 // BUTTERFLY TACK ITEMS - MORPHO
     public static final RegistryObject<HalterItem> HALTER_MORPHO;
@@ -188,6 +194,8 @@ public class AwardShopItems {
         QUARTER_SHEET_MORPHO = ITEMS.register("quarter_sheet_morpho",
                 () -> new AdventureBreastCollarItem("quarter_sheet_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        FLAG_MORPHO = ITEMS.register("flag_morpho", () ->
+                new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))));
 
     //BUTTERFLY - MONARCH -- Uncraftable Yellow Monarch Tack
         HALTER_MONARCH = ITEMS.register("halter_monarch",
@@ -260,7 +268,9 @@ public class AwardShopItems {
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         QUARTER_SHEET_MONARCH = ITEMS.register("quarter_sheet_monarch",
                 () -> new AdventureBreastCollarItem("quarter_sheet_monarch", (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));    
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        FLAG_MONARCH = ITEMS.register("flag_monarch", () ->
+                new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))));
 
         
     // AWARD - Uncraftable Numbered Tack Items -- 14 Count Items
@@ -287,6 +297,7 @@ public class AwardShopItems {
         AWARD_WESTERN_GIRTH_STRAPS = new ArrayList<>();
         AWARD_ENGLISH_GIRTH_STRAPS = new ArrayList<>();
         AWARD_QUARTER_SHEETS = new ArrayList<>();
+        AWARD_FLAGS = new ArrayList<>();
         
         int var1 = 15;
         
@@ -318,7 +329,7 @@ public class AwardShopItems {
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(ITEMS.register("award_adventure_bridle_"+ counter,
-                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_bridle_"+ counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_"+ counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(ITEMS.register("award_adventure_girth_strap_"+ counter,
@@ -390,6 +401,9 @@ public class AwardShopItems {
                     "award_pasture_blanket_" + counter + "_armored", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
+
+            AWARD_FLAGS.add(ITEMS.register("award_flag_" + counter, () ->
+                    new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)))));
         }
 
 // AWARD ITEMS

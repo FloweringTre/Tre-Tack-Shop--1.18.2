@@ -14,6 +14,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
+import org.lwjgl.system.CallbackI;
 
 public class TackShopItems {
     public static final DeferredRegister<Item> ITEMS;
@@ -22,6 +23,9 @@ public class TackShopItems {
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
+    public static final List<RegistryObject<Item>> FLAGS;
+    public static final List<RegistryObject<Item>> FLAGS_BUTTERFLY;
+    public static final List<RegistryObject<Item>> FLAGS_DYED;
 
     // TACK ITEMS
 
@@ -91,6 +95,7 @@ public class TackShopItems {
     public static final List<RegistryObject<WesternGirthStrapItem>> WESTERN_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> CLOTH_GIRTH_STRAPS;
+    public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
 
     public TackShopItems() {
     }
@@ -160,7 +165,7 @@ public class TackShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_RAINBOW = ITEMS.register("adventure_bridle_rainbow",
-                () -> new AdventureBridleItem("adventure_bridle_rainbow", "adventure_bridle_rainbow", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_rainbow", "adventure_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_RAINBOW = ITEMS.register("adventure_girth_strap_rainbow",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_rainbow", (new Item.Properties())
@@ -247,6 +252,8 @@ public class TackShopItems {
         ENGLISH_GIRTH_STRAPS = new ArrayList<>();
         CLOTH_GIRTH_STRAPS = new ArrayList<>();
         QUARTER_SHEETS_NUMBERED = new ArrayList<>();
+        FLAGS = new ArrayList<>();
+        FLAGS_BUTTERFLY = new ArrayList<>();
 
         int var1 = 15;
         var rContext = new Object() {
@@ -282,7 +289,7 @@ public class TackShopItems {
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
             ));
             ADVENTURE_BRIDLES.add(ITEMS.register("adventure_bridle_" + counter,
-                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_bridle_" + counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS.add(ITEMS.register("adventure_girth_strap_" + counter,
@@ -368,11 +375,18 @@ public class TackShopItems {
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
 
+            FLAGS.add(ITEMS.register("flag_" + counter, () ->
+                    new Item((new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)))));
+            FLAGS_BUTTERFLY.add(ITEMS.register("flag_butterfly_" + counter, () ->
+                    new Item((new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)))));
+
             ++rContext.var2;
         }
 
         //DYED TACK ITEMS - Craftable still :3
         QUARTER_SHEETS_DYED = new ArrayList<>();
+        FLYMASKS_DYED = new ArrayList<>();
+        FLAGS_DYED = new ArrayList<>();
 
         DyeColor[] var0 = DyeColor.values();
         int var3 = var0.length;
@@ -383,6 +397,12 @@ public class TackShopItems {
                     new AdventureBreastCollarItem("quarter_sheet_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
+            FLYMASKS_DYED.add(ITEMS.register("flymask_" + color.getName(), () ->
+                    new HalterItem("flymask_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            FLAGS_DYED.add(ITEMS.register("flag_" + color.getName(), () ->
+                    new Item((new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)))));
         }
     }
 }
