@@ -24,27 +24,37 @@ public class TreItemModelProvider extends ItemModelProvider {
 //        int var7 = var5.length;
 //        for (int var6 = 0; var6 < var7; ++var6) {
 //            DyeColor color = var5[var6];
-//            ((ItemModelBuilder) this.withExistingParent("quarter_sheet_" + color.getName(), "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/quarter_sheets/quarter_sheet_" + color.getName()));
+//            ((ItemModelBuilder) this.withExistingParent("flymask_" + color.getName(), "item/generated"))
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/halters/flymask_" + color.getName()));
+//            ((ItemModelBuilder) this.withExistingParent("flag_" + color.getName(), "item/flag_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + color.getName()));
 //        }
 
         //crafting loop
 //
-////        int var1 = 15;
-////        int var2 = 1;
-////        while (var2 < var1) {
+//        int var1 = 15;
+//        int var2 = 1;
+//        while (var2 < var1) {
+//            ((ItemModelBuilder) this.withExistingParent("flag_" + var2, "item/flag_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + var2));
+//            ((ItemModelBuilder) this.withExistingParent("flag_butterfly_" + var2, "item/flag_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + var2 + "_butterfly"));
+//            ((ItemModelBuilder) this.withExistingParent("award_flag_" + var2, "item/flag_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/flags/award_flag_" + var2));
+
+
 //            ((ItemModelBuilder) this.withExistingParent("pasture_blanket_" + var2, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/pasture_blanket/pasture_blanket_" + var2 + "_icon"));
 //            ((ItemModelBuilder) this.withExistingParent("pasture_blanket_" + var2 + "_armored", "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/pasture_blanket/pasture_blanket_" + var2 + "_armored_icon"));
 //            ((ItemModelBuilder) this.withExistingParent("quarter_sheet_" + var2, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/quarter_sheets/quarter_sheet_" + var2));
-//////
+////
 //            ((ItemModelBuilder) this.withExistingParent("halter_" + var2, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/halters/halter_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("flymask_" + var2, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/halters/flymask_" + var2));
-//
+////
 //            ((ItemModelBuilder) this.withExistingParent("adventure_blanket_" + var2, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/blankets/adventure_blanket_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("english_blanket_" + var2, "item/generated"))
@@ -95,7 +105,7 @@ public class TreItemModelProvider extends ItemModelProvider {
 //
 //            ++var2;
 //        }
-//    }
+
 
         //award loop   awards/tack/
 //
@@ -229,6 +239,12 @@ public class TreItemModelProvider extends ItemModelProvider {
                     new ResourceLocation("item/generated")).texture("layer0",
                     new ResourceLocation(TreTackShop.MOD_ID,"items/" + item.getRegistryName().getPath()));
         }
+
+    private ItemModelBuilder flagItem(Item item) {
+        return withExistingParent(item.getRegistryName().getPath(),
+                new ResourceLocation("item/flag_template")).texture("texture",
+                new ResourceLocation(TreTackShop.MOD_ID,"items/" + item.getRegistryName().getPath()));
+    }
 ///CRAFTING ITEMS
 //    private ItemModelBuilder saddleBlanketItem(Item item) {
 //        return withExistingParent(item.getRegistryName().getPath(),
