@@ -97,6 +97,8 @@ public class AwardShopItems {
     public static final List<RegistryObject<AdventureGirthStrapItem>> AWARD_ADVENTURE_GIRTH_STRAPS;
     public static final List<RegistryObject<WesternGirthStrapItem>> AWARD_WESTERN_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> AWARD_ENGLISH_GIRTH_STRAPS;
+    public static final List<RegistryObject<SaddlebagItem>> AWARD_SADDLE_BAGS;
+    public static final List<RegistryObject<SWEMHorseArmorItem>> AWARD_CLOTH_ARMOR;
 
 
 // AWARD RIBBONS AND TROPHIES
@@ -298,6 +300,8 @@ public class AwardShopItems {
         AWARD_ENGLISH_GIRTH_STRAPS = new ArrayList<>();
         AWARD_QUARTER_SHEETS = new ArrayList<>();
         AWARD_FLAGS = new ArrayList<>();
+        AWARD_SADDLE_BAGS = new ArrayList<>();
+        AWARD_CLOTH_ARMOR = new ArrayList<>();
         
         int var1 = 15;
         
@@ -334,6 +338,14 @@ public class AwardShopItems {
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(ITEMS.register("award_adventure_girth_strap_"+ counter,
                     () -> new AdventureGirthStrapItem("award_adventure_girth_strap_"+ counter, (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+            ));
+            AWARD_CLOTH_ARMOR.add(ITEMS.register("award_cloth_horse_armor_" + counter,
+                    () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "award_cloth_" + counter, (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+            ));
+            AWARD_SADDLE_BAGS.add(ITEMS.register("award_saddle_bag_" + counter, () ->
+                    new SaddlebagItem("award_saddle_bag_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
 
