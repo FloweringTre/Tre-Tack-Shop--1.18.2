@@ -48,6 +48,8 @@ public class AwardShopItems {
     public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MORPHO;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
     
 // BUTTERFLY TACK ITEMS - MONARCH
     public static final RegistryObject<HalterItem> HALTER_MONARCH;
@@ -71,7 +73,9 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_MONARCH;
     public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MONARCH;
-    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;    
+    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MONARCH;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
 
 // RETEXTURING TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
@@ -150,6 +154,12 @@ public class AwardShopItems {
         ADVENTURE_GIRTH_STRAP_MORPHO = ITEMS.register("adventure_girth_strap_morpho",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        CLOTH_HORSE_ARMOR_MORPHO = ITEMS.register("cloth_horse_armor_morpho",
+                () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_morpho", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        SADDLE_BAG_MORPHO = ITEMS.register("saddle_bag_morpho",
+                () -> new SaddlebagItem("saddle_bag_morpho", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
 
         WESTERN_SADDLE_MORPHO = ITEMS.register("western_saddle_morpho",
                 () -> new WesternSaddleItem("western_saddle_morpho", (new Item.Properties())
@@ -224,6 +234,12 @@ public class AwardShopItems {
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = ITEMS.register("adventure_girth_strap_monarch",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        CLOTH_HORSE_ARMOR_MONARCH = ITEMS.register("cloth_horse_armor_monarch",
+                () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_monarch", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        SADDLE_BAG_MONARCH = ITEMS.register("saddle_bag_monarch",
+                () -> new SaddlebagItem("saddle_bag_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
 
         WESTERN_SADDLE_MONARCH = ITEMS.register("western_saddle_monarch",
