@@ -67,6 +67,7 @@ public class TackShopItems {
     public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_RAINBOW;
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_RAINBOW;
     public static final RegistryObject<SWEMHorseArmorItem> AMETHYST_HORSE_ARMOR_RAINBOW;
+    public static final RegistryObject<SWEMHorseArmorItem> IRON_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_RAINBOW;
 
     // CRAFTABLE NUMBERED TACK
@@ -175,10 +176,14 @@ public class TackShopItems {
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         SADDLE_BAG_RAINBOW = ITEMS.register("saddle_bag_rainbow", () ->
-                new SaddlebagItem("saddle_bag_rainbow", (new Item.Properties()).tab(SWEM.TAB).stacksTo(16)));
+                new SaddlebagItem("saddle_bag_rainbow", (new Item.Properties()).tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         AMETHYST_HORSE_ARMOR_RAINBOW = ITEMS.register("amethyst_horse_armor_rainbow", () ->
                 new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.AMETHYST, 50,
                         "amethyst_rainbow", (new Item.Properties()).tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
+        IRON_HORSE_ARMOR_RAINBOW = ITEMS.register("iron_horse_armor_rainbow", () ->
+                new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.IRON, 30,
+                        "iron_rainbow", (new Item.Properties()).tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
+
 
         WESTERN_SADDLE_RAINBOW = ITEMS.register("western_saddle_rainbow",
                 () -> new WesternSaddleItem("western_saddle_rainbow", (new Item.Properties())
