@@ -35,7 +35,7 @@ public class TreRecipeProvider extends RecipeProvider {
         protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
 //GIVING RAINBOW_INA_BOTTLE A RECIPE FOR THE PURPOSE OF USING IT FOR THE RAINBOW TACK
-//        ShapedRecipeBuilder.shaped(TackShopItems.RAINBOW_INA_BOTTLE.get(), 11)
+//        ShapedRecipeBuilder.shaped(TackShopItems.RAINBOW_INA_BOTTLE.get())
 //                .define('A', Items.GLASS_BOTTLE)
 //                .define('B', Items.RED_DYE)
 //                .define('C', Items.ORANGE_DYE)
@@ -410,7 +410,7 @@ public class TreRecipeProvider extends RecipeProvider {
 
 /// CRAFTING RECIPES
         // BUTTERFLYS FOR DECOR
-//        ShapedRecipeBuilder.shaped(TackShopItems.BUTTERFLY.get(), 11)
+//        ShapedRecipeBuilder.shaped(TackShopItems.BUTTERFLY.get(), 1)
 //                .define('A', SWTags.STAR_WORMS)
 //                .define('B', Items.OAK_SAPLING)
 //                .define('C', Items.BLUE_ORCHID)
@@ -423,7 +423,7 @@ public class TreRecipeProvider extends RecipeProvider {
 //                        .of(SWTags.STAR_WORMS).build()))
 //                .save(pFinishedRecipeConsumer);
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.BUTTERFLY_MONARCH.get(), 11)
+//        ShapedRecipeBuilder.shaped(TackShopItems.BUTTERFLY_MONARCH.get(), 1)
 //                .define('A', SWTags.STAR_WORMS)
 //                .define('B', Items.OAK_SAPLING)
 //                .define('C', Items.DANDELION)
@@ -438,9 +438,9 @@ public class TreRecipeProvider extends RecipeProvider {
 
 ///// PASTEL GENERATION
 //    //PASTURE& QUARTER BLANKETS
-//        ShapedRecipeBuilder.shaped(TackShopItems.QUARTER_SHEET_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.QUARTER_SHEET_1.get())
 //                .define('#', ItemTags.WOOL)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', Items.LILY_OF_THE_VALLEY)
 //                .pattern("###")
@@ -449,19 +449,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //
 //                .group("quarter_sheet")
 //                .unlockedBy("has_wool", has(ItemTags.WOOL))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/quarter_sheet_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.QUARTER_SHEET_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/quarter_sheet_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.QUARTER_SHEET_1.get())
 //                .requires(TreTags.QUARTER_SHEETS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(Items.LILY_OF_THE_VALLEY)
 //                .group("quarter_sheet")
 //                .unlockedBy("has_quarter_sheet", has(TreTags.QUARTER_SHEETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/dyed_quarter_sheet_11"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dyed_quarter_sheet_1"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_1.get())
 //                .define('#', ItemTags.CARPETS)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern(" ##")
@@ -469,19 +469,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("#C#")
 //                .group("pasture_blanket")
 //                .unlockedBy("has_carpet", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/pasture_blanket_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/pasture_blanket_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_1.get())
 //                .requires(SWTags.PASTURE_BLANKETS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("pasture_blanket")
 //                .unlockedBy("has_pasture_blanket", has(SWTags.PASTURE_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/dyed_pasture_blanket_11"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dyed_pasture_blanket_1"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_11_ARMORED.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_1_ARMORED.get())
 //                .define('#', ItemTags.CARPETS)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .define('y', Items.IRON_CHESTPLATE)
@@ -490,21 +490,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("#C#")
 //                .group("pasture_blanket_armored")
 //                .unlockedBy("has_carpet", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/pasture_blanket_armored_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_11_ARMORED.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/pasture_blanket_armored_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_1_ARMORED.get())
 //                .requires(SWTags.PASTURE_BLANKETS_ARMORED)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("pasture_blanket_armored")
 //                .unlockedBy("has_pasture_blanket_armored", has(SWTags.PASTURE_BLANKETS_ARMORED))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/dyed_pasture_blanket_armored_11"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dyed_pasture_blanket_armored_1"));
 //
 //    //HALTER & FLYMASK
-//        ShapedRecipeBuilder.shaped(TackShopItems.HALTER_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.HALTER_1.get())
 //                .define('x', (ItemTags.CARPETS))
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -512,19 +512,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCx")
 //                .group("halter")
 //                .unlockedBy("has_iron_nugget", has(net.minecraftforge.common.Tags.Items.NUGGETS_IRON))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/halter_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.HALTER_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/halter_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.HALTER_1.get())
 //                .requires(SWTags.HALTERS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_halters", has(SWTags.HALTERS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/dye_halter_11"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dye_halter_1"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.FLYMASK_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.FLYMASK_1.get())
 //                .define('x', Items.STRING)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x y")
@@ -532,21 +532,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xCx")
 //                .group("halter")
 //                .unlockedBy("has_string", has(Items.STRING))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/flymask_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLYMASK_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/flymask_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLYMASK_1.get())
 //                .requires(TreTags.FLYMASKS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_flymasks", has(TreTags.FLYMASKS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/dye_flymask_11"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dye_flymask_1"));
 //
 //    //BRIDLES
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BRIDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BRIDLE_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
 //                .define('z', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("ABx")
@@ -554,21 +554,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yzx")
 //                .group("adventure_bridle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_bridle_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BRIDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_bridle_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BRIDLE_1.get())
 //                .requires(TreTags.ADVENTURE_BRIDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_bridle")
 //                .unlockedBy("has_adventure_bridle", has(TreTags.ADVENTURE_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_bridle_11_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_bridle_1_from_bridle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BRIDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BRIDLE_1.get())
 //                .define('w', SWTags.REFINED_LEATHER)
 //                .define('x', Items.IRON_NUGGET)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("C w")
@@ -576,21 +576,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xyw")
 //                .group("western_bridle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_bridle_11" ));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BRIDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_bridle_1" ));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BRIDLE_1.get())
 //                .requires(SWTags.WESTERN_BRIDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_bridle")
 //                .unlockedBy("has_western_bridle", has(SWTags.WESTERN_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_bridle_11_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_bridle_1_from_bridle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BRIDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BRIDLE_1.get())
 //                .define('w', SWTags.REFINED_LEATHER)
 //                .define('x', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("C w")
@@ -598,21 +598,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xy ")
 //                .group("english_bridle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_bridle_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BRIDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_bridle_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BRIDLE_1.get())
 //                .requires(TreTags.ENGLISH_BRIDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_bridle")
 //                .unlockedBy("has_english_bridle", has(TreTags.ENGLISH_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_bridle_11_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_bridle_1_from_bridle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BRIDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BRIDLE_1.get())
 //                .define('w', ItemTags.CARPETS)
 //                .define('x', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("C w")
@@ -620,22 +620,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xy ")
 //                .group("cloth_bridle")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/cloth_bridle_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BRIDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_bridle_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BRIDLE_1.get())
 //                .requires(TreTags.CLOTH_BRIDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("cloth_bridle")
 //                .unlockedBy("has_cloth_bridle", has(TreTags.CLOTH_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/cloth_bridle_11_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_bridle_1_from_bridle"));
 //
 //
 //    //SADDLES
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_SADDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_SADDLE_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xxx")
@@ -643,20 +643,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yxC")
 //                .group("adventure_saddle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_saddle_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_SADDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_saddle_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_SADDLE_1.get())
 //                .requires(SWTags.ADVENTURE_SADDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_saddle")
 //                .unlockedBy("has_adventure_saddle", has(SWTags.ADVENTURE_SADDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_saddle_11" + "_from_saddle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_saddle_1" + "_from_saddle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_SADDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_SADDLE_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.IRON_NUGGET)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xAx")
@@ -664,20 +664,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yxC")
 //                .group("western_saddle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_saddle_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_SADDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_saddle_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_SADDLE_1.get())
 //                .requires(SWTags.WESTERN_SADDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_saddle")
 //                .unlockedBy("has_western_saddle", has(SWTags.WESTERN_SADDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_saddle_11" + "_from_saddle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_saddle_1" + "_from_saddle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_SADDLE_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_SADDLE_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern(" Ax")
@@ -685,22 +685,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yxC")
 //                .group("english_saddle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_saddle_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_SADDLE_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_saddle_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_SADDLE_1.get())
 //                .requires(TreTags.ENGLISH_SADDLES)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_saddle")
 //                .unlockedBy("has_english_saddle", has(TreTags.ENGLISH_SADDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_saddle_11" + "_from_saddle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_saddle_1" + "_from_saddle"));
 //
 //
 //    //BLANKETS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BLANKET_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BLANKET_1.get())
 //                .define('y', ItemTags.CARPETS)
 //                .define('x', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("yxy")
@@ -708,20 +708,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCy")
 //                .group("adventure_blanket")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_blanket_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BLANKET_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_blanket_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BLANKET_1.get())
 //                .requires(TreTags.ADVENTURE_BLANKETS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_blanket")
 //                .unlockedBy("has_adventure_blanket", has(TreTags.ADVENTURE_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_blanket_11" + "_from_blanket"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_blanket_1" + "_from_blanket"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BLANKET_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BLANKET_1.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyx")
@@ -729,20 +729,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("ACB")
 //                .group("western_blanket")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_blanket_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BLANKET_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_blanket_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BLANKET_1.get())
 //                .requires(SWTags.WESTERN_BLANKETS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_blanket")
 //                .unlockedBy("has_western_blanket", has(SWTags.WESTERN_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_blanket_11" + "_from_blanket"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_blanket_1" + "_from_blanket"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BLANKET_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BLANKET_1.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyx")
@@ -750,22 +750,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("ACB")
 //                .group("english_blanket")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_blanket_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BLANKET_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_blanket_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BLANKET_1.get())
 //                .requires(SWTags.ENGLISH_BLANKETS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_blanket")
 //                .unlockedBy("has_english_blanket", has(SWTags.ENGLISH_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_blanket_11" + "_from_blanket"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_blanket_1" + "_from_blanket"));
 //
 //
 //    //BREAST COLLARS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BREAST_COLLAR_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BREAST_COLLAR_1.get())
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
 //                .define('x', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xCx")
@@ -773,20 +773,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" y ")
 //                .group("adventure_breast_collar")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/advenuture_breast_collar_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BREAST_COLLAR_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/advenuture_breast_collar_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BREAST_COLLAR_1.get())
 //                .requires(TreTags.ADVENTURE_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_breast_collar")
 //                .unlockedBy("has_adventure_breast_collar", has(TreTags.ADVENTURE_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_breast_collar_11" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_breast_collar_1" + "_from_breast_collar"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BREAST_COLLAR_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BREAST_COLLAR_1.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("yCy")
@@ -794,19 +794,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" y ")
 //                .group("western_breast_collar")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_breast_collar_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BREAST_COLLAR_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_breast_collar_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BREAST_COLLAR_1.get())
 //                .requires(SWTags.WESTERN_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_breast_collar")
 //                .unlockedBy("has_western_breast_collar", has(SWTags.WESTERN_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_breast_collar_11" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_breast_collar_1" + "_from_breast_collar"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BREAST_COLLAR_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BREAST_COLLAR_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xCx")
@@ -814,19 +814,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" x ")
 //                .group("english_breast_collar")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_breast_collar_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BREAST_COLLAR_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_breast_collar_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BREAST_COLLAR_1.get())
 //                .requires(TreTags.ENGLISH_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_breast_collar")
 //                .unlockedBy("has_english_breast_collar", has(TreTags.ENGLISH_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_breast_collar_11" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_breast_collar_1" + "_from_breast_collar"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BREAST_COLLAR_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BREAST_COLLAR_1.get())
 //                .define('x', ItemTags.WOOL)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xCx")
@@ -834,22 +834,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" x ")
 //                .group("cloth_breast_collar")
 //                .unlockedBy("has_wool", has(ItemTags.WOOL))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/cloth_breast_collar_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BREAST_COLLAR_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_breast_collar_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BREAST_COLLAR_1.get())
 //                .requires(TreTags.CLOTH_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("cloth_breast_collar")
 //                .unlockedBy("has_cloth_breast_collar", has(TreTags.CLOTH_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/cloth_breast_collar_11" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_breast_collar_1" + "_from_breast_collar"));
 //
 //
 //    //GIRTH STRAPS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_GIRTH_STRAP_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_GIRTH_STRAP_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("yxA")
@@ -857,21 +857,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("Cxy")
 //                .group("adventure_girth_strap")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_girth_strap_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_GIRTH_STRAP_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_girth_strap_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_GIRTH_STRAP_1.get())
 //                .requires(TreTags.ADVENTURE_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_girth_strap")
 //                .unlockedBy("has_adventure_girth_strap", has(TreTags.ADVENTURE_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_girth_strap_11" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_girth_strap_1" + "_from_girth_strap"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_GIRTH_STRAP_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_GIRTH_STRAP_1.get())
 //                .define('x', Items.IRON_NUGGET)
 //                .define('y', ItemTags.CARPETS)
 //                .define('z', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyA")
@@ -879,20 +879,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("Cyx")
 //                .group("western_girth_strap")
 //                .unlockedBy("has_western_girth_strap", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_girth_strap_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_GIRTH_STRAP_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_girth_strap_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_GIRTH_STRAP_1.get())
 //                .requires(SWTags.WESTERN_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_girth_strap")
 //                .unlockedBy("has_western_girth_strap", has(SWTags.WESTERN_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_girth_strap_11" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_girth_strap_1" + "_from_girth_strap"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_GIRTH_STRAP_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_GIRTH_STRAP_1.get())
 //                .define('x', Items.IRON_NUGGET)
 //                .define('z', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xz ")
@@ -900,20 +900,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" zx")
 //                .group("english_girth_strap")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_girth_strap_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_GIRTH_STRAP_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_girth_strap_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_GIRTH_STRAP_1.get())
 //                .requires(TreTags.ENGLISH_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_girth_strap")
 //                .unlockedBy("has_english_girth_strap", has(TreTags.ENGLISH_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_girth_strap_11" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_girth_strap_1" + "_from_girth_strap"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_GIRTH_STRAP_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_GIRTH_STRAP_1.get())
 //                .define('x', Items.IRON_NUGGET)
 //                .define('y', ItemTags.WOOL)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyA")
@@ -921,21 +921,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("Cyx")
 //                .group("cloth_girth_strap")
 //                .unlockedBy("has_wool", has(ItemTags.WOOL))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/cloth_girth_strap_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_GIRTH_STRAP_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_girth_strap_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_GIRTH_STRAP_1.get())
 //                .requires(TreTags.CLOTH_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("cloth_girth_strap")
 //                .unlockedBy("has_cloth_girth_strap", has(TreTags.CLOTH_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/cloth_girth_strap_11" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_girth_strap_1" + "_from_girth_strap"));
 //
 //        //LEG WRAPS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_LEG_WRAPS_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_LEG_WRAPS_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.IRON_NUGGET)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -943,20 +943,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCy")
 //                .group("adventure_leg_wraps")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_leg_wraps_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_LEG_WRAPS_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_leg_wraps_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_LEG_WRAPS_1.get())
 //                .requires(TreTags.ADVENTURE_LEG_WRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_leg_wraps")
 //                .unlockedBy("has_adventure_leg_wraps", has(TreTags.ADVENTURE_LEG_WRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/adventure_leg_wraps_11" + "_from_leg_wraps"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/adventure_leg_wraps_1" + "_from_leg_wraps"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_LEG_WRAPS_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_LEG_WRAPS_1.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', Items.DRIED_KELP)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -964,20 +964,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("AyB")
 //                .group("western_leg_wraps")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_leg_wraps_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_LEG_WRAPS_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_leg_wraps_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_LEG_WRAPS_1.get())
 //                .requires(SWTags.WESTERN_LEG_WRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_leg_wraps")
 //                .unlockedBy("has_western_leg_wraps", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/western_leg_wraps_11" + "_from_leg_wraps"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/western_leg_wraps_1" + "_from_leg_wraps"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_LEG_WRAPS_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_LEG_WRAPS_1.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', Items.DRIED_KELP)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -985,23 +985,23 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCy")
 //                .group("english_leg_wraps")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_leg_wraps_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_LEG_WRAPS_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_leg_wraps_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_LEG_WRAPS_1.get())
 //                .requires(SWTags.ENGLISH_LEG_WRAPS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_leg_wraps")
 //                .unlockedBy("has_english_leg_wraps", has(SWTags.ENGLISH_LEG_WRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11_creamsicle/english_leg_wraps_11" + "_from_leg_wraps"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_leg_wraps_1" + "_from_leg_wraps"));
 //
 //
 //
 ///// JEWEL GENERATION
 //    //PASTURE& QUARTER BLANKETS
-//        ShapedRecipeBuilder.shaped(TackShopItems.QUARTER_SHEET_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.QUARTER_SHEET_71.get())
 //                .define('#', ItemTags.WOOL)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', Items.LILY_OF_THE_VALLEY)
 //                .pattern("###")
@@ -1009,19 +1009,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("ACB")
 //                .group("quarter_sheet")
 //                .unlockedBy("has_wool", has(ItemTags.WOOL))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/quarter_sheet_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.QUARTER_SHEET_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/quarter_sheet_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.QUARTER_SHEET_71.get())
 //                .requires(TreTags.QUARTER_SHEETS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(Items.LILY_OF_THE_VALLEY)
 //                .group("quarter_sheet")
 //                .unlockedBy("has_quarter_sheet", has(TreTags.QUARTER_SHEETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/dyed_quarter_sheet_121"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dyed_quarter_sheet_71"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_71.get())
 //                .define('#', ItemTags.CARPETS)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern(" ##")
@@ -1029,19 +1029,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("#C#")
 //                .group("pasture_blanket")
 //                .unlockedBy("has_carpet", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/pasture_blanket_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/pasture_blanket_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_71.get())
 //                .requires(SWTags.PASTURE_BLANKETS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("pasture_blanket")
 //                .unlockedBy("has_pasture_blanket", has(SWTags.PASTURE_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/dyed_pasture_blanket_121"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dyed_pasture_blanket_71"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_121_ARMORED.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.PASTURE_BLANKET_71_ARMORED.get())
 //                .define('#', ItemTags.CARPETS)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .define('y', Items.IRON_CHESTPLATE)
@@ -1050,21 +1050,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("#C#")
 //                .group("pasture_blanket_armored")
 //                .unlockedBy("has_carpet", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/pasture_blanket_armored_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_121_ARMORED.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/pasture_blanket_armored_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.PASTURE_BLANKET_71_ARMORED.get())
 //                .requires(SWTags.PASTURE_BLANKETS_ARMORED)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("pasture_blanket_armored")
 //                .unlockedBy("has_pasture_blanket_armored", has(SWTags.PASTURE_BLANKETS_ARMORED))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/dyed_pasture_blanket_armored_121"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dyed_pasture_blanket_armored_71"));
 //
 //    //HALTER & FLYMASK
-//        ShapedRecipeBuilder.shaped(TackShopItems.HALTER_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.HALTER_71.get())
 //                .define('x', (ItemTags.CARPETS))
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -1072,19 +1072,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCx")
 //                .group("halter")
 //                .unlockedBy("has_iron_nugget", has(net.minecraftforge.common.Tags.Items.NUGGETS_IRON))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/halter_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.HALTER_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/halter_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.HALTER_71.get())
 //                .requires(SWTags.HALTERS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_halters", has(SWTags.HALTERS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/dye_halter_121"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dye_halter_71"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.FLYMASK_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.FLYMASK_71.get())
 //                .define('x', Items.STRING)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x y")
@@ -1092,21 +1092,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xCx")
 //                .group("halter")
 //                .unlockedBy("has_string", has(Items.STRING))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/flymask_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLYMASK_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/flymask_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLYMASK_71.get())
 //                .requires(TreTags.FLYMASKS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_flymasks", has(TreTags.FLYMASKS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/dye_flymask_121"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dye_flymask_71"));
 //
 //    //BRIDLES
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BRIDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BRIDLE_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
 //                .define('z', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("ABx")
@@ -1114,21 +1114,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yzx")
 //                .group("adventure_bridle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_bridle_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BRIDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_bridle_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BRIDLE_71.get())
 //                .requires(TreTags.ADVENTURE_BRIDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_bridle")
 //                .unlockedBy("has_adventure_bridle", has(TreTags.ADVENTURE_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_bridle_121_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_bridle_71_from_bridle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BRIDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BRIDLE_71.get())
 //                .define('w', SWTags.REFINED_LEATHER)
 //                .define('x', Items.IRON_NUGGET)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("C w")
@@ -1136,21 +1136,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xyw")
 //                .group("western_bridle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_bridle_121" ));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BRIDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_bridle_71" ));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BRIDLE_71.get())
 //                .requires(SWTags.WESTERN_BRIDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_bridle")
 //                .unlockedBy("has_western_bridle", has(SWTags.WESTERN_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_bridle_121_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_bridle_71_from_bridle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BRIDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BRIDLE_71.get())
 //                .define('w', SWTags.REFINED_LEATHER)
 //                .define('x', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("C w")
@@ -1158,21 +1158,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xy ")
 //                .group("english_bridle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_bridle_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BRIDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_bridle_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BRIDLE_71.get())
 //                .requires(TreTags.ENGLISH_BRIDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_bridle")
 //                .unlockedBy("has_english_bridle", has(TreTags.ENGLISH_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_bridle_121_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_bridle_71_from_bridle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BRIDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BRIDLE_71.get())
 //                .define('w', ItemTags.CARPETS)
 //                .define('x', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("C w")
@@ -1180,22 +1180,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("xy ")
 //                .group("cloth_bridle")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/cloth_bridle_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BRIDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_bridle_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BRIDLE_71.get())
 //                .requires(TreTags.CLOTH_BRIDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("cloth_bridle")
 //                .unlockedBy("has_cloth_bridle", has(TreTags.CLOTH_BRIDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/cloth_bridle_121_from_bridle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_bridle_71_from_bridle"));
 //
 //
 //    //SADDLES
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_SADDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_SADDLE_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xxx")
@@ -1203,20 +1203,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yxC")
 //                .group("adventure_saddle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_saddle_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_SADDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_saddle_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_SADDLE_71.get())
 //                .requires(SWTags.ADVENTURE_SADDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_saddle")
 //                .unlockedBy("has_adventure_saddle", has(SWTags.ADVENTURE_SADDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_saddle_121" + "_from_saddle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_saddle_71" + "_from_saddle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_SADDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_SADDLE_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.IRON_NUGGET)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xAx")
@@ -1224,20 +1224,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yxC")
 //                .group("western_saddle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_saddle_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_SADDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_saddle_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_SADDLE_71.get())
 //                .requires(SWTags.WESTERN_SADDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_saddle")
 //                .unlockedBy("has_western_saddle", has(SWTags.WESTERN_SADDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_saddle_121" + "_from_saddle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_saddle_71" + "_from_saddle"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_SADDLE_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_SADDLE_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.TRIPWIRE_HOOK)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern(" Ax")
@@ -1245,22 +1245,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yxC")
 //                .group("english_saddle")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_saddle_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_SADDLE_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_saddle_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_SADDLE_71.get())
 //                .requires(TreTags.ENGLISH_SADDLES)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_saddle")
 //                .unlockedBy("has_english_saddle", has(TreTags.ENGLISH_SADDLES))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_saddle_121" + "_from_saddle"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_saddle_71" + "_from_saddle"));
 //
 //
 //    //BLANKETS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BLANKET_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BLANKET_71.get())
 //                .define('y', ItemTags.CARPETS)
 //                .define('x', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("yxy")
@@ -1268,20 +1268,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCy")
 //                .group("adventure_blanket")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_blanket_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BLANKET_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_blanket_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BLANKET_71.get())
 //                .requires(TreTags.ADVENTURE_BLANKETS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_blanket")
 //                .unlockedBy("has_adventure_blanket", has(TreTags.ADVENTURE_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_blanket_121" + "_from_blanket"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_blanket_71" + "_from_blanket"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BLANKET_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BLANKET_71.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyx")
@@ -1289,20 +1289,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("ACB")
 //                .group("western_blanket")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_blanket_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BLANKET_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_blanket_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BLANKET_71.get())
 //                .requires(SWTags.WESTERN_BLANKETS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_blanket")
 //                .unlockedBy("has_western_blanket", has(SWTags.WESTERN_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_blanket_121" + "_from_blanket"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_blanket_71" + "_from_blanket"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BLANKET_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BLANKET_71.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyx")
@@ -1310,22 +1310,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("ACB")
 //                .group("english_blanket")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_blanket_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BLANKET_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_blanket_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BLANKET_71.get())
 //                .requires(SWTags.ENGLISH_BLANKETS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_blanket")
 //                .unlockedBy("has_english_blanket", has(SWTags.ENGLISH_BLANKETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_blanket_121" + "_from_blanket"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_blanket_71" + "_from_blanket"));
 //
 //
 //    //BREAST COLLARS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BREAST_COLLAR_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BREAST_COLLAR_71.get())
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
 //                .define('x', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xCx")
@@ -1333,20 +1333,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" y ")
 //                .group("adventure_breast_collar")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/advenuture_breast_collar_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BREAST_COLLAR_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/advenuture_breast_collar_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BREAST_COLLAR_71.get())
 //                .requires(TreTags.ADVENTURE_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_breast_collar")
 //                .unlockedBy("has_adventure_breast_collar", has(TreTags.ADVENTURE_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_breast_collar_121" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_breast_collar_71" + "_from_breast_collar"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BREAST_COLLAR_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_BREAST_COLLAR_71.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("yCy")
@@ -1354,19 +1354,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" y ")
 //                .group("western_breast_collar")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_breast_collar_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BREAST_COLLAR_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_breast_collar_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BREAST_COLLAR_71.get())
 //                .requires(SWTags.WESTERN_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_breast_collar")
 //                .unlockedBy("has_western_breast_collar", has(SWTags.WESTERN_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_breast_collar_121" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_breast_collar_71" + "_from_breast_collar"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BREAST_COLLAR_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_BREAST_COLLAR_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xCx")
@@ -1374,19 +1374,19 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" x ")
 //                .group("english_breast_collar")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_breast_collar_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BREAST_COLLAR_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_breast_collar_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BREAST_COLLAR_71.get())
 //                .requires(TreTags.ENGLISH_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_breast_collar")
 //                .unlockedBy("has_english_breast_collar", has(TreTags.ENGLISH_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_breast_collar_121" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_breast_collar_71" + "_from_breast_collar"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BREAST_COLLAR_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BREAST_COLLAR_71.get())
 //                .define('x', ItemTags.WOOL)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xCx")
@@ -1394,22 +1394,22 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" x ")
 //                .group("cloth_breast_collar")
 //                .unlockedBy("has_wool", has(ItemTags.WOOL))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/cloth_breast_collar_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BREAST_COLLAR_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_breast_collar_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BREAST_COLLAR_71.get())
 //                .requires(TreTags.CLOTH_BREAST_COLLARS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("cloth_breast_collar")
 //                .unlockedBy("has_cloth_breast_collar", has(TreTags.CLOTH_BREAST_COLLARS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/cloth_breast_collar_121" + "_from_breast_collar"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_breast_collar_71" + "_from_breast_collar"));
 //
 //
 //    //GIRTH STRAPS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_GIRTH_STRAP_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_GIRTH_STRAP_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("yxA")
@@ -1417,21 +1417,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("Cxy")
 //                .group("adventure_girth_strap")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_girth_strap_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_GIRTH_STRAP_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_girth_strap_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_GIRTH_STRAP_71.get())
 //                .requires(TreTags.ADVENTURE_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_girth_strap")
 //                .unlockedBy("has_adventure_girth_strap", has(TreTags.ADVENTURE_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_girth_strap_121" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_girth_strap_71" + "_from_girth_strap"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_GIRTH_STRAP_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_GIRTH_STRAP_71.get())
 //                .define('x', Items.IRON_NUGGET)
 //                .define('y', ItemTags.CARPETS)
 //                .define('z', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyA")
@@ -1439,20 +1439,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("Cyx")
 //                .group("western_girth_strap")
 //                .unlockedBy("has_western_girth_strap", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_girth_strap_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_GIRTH_STRAP_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_girth_strap_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_GIRTH_STRAP_71.get())
 //                .requires(SWTags.WESTERN_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_girth_strap")
 //                .unlockedBy("has_western_girth_strap", has(SWTags.WESTERN_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_girth_strap_121" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_girth_strap_71" + "_from_girth_strap"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_GIRTH_STRAP_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_GIRTH_STRAP_71.get())
 //                .define('x', Items.IRON_NUGGET)
 //                .define('z', SWTags.REFINED_LEATHER)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xz ")
@@ -1460,20 +1460,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern(" zx")
 //                .group("english_girth_strap")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_girth_strap_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_GIRTH_STRAP_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_girth_strap_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_GIRTH_STRAP_71.get())
 //                .requires(TreTags.ENGLISH_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_girth_strap")
 //                .unlockedBy("has_english_girth_strap", has(TreTags.ENGLISH_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_girth_strap_121" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_girth_strap_71" + "_from_girth_strap"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_GIRTH_STRAP_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_GIRTH_STRAP_71.get())
 //                .define('x', Items.IRON_NUGGET)
 //                .define('y', ItemTags.WOOL)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("xyA")
@@ -1481,21 +1481,21 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("Cyx")
 //                .group("cloth_girth_strap")
 //                .unlockedBy("has_wool", has(ItemTags.WOOL))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/cloth_girth_strap_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_GIRTH_STRAP_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_girth_strap_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_GIRTH_STRAP_71.get())
 //                .requires(TreTags.CLOTH_GIRTH_STRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("cloth_girth_strap")
 //                .unlockedBy("has_cloth_girth_strap", has(TreTags.CLOTH_GIRTH_STRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/cloth_girth_strap_121" + "_from_girth_strap"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_girth_strap_71" + "_from_girth_strap"));
 //
 //    //LEG WRAPS
-//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_LEG_WRAPS_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_LEG_WRAPS_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.IRON_NUGGET)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -1503,20 +1503,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCy")
 //                .group("adventure_leg_wraps")
 //                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_leg_wraps_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_LEG_WRAPS_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_leg_wraps_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_LEG_WRAPS_71.get())
 //                .requires(TreTags.ADVENTURE_LEG_WRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("adventure_leg_wraps")
 //                .unlockedBy("has_adventure_leg_wraps", has(TreTags.ADVENTURE_LEG_WRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/adventure_leg_wraps_121" + "_from_leg_wraps"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/adventure_leg_wraps_71" + "_from_leg_wraps"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_LEG_WRAPS_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.WESTERN_LEG_WRAPS_71.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', Items.DRIED_KELP)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -1524,20 +1524,20 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("AyB")
 //                .group("western_leg_wraps")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_leg_wraps_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_LEG_WRAPS_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_leg_wraps_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_LEG_WRAPS_71.get())
 //                .requires(SWTags.WESTERN_LEG_WRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("western_leg_wraps")
 //                .unlockedBy("has_western_leg_wraps", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/western_leg_wraps_121" + "_from_leg_wraps"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/western_leg_wraps_71" + "_from_leg_wraps"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_LEG_WRAPS_121.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.ENGLISH_LEG_WRAPS_71.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', Items.DRIED_KELP)
-//                .define('A', TreDyeTags.DYE_121)
+//                .define('A', TreDyeTags.DYE_71)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .define('C', ItemTags.SAPLINGS)
 //                .pattern("x x")
@@ -1545,110 +1545,110 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .pattern("yCy")
 //                .group("english_leg_wraps")
 //                .unlockedBy("has_carpets", has(ItemTags.CARPETS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_leg_wraps_121"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_LEG_WRAPS_121.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_leg_wraps_71"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_LEG_WRAPS_71.get())
 //                .requires(SWTags.ENGLISH_LEG_WRAPS)
-//                .requires(TreDyeTags.DYE_121)
+//                .requires(TreDyeTags.DYE_71)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("english_leg_wraps")
 //                .unlockedBy("has_english_leg_wraps", has(SWTags.ENGLISH_LEG_WRAPS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "121_topaz/english_leg_wraps_121" + "_from_leg_wraps"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_leg_wraps_71" + "_from_leg_wraps"));
     //SADDLE BAGS
-        ShapedRecipeBuilder.shaped(TackShopItems.SADDLE_BAG_11.get())
+        ShapedRecipeBuilder.shaped(TackShopItems.SADDLE_BAG_1.get())
                 .define('x', ItemTags.CARPETS)
                 .define('y', Items.CHEST)
                 .define('z', SWTags.REFINED_LEATHER)
                 .define('C', ItemTags.SAPLINGS)
-                .define('A', TreDyeTags.DYE_11)
+                .define('A', TreDyeTags.DYE_1)
                 .define('B', TreDyeTags.TONER_PASTEL)
                 .pattern("xBx")
                 .pattern("zAz")
                 .pattern("yCy")
                 .group("saddle_bags")
                 .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11/saddle_bag_11"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.SADDLE_BAG_11.get())
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1/saddle_bag_1"));
+        ShapelessRecipeBuilder.shapeless(TackShopItems.SADDLE_BAG_1.get())
                 .requires(SWTags.SADDLE_BAGS)
-                .requires(TreDyeTags.DYE_11)
+                .requires(TreDyeTags.DYE_1)
                 .requires(TreDyeTags.TONER_PASTEL)
                 .requires(ItemTags.SAPLINGS)
                 .group("saddle_bags")
                 .unlockedBy("has_saddle_bags", has(SWTags.SADDLE_BAGS))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11/dyed_saddle_bag_11"));
-        ShapedRecipeBuilder.shaped(TackShopItems.SADDLE_BAG_12.get())
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1/dyed_saddle_bag_1"));
+        ShapedRecipeBuilder.shaped(TackShopItems.SADDLE_BAG_7.get())
                 .define('x', ItemTags.CARPETS)
                 .define('y', Items.CHEST)
                 .define('z', SWTags.REFINED_LEATHER)
                 .define('C', ItemTags.SAPLINGS)
-                .define('A', TreDyeTags.DYE_12)
+                .define('A', TreDyeTags.DYE_7)
                 .define('B', TreDyeTags.TONER_JEWEL)
                 .pattern("xBx")
                 .pattern("zAz")
                 .pattern("yCy")
                 .group("saddle_bags")
                 .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "12/saddle_bag_12"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.SADDLE_BAG_12.get())
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "7/saddle_bag_7"));
+        ShapelessRecipeBuilder.shapeless(TackShopItems.SADDLE_BAG_7.get())
                 .requires(SWTags.SADDLE_BAGS)
-                .requires(TreDyeTags.DYE_12)
+                .requires(TreDyeTags.DYE_7)
                 .requires(TreDyeTags.TONER_JEWEL)
                 .requires(ItemTags.SAPLINGS)
                 .group("saddle_bags")
                 .unlockedBy("has_saddle_bags", has(SWTags.SADDLE_BAGS))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "12/dyed_saddle_bag_12"));
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "7/dyed_saddle_bag_7"));
 
 //CLOTH ARMOR
-        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_HORSE_ARMOR_11.get())
+        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_HORSE_ARMOR_1.get())
                 .define('y', ItemTags.CARPETS)
                 .define('C', ItemTags.SAPLINGS)
-                .define('A', TreDyeTags.DYE_11)
+                .define('A', TreDyeTags.DYE_1)
                 .define('B', TreDyeTags.TONER_PASTEL)
                 .pattern("yBy")
                 .pattern("yAy")
                 .pattern("yCy")
                 .group("cloth_armor")
                 .unlockedBy("has_banner", has(ItemTags.BANNERS))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11/cloth_horse_armor_11"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_HORSE_ARMOR_11.get())
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1/cloth_horse_armor_1"));
+        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_HORSE_ARMOR_1.get())
                 .requires(TreTags.CLOTH_ARMOR)
-                .requires(TreDyeTags.DYE_11)
+                .requires(TreDyeTags.DYE_1)
                 .requires(TreDyeTags.TONER_PASTEL)
                 .requires(ItemTags.SAPLINGS)
                 .group("cloth_armor")
                 .unlockedBy("has_cloth_armor", has(TreTags.CLOTH_ARMOR))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "11/dyed_cloth_horse_armor_11"));
-        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_HORSE_ARMOR_12.get())
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1/dyed_cloth_horse_armor_1"));
+        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_HORSE_ARMOR_7.get())
                 .define('y', ItemTags.CARPETS)
                 .define('C', ItemTags.SAPLINGS)
-                .define('A', TreDyeTags.DYE_12)
+                .define('A', TreDyeTags.DYE_7)
                 .define('B', TreDyeTags.TONER_JEWEL)
                 .pattern("yBy")
                 .pattern("yAy")
                 .pattern("yCy")
                 .group("cloth_armor")
                 .unlockedBy("has_banner", has(ItemTags.BANNERS))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "12/cloth_horse_armor_12"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_HORSE_ARMOR_12.get())
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "7/cloth_horse_armor_7"));
+        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_HORSE_ARMOR_7.get())
                 .requires(TreTags.CLOTH_ARMOR)
-                .requires(TreDyeTags.DYE_12)
+                .requires(TreDyeTags.DYE_7)
                 .requires(TreDyeTags.TONER_JEWEL)
                 .requires(ItemTags.SAPLINGS)
                 .group("cloth_armor")
                 .unlockedBy("has_cloth_armor", has(TreTags.CLOTH_ARMOR))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "12/dyed_cloth_horse_armor_12"));
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "7/dyed_cloth_horse_armor_7"));
 
 
 
 
 
 
-//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_11.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_1.get())
 //                .define('x', Items.STRING)
 //                .define('y', Items.IRON_NUGGET)
 //                .define('z', (ItemTags.BANNERS))
 //                .define('C', ItemTags.SAPLINGS)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .pattern("yzx")
 //                .pattern("yAB")
@@ -1656,50 +1656,50 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("flags")
 //                .group("flags")
 //                .unlockedBy("has_banner", has(ItemTags.BANNERS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_11/flag_11"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_1/flag_1"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_1.get())
 //                .requires(TreTags.FLAGS)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("flags")
 //                .unlockedBy("has_flag", has(TreTags.FLAGS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_11/dyed_flag_11"));
-//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_BUTTERFLY_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_1/dyed_flag_1"));
+//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_BUTTERFLY_1.get())
 //                .define('x', Items.STRING)
 //                .define('y', Items.IRON_NUGGET)
 //                .define('z', (ItemTags.BANNERS))
 //                .define('C', TreTags.BUTTERFLY)
-//                .define('A', TreDyeTags.DYE_11)
+//                .define('A', TreDyeTags.DYE_1)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .pattern("yzx")
 //                .pattern("yAB")
 //                .pattern("yC ")
 //                .group("flags")
 //                .unlockedBy("has_butterfly", has(TreTags.BUTTERFLY))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_11/flag_11_butterfly"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_1/flag_1_butterfly"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_1.get())
 //                .requires(TreTags.FLAGS_PLAIN)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .requires(TreTags.BUTTERFLY)
 //                .group("flags")
 //                .unlockedBy("has_flag", has(TreTags.FLAGS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_11/dyed_flag_11_butterfly"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_11.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_1/dyed_flag_1_butterfly"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_1.get())
 //                .requires(TreTags.FLAGS_BUTTERFLY)
-//                .requires(TreDyeTags.DYE_11)
+//                .requires(TreDyeTags.DYE_1)
 //                .requires(TreDyeTags.TONER_PASTEL)
 //                .group("flags")
 //                .unlockedBy("has_butterfly_flag", has(TreTags.FLAGS_BUTTERFLY))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_11/dyed_butterfly_flag_11_butterfly"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_1/dyed_butterfly_flag_1_butterfly"));
 //
-//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_12.get())
+//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_7.get())
 //                .define('x', Items.STRING)
 //                .define('y', Items.IRON_NUGGET)
 //                .define('z', (ItemTags.BANNERS))
 //                .define('C', ItemTags.SAPLINGS)
-//                .define('A', TreDyeTags.DYE_12)
+//                .define('A', TreDyeTags.DYE_7)
 //                .define('B', TreDyeTags.TONER_JEWEL)
 //                .pattern("yzx")
 //                .pattern("yAB")
@@ -1707,53 +1707,53 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("flags")
 //                .group("flags")
 //                .unlockedBy("has_banner", has(ItemTags.BANNERS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_12/flag_12"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_12.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_7/flag_7"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_7.get())
 //                .requires(TreTags.FLAGS)
-//                .requires(TreDyeTags.DYE_12)
+//                .requires(TreDyeTags.DYE_7)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(ItemTags.SAPLINGS)
 //                .group("flags")
 //                .unlockedBy("has_flag", has(TreTags.FLAGS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_12/dyed_flag_12"));
-//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_BUTTERFLY_12.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "flag_7/dyed_flag_7"));
+//        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_BUTTERFLY_7.get())
 //                .define('x', Items.STRING)
 //                .define('y', Items.IRON_NUGGET)
 //                .define('z', (ItemTags.BANNERS))
 //                .define('C', TreTags.BUTTERFLY)
-//                .define('A', TreDyeTags.DYE_12)
+//                .define('A', TreDyeTags.DYE_7)
 //                .define('B', TreDyeTags.TONER_PASTEL)
 //                .pattern("yzx")
 //                .pattern("yAB")
 //                .pattern("yC ")
 //                .group("flags")
 //                .unlockedBy("has_butterfly", has(TreTags.BUTTERFLY))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_12/flag_12_butterfly"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_12.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_7/flag_7_butterfly"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_7.get())
 //                .requires(TreTags.FLAGS_PLAIN)
-//                .requires(TreDyeTags.DYE_12)
+//                .requires(TreDyeTags.DYE_7)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .requires(TreTags.BUTTERFLY)
 //                .group("flags")
 //                .unlockedBy("has_flag", has(TreTags.FLAGS))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_12/dyed_flag_12_butterfly"));
-//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_12.get())
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_7/dyed_flag_7_butterfly"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.FLAG_BUTTERFLY_7.get())
 //                .requires(TreTags.FLAGS_BUTTERFLY)
-//                .requires(TreDyeTags.DYE_12)
+//                .requires(TreDyeTags.DYE_7)
 //                .requires(TreDyeTags.TONER_JEWEL)
 //                .group("flags")
 //                .unlockedBy("has_butterfly_flag", has(TreTags.FLAGS_BUTTERFLY))
-//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_12/dyed_butterfly_flag_12_butterfly"));
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_7/dyed_butterfly_flag_7_butterfly"));
 
 
 
 /// TACK RECIPES
         /// STANDARD COLOR DYE TACK
 //        DyeColor[] var0 = DyeColor.values();
-//        int var3 = var0.length;
+//        int var1 = var0.length;
 //
-//        for (int var2 = 0; var2 < var3; ++var2) {
-//            DyeColor color = var0[var2];
+//        for (int var1 = 0; var1 < var1; ++var1) {
+//            DyeColor color = var0[var1];
 //            flymaskDyed(color, pFinishedRecipeConsumer);
 //            flagDyed(color, pFinishedRecipeConsumer);
 //            //quarterSheetDyed(color, pFinishedRecipeConsumer);
