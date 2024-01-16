@@ -2,6 +2,7 @@ package com.kyraltre.tretackshop.registry;
 
 import com.kyraltre.tretackshop.TreTackShop;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.Tag;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
@@ -36,6 +37,13 @@ public class TreTags {
     public static final TagKey<Item> ADVENTURE_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/adventure_girth_straps"));
     public static final TagKey<Item> ENGLISH_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/english_girth_straps"));
     public static final TagKey<Item> CLOTH_GIRTH_STRAPS = ItemTags.create(TreTackShop.resloc("craft/cloth_girth_straps"));
+
+    public static final TagKey<Item> FLAGS = ItemTags.create(TreTackShop.resloc("craft/flags"));
+    public static final TagKey<Item> FLAGS_PLAIN = ItemTags.create(TreTackShop.resloc("craft/flags_plain"));
+    public static final TagKey<Item> FLAGS_BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/flags_butterfly"));
+    public static final TagKey<Item> BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/butterfly"));
+    public static final TagKey<Item> CLOTH_ARMOR = ItemTags.create(TreTackShop.resloc("craft/cloth_armor"));
+    public static final TagKey<Item> IRON_ARMOR = ItemTags.create(TreTackShop.resloc("craft/iron_armor"));
 
 
     public TreTags () {
