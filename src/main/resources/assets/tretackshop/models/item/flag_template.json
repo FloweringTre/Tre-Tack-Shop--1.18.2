@@ -87,9 +87,15 @@
 			"scale": [1.5, 1.5, 1.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [35, 0, 0],
-			"translation": [1.25, -4.75, 7.75],
+			"rotation": [57, 1, 0],
+			"translation": [0, -3.75, 11],
 			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"translation": [13, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [13.5, 0, 0]
 		},
 		"gui": {
 			"rotation": [0, 101, 0],
