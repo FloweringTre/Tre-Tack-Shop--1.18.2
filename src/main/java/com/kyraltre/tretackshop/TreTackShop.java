@@ -48,6 +48,8 @@ public class TreTackShop
 
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.PUMPKIN_GRAND.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.PUMPKIN_RESERVE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_RESERVE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_GRAND.get(), RenderType.cutout());
 
     }
 
@@ -55,7 +57,6 @@ public class TreTackShop
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("Tre says plant a tree <3");
     }
 }
