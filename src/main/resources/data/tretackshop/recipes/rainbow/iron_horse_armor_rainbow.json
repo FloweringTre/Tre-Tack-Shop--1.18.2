@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_armor",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/iron_armor"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:iron_horse_armor_rainbow"
+  }
+}
