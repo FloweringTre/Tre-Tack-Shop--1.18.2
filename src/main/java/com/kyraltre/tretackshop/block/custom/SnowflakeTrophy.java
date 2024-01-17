@@ -20,12 +20,12 @@ public class SnowflakeTrophy extends Block {
         super(pProperties);
     }
 
- //   public static final VoxelShape SHAPE = Block.box(2, 0, 6, 12, 15, 4);
+    public static final VoxelShape SHAPE = Block.box(6, 0, 6, 10, 15, 10);
 
-//    @Override
-//    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-//        return SHAPE;
-//    }
+    @Override
+    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+        return SHAPE;
+    }
 
     /* FACING CODE FROM FURNACE*/
     @Override

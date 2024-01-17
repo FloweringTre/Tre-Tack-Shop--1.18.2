@@ -1,6 +1,6 @@
 {
-	"credit": "Made with Blockbench - MADE BY MOON FLOWER",
 	"parent": "block/block",
+	"credit": "Made with Blockbench - MADE BY MOON FLOWER",
 	"texture_size": [32, 32],
 	"textures": {
 		"particle": "#texture"
@@ -237,7 +237,7 @@
 		},
 		"gui": {
 			"rotation": [0, 153, 0],
-			"scale": [0.65, 0.65, 0.65]
+			"scale": [1, 1, 1]
 		},
 		"head": {
 			"translation": [0, 14.25, 0]
