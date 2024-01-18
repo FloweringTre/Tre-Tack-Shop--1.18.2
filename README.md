@@ -1,6 +1,8 @@
 # Tre's Tack Shop
 An addon mod to SWEM that expands the number of tack items in the game for the community to use to add new textures to the game without overriding the original tack items. It also includes ribbons and trophy models from the original SWEM mod in order to produce ribbons and trophies that can be displayed as the creators intended them to be but now in an item frame instead of a placeable block, thus keeping the name/NBT data of the item.
 
+***Nearly 1,000 new tack items added!***
+
 ### *Now featuring crafting recipes!*
 This mod started as just a place for resource artists to stash new textures on; but now it includes fully rendered and designed tack in all types including some new ones! It also now includes survival crafting recipes for those items as a 'Tack Set' and also has an uncraftable 'Award Set' so servers can have custom tack items for their server that are uncraftable by players.
 
