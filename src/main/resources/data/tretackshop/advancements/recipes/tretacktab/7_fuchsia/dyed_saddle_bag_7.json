@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:7/dyed_saddle_bag_7"
+    ]
+  },
+  "criteria": {
+    "has_saddle_bags": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:saddle_bags"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:7/dyed_saddle_bag_7"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_saddle_bags",
+      "has_the_recipe"
+    ]
+  ]
+}

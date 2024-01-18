@@ -39,6 +39,10 @@ PUMPKIN_RESERVE
 MEDAL (all)
 FLAG (all)
 
+----Moon_Flower----
+SNOWFLAKE_GRAND
+SNOWFLAKE_RESERVE
+
 ===TEXTURES ONLY===
 ----Moon_Flower----
 (On Horse and Rack Renders only -- kyraltre does GUI textures)
@@ -69,6 +73,9 @@ BAREBACK_SADDLE (also did icon)
 BAREBACK_BLANKET (also did icon)
 BAREBACK_GIRTH_STRAP (also did icon)
 ***QUARTER SHEETS RAINBOW/DYED/NUMBRED + ICONS***
+AMETHYST_HORSE_ARMOR_RAINBOW (w/ wings)
+IRON_HORSE_ARMOR_RAINBOW (w/o wings)
+SADDLE_BAG_RAINBOW
 
 ----RileyCasper---
 RIBBON_THREE_TAILS_[All Variants]
@@ -108,3 +115,5 @@ WESTERN_GIRTH_STRAP_[1 thru 14]
 ENGLISH_GIRTH_STRAP_[1 thru 14]
 CLOTH_GIRTH_STRAP_[1 thru 14]
 PELHAM_BRIDLE_[Black & Brown]
+CLOTH_HORSE_ARMOR_[1 thru 14]
+SADDLE_BAG_[1 thru 14]

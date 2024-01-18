@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:6/cloth_horse_armor_6"
+    ]
+  },
+  "criteria": {
+    "has_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:banners"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:6/cloth_horse_armor_6"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_banner",
+      "has_the_recipe"
+    ]
+  ]
+}

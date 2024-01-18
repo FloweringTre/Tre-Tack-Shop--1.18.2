@@ -40,6 +40,7 @@ public class TreTags {
     public static final TagKey<Item> FLAGS_PLAIN = ItemTags.create(TreTackShop.resloc("craft/flags_plain"));
     public static final TagKey<Item> FLAGS_BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/flags_butterfly"));
     public static final TagKey<Item> BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/butterfly"));
+    public static final TagKey<Item> CLOTH_ARMOR = ItemTags.create(TreTackShop.resloc("craft/cloth_armor"));
 
     public TreTags () {
 

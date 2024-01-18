@@ -2,6 +2,7 @@ package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
 import com.kyraltre.tretackshop.block.custom.PumpkinTrophy;
+import com.kyraltre.tretackshop.block.custom.SnowflakeTrophy;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.world.item.BlockItem;
@@ -14,6 +15,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.lwjgl.system.CallbackI;
 
 import java.util.function.Supplier;
 
@@ -22,11 +24,18 @@ public class TackShopBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TreTackShop.MOD_ID);
 
     public static final RegistryObject<Block> PUMPKIN_GRAND = registerBlock("pumpkin_grand",
-            () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).noOcclusion().strength(1.0F)
+            () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
     public static final RegistryObject<Block> PUMPKIN_RESERVE = registerBlock("pumpkin_reserve",
-            () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).noOcclusion().strength(1.0F)
+            () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+
+    public  static final RegistryObject<Block> SNOWFLAKE_GRAND =registerBlock("snowflake_grand", () ->
+            new SnowflakeTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> SNOWFLAKE_RESERVE = registerBlock("snowflake_reserve",
+            () -> new SnowflakeTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

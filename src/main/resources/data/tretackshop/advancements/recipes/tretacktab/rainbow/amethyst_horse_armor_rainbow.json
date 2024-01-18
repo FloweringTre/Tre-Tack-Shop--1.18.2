@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:rainbow/amethyst_horse_armor_rainbow"
+    ]
+  },
+  "criteria": {
+    "has_rainbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tretackshop:rainbow_ina_bottle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:rainbow/amethyst_horse_armor_rainbow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rainbow",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "saddle_bags",
+  "pattern": [
+    "xBx",
+    "zAz",
+    "yCy"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:carpets"
+    },
+    "y": {
+      "item": "minecraft:chest"
+    },
+    "z": {
+      "tag": "swem:refined_leather"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/salmon"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  },
+  "result": {
+    "item": "tretackshop:saddle_bag_2"
+  }
+}
