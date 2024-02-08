@@ -1,6 +1,7 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
+import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
@@ -10,7 +11,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -40,6 +43,7 @@ public class TreTackShop
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 
         eventBus.addListener(this::setup);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
