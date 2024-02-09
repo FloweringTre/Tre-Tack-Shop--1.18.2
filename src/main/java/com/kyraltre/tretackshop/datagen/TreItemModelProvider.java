@@ -32,13 +32,13 @@ public class TreItemModelProvider extends ItemModelProvider {
 
         //crafting loop
 //
-        int var1 = 15;
-        int var2 = 1;
-        while (var2 < var1) {
-            ((ItemModelBuilder) this.withExistingParent("saddle_bag_" + var2, "item/generated"))
-                    .texture("layer0", new ResourceLocation("tretackshop", "items/saddle_bags/saddle_bag_" + var2 + "_icon"));
-            ((ItemModelBuilder) this.withExistingParent("cloth_horse_armor_" + var2, "item/generated"))
-                    .texture("layer0", new ResourceLocation("tretackshop", "items/armor/cloth_horse_armor_" + var2));
+//        int var1 = 15;
+//        int var2 = 1;
+//        while (var2 < var1) {
+//            ((ItemModelBuilder) this.withExistingParent("saddle_bag_" + var2, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/saddle_bags/saddle_bag_" + var2 + "_icon"));
+//            ((ItemModelBuilder) this.withExistingParent("cloth_horse_armor_" + var2, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("tretackshop", "items/armor/cloth_horse_armor_" + var2));
 
 //            ((ItemModelBuilder) this.withExistingParent("flag_" + var2, "item/flag_template"))
 //                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + var2));
@@ -108,75 +108,75 @@ public class TreItemModelProvider extends ItemModelProvider {
 //            ((ItemModelBuilder) this.withExistingParent("cloth_girth_strap_" + var2, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("tretackshop", "items/girth_straps/cloth_girth_strap_" + var2));
 //
-            ++var2;
-        }
+//            ++var2;
+//        }
 
 
         //award loop   awards/tack/
 //
-        int var3 = 15;
-        int var4 = 1;
+        int var3 = 49;
+        int var4 = 15;
         while (var4 < var3) {
             ((ItemModelBuilder) this.withExistingParent("award_saddle_bag_" + var4, "item/generated"))
                     .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddle_bags/award_saddle_bag_" + var4 + "_icon"));
             ((ItemModelBuilder) this.withExistingParent("award_cloth_horse_armor_" + var4, "item/generated"))
                     .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/armor/award_cloth_horse_armor_" + var4));
 
-//            ((ItemModelBuilder) this.withExistingParent("award_quarter_sheet_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/quarter_sheets/award_quarter_sheet_" + var4));
-////
-//            ((ItemModelBuilder) this.withExistingParent("award_pasture_blanket_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/pasture_blanket/award_pasture_blanket_" + var4 + "_icon"));
-//            ((ItemModelBuilder) this.withExistingParent("award_pasture_blanket_" + var4 + "_armored", "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/pasture_blanket/award_pasture_blanket_" + var4 + "_armored_icon"));
+            ((ItemModelBuilder) this.withExistingParent("award_quarter_sheet_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/quarter_sheets/award_quarter_sheet_" + var4));
 //
-//            ((ItemModelBuilder) this.withExistingParent("award_halter_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/halters/award_halter_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_flymask_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/halters/award_flymask_" + var4));
-//
-//            ((ItemModelBuilder) this.withExistingParent("award_adventure_blanket_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/blankets/award_adventure_blanket_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_english_blanket_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/blankets/award_english_blanket_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_western_blanket_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/blankets/award_western_blanket_" + var4));
-//
-//            ((ItemModelBuilder) this.withExistingParent("award_adventure_breast_collar_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_adventure_breast_collar_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_english_breast_collar_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_english_breast_collar_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_western_breast_collar_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_western_breast_collar_" + var4));
-//
-//            ((ItemModelBuilder) this.withExistingParent("award_adventure_leg_wraps_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/leg_wraps/award_adventure_leg_wraps_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_english_leg_wraps_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/leg_wraps/award_english_leg_wraps_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_western_leg_wraps_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/leg_wraps/award_western_leg_wraps_" + var4));
-//
-//            ((ItemModelBuilder) this.withExistingParent("award_adventure_saddle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_adventure_saddle_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_english_saddle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_english_saddle_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_western_saddle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_western_saddle_" + var4));
-//
-//            ((ItemModelBuilder) this.withExistingParent("award_adventure_bridle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_adventure_bridle_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_english_bridle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_english_bridle_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_western_bridle_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_western_bridle_" + var4));
-//
-//            ((ItemModelBuilder) this.withExistingParent("award_adventure_girth_strap_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_adventure_girth_strap_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_english_girth_strap_" + var4, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_english_girth_strap_" + var4));
-//            ((ItemModelBuilder) this.withExistingParent("award_western_girth_strap_" + var4, "item/awards/tack/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_western_girth_strap_" + var4));
-//
+            ((ItemModelBuilder) this.withExistingParent("award_pasture_blanket_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/pasture_blanket/award_pasture_blanket_" + var4 + "_icon"));
+            ((ItemModelBuilder) this.withExistingParent("award_pasture_blanket_" + var4 + "_armored", "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/pasture_blanket/award_pasture_blanket_" + var4 + "_armored_icon"));
+
+            ((ItemModelBuilder) this.withExistingParent("award_halter_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/halters/award_halter_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_flymask_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/halters/award_flymask_" + var4));
+
+            ((ItemModelBuilder) this.withExistingParent("award_adventure_blanket_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/blankets/award_adventure_blanket_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_english_blanket_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/blankets/award_english_blanket_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_western_blanket_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/blankets/award_western_blanket_" + var4));
+
+            ((ItemModelBuilder) this.withExistingParent("award_adventure_breast_collar_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_adventure_breast_collar_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_english_breast_collar_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_english_breast_collar_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_western_breast_collar_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/breast_collars/award_western_breast_collar_" + var4));
+
+            ((ItemModelBuilder) this.withExistingParent("award_adventure_leg_wraps_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/leg_wraps/award_adventure_leg_wraps_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_english_leg_wraps_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/leg_wraps/award_english_leg_wraps_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_western_leg_wraps_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/leg_wraps/award_western_leg_wraps_" + var4));
+
+            ((ItemModelBuilder) this.withExistingParent("award_adventure_saddle_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_adventure_saddle_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_english_saddle_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_english_saddle_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_western_saddle_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/saddles/award_western_saddle_" + var4));
+
+            ((ItemModelBuilder) this.withExistingParent("award_adventure_bridle_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_adventure_bridle_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_english_bridle_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_english_bridle_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_western_bridle_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/bridles/award_western_bridle_" + var4));
+
+            ((ItemModelBuilder) this.withExistingParent("award_adventure_girth_strap_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_adventure_girth_strap_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_english_girth_strap_" + var4, "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_english_girth_strap_" + var4));
+            ((ItemModelBuilder) this.withExistingParent("award_western_girth_strap_" + var4, "item/awards/tack/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/awards/tack/girth_straps/award_western_girth_strap_" + var4));
+
             ++var4;
         }
 //        }
