@@ -54,6 +54,8 @@ public class TreTackShop
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.PUMPKIN_RESERVE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_RESERVE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_GRAND.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_RESERVE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_GRAND.get(), RenderType.cutout());
 
     }
 
