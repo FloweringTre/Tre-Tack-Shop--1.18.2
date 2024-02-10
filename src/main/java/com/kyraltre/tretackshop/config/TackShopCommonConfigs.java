@@ -20,7 +20,7 @@ public class TackShopCommonConfigs {
                         "\n~~~~ADVENTURE TACK~~~~"})
                 .defineInRange("Adventure Sets Loaded", 14, 0, 48);
         AWARD_ARMOR_EXTRAS_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~CLOTH ARMOR & SADDLE BAGS~~~~~", "Separated from the Adventure Tack loading for tailored loaded"})
-                .defineInRange("Armor & Saddle Bag Sets Loaded", 1, 0, 48);
+                .defineInRange("Armor & Saddle Bag Sets Loaded", 14, 0, 48);
         AWARD_WESTERN_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~WESTERN TACK~~~~~"})
                 .defineInRange("Western Sets Loaded", 14, 0, 48);
         AWARD_ENGLISH_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~ENGLISH TACK~~~~~"})
