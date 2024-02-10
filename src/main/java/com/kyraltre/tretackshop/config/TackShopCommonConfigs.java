@@ -18,17 +18,16 @@ public class TackShopCommonConfigs {
                         "\nThe max value all sets is 48. The default is 14 (the original value loaded).",
                         "Tack sets include the saddle, bridle, saddle pad/blanket, breast collar, leg wraps, and girth straps.",
                         "\n~~~~ADVENTURE TACK~~~~"})
-                .define("Adventure Sets Loaded", 14);
+                .defineInRange("Adventure Sets Loaded", 14, 0, 48);
         AWARD_ARMOR_EXTRAS_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~CLOTH ARMOR & SADDLE BAGS~~~~~", "Separated from the Adventure Tack loading for tailored loaded"})
-                .define("Western Sets Loaded", 14);
+                .defineInRange("Armor & Saddle Bag Sets Loaded", 1, 0, 48);
         AWARD_WESTERN_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~WESTERN TACK~~~~~"})
-                .define("Western Sets Loaded", 14);
+                .defineInRange("Western Sets Loaded", 14, 0, 48);
         AWARD_ENGLISH_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~ENGLISH TACK~~~~~"})
-                .define("English Sets Loaded", 14);
+                .defineInRange("English Sets Loaded", 14, 0, 48);
         AWARD_PADDOCK_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~PADDOCK TACK~~~~~",
                         "These sets include the fly mask, halter, quarter sheets, and both normal and armored pasture blankets"})
-                .define("Paddock Sets Loaded", 14);
-
+                .defineInRange("Paddock Sets Loaded",14, 0, 48);
         BUILDER.pop();
         SPEC = BUILDER.build();
     }
