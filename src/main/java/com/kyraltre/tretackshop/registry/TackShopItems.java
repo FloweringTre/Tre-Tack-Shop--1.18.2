@@ -18,7 +18,7 @@ public class TackShopItems {
 // THIS IS FOR TACK ITEMS THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
-//besides this butterfly that is just for the pretty icon <11 we love it <11
+//besides this butterfly that is just for the pretty icon <zzzz we love it <zzzz
 
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
 
@@ -99,69 +99,63 @@ public class TackShopItems {
     public static final RegistryObject<Item> ENGLISH_GIRTH_STRAP_TRANS;
 
 //    // SINGLE USE FOR CRAFTING RECIPES ONLY - PASTLE TONES
-//    public static final RegistryObject<Item> HALTER_11;
-//    public static final RegistryObject<Item>  FLYMASK_11;
-//    public static final RegistryObject<Item>  PASTURE_BLANKET_11;
-//    public static final RegistryObject<Item>  PASTURE_BLANKET_11_ARMORED;
-//    public static final RegistryObject<Item>  ADVENTURE_BLANKET_11;
-//    public static final RegistryObject<Item>  ENGLISH_BLANKET_11;
-//    public static final RegistryObject<Item>  WESTERN_BLANKET_11;
-//    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_11;
-//    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_11;
-//    public static final RegistryObject<Item>  WESTERN_LEG_WRAPS_11;
-//    public static final RegistryObject<Item>  ADVENTURE_SADDLE_11;
-//    public static final RegistryObject<Item>  WESTERN_SADDLE_11;
-//    public static final RegistryObject<Item> ENGLISH_SADDLE_11;
-//    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item> QUARTER_SHEET_11;
-//    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_11;
-//    public static final RegistryObject<Item>  WESTERN_BRIDLE_11;
-//    public static final RegistryObject<Item> ENGLISH_BRIDLE_11;
-//    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_11;
-//    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_11;
-//    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_11;
-//    public static final RegistryObject<Item>  CLOTH_BRIDLE_11;
-//    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_11;
+//    public static final RegistryObject<Item> HALTER_zzzz;
+//    public static final RegistryObject<Item>  FLYMASK_zzzz;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_zzzz_ARMORED;
+//    public static final RegistryObject<Item>  ADVENTURE_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_LEG_WRAPS_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_SADDLE_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_SADDLE_zzzz;
+//    public static final RegistryObject<Item> ENGLISH_SADDLE_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item> QUARTER_SHEET_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_BRIDLE_zzzz;
+//    public static final RegistryObject<Item> ENGLISH_BRIDLE_zzzz;
+//    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_zzzz;
+//    public static final RegistryObject<Item>  CLOTH_BRIDLE_zzzz;
+//    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_zzzz;
 //
 //    // SINGLE USE FOR CRAFTING RECIPES ONLY - JEWEL TONES
-//    public static final RegistryObject<Item>  HALTER_11;
-//    public static final RegistryObject<Item>  FLYMASK_11;
-//    public static final RegistryObject<Item>  PASTURE_BLANKET_11;
-//    public static final RegistryObject<Item>  PASTURE_BLANKET_11_ARMORED;
-//    public static final RegistryObject<Item>  ADVENTURE_BLANKET_11;
-//    public static final RegistryObject<Item>  ENGLISH_BLANKET_11;
-//    public static final RegistryObject<Item>  WESTERN_BLANKET_11;
-//    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_11;
-//    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_11;
-//    public static final RegistryObject<Item> WESTERN_LEG_WRAPS_11;
-//    public static final RegistryObject<Item> ADVENTURE_SADDLE_11;
-//    public static final RegistryObject<Item>  WESTERN_SADDLE_11;
-//    public static final RegistryObject<Item>  ENGLISH_SADDLE_11;
-//    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item> QUARTER_SHEET_11;
-//    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_11;
-//    public static final RegistryObject<Item>  WESTERN_BRIDLE_11;
-//    public static final RegistryObject<Item>  ENGLISH_BRIDLE_11;
-//    public static final RegistryObject<Item>  CLOTH_BRIDLE_11;
-//    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_11;
-//    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_11;
-//    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_11;
-//    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_11;
-//    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_11;
+//    public static final RegistryObject<Item>  HALTER_zzzz;
+//    public static final RegistryObject<Item>  FLYMASK_zzzz;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  PASTURE_BLANKET_zzzz_ARMORED;
+//    public static final RegistryObject<Item>  ADVENTURE_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_BLANKET_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_LEG_WRAPS_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_LEG_WRAPS_zzzz;
+//    public static final RegistryObject<Item> WESTERN_LEG_WRAPS_zzzz;
+//    public static final RegistryObject<Item> ADVENTURE_SADDLE_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_SADDLE_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_SADDLE_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item> QUARTER_SHEET_zzzz;
+//    public static final RegistryObject<Item>  ADVENTURE_BRIDLE_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_BRIDLE_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_BRIDLE_zzzz;
+//    public static final RegistryObject<Item>  CLOTH_BRIDLE_zzzz;
+//    public static final RegistryObject<Item>  CLOTH_BREAST_COLLAR_zzzz;
+//    public static final RegistryObject<Item>  CLOTH_GIRTH_STRAP_zzzz;
+//    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_zzzz;
+//    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_zzzz;
+//    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_zzzz;
 
     public static final List<RegistryObject<Item>> CLOTH_BITLESS_BRIDLES_DYED;
         public static final List<RegistryObject<Item>> BAREBACK_BLANKETS_DYED;
-    public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_1;
-    public static final RegistryObject<Item>BAREBACK_BLANKET_1;
-    public static final RegistryObject<Item>CLOTH_BITLESS_BRIDLE_7;
-    public static final RegistryObject<Item>BAREBACK_BLANKET_7;
-
-
 
 
 //    //CRAFTABLE NUMBERED TACK
@@ -193,7 +187,10 @@ public class TackShopItems {
 //    public static final List<RegistryObject<Item>> ENGLISH_GIRTH_STRAPS;
 //    public static final List<RegistryObject<Item>> CLOTH_GIRTH_STRAPS;
 //    public static final List<RegistryObject<Item>> FLYMASKS_DYED;
-
+public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_13;
+    public static final RegistryObject<Item>BAREBACK_BLANKET_13;
+    public static final RegistryObject<Item>CLOTH_BITLESS_BRIDLE_14;
+    public static final RegistryObject<Item>BAREBACK_BLANKET_14;
     public TackShopItems() {
     }
     public static void init(IEventBus eventBus) { ITEMS.register(eventBus); }
@@ -201,9 +198,23 @@ public class TackShopItems {
     static {
         ITEMS = DeferredRegister.create(Keys.ITEMS, "tretackshop");
 
+        CLOTH_BITLESS_BRIDLE_13= ITEMS.register("cloth_bitless_bridle_13",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_BLANKET_13= ITEMS.register("bareback_blanket_13",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        CLOTH_BITLESS_BRIDLE_14= ITEMS.register("cloth_bitless_bridle_14",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_BLANKET_14= ITEMS.register("bareback_blanket_14",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+
         BUTTERFLY = ITEMS.register("butterfly",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BUTTERFLY_MONARCH = ITEMS.register("butterfly_11",
+        BUTTERFLY_MONARCH = ITEMS.register("butterfly_zzzz",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)));
         // Listed under award tab since it is not craftable... listed here as it is the mod's icon
 
@@ -215,188 +226,175 @@ public class TackShopItems {
 
 
 //        // PASTEL TONE SINGLE USE CRAFTING TACK FOR RECIPE GENERATION
-//        HALTER_11 = ITEMS.register("halter_11",
+//        HALTER_zzzz = ITEMS.register("halter_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        FLYMASK_11 = ITEMS.register("flymask_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//
-//        ADVENTURE_SADDLE_11 = ITEMS.register("adventure_saddle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_BLANKET_11 = ITEMS.register("adventure_blanket_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_BREAST_COLLAR_11 = ITEMS.register("adventure_breast_collar_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_LEG_WRAPS_11 = ITEMS.register("adventure_leg_wraps_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_BRIDLE_11 = ITEMS.register("adventure_bridle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_GIRTH_STRAP_11 = ITEMS.register("adventure_girth_strap_11",
+//        FLYMASK_zzzz = ITEMS.register("flymask_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-//        WESTERN_SADDLE_11 = ITEMS.register("western_saddle_11",
+//        ADVENTURE_SADDLE_zzzz = ITEMS.register("adventure_saddle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_BLANKET_11 = ITEMS.register("western_blanket_11",
+//        ADVENTURE_BLANKET_zzzz = ITEMS.register("adventure_blanket_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_BREAST_COLLAR_11 = ITEMS.register("western_breast_collar_11",
+//        ADVENTURE_BREAST_COLLAR_zzzz = ITEMS.register("adventure_breast_collar_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_LEG_WRAPS_11 = ITEMS.register("western_leg_wraps_11",
+//        ADVENTURE_LEG_WRAPS_zzzz = ITEMS.register("adventure_leg_wraps_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_BRIDLE_11 = ITEMS.register("western_bridle_11",
+//        ADVENTURE_BRIDLE_zzzz = ITEMS.register("adventure_bridle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_GIRTH_STRAP_11 = ITEMS.register("western_girth_strap_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//
-//        ENGLISH_SADDLE_11 = ITEMS.register("english_saddle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_BLANKET_11 = ITEMS.register("english_blanket_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_BREAST_COLLAR_11 = ITEMS.register("english_breast_collar_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_LEG_WRAPS_11 = ITEMS.register("english_leg_wraps_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_BRIDLE_11 = ITEMS.register("english_bridle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_GIRTH_STRAP_11 = ITEMS.register("english_girth_strap_11",
+//        ADVENTURE_GIRTH_STRAP_zzzz = ITEMS.register("adventure_girth_strap_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-//        CLOTH_BRIDLE_11 = ITEMS.register("cloth_bridle_11",
+//        WESTERN_SADDLE_zzzz = ITEMS.register("western_saddle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//       CLOTH_BREAST_COLLAR_11 = ITEMS.register("cloth_breast_collar_11",
+//        WESTERN_BLANKET_zzzz = ITEMS.register("western_blanket_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        CLOTH_GIRTH_STRAP_11 = ITEMS.register("cloth_girth_strap_11",
+//        WESTERN_BREAST_COLLAR_zzzz = ITEMS.register("western_breast_collar_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        WESTERN_LEG_WRAPS_zzzz = ITEMS.register("western_leg_wraps_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        WESTERN_BRIDLE_zzzz = ITEMS.register("western_bridle_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        WESTERN_GIRTH_STRAP_zzzz = ITEMS.register("western_girth_strap_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-//        PASTURE_BLANKET_11 = ITEMS.register("pasture_blanket_11",
+//        ENGLISH_SADDLE_zzzz = ITEMS.register("english_saddle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        PASTURE_BLANKET_11_ARMORED = ITEMS.register("pasture_blanket_11_armored",
+//        ENGLISH_BLANKET_zzzz = ITEMS.register("english_blanket_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        QUARTER_SHEET_11 = ITEMS.register("quarter_sheet_11",
+//        ENGLISH_BREAST_COLLAR_zzzz = ITEMS.register("english_breast_collar_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        ENGLISH_LEG_WRAPS_zzzz = ITEMS.register("english_leg_wraps_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        ENGLISH_BRIDLE_zzzz = ITEMS.register("english_bridle_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        ENGLISH_GIRTH_STRAP_zzzz = ITEMS.register("english_girth_strap_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//
+//        CLOTH_BRIDLE_zzzz = ITEMS.register("cloth_bridle_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//       CLOTH_BREAST_COLLAR_zzzz = ITEMS.register("cloth_breast_collar_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        CLOTH_GIRTH_STRAP_zzzz = ITEMS.register("cloth_girth_strap_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//
+//        PASTURE_BLANKET_zzzz = ITEMS.register("pasture_blanket_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        PASTURE_BLANKET_zzzz_ARMORED = ITEMS.register("pasture_blanket_zzzz_armored",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        QUARTER_SHEET_zzzz = ITEMS.register("quarter_sheet_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
 //        //JEWEL TONE SINGLE USE CRAFTING TACK FOR RECIPE GENERATION
-//        HALTER_11 = ITEMS.register("halter_11",
+//        HALTER_zzzz = ITEMS.register("halter_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        FLYMASK_11 = ITEMS.register("flymask_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//
-//        ADVENTURE_SADDLE_11 = ITEMS.register("adventure_saddle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_BLANKET_11 = ITEMS.register("adventure_blanket_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_BREAST_COLLAR_11 = ITEMS.register("adventure_breast_collar_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_LEG_WRAPS_11 = ITEMS.register("adventure_leg_wraps_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_BRIDLE_11 = ITEMS.register("adventure_bridle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ADVENTURE_GIRTH_STRAP_11 = ITEMS.register("adventure_girth_strap_11",
+//        FLYMASK_zzzz = ITEMS.register("flymask_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-//        WESTERN_SADDLE_11 = ITEMS.register("western_saddle_11",
+//        ADVENTURE_SADDLE_zzzz = ITEMS.register("adventure_saddle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_BLANKET_11 = ITEMS.register("western_blanket_11",
+//        ADVENTURE_BLANKET_zzzz = ITEMS.register("adventure_blanket_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_BREAST_COLLAR_11 = ITEMS.register("western_breast_collar_11",
+//        ADVENTURE_BREAST_COLLAR_zzzz = ITEMS.register("adventure_breast_collar_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_LEG_WRAPS_11 = ITEMS.register("western_leg_wraps_11",
+//        ADVENTURE_LEG_WRAPS_zzzz = ITEMS.register("adventure_leg_wraps_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_BRIDLE_11 = ITEMS.register("western_bridle_11",
+//        ADVENTURE_BRIDLE_zzzz = ITEMS.register("adventure_bridle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        WESTERN_GIRTH_STRAP_11 = ITEMS.register("western_girth_strap_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//
-//        ENGLISH_SADDLE_11 = ITEMS.register("english_saddle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_BLANKET_11 = ITEMS.register("english_blanket_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_BREAST_COLLAR_11 = ITEMS.register("english_breast_collar_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_LEG_WRAPS_11 = ITEMS.register("english_leg_wraps_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_BRIDLE_11 = ITEMS.register("english_bridle_11",
-//                () -> new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        ENGLISH_GIRTH_STRAP_11 = ITEMS.register("english_girth_strap_11",
+//        ADVENTURE_GIRTH_STRAP_zzzz = ITEMS.register("adventure_girth_strap_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-//        CLOTH_BRIDLE_11 = ITEMS.register("cloth_bridle_11",
+//        WESTERN_SADDLE_zzzz = ITEMS.register("western_saddle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        CLOTH_BREAST_COLLAR_11 = ITEMS.register("cloth_breast_collar_11",
+//        WESTERN_BLANKET_zzzz = ITEMS.register("western_blanket_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        CLOTH_GIRTH_STRAP_11 = ITEMS.register("cloth_girth_strap_11",
+//        WESTERN_BREAST_COLLAR_zzzz = ITEMS.register("western_breast_collar_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        WESTERN_LEG_WRAPS_zzzz = ITEMS.register("western_leg_wraps_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        WESTERN_BRIDLE_zzzz = ITEMS.register("western_bridle_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        WESTERN_GIRTH_STRAP_zzzz = ITEMS.register("western_girth_strap_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-//        PASTURE_BLANKET_11 = ITEMS.register("pasture_blanket_11",
+//        ENGLISH_SADDLE_zzzz = ITEMS.register("english_saddle_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        PASTURE_BLANKET_11_ARMORED = ITEMS.register("pasture_blanket_11_armored",
+//        ENGLISH_BLANKET_zzzz = ITEMS.register("english_blanket_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-//        QUARTER_SHEET_11 = ITEMS.register("quarter_sheet_11",
+//        ENGLISH_BREAST_COLLAR_zzzz = ITEMS.register("english_breast_collar_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        ENGLISH_LEG_WRAPS_zzzz = ITEMS.register("english_leg_wraps_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        ENGLISH_BRIDLE_zzzz = ITEMS.register("english_bridle_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        ENGLISH_GIRTH_STRAP_zzzz = ITEMS.register("english_girth_strap_zzzz",
 //                () -> new Item((new Item.Properties())
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
-
-        CLOTH_BITLESS_BRIDLE_1= ITEMS.register("cloth_bitless_bridle_1",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_BLANKET_1= ITEMS.register("bareback_blanket_1",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        CLOTH_BITLESS_BRIDLE_7= ITEMS.register("cloth_bitless_bridle_7",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_BLANKET_7= ITEMS.register("bareback_blanket_7",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        CLOTH_BRIDLE_zzzz = ITEMS.register("cloth_bridle_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        CLOTH_BREAST_COLLAR_zzzz = ITEMS.register("cloth_breast_collar_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        CLOTH_GIRTH_STRAP_zzzz = ITEMS.register("cloth_girth_strap_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//
+//        PASTURE_BLANKET_zzzz = ITEMS.register("pasture_blanket_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        PASTURE_BLANKET_zzzz_ARMORED = ITEMS.register("pasture_blanket_zzzz_armored",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//        QUARTER_SHEET_zzzz = ITEMS.register("quarter_sheet_zzzz",
+//                () -> new Item((new Item.Properties())
+//                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+//
 
 
 
@@ -646,161 +644,8 @@ public class TackShopItems {
                         (new Item.Properties())
                                 .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
-    // Craftable Numbered Tack Items -- 11 Count Items
-//        HALTERS = new ArrayList<>();
-//        FLYMASKS = new ArrayList<>();
-//        PASTURE_BLANKETS = new ArrayList<>();
-//        PASTURE_BLANKETS_ARMORED = new ArrayList<>();
-//        ADVENTURE_BLANKETS = new ArrayList<>();
-//        WESTERN_BLANKETS = new ArrayList<>();
-//        ENGLISH_BLANKETS = new ArrayList<>();
-//        ENGLISH_LEG_WRAPS = new ArrayList<>();
-//        WESTERN_LEG_WRAPS = new ArrayList<>();
-//        ADVENTURE_LEG_WRAPS = new ArrayList<>();
-//        ADVENTURE_SADDLES = new ArrayList<>();
-//        WESTERN_SADDLES = new ArrayList<>();
-//        ENGLISH_SADDLES = new ArrayList<>();
-//        ADVENTURE_BREAST_COLLARS = new ArrayList<>();
-//        WESTERN_BREAST_COLLARS = new ArrayList<>();
-//        ENGLISH_BREAST_COLLARS = new ArrayList<>();
-//        CLOTH_BREAST_COLLARS = new ArrayList<>();
-//        ADVENTURE_BRIDLES = new ArrayList<>();
-//        WESTERN_BRIDLES = new ArrayList<>();
-//        ENGLISH_BRIDLES = new ArrayList<>();
-//        CLOTH_BRIDLES = new ArrayList<>();
-//        ADVENTURE_GIRTH_STRAPS = new ArrayList<>();
-//        WESTERN_GIRTH_STRAPS = new ArrayList<>();
-//        ENGLISH_GIRTH_STRAPS = new ArrayList<>();
-//        CLOTH_GIRTH_STRAPS = new ArrayList<>();
-//        QUARTER_SHEETS_NUMBERED = new ArrayList<>();
-//
-//
-//        int var11 = 11;
-//        var rContext = new Object() {
-//            int var1 = 1;
-//        };
-//
-//        while (rContext.var1 < var1) {
-//            //DyeColor color = var0[var1];
-//            int counter = rContext.var1;
-//            HALTERS.add(ITEMS.register("halter_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            FLYMASKS.add(ITEMS.register("flymask_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//            ADVENTURE_SADDLES.add(ITEMS.register("adventure_saddle_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ADVENTURE_BLANKETS.add(ITEMS.register("adventure_blanket_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ADVENTURE_BREAST_COLLARS.add(ITEMS.register("adventure_breast_collar_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ADVENTURE_LEG_WRAPS.add(ITEMS.register("adventure_leg_wraps_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ADVENTURE_BRIDLES.add(ITEMS.register("adventure_bridle_" + counter, () ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ADVENTURE_GIRTH_STRAPS.add(ITEMS.register("adventure_girth_strap_" + counter, () ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//            WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            WESTERN_BLANKETS.add(ITEMS.register("western_blanket_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            WESTERN_BREAST_COLLARS.add(ITEMS.register("western_breast_collar_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            WESTERN_LEG_WRAPS.add(ITEMS.register("western_leg_wraps_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            WESTERN_BRIDLES.add(ITEMS.register("western_bridle_" + counter,() ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            WESTERN_GIRTH_STRAPS.add(ITEMS.register("western_girth_strap_" + counter,() ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//            ENGLISH_SADDLES.add(ITEMS.register("english_saddle_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ENGLISH_BLANKETS.add(ITEMS.register("english_blanket_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ENGLISH_BREAST_COLLARS.add(ITEMS.register("english_breast_collar_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            CLOTH_BREAST_COLLARS.add(ITEMS.register("cloth_breast_collar_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ENGLISH_LEG_WRAPS.add(ITEMS.register("english_leg_wraps_" + counter, () ->
-//                new Item((new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ENGLISH_BRIDLES.add(ITEMS.register("english_bridle_" + counter,() ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            ENGLISH_GIRTH_STRAPS.add(ITEMS.register("english_girth_strap_" + counter,() ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//            CLOTH_BRIDLES.add(ITEMS.register("cloth_bridle_" + counter,() ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            CLOTH_GIRTH_STRAPS.add(ITEMS.register("cloth_girth_strap_" + counter,() ->
-//                    new Item((new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//            QUARTER_SHEETS_NUMBERED.add(ITEMS.register("quarter_sheet_" + counter, () ->
-//                    new Item(
-//                            (new Item.Properties())
-//                            .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//
-//            PASTURE_BLANKETS.add(ITEMS.register("pasture_blanket_" + counter, () ->
-//                new Item(
-//                        (new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//            PASTURE_BLANKETS_ARMORED.add(ITEMS.register("pasture_blanket_" + counter + "_armored", () ->
-//                new Item(
-//                        (new Item.Properties())
-//                        .tab(TackShopCreativeModTab.TRETACK_TAB))
-//            ));
-//
-//            ++rContext.var1;
-//        }
-//    //DYED TACK ITEMS - Craftable still :11
+
+//    //DYED TACK ITEMS - Craftable still 
 //        QUARTER_SHEETS_DYED = new ArrayList<>();
 //        FLYMASKS_DYED = new ArrayList<>();
 //        FLAGS_DYED = new ArrayList<>();
@@ -808,10 +653,10 @@ public class TackShopItems {
         BAREBACK_BLANKETS_DYED = new ArrayList<>();
 //
         DyeColor[] var0 = DyeColor.values();
-        int var3 = var0.length;
+        int varc = var0.length;
 
-        for (int var2 = 0; var2 < var3; ++var2) {
-            DyeColor color = var0[var2];
+        for (int varb = 0; varb < varc; ++varb) {
+            DyeColor color = var0[varb];
 //            QUARTER_SHEETS_DYED.add(ITEMS.register("quarter_sheet_" + color.getName(), () ->
 //                    new Item(
 //                            (new Item.Properties())
