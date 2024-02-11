@@ -64,5 +64,10 @@ public class TreTackShop
     {
         // some preinit code
         LOGGER.info("Tre says plant a tree <3");
+        LOGGER.info(TackShopCommonConfigs.AWARD_ADVENTURE_TACK_SETS.get() + " Award Adventure Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.AWARD_ARMOR_EXTRAS_TACK_SETS.get() + " Award Armor and Saddlebag Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.AWARD_WESTERN_TACK_SETS.get() + " Award Western Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.AWARD_ENGLISH_TACK_SETS.get() + " Award English Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.AWARD_PADDOCK_TACK_SETS.get() + " Award Paddock Sets Loaded.");
     }
 }

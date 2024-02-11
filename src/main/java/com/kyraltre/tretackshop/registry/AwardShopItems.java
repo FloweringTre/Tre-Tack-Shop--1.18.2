@@ -49,6 +49,8 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MORPHO;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MORPHO;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MORPHO;
     
 // BUTTERFLY TACK ITEMS - MONARCH
     public static final RegistryObject<HalterItem> HALTER_MONARCH;
@@ -75,6 +77,11 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MONARCH;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
+
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MONARCH;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MONARCH;
+
+
 
 // RETEXTURING TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
@@ -198,6 +205,13 @@ public class AwardShopItems {
                 () -> new EnglishGirthStrap("english_girth_strap_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
 
+        BITLESS_BRIDLE_MORPHO = ITEMS.register("english_bridle_bitless_morpho",
+                () -> new EnglishBridleItem("english_bridle_bitless_morpho", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        BAREBACK_BLANKET_MORPHO = ITEMS.register("bareback_blanket_morpho",
+                () -> new WesternBlanketItem("bareback_blanket_morpho", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
         PASTURE_BLANKET_MORPHO = ITEMS.register("pasture_blanket_morpho",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_morpho", new Item.Properties()
@@ -278,6 +292,15 @@ public class AwardShopItems {
         ENGLISH_GIRTH_STRAP_MONARCH = ITEMS.register("english_girth_strap_monarch",
                 () -> new EnglishGirthStrap("english_girth_strap_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+        BITLESS_BRIDLE_MONARCH = ITEMS.register("english_bridle_bitless_monarch",
+                () -> new EnglishBridleItem("english_bridle_bitless_monarch", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        BAREBACK_BLANKET_MONARCH = ITEMS.register("bareback_blanket_monarch",
+                () -> new WesternBlanketItem("bareback_blanket_monarch", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+
 
         PASTURE_BLANKET_MONARCH = ITEMS.register("pasture_blanket_monarch",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
