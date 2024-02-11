@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_bridles"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_bridle_trans"
+  }
+}
