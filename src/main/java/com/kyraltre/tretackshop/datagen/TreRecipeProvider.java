@@ -16,6 +16,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.GlassBlock;
+import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraft.data.DataGenerator;
@@ -25,6 +27,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Consumer;
+
+import static net.minecraftforge.common.Tags.Blocks.GLASS;
 
 
 public class TreRecipeProvider extends RecipeProvider {
@@ -265,6 +269,152 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .unlockedBy("has_rainbow", inventoryTrigger(ItemPredicate.Builder.item()
 //                        .of(TackShopItems.RAINBOW_INA_BOTTLE.get()).build()))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "rainbow/saddle_bag_rainbow"));
+
+////LIBERTY TACK
+                ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_SADDLE_TRANS.get())
+                .requires(SWTags.ADVENTURE_SADDLES)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("saddle")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/adventure_saddle_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_SADDLE_TRANS.get())
+                .requires(TreTags.ENGLISH_SADDLES)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("saddle")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/english_saddle_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_SADDLE_TRANS.get())
+                .requires(SWTags.WESTERN_SADDLES)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("saddle")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/western_saddle_trans"));
+
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BLANKET_TRANS.get())
+                .requires(TreTags.ADVENTURE_BLANKETS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("blanket")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/adventure_blanket_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BLANKET_TRANS.get())
+                .requires(SWTags.ENGLISH_BLANKETS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("blanket")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/english_blanket_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BLANKET_TRANS.get())
+                .requires(SWTags.WESTERN_BLANKETS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("blanket")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/western_blanket_trans"));
+
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BREAST_COLLAR_TRANS.get())
+                .requires(TreTags.ADVENTURE_BREAST_COLLARS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("breast_collar")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/adventure_breast_collar_trans"));
+
+                ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_LEG_WRAPS_TRANS.get())
+                .requires(TreTags.ADVENTURE_LEG_WRAPS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("leg_wraps")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                         .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/adventure_leg_wraps_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_BRIDLE_TRANS.get())
+                .requires(TreTags.ADVENTURE_BRIDLES)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("bridle")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/adventure_bridle_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_BRIDLE_TRANS.get())
+                .requires(TreTags.ENGLISH_BRIDLES)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("bridle")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/english_bridle_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_BRIDLE_TRANS.get())
+                .requires(SWTags.WESTERN_BRIDLES)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("bridle")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/western_bridle_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ADVENTURE_GIRTH_STRAP_TRANS.get())
+                .requires(TreTags.ADVENTURE_GIRTH_STRAPS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("girth_strap")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/adventure_girth_strap_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.ENGLISH_GIRTH_STRAP_TRANS.get())
+                .requires(TreTags.ENGLISH_GIRTH_STRAPS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("girth_strap")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/english_girth_strap_trans"));
+
+        ShapelessRecipeBuilder.shapeless(TackShopItems.WESTERN_GIRTH_STRAP_TRANS.get())
+                .requires(SWTags.WESTERN_GIRTH_STRAPS)
+                .requires(Items.GLASS)
+                .requires(Items.GLASS_PANE)
+                .requires(Items.GLASS_BOTTLE)
+                .group("girth_strap")
+                .unlockedBy("has_glass", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS).build()))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/western_girth_strap_trans"));
+
+
+
 
 
 //ONE OFF TACK RECIPES

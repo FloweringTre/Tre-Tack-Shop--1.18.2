@@ -64,6 +64,22 @@ public class TackShopItems {
     public static final RegistryObject<Item> AMETHYST_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<Item> SADDLE_BAG_RAINBOW;
 
+    // TRANSPARENT 'BAREBACK/LIBERTY' TACK
+    public static final RegistryObject<Item> ADVENTURE_BLANKET_TRANS;
+    public static final RegistryObject<Item> ENGLISH_BLANKET_TRANS;
+    public static final RegistryObject<Item> WESTERN_BLANKET_TRANS;
+    public static final RegistryObject<Item> ADVENTURE_LEG_WRAPS_TRANS;
+    public static final RegistryObject<Item> ADVENTURE_SADDLE_TRANS;
+    public static final RegistryObject<Item> WESTERN_SADDLE_TRANS;
+    public static final RegistryObject<Item> ENGLISH_SADDLE_TRANS;
+    public static final RegistryObject<Item> ADVENTURE_BREAST_COLLAR_TRANS;
+    public static final RegistryObject<Item> ADVENTURE_BRIDLE_TRANS;
+    public static final RegistryObject<Item> WESTERN_BRIDLE_TRANS;
+    public static final RegistryObject<Item> ENGLISH_BRIDLE_TRANS;
+    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_TRANS;
+    public static final RegistryObject<Item> WESTERN_GIRTH_STRAP_TRANS;
+    public static final RegistryObject<Item> ENGLISH_GIRTH_STRAP_TRANS;
+
 //    // SINGLE USE FOR CRAFTING RECIPES ONLY - PASTLE TONES
 //    public static final RegistryObject<Item> HALTER_11;
 //    public static final RegistryObject<Item>  FLYMASK_11;
@@ -493,7 +509,65 @@ public class TackShopItems {
                         (new Item.Properties())
                                 .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
+        // TRANSPARENT 'BAREBACK/LIBERTY' TACK
+        ADVENTURE_SADDLE_TRANS = ITEMS.register("adventure_saddle_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ADVENTURE_BLANKET_TRANS = ITEMS.register("adventure_blanket_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ADVENTURE_BREAST_COLLAR_TRANS = ITEMS.register("adventure_breast_collar_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ADVENTURE_LEG_WRAPS_TRANS = ITEMS.register("adventure_leg_wraps_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ADVENTURE_BRIDLE_TRANS = ITEMS.register("adventure_bridle_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ADVENTURE_GIRTH_STRAP_TRANS = ITEMS.register("adventure_girth_strap_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
+        WESTERN_SADDLE_TRANS = ITEMS.register("western_saddle_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        WESTERN_BLANKET_TRANS = ITEMS.register("western_blanket_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        WESTERN_BRIDLE_TRANS = ITEMS.register("western_bridle_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        WESTERN_GIRTH_STRAP_TRANS = ITEMS.register("western_girth_strap_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        ENGLISH_SADDLE_TRANS = ITEMS.register("english_saddle_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ENGLISH_BLANKET_TRANS = ITEMS.register("english_blanket_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ENGLISH_BRIDLE_TRANS = ITEMS.register("english_bridle_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        ENGLISH_GIRTH_STRAP_TRANS = ITEMS.register("english_girth_strap_trans",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
     // Craftable Numbered Tack Items -- 11 Count Items
 //        HALTERS = new ArrayList<>();
