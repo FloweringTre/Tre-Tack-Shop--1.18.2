@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "racing_saddle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_saddles"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:racing_saddle_black"
+  }
+}
