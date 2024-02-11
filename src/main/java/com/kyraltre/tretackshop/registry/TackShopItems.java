@@ -35,6 +35,21 @@ public class TackShopItems {
     public static final RegistryObject<Item> BAREBACK_SADDLE;
     public static final RegistryObject<Item> BAREBACK_BLANKET;
     public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP;
+    public static final RegistryObject<Item> DRESSAGE_SADDLE;
+    public static final RegistryObject<Item> DRESSAGE_BLANKET;
+    public static final RegistryObject<Item> RACING_SADDLE_BROWN;
+    public static final RegistryObject<Item> RACING_SADDLE_BLACK;
+    public static final RegistryObject<Item> BITLESS_BRIDLE_BROWN;
+    public static final RegistryObject<Item> BAREBACK_SADDLE_BROWN;
+    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP_BROWN;
+    public static final RegistryObject<Item> BITLESS_BRIDLE_BEIGE;
+    public static final RegistryObject<Item> BAREBACK_SADDLE_BEIGE;
+    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP_BEIGE;
+    public static final RegistryObject<Item> HUNTER_BLANKET;
+    public static final RegistryObject<Item> BITLESS_BRIDLE_WHITE;
+    public static final RegistryObject<Item> BAREBACK_SADDLE_BLACK;
+    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP_WHITE;
+
 
     // RAINBOW TACK
     public static final RegistryObject<Item> HALTER_RAINBOW;
@@ -63,10 +78,9 @@ public class TackShopItems {
     public static final RegistryObject<Item> IRON_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<Item> AMETHYST_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<Item> SADDLE_BAG_RAINBOW;
-    public static final RegistryObject<Item> DRESSAGE_SADDLE;
-    public static final RegistryObject<Item> DRESSAGE_BLANKET;
-    public static final RegistryObject<Item> RACING_SADDLE_BROWN;
-    public static final RegistryObject<Item> RACING_SADDLE_BLACK;
+
+    public static final RegistryObject<Item> BAREBACK_BLANKET_RAINBOW;
+    public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_RAINBOW;
 
     // TRANSPARENT 'BAREBACK/LIBERTY' TACK
     public static final RegistryObject<Item> ADVENTURE_BLANKET_TRANS;
@@ -139,10 +153,13 @@ public class TackShopItems {
 //    public static final RegistryObject<Item> ADVENTURE_GIRTH_STRAP_11;
 //    public static final RegistryObject<Item>  WESTERN_GIRTH_STRAP_11;
 //    public static final RegistryObject<Item>  ENGLISH_GIRTH_STRAP_11;
-    public static final RegistryObject<Item> SADDLE_BAG_1;
-    public static final RegistryObject<Item>CLOTH_HORSE_ARMOR_1;
-    public static final RegistryObject<Item>SADDLE_BAG_7;
-    public static final RegistryObject<Item>CLOTH_HORSE_ARMOR_7;
+
+    public static final List<RegistryObject<Item>> CLOTH_BITLESS_BRIDLES_DYED;
+        public static final List<RegistryObject<Item>> BAREBACK_BLANKETS_DYED;
+    public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_1;
+    public static final RegistryObject<Item>BAREBACK_BLANKET_1;
+    public static final RegistryObject<Item>CLOTH_BITLESS_BRIDLE_7;
+    public static final RegistryObject<Item>BAREBACK_BLANKET_7;
 
 
 
@@ -368,16 +385,16 @@ public class TackShopItems {
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 //
 
-        SADDLE_BAG_1= ITEMS.register("saddle_bag_1",
+        CLOTH_BITLESS_BRIDLE_1= ITEMS.register("cloth_bitless_bridle_1",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        CLOTH_HORSE_ARMOR_1= ITEMS.register("cloth_horse_armor_1",
+        BAREBACK_BLANKET_1= ITEMS.register("bareback_blanket_1",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        SADDLE_BAG_7= ITEMS.register("saddle_bag_7",
+        CLOTH_BITLESS_BRIDLE_7= ITEMS.register("cloth_bitless_bridle_7",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        CLOTH_HORSE_ARMOR_7= ITEMS.register("cloth_horse_armor_7",
+        BAREBACK_BLANKET_7= ITEMS.register("bareback_blanket_7",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
@@ -426,6 +443,41 @@ public class TackShopItems {
         RACING_SADDLE_BLACK = ITEMS.register("racing_saddle_black",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        HUNTER_BLANKET = ITEMS.register("hunter_blanket",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_GIRTH_STRAP_WHITE = ITEMS.register("bareback_girth_strap_white",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BITLESS_BRIDLE_WHITE = ITEMS.register("english_bridle_bitless_white",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_SADDLE_BLACK = ITEMS.register("bareback_saddle_black",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        BITLESS_BRIDLE_BROWN = ITEMS.register("english_bridle_bitless_brown",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_SADDLE_BROWN = ITEMS.register("bareback_saddle_brown",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_GIRTH_STRAP_BROWN = ITEMS.register("bareback_girth_strap_brown",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        BITLESS_BRIDLE_BEIGE = ITEMS.register("english_bridle_bitless_beige",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_SADDLE_BEIGE = ITEMS.register("bareback_saddle_beige",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_GIRTH_STRAP_BEIGE = ITEMS.register("bareback_girth_strap_beige",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+
 
 
     // Rainbow Tack
@@ -524,6 +576,15 @@ public class TackShopItems {
                 () -> new Item(
                         (new Item.Properties())
                                 .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        CLOTH_BITLESS_BRIDLE_RAINBOW = ITEMS.register("cloth_bitless_bridle_rainbow",
+                () -> new Item(
+                        (new Item.Properties())
+                                .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        BAREBACK_BLANKET_RAINBOW = ITEMS.register("bareback_blanket_rainbow",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
 
         // TRANSPARENT 'BAREBACK/LIBERTY' TACK
         ADVENTURE_SADDLE_TRANS = ITEMS.register("adventure_saddle_trans",
@@ -743,17 +804,30 @@ public class TackShopItems {
 //        QUARTER_SHEETS_DYED = new ArrayList<>();
 //        FLYMASKS_DYED = new ArrayList<>();
 //        FLAGS_DYED = new ArrayList<>();
+        CLOTH_BITLESS_BRIDLES_DYED = new ArrayList<>();
+        BAREBACK_BLANKETS_DYED = new ArrayList<>();
 //
-//        DyeColor[] var0 = DyeColor.values();
-//        int var1 = var0.length;
-//
-//        for (int var1 = 0; var1 < var1; ++var1) {
-//            DyeColor color = var0[var1];
+        DyeColor[] var0 = DyeColor.values();
+        int var3 = var0.length;
+
+        for (int var2 = 0; var2 < var3; ++var2) {
+            DyeColor color = var0[var2];
 //            QUARTER_SHEETS_DYED.add(ITEMS.register("quarter_sheet_" + color.getName(), () ->
 //                    new Item(
 //                            (new Item.Properties())
 //                             .tab(TackShopCreativeModTab.TRETACK_TAB))
 //            ));
+
+        CLOTH_BITLESS_BRIDLES_DYED.add(ITEMS.register("cloth_bitless_bridle_" + color.getName(), () ->
+                    new Item(
+                            (new Item.Properties())
+                             .tab(TackShopCreativeModTab.TRETACK_TAB))
+        ));
+        BAREBACK_BLANKETS_DYED.add(ITEMS.register("bareback_blanket_" + color.getName(), () ->
+                    new Item(
+                            (new Item.Properties())
+                             .tab(TackShopCreativeModTab.TRETACK_TAB))
+        ));
 //            FLYMASKS_DYED.add(ITEMS.register("flymask_" + color.getName(), () ->
 //                    new Item(
 //                            (new Item.Properties())
@@ -761,6 +835,6 @@ public class TackShopItems {
 //            ));
 //            FLAGS_DYED.add(ITEMS.register("flag_" + color.getName(), () ->
 //                    new Item((new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB)))));
-//        }
+        }
     }
 }
