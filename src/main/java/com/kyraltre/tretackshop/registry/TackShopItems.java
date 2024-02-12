@@ -568,11 +568,11 @@ public class TackShopItems {
                     new AdventureBreastCollarItem("quarter_sheet_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
-            CLOTH_BITLESS_BRIDLES_DYED.add(ITEMS.register("cloth_bitless_bridle_" + color.getName(),
+            CLOTH_BITLESS_BRIDLES.add(ITEMS.register("cloth_bitless_bridle_" + color.getName(),
                     () -> new EnglishBridleItem("cloth_bitless_bridle_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
-            BAREBACK_BLANKETS_DYED.add(ITEMS.register("bareback_blanket_" + color.getName(), () ->
+            BAREBACK_BLANKETS.add(ITEMS.register("bareback_blanket_" + color.getName(), () ->
                     new WesternBlanketItem("bareback_blanket_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));

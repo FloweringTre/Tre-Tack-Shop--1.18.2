@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bareback_saddle",
+  "pattern": [
+    "x x",
+    "xxx",
+    "yDC"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:brown_wool"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "D": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  },
+  "result": {
+    "item": "tretackshop:bareback_saddle_beige"
+  }
+}
