@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dressage_saddle",
+  "pattern": [
+    "  x",
+    "xxB",
+    "yxC"
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "y": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "B": {
+      "tag": "minecraft:lectern_books"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:dressage_saddle"
+  }
+}

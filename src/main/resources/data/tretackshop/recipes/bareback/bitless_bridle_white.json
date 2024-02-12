@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bitless_bridle",
+  "pattern": [
+    "C w",
+    "wwB",
+    "AAA"
+  ],
+  "key": {
+    "w": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:white_dye"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_bridle_bitless_white"
+  }
+}

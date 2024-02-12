@@ -10,11 +10,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
 import net.minecraftforge.registries.RegistryObject;
-import org.lwjgl.system.CallbackI;
-
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.kyraltre.tretackshop.config.TackShopCommonConfigs.*;
 
 public class AwardShopItems {
     public static final DeferredRegister<Item> ITEMS;
@@ -50,6 +49,8 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MORPHO;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MORPHO;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MORPHO;
     
 // BUTTERFLY TACK ITEMS - MONARCH
     public static final RegistryObject<HalterItem> HALTER_MONARCH;
@@ -76,6 +77,11 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MONARCH;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
+
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MONARCH;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MONARCH;
+
+
 
 // RETEXTURING TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
@@ -199,6 +205,13 @@ public class AwardShopItems {
                 () -> new EnglishGirthStrap("english_girth_strap_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
 
+        BITLESS_BRIDLE_MORPHO = ITEMS.register("english_bridle_bitless_morpho",
+                () -> new EnglishBridleItem("english_bridle_bitless_morpho", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        BAREBACK_BLANKET_MORPHO = ITEMS.register("bareback_blanket_morpho",
+                () -> new WesternBlanketItem("bareback_blanket_morpho", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
         PASTURE_BLANKET_MORPHO = ITEMS.register("pasture_blanket_morpho",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_morpho", new Item.Properties()
@@ -280,6 +293,15 @@ public class AwardShopItems {
                 () -> new EnglishGirthStrap("english_girth_strap_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
 
+        BITLESS_BRIDLE_MONARCH = ITEMS.register("english_bridle_bitless_monarch",
+                () -> new EnglishBridleItem("english_bridle_bitless_monarch", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        BAREBACK_BLANKET_MONARCH = ITEMS.register("bareback_blanket_monarch",
+                () -> new WesternBlanketItem("bareback_blanket_monarch", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+
+
         PASTURE_BLANKET_MONARCH = ITEMS.register("pasture_blanket_monarch",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_monarch", new Item.Properties()
@@ -318,35 +340,25 @@ public class AwardShopItems {
         AWARD_FLAGS = new ArrayList<>();
         AWARD_SADDLE_BAGS = new ArrayList<>();
         AWARD_CLOTH_ARMOR = new ArrayList<>();
-        
-        int var1 = 15;
-        
-        for(int var2 = 1; var2 < var1; ++var2) {
-            int counter = var2;
-            AWARD_HALTERS.add(ITEMS.register("award_halter_" + counter,
-                    () -> new HalterItem("award_halter_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
-            ));
-            AWARD_FLYMASKS.add(ITEMS.register("award_flymask_" + counter,
-                    () -> new HalterItem("award_flymask_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
-            ));
 
+    //ADVENTURE TACK
+        for(int var1 = 0; var1 < (AWARD_ADVENTURE_TACK_SETS.get()); ++var1) {
+            int counter = var1+1;
             AWARD_ADVENTURE_SADDLES.add(ITEMS.register("award_adventure_saddle_" + counter, () ->
                     new AdventureSaddleItem("award_adventure_saddle_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_BLANKETS.add(ITEMS.register("award_adventure_blanket_" + counter,
                     () -> new AdventureBlanketItem("award_adventure_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_BREAST_COLLARS.add(ITEMS.register("award_adventure_breast_collar_" + counter,
                     () -> new AdventureBreastCollarItem("award_adventure_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_LEG_WRAPS.add(ITEMS.register("award_adventure_leg_wraps_" + counter,
                     () -> new AdventureLegWraps("award_adventure_leg_wraps_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(ITEMS.register("award_adventure_bridle_"+ counter,
                     () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_"+ counter, (new Item.Properties())
@@ -356,6 +368,12 @@ public class AwardShopItems {
                     () -> new AdventureGirthStrapItem("award_adventure_girth_strap_"+ counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
+        }
+
+
+    //SADDLE BAGS AND CLOTH ARMOR
+        for(int var1 = 0; var1 < (AWARD_ARMOR_EXTRAS_TACK_SETS.get()); ++var1) {
+            int counter = var1+1;
             AWARD_CLOTH_ARMOR.add(ITEMS.register("award_cloth_horse_armor_" + counter,
                     () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "award_cloth_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
@@ -364,75 +382,101 @@ public class AwardShopItems {
                     new SaddlebagItem("award_saddle_bag_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
+        }
 
+    //WESTERN TACK
+        for(int var1 = 0; var1 < (AWARD_WESTERN_TACK_SETS.get()); ++var1) {
+            int counter = var1+1;
             AWARD_WESTERN_SADDLES.add(ITEMS.register("award_western_saddle_" + counter,
                     () -> new WesternSaddleItem("award_western_saddle_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_WESTERN_BLANKETS.add(ITEMS.register("award_western_blanket_" + counter,
                     () -> new WesternBlanketItem("award_western_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_WESTERN_BREAST_COLLARS.add(ITEMS.register("award_western_breast_collar_" + counter,
                     () -> new WesternBreastCollarItem("award_western_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_WESTERN_LEG_WRAPS.add(ITEMS.register("award_western_leg_wraps_" + counter,
                     () -> new WesternLegWraps("award_western_leg_wraps_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
-            AWARD_WESTERN_BRIDLES .add(ITEMS.register("award_western_bridle_"+ counter,
-                    () -> new WesternBridleItem("award_western_bridle_"+ counter, (new Item.Properties())
+            AWARD_WESTERN_BRIDLES.add(ITEMS.register("award_western_bridle_" + counter,
+                    () -> new WesternBridleItem("award_western_bridle_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
-            AWARD_WESTERN_GIRTH_STRAPS .add(ITEMS.register("award_western_girth_strap_"+ counter,
-                    () -> new WesternGirthStrapItem("award_western_girth_strap_"+ counter, (new Item.Properties())
+            AWARD_WESTERN_GIRTH_STRAPS.add(ITEMS.register("award_western_girth_strap_" + counter,
+                    () -> new WesternGirthStrapItem("award_western_girth_strap_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
+        }
 
+    //ENGLISH TACK
+        for(int var1 = 0; var1 < (AWARD_ENGLISH_TACK_SETS.get()); ++var1) {
+            int counter = var1+1;
             AWARD_ENGLISH_SADDLES.add(ITEMS.register("award_english_saddle_" + counter,
                     () -> new EnglishSaddleItem("award_english_saddle_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ENGLISH_BLANKETS.add(ITEMS.register("award_english_blanket_" + counter,
                     () -> new EnglishBlanketItem("award_english_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ENGLISH_BREAST_COLLARS.add(ITEMS.register("award_english_breast_collar_" + counter,
                     () -> new EnglishBreastCollar("award_english_breast_collar_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ENGLISH_LEG_WRAPS.add(ITEMS.register("award_english_leg_wraps_" + counter,
                     () -> new EnglishLegWraps("award_english_leg_wraps_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
-            AWARD_ENGLISH_BRIDLES .add(ITEMS.register("award_english_bridle_"+ counter,
-                    () -> new EnglishBridleItem("award_english_bridle_"+ counter, (new Item.Properties())
+            AWARD_ENGLISH_BRIDLES.add(ITEMS.register("award_english_bridle_" + counter,
+                    () -> new EnglishBridleItem("award_english_bridle_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
-            AWARD_ENGLISH_GIRTH_STRAPS .add(ITEMS.register("award_english_girth_strap_"+ counter,
-                    () -> new EnglishGirthStrap("award_english_girth_strap_"+ counter, (new Item.Properties())
+            AWARD_ENGLISH_GIRTH_STRAPS.add(ITEMS.register("award_english_girth_strap_" + counter,
+                    () -> new EnglishGirthStrap("award_english_girth_strap_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
+        }
 
+    //PADDOCK TACK
+        for(int var1 = 0; var1 < (AWARD_PADDOCK_TACK_SETS.get()); ++var1) {
+            int counter = var1 + 1;
+            AWARD_HALTERS.add(ITEMS.register("award_halter_" + counter,
+                    () -> new HalterItem("award_halter_" + counter, (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+            ));
+            AWARD_FLYMASKS.add(ITEMS.register("award_flymask_" + counter,
+                    () -> new HalterItem("award_flymask_" + counter, (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+            ));
             AWARD_QUARTER_SHEETS.add(ITEMS.register("award_quarter_sheet_" + counter,
                     () -> new AdventureBreastCollarItem("award_quarter_sheet_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_PASTURE_BLANKETS.add(ITEMS.register("award_pasture_blanket_" + counter,
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "award_pasture_blanket_" + counter, (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            "award_pasture_blanket_" + counter, (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_PASTURE_BLANKETS_ARMORED.add(ITEMS.register("award_pasture_blanket_" + counter + "_armored",
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                    "award_pasture_blanket_" + counter + "_armored", (new Item.Properties())
-                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
+                            "award_pasture_blanket_" + counter + "_armored", (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
+        }
 
-            AWARD_FLAGS.add(ITEMS.register("award_flag_" + counter, () ->
+
+
+    // FLAGS
+        for(int var1 = 1; var1 < 15; ++var1) {
+            AWARD_FLAGS.add(ITEMS.register("award_flag_" + var1, () ->
                     new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)))));
         }
+
 
 // AWARD ITEMS
 

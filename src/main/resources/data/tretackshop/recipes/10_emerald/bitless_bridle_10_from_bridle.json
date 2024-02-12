@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bitless_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_bitless_bridles"
+    },
+    {
+      "tag": "tretackshop:dyes/emerald"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_bitless_bridle_10"
+  }
+}

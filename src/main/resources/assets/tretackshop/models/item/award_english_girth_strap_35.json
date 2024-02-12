@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:items/awards/tack/girth_straps/award_english_girth_strap_35"
+  }
+}

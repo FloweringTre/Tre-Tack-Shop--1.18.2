@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:items/awards/tack/quarter_sheets/award_quarter_sheet_17"
+  }
+}

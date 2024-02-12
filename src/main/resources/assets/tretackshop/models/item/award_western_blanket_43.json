@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:items/awards/tack/blankets/award_western_blanket_43"
+  }
+}

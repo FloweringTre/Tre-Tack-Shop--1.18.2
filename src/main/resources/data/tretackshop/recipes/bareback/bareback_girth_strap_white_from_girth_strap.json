@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bareback_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_girth_straps"
+    },
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_girth_strap_white"
+  }
+}

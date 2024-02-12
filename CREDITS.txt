@@ -6,7 +6,7 @@ Please see their mod at the link below.
 https://modrinth.com/mod/swem
 
 Join their discord
-https://www.discord.gg/swem
+https://discord.gg/swequestrianmod-715626418893095012
 
 Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
 
@@ -42,6 +42,8 @@ FLAG (all)
 ----Moon_Flower----
 SNOWFLAKE_GRAND
 SNOWFLAKE_RESERVE
+HEART_GRAND
+HEART_RESERVE
 
 ===TEXTURES ONLY===
 ----Moon_Flower----
@@ -67,15 +69,16 @@ ENGLISH_BRIDLE_RAINBOW
 ADVENTURE_GIRTH_STRAP_RAINBOW
 WESTERN_GIRTH_STRAP_RAINBOW
 ENGLISH_GIRTH_STRAP_RAINBOW
-BITLESS_BRIDLE
 DOUBLE_BRIDLE
-BAREBACK_SADDLE (also did icon)
-BAREBACK_BLANKET (also did icon)
-BAREBACK_GIRTH_STRAP (also did icon)
+ALL ENGLISH & CLOTH BITLESS_BRIDLES (also did icon)
+ALL BAREBACK_SADDLES (also did icon)
+ALL BAREBACK_BLANKETS (also did icon)
+ALL BAREBACK_GIRTH_STRAPS (also did icon)
 ***QUARTER SHEETS RAINBOW/DYED/NUMBRED + ICONS***
 AMETHYST_HORSE_ARMOR_RAINBOW (w/ wings)
 IRON_HORSE_ARMOR_RAINBOW (w/o wings)
 SADDLE_BAG_RAINBOW
+HUNTER_BLANKET
 
 ----RileyCasper---
 RIBBON_THREE_TAILS_[All Variants]
@@ -87,7 +90,8 @@ TROPHY_[1 thru 3]
 ----kyraltre----
 ***ALL RAINBOW TACK GUI TEXTURES***
 ***ALL AWARD TEXTURES***
-***ALL MORPHO AND MONARCH TEXTURES***
+***ALL MORPHO AND MONARCH TEXTURES (except bareback set)***
+***ALL LIBERTY/TRANSPARENT TACK***
 *Both Render and GUI textures for the following items*
 PASTURE_BLANKET_[1 thru 14]
 PASTURE_BLANKET_ARMORED [1 thru 14]
@@ -117,3 +121,7 @@ CLOTH_GIRTH_STRAP_[1 thru 14]
 PELHAM_BRIDLE_[Black & Brown]
 CLOTH_HORSE_ARMOR_[1 thru 14]
 SADDLE_BAG_[1 thru 14]
+DRESSAGE_SADDLE
+DRESSAGE_BLANKET
+RACING_SADDLE_BROWN
+RACING_SADDLE_BLACK

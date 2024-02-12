@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bitless_bridle",
+  "pattern": [
+    "C w",
+    "wwB",
+    "ADA"
+  ],
+  "key": {
+    "w": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "tag": "tretackshop:dyes/rose"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cloth_bitless_bridle_1"
+  }
+}

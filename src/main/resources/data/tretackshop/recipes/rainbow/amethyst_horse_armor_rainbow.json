@@ -3,7 +3,7 @@
   "group": "amethyst_armor",
   "ingredients": [
     {
-      "tag": "swem:amethyst_horse_armor"
+      "tag": "swem:amethyst_horse_armors"
     },
     {
       "item": "tretackshop:rainbow_ina_bottle"

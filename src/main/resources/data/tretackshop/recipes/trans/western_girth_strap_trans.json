@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "girth_strap",
+  "ingredients": [
+    {
+      "tag": "swem:western/girth_straps"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_girth_strap_trans"
+  }
+}
