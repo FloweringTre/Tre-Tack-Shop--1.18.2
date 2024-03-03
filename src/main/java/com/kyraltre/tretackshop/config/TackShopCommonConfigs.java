@@ -2,12 +2,17 @@ package com.kyraltre.tretackshop.config;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.config.ModConfigEvent;
 import org.checkerframework.checker.units.qual.A;
 
+@Mod.EventBusSubscriber(
+        modid = "tretackshop",
+        bus = Mod.EventBusSubscriber.Bus.MOD
+)
 public class TackShopCommonConfigs {
     public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
-    public static final ForgeConfigSpec SPEC;
+    public static ForgeConfigSpec SPEC;
 
     public static final ForgeConfigSpec.ConfigValue<Integer> AWARD_ADVENTURE_TACK_SETS;
     public static final ForgeConfigSpec.ConfigValue<Integer> AWARD_WESTERN_TACK_SETS;
@@ -43,11 +48,13 @@ public class TackShopCommonConfigs {
 
     @SubscribeEvent
     public static void onLoad(ModConfigEvent event) {
-        adventureSetsLoaded = (Integer)AWARD_ADVENTURE_TACK_SETS.get();
-        armorAndSaddleBagSetsLoaded = (Integer)AWARD_ARMOR_EXTRAS_TACK_SETS.get();
-        westernSetsLoaded = (Integer)AWARD_WESTERN_TACK_SETS.get();
+        adventureSetsLoaded = (Integer) AWARD_ADVENTURE_TACK_SETS.get();
+        armorAndSaddleBagSetsLoaded = (Integer) AWARD_ARMOR_EXTRAS_TACK_SETS.get();
+        westernSetsLoaded = (Integer) AWARD_WESTERN_TACK_SETS.get();
         englishSetsLoaded = (Integer) AWARD_ENGLISH_TACK_SETS.get();
-        paddockSetsLoaded = (Integer)AWARD_PADDOCK_TACK_SETS.get();
+        paddockSetsLoaded = (Integer) AWARD_PADDOCK_TACK_SETS.get();
     }
-
+    public static void setSpec(ForgeConfigSpec spec) {
+        SPEC = spec;
+    }
 }

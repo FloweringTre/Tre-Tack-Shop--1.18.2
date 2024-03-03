@@ -37,13 +37,14 @@ public class TreTackShop
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
         //TackItems.register(eventBus); // registers the deferred items in ModItems
         TackShopItems.init(eventBus);
         AwardShopItems.init(eventBus);
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 
         eventBus.addListener(this::setup);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
