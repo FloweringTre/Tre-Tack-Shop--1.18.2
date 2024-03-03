@@ -25,13 +25,8 @@ import java.util.Arrays;
 @Mixin(SWEMHorseRenderer.class)
 public abstract class TackRendererMixin extends ExtendedGeoEntityRenderer<SWEMHorseEntity> {
 
-    private static final String[] PELHAM_BRIDLE_BONE_NAMES = new String[]{"WesternBridle", "WesternBridleLeftBit", "WesternBridleRightBit"};
-    @Unique
+    private static final String[] PELHAM_BRIDLE_BONE_NAMES = new String[]{"WesternBridle", "WesternBridleLeftBit", "WesternBridleRightBit", "EnglishBridle", "EnglishBridleLeftBit", "EnglishBridleRightBit"};
     private static final String[] PELHAM_BRIDLE_REIN_BONE_NAMES = new String[]{"EnglishBridleLeftRein", "EnglishBridleLeftRein1", "EnglishBridleLeftRein2", "EnglishBridleRightRein", "EnglishBridleRightRein1", "EnglishBridleRightRein2", "WesternBridleLeftRein", "WesternBridleLeftRein1", "WesternBridleLeftRein2", "WesternBridleRightRein", "WesternBridleRightRein1", "WesternBridleRightRein2"};
-    private static final String[] WESTERN_BRIDLE_BONE_NAMES = new String[]{"WesternBridle", "WesternBridleLeftBit", "WesternBridleRightBit"};
-    private static final String[] WESTERN_BRIDLE_REIN_BONE_NAMES = new String[]{"WesternBridleLeftRein", "WesternBridleLeftRein1", "WesternBridleLeftRein2", "WesternBridleRightRein", "WesternBridleRightRein1", "WesternBridleRightRein2"};
-    private static final String[] ENGLISH_BRIDLE_BONE_NAMES = new String[]{"EnglishBridle", "EnglishBridleLeftBit", "EnglishBridleRightBit"};
-    private static final String[] ENGLISH_BRIDLE_REIN_BONE_NAMES = new String[]{"EnglishBridleLeftRein", "EnglishBridleLeftRein1", "EnglishBridleLeftRein2", "EnglishBridleRightRein", "EnglishBridleRightRein1", "EnglishBridleRightRein2"};
 
     protected TackRendererMixin(EntityRendererProvider.Context renderManager, AnimatedGeoModel<SWEMHorseEntity> modelProvider) {
         super(renderManager, modelProvider);
@@ -49,27 +44,28 @@ public abstract class TackRendererMixin extends ExtendedGeoEntityRenderer<SWEMHo
 
        ItemStack bridleStack = entity.getHalter();
        boolean bridleRenderFlag = (Boolean)entity.getEntityData().get(SWEMHorseEntityBase.RENDER_BRIDLE);
-       if (bridleStack.getItem() instanceof PelhamBridleItem && bridleRenderFlag) {
-           Arrays.stream(PELHAM_BRIDLE_BONE_NAMES).forEach((n) -> {
-               this.showBone(n, entity);
-           });
-           if (!entity.isBridleLeashed()) {
-               Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
-                   this.showBone(n, entity);
-               });
-           } else {
-               Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
-                   this.hideBone(n, entity);
-               });
-           }
-       } else {
-           Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
-               this.hideBone(n, entity);
-           });
-           Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
-               this.hideBone(n, entity);
-           });
-       }
+        if ((bridleStack.getItem() instanceof AdventureBridleItem || bridleStack.getItem() instanceof WesternBridleItem
+        || bridleStack.getItem() instanceof EnglishBridleItem) && bridleRenderFlag) {
+            Arrays.stream(PELHAM_BRIDLE_BONE_NAMES).forEach((n) -> {
+                this.showBone(n, entity);
+            });
+            if (!entity.isBridleLeashed()) {
+                Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
+                    this.showBone(n, entity);
+                });
+            } else {
+                Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
+                    this.hideBone(n, entity);
+                });
+            }
+        } else {
+            Arrays.stream(PELHAM_BRIDLE_BONE_NAMES).forEach((n) -> {
+                this.hideBone(n, entity);
+            });
+            Arrays.stream(PELHAM_BRIDLE_REIN_BONE_NAMES).forEach((n) -> {
+                this.hideBone(n, entity);
+            });
+        }
    }
 
     public void hideBone(String boneName, SWEMHorseEntity entity) {
