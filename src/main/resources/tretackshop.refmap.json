@@ -1,0 +1,9 @@
+{
+  "mappings": {
+    "com/kyraltre/tretackshop/mixin/TackRendererMixin": {
+      "checkBridlesForRendering": "Lcom/alaharranhonor/swem/forge/client/render/SWEMHorseRenderer;checkBridlesForRendering(Lcom/alaharranhonor/swem/forge/entities/horse/SWEMHorseEntity;)V",
+      "showBone": "Lcom/alaharranhonor/swem/forge/client/render/SWEMHorseRenderer;showBone(Ljava/lang/String;Lcom/alaharranhonor/swem/forge/entities/horse/SWEMHorseEntity;)V",
+      "hideBone": "Lcom/alaharranhonor/swem/forge/client/render/SWEMHorseRenderer;hideBone(Ljava/lang/String;Lcom/alaharranhonor/swem/forge/entities/horse/SWEMHorseEntity;)V"
+    }
+  }
+}
