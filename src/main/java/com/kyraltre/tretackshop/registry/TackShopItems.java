@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import com.kyraltre.tretackshop.item.custom.PelhamBridleItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,9 +34,9 @@ public class TackShopItems {
     //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
 
     //ONE OFF TACK
-    public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BLACK;
-    public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BROWN;
-    public static final RegistryObject<AdventureBridleItem> DOUBLE_BRIDLE;
+    public static final RegistryObject<PelhamBridleItem> PELHAM_BRIDLE_BLACK;
+    public static final RegistryObject<PelhamBridleItem> PELHAM_BRIDLE_BROWN;
+    public static final RegistryObject<PelhamBridleItem> DOUBLE_BRIDLE;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE;
     public static final RegistryObject<WesternSaddleItem> BAREBACK_SADDLE;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET;
@@ -167,13 +168,13 @@ public class TackShopItems {
 
         // ONE OFF TACK
         PELHAM_BRIDLE_BLACK = ITEMS.register("pelham_bridle_black",
-                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_bridle_black", (new Item.Properties())
+                () -> new PelhamBridleItem("pelham_bridle_black", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         PELHAM_BRIDLE_BROWN = ITEMS.register("pelham_bridle_brown",
-                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_bridle_brown", (new Item.Properties())
+                () -> new PelhamBridleItem("pelham_bridle_brown", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         DOUBLE_BRIDLE = ITEMS.register("double_bridle",
-                () -> new AdventureBridleItem("double_bridle", "double_bridle", (new Item.Properties())
+                () -> new PelhamBridleItem("double_bridle", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         BITLESS_BRIDLE = ITEMS.register("english_bridle_bitless",
                 () -> new EnglishBridleItem("english_bridle_bitless", (new Item.Properties())
