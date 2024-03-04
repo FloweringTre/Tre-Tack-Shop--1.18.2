@@ -20,41 +20,19 @@ public class TackShopCommonConfigs {
     public static final ForgeConfigSpec.ConfigValue<Integer> AWARD_PADDOCK_TACK_SETS;
     public static final ForgeConfigSpec.ConfigValue<Integer> AWARD_ARMOR_EXTRAS_TACK_SETS;
 
-    public static Integer adventureSetsLoaded;
-    public static Integer armorAndSaddleBagSetsLoaded;
-    public static Integer westernSetsLoaded;
-    public static Integer englishSetsLoaded;
-    public static Integer paddockSetsLoaded;
-
     static {
         BUILDER.push("Award Tack Set Configs for Tre's Tack Shop");
-        AWARD_ADVENTURE_TACK_SETS = BUILDER.comment(new String[]{"This is for setting how many award tack sets are loaded in to be used. This must be the same for both client and server to properly display the tack items.",
-                        "\nThe max value all sets is 48. The default is 14 (the original value loaded).",
-                        "Tack sets include the saddle, bridle, saddle pad/blanket, breast collar, leg wraps, and girth straps.",
-                        "\n~~~~ADVENTURE TACK~~~~"})
+        AWARD_ADVENTURE_TACK_SETS = BUILDER.comment("How many Award Adventure sets do you want loaded?")
                 .defineInRange("adventureSetsLoaded", 14, 0, 48);
-        AWARD_ARMOR_EXTRAS_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~CLOTH ARMOR & SADDLE BAGS~~~~~", "Separated from the Adventure Tack loading for tailored loaded"})
+        AWARD_ARMOR_EXTRAS_TACK_SETS = BUILDER.comment("How many Award Saddle Bags and Cloth Armor sets do you want loaded?")
                 .defineInRange("armorAndSaddleBagSetsLoaded", 14, 0, 48);
-        AWARD_WESTERN_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~WESTERN TACK~~~~~"})
+        AWARD_WESTERN_TACK_SETS = BUILDER.comment("How many Award Western sets do you want loaded?")
                 .defineInRange("westernSetsLoaded", 14, 0, 48);
-        AWARD_ENGLISH_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~ENGLISH TACK~~~~~"})
+        AWARD_ENGLISH_TACK_SETS = BUILDER.comment("How many Award English sets do you want loaded?")
                 .defineInRange("englishSetsLoaded", 14, 0, 48);
-        AWARD_PADDOCK_TACK_SETS = BUILDER.comment(new String[]{"\n~~~~PADDOCK TACK~~~~~",
-                        "These sets include the fly mask, halter, quarter sheets, and both normal and armored pasture blankets"})
+        AWARD_PADDOCK_TACK_SETS = BUILDER.comment("How many Award Paddock sets do you want loaded?")
                 .defineInRange("paddockSetsLoaded",14, 0, 48);
         BUILDER.pop();
         SPEC = BUILDER.build();
-    }
-
-    @SubscribeEvent
-    public static void onLoad(ModConfigEvent event) {
-        adventureSetsLoaded = (Integer) AWARD_ADVENTURE_TACK_SETS.get();
-        armorAndSaddleBagSetsLoaded = (Integer) AWARD_ARMOR_EXTRAS_TACK_SETS.get();
-        westernSetsLoaded = (Integer) AWARD_WESTERN_TACK_SETS.get();
-        englishSetsLoaded = (Integer) AWARD_ENGLISH_TACK_SETS.get();
-        paddockSetsLoaded = (Integer) AWARD_PADDOCK_TACK_SETS.get();
-    }
-    public static void setSpec(ForgeConfigSpec spec) {
-        SPEC = spec;
     }
 }
