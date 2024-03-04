@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:items/dyed/pasture_blanket_dyed_icon"
+  }
+}
