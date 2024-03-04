@@ -2,19 +2,29 @@ package com.kyraltre.tretackshop.registry;
 
 
 import com.alaharranhonor.swem.forge.SWEM;
+import com.alaharranhonor.swem.forge.blocks.TackBoxBlock;
+import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Supplier;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
+import org.lwjgl.system.CallbackI;
 
 public class TackShopItems {
     public static final DeferredRegister<Item> ITEMS;
@@ -56,6 +66,7 @@ public class TackShopItems {
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BROWN;
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BLACK;
 
+    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_DYED;
     // RAINBOW TACK
     public static final RegistryObject<HalterItem> HALTER_RAINBOW;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW;
@@ -137,6 +148,7 @@ public class TackShopItems {
     public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
     public static final List<RegistryObject<SaddlebagItem>> SADDLE_BAGS;
     public static final List<RegistryObject<SWEMHorseArmorItem>> CLOTH_ARMOR;
+    public static final List<RegistryObject<TackBoxBlock>> TACKBOXES;
 
     public TackShopItems() {
     }
@@ -233,6 +245,10 @@ public class TackShopItems {
         HUNTER_BLANKET = ITEMS.register("hunter_blanket",
                 () -> new EnglishBlanketItem("hunter_blanket", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
+        PASTURE_BLANKET_DYED= ITEMS.register("pasture_blanket_dyed",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0, "pasture_blanket_dyed",
+                        new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
         // Rainbow Tack
         HALTER_RAINBOW = ITEMS.register("halter_rainbow",
@@ -406,6 +422,7 @@ public class TackShopItems {
         CLOTH_ARMOR = new ArrayList<>();
         BAREBACK_BLANKETS = new ArrayList<>();
         CLOTH_BITLESS_BRIDLES = new ArrayList<>();
+        TACKBOXES = new ArrayList<>();
 
         int var1 = 15;
         var rContext = new Object() {
