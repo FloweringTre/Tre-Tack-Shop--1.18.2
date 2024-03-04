@@ -3,6 +3,7 @@ package com.kyraltre.tretackshop;
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
+import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -40,6 +41,7 @@ public class TreTackShop
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
         //TackItems.register(eventBus); // registers the deferred items in ModItems
         TackShopItems.init(eventBus);
+        TackShopBlockRegistry.init(eventBus);
         AwardShopItems.init(eventBus);
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 
