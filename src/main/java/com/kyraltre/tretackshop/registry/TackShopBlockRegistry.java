@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
+
+import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -52,7 +54,7 @@ public class TackShopBlockRegistry {
     }
 
     private static Supplier<BlockItem> itemDefault(RegistryObject<? extends Block> block) {
-        return item(block, SWEM.TAB);
+        return item(block, TackShopCreativeModTab.TRETACK_TAB);
     }
 
     private static Supplier<BlockItem> item(RegistryObject<? extends Block> block, CreativeModeTab itemGroup) {
@@ -68,8 +70,8 @@ public class TackShopBlockRegistry {
 //        GRAIN_BINS_COLOR = new HashMap();
 //        GRAIN_BINS_WOOD = new HashMap();
 
-        for (int var2 = 0; var2 < 15; ++var2) {
-            int counter = var2;
+        for (int var2 = 0; var2 < 14; ++var2) {
+            int counter = var2+1;
 
             TACK_BOX.add(register("tack_box_" + counter, () -> {
                 return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), counter);
