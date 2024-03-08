@@ -1,0 +1,6 @@
+{
+	"parent": "tretackshop:block/clover_trophy_template",
+	"textures": {
+		"texture": "tretackshop:blocks/clover_reserve"
+	}
+}
