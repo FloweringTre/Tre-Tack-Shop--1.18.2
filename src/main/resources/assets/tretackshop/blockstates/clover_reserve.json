@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tretackshop:block/clover_reserve"},
+    "facing=east": { "model": "tretackshop:block/clover_reserve", "y": 90},
+    "facing=south": { "model": "tretackshop:block/clover_reserve", "y": 180},
+    "facing=west": { "model": "tretackshop:block/clover_reserve", "y": 270}
+  }
+}
