@@ -45,6 +45,23 @@ public class TackShopBlocks {
             () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
+    public  static final RegistryObject<Block> CLOVER_GRAND =registerBlock("clover_grand", () ->
+            new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> CLOVER_RESERVE = registerBlock("clover_reserve",
+            () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+
+    public  static final RegistryObject<Block> E_G_G_TROPHY_THIN =registerBlock("e_g_g_trophy_thin", () ->
+            new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> E_G_G_TROPHY_THICK = registerBlock("e_g_g_trophy_thick",
+            () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> E_G_G_TROPHY_CHEV = registerBlock("e_g_g_trophy_chev",
+            () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
