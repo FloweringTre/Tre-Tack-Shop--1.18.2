@@ -1,10 +1,7 @@
 package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
-import com.kyraltre.tretackshop.block.custom.EggTrophy;
-import com.kyraltre.tretackshop.block.custom.HeartTrophy;
-import com.kyraltre.tretackshop.block.custom.PumpkinTrophy;
-import com.kyraltre.tretackshop.block.custom.SnowflakeTrophy;
+import com.kyraltre.tretackshop.block.custom.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.world.item.BlockItem;
@@ -17,7 +14,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.lwjgl.system.CallbackI;
 
 import java.util.function.Supplier;
 
@@ -47,24 +43,24 @@ public class TackShopBlocks {
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
     public  static final RegistryObject<Block> CLOVER_GRAND =registerBlock("clover_grand", () ->
-            new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
     public static final RegistryObject<Block> CLOVER_RESERVE = registerBlock("clover_reserve",
-            () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            () -> new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
-    //tester trophy
-    public  static final RegistryObject<Block> E_G_G_TROPHY_THIN =registerBlock("e_g_g_trophy_thin", () ->
-            new EggTrophy("e_g_g_trophy_thin", BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
-
-    //rest of the trophies
-    public static final RegistryObject<Block> E_G_G_TROPHY_THICK = registerBlock("e_g_g_trophy_thick",
-            () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
-    public static final RegistryObject<Block> E_G_G_TROPHY_CHEV = registerBlock("e_g_g_trophy_chev",
-            () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
+//    //tester trophy
+//    public  static final RegistryObject<Block> E_G_G_TROPHY_THIN =registerBlock("e_g_g_trophy_thin", () ->
+//            new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
+//
+//    //rest of the trophies
+//    public static final RegistryObject<Block> E_G_G_TROPHY_THICK = registerBlock("e_g_g_trophy_thick",
+//            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
+//    public static final RegistryObject<Block> E_G_G_TROPHY_CHEV = registerBlock("e_g_g_trophy_chev",
+//            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
