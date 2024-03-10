@@ -1,0 +1,6 @@
+{
+  "parent": "swem:block/parent/tack_box_left",
+  "textures": {
+    "0": "tretackshop:blocks/tack_boxes/award_tack_box_half_5"
+  }
+}

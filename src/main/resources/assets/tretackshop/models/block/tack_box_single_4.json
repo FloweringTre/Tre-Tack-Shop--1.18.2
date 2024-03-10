@@ -1,5 +1,5 @@
 {
-  "parent": "tretackshop:block/parent/tack_box_single",
+  "parent": "swem:block/parent/tack_box_single",
   "textures": {
     "0": "tretackshop:blocks/tack_boxes/tack_box_single_4"
   }
