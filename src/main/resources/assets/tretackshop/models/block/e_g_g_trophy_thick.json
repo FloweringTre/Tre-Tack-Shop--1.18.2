@@ -1,6 +1,0 @@
-{
-	"parent": "tretackshop:block/e_g_g_trophy_template",
-	"textures": {
-		"texture": "tretackshop:blocks/egg_trophy_thick"
-	}
-}
