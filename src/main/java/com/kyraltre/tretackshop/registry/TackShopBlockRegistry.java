@@ -6,20 +6,30 @@
 package com.kyraltre.tretackshop.registry;
 
 import com.alaharranhonor.swem.forge.SWEM;
+import com.alaharranhonor.swem.forge.blocks.GrainBinBlock;
 import com.alaharranhonor.swem.forge.blocks.TackBoxBlock;
 import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.stream.Stream;
 
+import com.alaharranhonor.swem.forge.items.WhistleItem;
+import com.kyraltre.tretackshop.block.TackShopBlocks;
+import com.kyraltre.tretackshop.block.custom.EggTrophy;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,8 +39,26 @@ import net.minecraftforge.registries.ForgeRegistries.Keys;
 public class TackShopBlockRegistry {
     public static final DeferredRegister<Block> BLOCKS;
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX;
-//    public static final Map<DyeColor, RegistryObject<GrainBinBlock>> GRAIN_BINS_COLOR;
-//    public static final Map<String, RegistryObject<GrainBinBlock>> GRAIN_BINS_WOOD;
+    public static final List<RegistryObject<TackBoxBlock>> AWARD_TACK_BOX;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_RAINBOW;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_MORPHO;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_MONARCH;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_BAMBOO;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_SWDM_BAMBOO;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_WHITEWASH;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_THATCH;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_MANGROVE;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_CHERRY;
+    ;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_ACACIA;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_BIRCH;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_CRIMSON;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_JUNGLE;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_DARK_OAK;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_OAK;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_SPRUCE;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_WARPED;
+
 
     public TackShopBlockRegistry() {
     }
@@ -64,33 +92,169 @@ public class TackShopBlockRegistry {
     }
 
     static {
-        BLOCKS = DeferredRegister.create(Keys.BLOCKS, "swem");
+        BLOCKS = DeferredRegister.create(Keys.BLOCKS, "tretackshop");
 
         TACK_BOX = new ArrayList();
-//        GRAIN_BINS_COLOR = new HashMap();
-//        GRAIN_BINS_WOOD = new HashMap();
+        AWARD_TACK_BOX = new ArrayList();
+        TACK_BOX_MONARCH = new ArrayList();
+        TACK_BOX_RAINBOW = new ArrayList();
+        TACK_BOX_MORPHO = new ArrayList();
+        TACK_BOX_BAMBOO = new ArrayList();
+        TACK_BOX_SWDM_BAMBOO = new ArrayList();
+        TACK_BOX_CHERRY = new ArrayList();
+        TACK_BOX_MANGROVE = new ArrayList();
+        TACK_BOX_THATCH = new ArrayList();
+        TACK_BOX_WHITEWASH  = new ArrayList();
+        TACK_BOX_ACACIA = new ArrayList();
+        TACK_BOX_BIRCH = new ArrayList();
+        TACK_BOX_CRIMSON = new ArrayList();
+        TACK_BOX_DARK_OAK = new ArrayList();
+        TACK_BOX_JUNGLE = new ArrayList();
+        TACK_BOX_OAK = new ArrayList();
+        TACK_BOX_SPRUCE = new ArrayList();
+        TACK_BOX_WARPED = new ArrayList<>();
 
         for (int var2 = 0; var2 < 14; ++var2) {
-            int counter = var2+1;
+            int counter = var2 + 1;
 
             TACK_BOX.add(register("tack_box_" + counter, () -> {
-                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), counter);
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            AWARD_TACK_BOX.add(register("award_tack_box_" + counter, () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+        }
+
+
+        for (int var2 = 1; var2 < 2; ++var2) {
+            TACK_BOX_RAINBOW.add(register("tack_box_" + "rainbow", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_MORPHO.add(register("tack_box_" + "morpho", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_MONARCH.add(register("tack_box_" + "monarch", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_ACACIA.add(register("tack_box_" + "acacia", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_BIRCH.add(register("tack_box_" + "birch", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_CRIMSON.add(register("tack_box_" + "crimson", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_DARK_OAK.add(register("tack_box_" + "dark_oak", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_JUNGLE.add(register("tack_box_" + "jungle", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_OAK.add(register("tack_box_" + "oak", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_SPRUCE.add(register("tack_box_" + "spruce", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_WARPED.add(register("tack_box_" + "warped", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
             }, (block) -> {
                 return () -> {
                     return new TackBoxBlockItem((Block) block.get());
                 };
             }));
 
-//            GRAIN_BINS_COLOR.put(counter, register("bin_grain_" + counter, () -> {
-//                return new GrainBinBlock(Properties.of(Material.WOOD).strength(1.0F, 2.0F).noOcclusion());
-//            }));
-//        }
-//
-//        Stream.of(WoodType.OAK, WoodType.BIRCH, WoodType.SPRUCE, WoodType.JUNGLE, WoodType.DARK_OAK, WoodType.ACACIA, WoodType.WARPED, WoodType.CRIMSON).forEach((wood) -> {
-//            GRAIN_BINS_WOOD.put(wood.name(), register("bin_grain_" + wood.name(), () -> {
-//                return new GrainBinBlock(Properties.of(Material.WOOD).strength(1.0F, 2.0F).noOcclusion());
-//            }));
-//        });
+            TACK_BOX_SWDM_BAMBOO.add(register("tack_box_" + "swdm_bamboo", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_CHERRY.add(register("tack_box_" + "cherry", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_BAMBOO.add(register("tack_box_" + "bamboo", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_MANGROVE.add(register("tack_box_" + "mangrove", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_THATCH.add(register("tack_box_" + "thatch", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
+            TACK_BOX_WHITEWASH.add(register("tack_box_" + "whitewash", () -> {
+                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            }, (block) -> {
+                return () -> {
+                    return new TackBoxBlockItem((Block) block.get());
+                };
+            }));
         }
     }
 }
