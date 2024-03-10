@@ -4,6 +4,7 @@ package com.kyraltre.tretackshop.registry;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import com.kyraltre.tretackshop.item.custom.EggTrophyItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -124,6 +125,8 @@ public class AwardShopItems {
     public static final RegistryObject<Item> MEDAL_1;
     public static final RegistryObject<Item> MEDAL_2;
     public static final RegistryObject<Item> MEDAL_3;
+    public static final RegistryObject<EggTrophyItem> E_G_G_TROPHY_THIN;
+
 
 
     public AwardShopItems() {
@@ -521,6 +524,8 @@ public class AwardShopItems {
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         MEDAL_3 = ITEMS.register("medal_3",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
-
+        ///egg trophy thin connected icon
+        E_G_G_TROPHY_THIN = ITEMS.register("e_g_g_trophy_thin",
+                () -> new EggTrophyItem(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
     }
 }

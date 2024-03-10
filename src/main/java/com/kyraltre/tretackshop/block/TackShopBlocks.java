@@ -1,6 +1,7 @@
 package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
+import com.kyraltre.tretackshop.block.custom.EggTrophy;
 import com.kyraltre.tretackshop.block.custom.HeartTrophy;
 import com.kyraltre.tretackshop.block.custom.PumpkinTrophy;
 import com.kyraltre.tretackshop.block.custom.SnowflakeTrophy;
@@ -52,9 +53,12 @@ public class TackShopBlocks {
             () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
+    //tester trophy
     public  static final RegistryObject<Block> E_G_G_TROPHY_THIN =registerBlock("e_g_g_trophy_thin", () ->
-            new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            new EggTrophy("e_g_g_trophy_thin", BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
+
+    //rest of the trophies
     public static final RegistryObject<Block> E_G_G_TROPHY_THICK = registerBlock("e_g_g_trophy_thick",
             () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);

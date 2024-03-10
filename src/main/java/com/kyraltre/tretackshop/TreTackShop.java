@@ -3,6 +3,7 @@ package com.kyraltre.tretackshop;
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
+import com.kyraltre.tretackshop.registry.TackShopBlockEntities;
 import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
@@ -43,6 +44,7 @@ public class TreTackShop
         TackShopItems.init(eventBus);
         TackShopBlockRegistry.init(eventBus);
         AwardShopItems.init(eventBus);
+        TackShopBlockEntities.init(eventBus);
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 
         eventBus.addListener(this::setup);
