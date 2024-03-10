@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_bitless/dyed_bitless_bridle_lime"
+    ]
+  },
+  "criteria": {
+    "has_bitless_bridle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/cloth_bitless_bridles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_bitless/dyed_bitless_bridle_lime"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bitless_bridle",
+      "has_the_recipe"
+    ]
+  ]
+}

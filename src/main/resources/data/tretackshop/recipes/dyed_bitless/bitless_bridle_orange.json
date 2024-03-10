@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bitless_bridle",
+  "pattern": [
+    "C w",
+    "wwB",
+    "AAA"
+  ],
+  "key": {
+    "w": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:orange_carpet"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cloth_bitless_bridle_orange"
+  }
+}

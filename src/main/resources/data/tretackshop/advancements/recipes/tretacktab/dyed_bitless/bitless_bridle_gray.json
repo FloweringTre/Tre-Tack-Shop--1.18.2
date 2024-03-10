@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_bitless/bitless_bridle_gray"
+    ]
+  },
+  "criteria": {
+    "has_refined_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:refined_leather"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_bitless/bitless_bridle_gray"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_refined_leather",
+      "has_the_recipe"
+    ]
+  ]
+}

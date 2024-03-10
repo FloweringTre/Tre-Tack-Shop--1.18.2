@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_bareback/bareback_blanket_blue"
+    ]
+  },
+  "criteria": {
+    "has_refined_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:refined_leather"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_bareback/bareback_blanket_blue"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_refined_leather",
+      "has_the_recipe"
+    ]
+  ]
+}

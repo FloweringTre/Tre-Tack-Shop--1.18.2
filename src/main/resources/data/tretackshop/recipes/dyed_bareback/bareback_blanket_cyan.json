@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bareback_blanket",
+  "pattern": [
+    "xyx",
+    "xx ",
+    " C "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:cyan_wool"
+    },
+    "y": {
+      "tag": "swem:refined_leather"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:bareback_blanket_cyan"
+  }
+}

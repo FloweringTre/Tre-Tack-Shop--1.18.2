@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bitless_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_bitless_bridles"
+    },
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_bitless_bridle_black"
+  }
+}

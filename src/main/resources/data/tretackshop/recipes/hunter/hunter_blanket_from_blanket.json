@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dressage_blanket",
+  "ingredients": [
+    {
+      "tag": "swem:english_blankets"
+    },
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:hunter_blanket"
+  }
+}
