@@ -2,15 +2,14 @@ package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
+import com.kyraltre.tretackshop.registry.AwardShopBlockRegistry;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
-import com.kyraltre.tretackshop.registry.TackShopBlockEntities;
 import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -43,8 +42,8 @@ public class TreTackShop
         //TackItems.register(eventBus); // registers the deferred items in ModItems
         TackShopItems.init(eventBus);
         TackShopBlockRegistry.init(eventBus);
+        AwardShopBlockRegistry.init(eventBus);
         AwardShopItems.init(eventBus);
-        TackShopBlockEntities.init(eventBus);
         TackShopBlocks.register(eventBus); //registers the deferred items in ModBlocks
 
         eventBus.addListener(this::setup);
