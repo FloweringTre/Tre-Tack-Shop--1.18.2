@@ -2,11 +2,13 @@ package com.kyraltre.tretackshop.registry;
 
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
+import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import com.kyraltre.tretackshop.item.custom.EggTrophyItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
@@ -52,6 +54,7 @@ public class AwardShopItems {
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MORPHO;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MORPHO;
+
     
 // BUTTERFLY TACK ITEMS - MONARCH
     public static final RegistryObject<HalterItem> HALTER_MONARCH;
@@ -119,13 +122,25 @@ public class AwardShopItems {
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> ROSETTE;
+    public static final List<RegistryObject<Item>> TRE_RIBBON_THREE_TAILS;
+    public static final List<RegistryObject<Item>> TRE_RIBBON_TWO_TAILS;
+    public static final List<RegistryObject<Item>> TRE_RIBBON_ONE_TAIL;
+    public static final List<RegistryObject<Item>> TRE_ROSETTE;
+
+    public static final RegistryObject<Item> MORPHO_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> MORPHO_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> MORPHO_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> MORPHO_ROSETTE;
+    public static final RegistryObject<Item> MONARCH_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> MONARCH_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> MONARCH_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> MONARCH_ROSETTE;
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
     public static final RegistryObject<Item> TROPHY_3;
     public static final RegistryObject<Item> MEDAL_1;
     public static final RegistryObject<Item> MEDAL_2;
     public static final RegistryObject<Item> MEDAL_3;
-    public static final RegistryObject<EggTrophyItem> E_G_G_TROPHY_THIN;
 
 
 
@@ -224,6 +239,7 @@ public class AwardShopItems {
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         FLAG_MORPHO = ITEMS.register("flag_morpho", () ->
                 new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))));
+
 
     //BUTTERFLY - MONARCH -- Uncraftable Yellow Monarch Tack
         HALTER_MONARCH = ITEMS.register("halter_monarch",
@@ -343,6 +359,10 @@ public class AwardShopItems {
         AWARD_FLAGS = new ArrayList<>();
         AWARD_SADDLE_BAGS = new ArrayList<>();
         AWARD_CLOTH_ARMOR = new ArrayList<>();
+        TRE_RIBBON_THREE_TAILS = new ArrayList<>();
+        TRE_RIBBON_TWO_TAILS = new ArrayList<>();
+        TRE_RIBBON_ONE_TAIL = new ArrayList<>();
+        TRE_ROSETTE = new ArrayList<>();
 
     //ADVENTURE TACK
         for(int var1 = 0; var1 < (AWARD_ADVENTURE_TACK_SETS.get()); ++var1) {
@@ -483,6 +503,41 @@ public class AwardShopItems {
 
 // AWARD ITEMS
 
+        MORPHO_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_morpho",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MORPHO_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_morpho",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MORPHO_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_morpho",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MORPHO_ROSETTE = ITEMS.register("rosette_morpho",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        MONARCH_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_monarch",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MONARCH_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_monarch",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MONARCH_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_monarch",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MONARCH_ROSETTE = ITEMS.register("rosette_monarch",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        // RIBBONS IN MY COLORS
+        for(int var21 = 1; var21 < 15; ++var21) {
+            TRE_RIBBON_THREE_TAILS.add(ITEMS.register("ribbon_three_tails_" + var21, () ->
+                    new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))
+            ));
+            TRE_RIBBON_TWO_TAILS.add(ITEMS.register("ribbon_two_tails_" + var21, () ->
+                    new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))
+            ));
+            TRE_RIBBON_ONE_TAIL.add(ITEMS.register("ribbon_one_tail_" + var21, () ->
+                    new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))
+            ));
+            TRE_ROSETTE.add(ITEMS.register("rosette_" + var21, () ->
+                    new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))
+            ));
+        }
+
+
     // Dye Color number items
         RIBBON_THREE_TAILS = new ArrayList<>();
         RIBBON_TWO_TAILS = new ArrayList<>();
@@ -524,8 +579,6 @@ public class AwardShopItems {
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         MEDAL_3 = ITEMS.register("medal_3",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
-        ///egg trophy thin connected icon
-        E_G_G_TROPHY_THIN = ITEMS.register("e_g_g_trophy_thin",
-                () -> new EggTrophyItem(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
     }
 }
