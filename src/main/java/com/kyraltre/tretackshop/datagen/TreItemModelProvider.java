@@ -38,38 +38,38 @@ public class TreItemModelProvider extends ItemModelProvider {
 
         //crafting loop
 //
-//        int var1 = 2;
-//        int var2 = 1;
-//        while (var2 < var1) {
-//            ((ItemModelBuilder) this.withExistingParent("rosette_" + "morpho", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-//            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "morpho", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-//            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "morpho", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-//            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "morpho", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-//
-//            ((ItemModelBuilder) this.withExistingParent("rosette_" + "monarch", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-//            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "monarch", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-//            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "monarch", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-//            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "monarch", "tretackshop:item/rosette_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-//        ++var2;
-//        }
+        int var1 = 2;
+        int var2 = 1;
+        while (var2 < var1) {
+            ((ItemModelBuilder) this.withExistingParent("rosette_" + "morpho", "tretackshop:item/rosette_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "morpho", "tretackshop:item/ribbon_two_tailed_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "morpho", "tretackshop:item/ribbon_three_tailed_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "morpho", "tretackshop:item/ribbon_one_tailed_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+
+            ((ItemModelBuilder) this.withExistingParent("rosette_" + "monarch", "tretackshop:item/rosette_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "monarch", "tretackshop:item/ribbon_two_tailed_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "monarch", "tretackshop:item/ribbon_three_tailed_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "monarch", "tretackshop:item/ribbon_one_tailed_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+        ++var2;
+        }
             int var11 = 15;
             int var22 = 1;
             while (var22 < var11) {
                 ((ItemModelBuilder) this.withExistingParent("rosette_" + var22, "tretackshop:item/rosette_template"))
                         .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-                ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + var22, "tretackshop:item/rosette_template"))
+                ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + var22, "tretackshop:item/ribbon_two_tailed_template"))
                         .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-                ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + var22, "tretackshop:item/rosette_template"))
+                ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + var22, "tretackshop:item/ribbon_three_tailed_template"))
                         .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-                ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + var22, "tretackshop:item/rosette_template"))
+                ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + var22, "tretackshop:item/ribbon_one_tailed_template"))
                         .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
             ++var22;
             }
