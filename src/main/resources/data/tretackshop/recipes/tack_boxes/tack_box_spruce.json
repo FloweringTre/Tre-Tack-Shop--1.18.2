@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tack_box",
+  "pattern": [
+    "#D#",
+    "RCR",
+    "ATA"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/iron"
+    },
+    "D": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "swem:star_worms"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "T": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "A": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "tretackshop:bareback_girth_strap_white"
+  }
+}

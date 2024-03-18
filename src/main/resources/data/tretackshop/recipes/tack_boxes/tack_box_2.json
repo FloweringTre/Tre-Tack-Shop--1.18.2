@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tack_box",
+  "pattern": [
+    "#D#",
+    "RCR",
+    "ATB"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/iron"
+    },
+    "D": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "swem:star_worms"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    "T": {
+      "tag": "minecraft:saplings"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/salmon"
+    }
+  },
+  "result": {
+    "item": "tretackshop:tack_box_2"
+  }
+}

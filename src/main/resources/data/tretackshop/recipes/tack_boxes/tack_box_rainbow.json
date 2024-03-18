@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tack_box",
+  "pattern": [
+    "#D#",
+    "RCR",
+    "BTB"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/iron"
+    },
+    "D": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "swem:star_worms"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "item": "tretackshop:rainbow_ina_bottle"
+    },
+    "T": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:tack_box_rainbow"
+  }
+}
