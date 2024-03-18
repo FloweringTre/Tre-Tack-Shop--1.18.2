@@ -1,6 +1,0 @@
-{
-	"parent": "tretackshop:block/heart_trophy_template",
-	"textures": {
-		"texture": "tretackshop:blocks/heart_reserve"
-	}
-}

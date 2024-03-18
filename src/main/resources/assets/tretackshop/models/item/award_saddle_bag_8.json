@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "tretackshop:items/awards/tack/saddle_bags/award_saddle_bag_8_icon"
-  }
-}
