@@ -28,27 +28,41 @@ public class TackShopItems {
 
     // DYED TACK
     //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
-    public static final RegistryObject<Item> PELHAM_BRIDLE_BLACK;
-    public static final RegistryObject<Item> PELHAM_BRIDLE_BROWN;
-    public static final RegistryObject<Item> DOUBLE_BRIDLE;
-    public static final RegistryObject<Item> BITLESS_BRIDLE;
-    public static final RegistryObject<Item> BAREBACK_SADDLE;
-    public static final RegistryObject<Item> BAREBACK_BLANKET;
-    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP;
-    public static final RegistryObject<Item> DRESSAGE_SADDLE;
-    public static final RegistryObject<Item> DRESSAGE_BLANKET;
-    public static final RegistryObject<Item> RACING_SADDLE_BROWN;
-    public static final RegistryObject<Item> RACING_SADDLE_BLACK;
-    public static final RegistryObject<Item> BITLESS_BRIDLE_BROWN;
-    public static final RegistryObject<Item> BAREBACK_SADDLE_BROWN;
-    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP_BROWN;
-    public static final RegistryObject<Item> BITLESS_BRIDLE_BEIGE;
-    public static final RegistryObject<Item> BAREBACK_SADDLE_BEIGE;
-    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP_BEIGE;
-    public static final RegistryObject<Item> HUNTER_BLANKET;
-    public static final RegistryObject<Item> BITLESS_BRIDLE_WHITE;
-    public static final RegistryObject<Item> BAREBACK_SADDLE_BLACK;
-    public static final RegistryObject<Item> BAREBACK_GIRTH_STRAP_WHITE;
+
+    public static final RegistryObject<Item> TACK_BOX_BAMBOO;
+    public static final RegistryObject<Item> TACK_BOX_SWDM_BAMBOO;
+    public static final RegistryObject<Item> TACK_BOX_CHERRY;
+    public static final RegistryObject<Item> TACK_BOX_CRIMSON;
+    public static final RegistryObject<Item> TACK_BOX_DARK_OAK;
+    public static final RegistryObject<Item> TACK_BOX_MANGROVE;
+    public static final RegistryObject<Item> TACK_BOX_THATCH;
+    public static final RegistryObject<Item> TACK_BOX_WHITEWASH;
+    public static final RegistryObject<Item> TACK_BOX_ACACIA;
+    public static final RegistryObject<Item> TACK_BOX_BIRCH;
+    public static final RegistryObject<Item> TACK_BOX_JUNGLE;
+    public static final RegistryObject<Item> TACK_BOX_OAK;
+    public static final RegistryObject<Item> TACK_BOX_SPRUCE;
+    public static final RegistryObject<Item> TACK_BOX_WARPED;
+
+
+    public static final RegistryObject<Item> DRESSAGE_GIRTH_STRAP;
+
+
+    public static final RegistryObject<Item> TACK_BOX_1;
+    public static final RegistryObject<Item> TACK_BOX_2;
+    public static final RegistryObject<Item> TACK_BOX_3;
+    public static final RegistryObject<Item> TACK_BOX_4;
+    public static final RegistryObject<Item> TACK_BOX_5;
+    public static final RegistryObject<Item> TACK_BOX_6;
+    public static final RegistryObject<Item> TACK_BOX_7;
+    public static final RegistryObject<Item> TACK_BOX_8;
+    public static final RegistryObject<Item> TACK_BOX_9;
+    public static final RegistryObject<Item> TACK_BOX_10;
+    public static final RegistryObject<Item> TACK_BOX_11;
+    public static final RegistryObject<Item> TACK_BOX_12;
+    public static final RegistryObject<Item> TACK_BOX_13;
+    public static final RegistryObject<Item> TACK_BOX_14;
+
 
 
     // RAINBOW TACK
@@ -78,6 +92,7 @@ public class TackShopItems {
     public static final RegistryObject<Item> IRON_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<Item> AMETHYST_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<Item> SADDLE_BAG_RAINBOW;
+    public static final RegistryObject<Item> TACK_BOX_RAINBOW;
 
     public static final RegistryObject<Item> BAREBACK_BLANKET_RAINBOW;
     public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_RAINBOW;
@@ -407,73 +422,101 @@ public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_13;
 //                        "pasture_blanket_dyed", new Item.Properties()
 //                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 // ONE OFF TACK
-        PELHAM_BRIDLE_BLACK = ITEMS.register("pelham_bridle_black",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        PELHAM_BRIDLE_BROWN = ITEMS.register("pelham_bridle_brown",
+        TACK_BOX_BAMBOO = ITEMS.register("tack_box_bamboo",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
-        DOUBLE_BRIDLE = ITEMS.register("double_bridle",
+        TACK_BOX_SWDM_BAMBOO = ITEMS.register("tack_box_swdm_bamboo",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BITLESS_BRIDLE = ITEMS.register("bitless_bridle",
+        TACK_BOX_CHERRY = ITEMS.register("bitless_bridle",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_SADDLE = ITEMS.register("bareback_saddle",
+        TACK_BOX_MANGROVE = ITEMS.register("bareback_saddle",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_BLANKET = ITEMS.register("bareback_blanket",
+        TACK_BOX_THATCH = ITEMS.register("bareback_blanket",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_GIRTH_STRAP = ITEMS.register("bareback_girth_strap",
+        TACK_BOX_WHITEWASH = ITEMS.register("bareback_girth_strap",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        DRESSAGE_SADDLE = ITEMS.register("dressage_saddle",
+        TACK_BOX_ACACIA = ITEMS.register("dressage_saddle",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        DRESSAGE_BLANKET = ITEMS.register("dressage_blanket",
+        TACK_BOX_BIRCH = ITEMS.register("dressage_blanket",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        RACING_SADDLE_BROWN = ITEMS.register("racing_saddle_brown",
+        TACK_BOX_CRIMSON = ITEMS.register("racing_saddle_brown",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        RACING_SADDLE_BLACK = ITEMS.register("racing_saddle_black",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-
-        HUNTER_BLANKET = ITEMS.register("hunter_blanket",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_GIRTH_STRAP_WHITE = ITEMS.register("bareback_girth_strap_white",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BITLESS_BRIDLE_WHITE = ITEMS.register("english_bridle_bitless_white",
-                () -> new Item((new Item.Properties())
-                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_SADDLE_BLACK = ITEMS.register("bareback_saddle_black",
+        TACK_BOX_DARK_OAK = ITEMS.register("racing_saddle_black",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
-        BITLESS_BRIDLE_BROWN = ITEMS.register("english_bridle_bitless_brown",
+        TACK_BOX_JUNGLE = ITEMS.register("hunter_blanket",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_SADDLE_BROWN = ITEMS.register("bareback_saddle_brown",
+        TACK_BOX_SPRUCE = ITEMS.register("bareback_girth_strap_white",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_GIRTH_STRAP_BROWN = ITEMS.register("bareback_girth_strap_brown",
+        TACK_BOX_OAK = ITEMS.register("english_bridle_bitless_white",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_WARPED = ITEMS.register("bareback_saddle_black",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
-        BITLESS_BRIDLE_BEIGE = ITEMS.register("english_bridle_bitless_beige",
+        DRESSAGE_GIRTH_STRAP = ITEMS.register("english_bridle_bitless_brown",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_SADDLE_BEIGE = ITEMS.register("bareback_saddle_beige",
+    ///NUMBERED
+        TACK_BOX_1 = ITEMS.register("tack_box_1",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
-        BAREBACK_GIRTH_STRAP_BEIGE = ITEMS.register("bareback_girth_strap_beige",
+        TACK_BOX_2 = ITEMS.register("tack_box_2",
                 () -> new Item((new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        TACK_BOX_3 = ITEMS.register("tack_box_3",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_4 = ITEMS.register("tack_box_4",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_5 = ITEMS.register("tack_box_5",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_6 = ITEMS.register("tack_box_6",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_7 = ITEMS.register("tack_box_7",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        TACK_BOX_8 = ITEMS.register("tack_box_8",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_9 = ITEMS.register("tack_box_9",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_10 = ITEMS.register("tack_box_10",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_11 = ITEMS.register("tack_box_11",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_12 = ITEMS.register("tack_box_12",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
+        TACK_BOX_13 = ITEMS.register("tack_box_13",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+        TACK_BOX_14 = ITEMS.register("tack_box_14",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
+
 
 
 
@@ -515,7 +558,9 @@ public static final RegistryObject<Item> CLOTH_BITLESS_BRIDLE_13;
                 () -> new Item(
                         (new Item.Properties())
                                 .tab(TackShopCreativeModTab.TRETACK_TAB)));
-
+        TACK_BOX_RAINBOW = ITEMS.register("tack_box_rainbow",
+                () -> new Item((new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB)));
 
         WESTERN_SADDLE_RAINBOW = ITEMS.register("western_saddle_rainbow",
                 () -> new Item((new Item.Properties())

@@ -270,7 +270,7 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .unlockedBy("has_rainbow", inventoryTrigger(ItemPredicate.Builder.item()
 //                        .of(TackShopItems.RAINBOW_INA_BOTTLE.get()).build()))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "rainbow/saddle_bag_rainbow"));
-
+//
 //        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BITLESS_BRIDLE_RAINBOW.get())
 //                .requires(TreTags.CLOTH_BITLESS_BRIDLES)
 //                .requires(TackShopItems.RAINBOW_INA_BOTTLE.get())
@@ -430,7 +430,6 @@ public class TreRecipeProvider extends RecipeProvider {
 //                        .of(Items.GLASS).build()))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "trans/western_girth_strap_trans"));
 
-
 //ONE OFF TACK RECIPES
 //        ShapedRecipeBuilder.shaped(TackShopItems.PELHAM_BRIDLE_BROWN.get())
 //                .define('w', SWTags.REFINED_LEATHER)
@@ -497,6 +496,7 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("pelham_bridle")
 //                .unlockedBy("has_english_bridle", has(TreTags.ENGLISH_BRIDLES))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "pelham/moon_double_from_bridle"));
+
 ////BAREBACK TACK
 //        ShapedRecipeBuilder.shaped(TackShopItems.BITLESS_BRIDLE.get())
 //                .define('w', SWTags.REFINED_LEATHER)
@@ -836,9 +836,7 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .unlockedBy("has_english_saddle", has(TreTags.ENGLISH_SADDLES))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "racing/racing_saddle_brown" + "_from_saddle"));
 
-
-/// CRAFTING RECIPES
-        // BUTTERFLYS FOR DECOR
+//// BUTTERFLYS FOR DECOR
 //        ShapedRecipeBuilder.shaped(TackShopItems.BUTTERFLY.get(), 1)
 //                .define('A', SWTags.STAR_WORMS)
 //                .define('B', Items.OAK_SAPLING)
@@ -865,8 +863,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                        .of(SWTags.STAR_WORMS).build()))
 //                .save(pFinishedRecipeConsumer);
 
-///// PASTEL GENERATION
-//    //PASTURE& QUARTER BLANKETS
+////// PASTEL GENERATION
+////PASTURE & QUARTER BLANKETS
 //        ShapedRecipeBuilder.shaped(TackShopItems.QUARTER_SHEET_1.get())
 //                .define('#', ItemTags.WOOL)
 //                .define('A', TreDyeTags.DYE_1)
@@ -928,8 +926,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("pasture_blanket_armored")
 //                .unlockedBy("has_pasture_blanket_armored", has(SWTags.PASTURE_BLANKETS_ARMORED))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dyed_pasture_blanket_armored_1"));
-//
-//    //HALTER & FLYMASK
+
+////HALTER & FLYMASK
 //        ShapedRecipeBuilder.shaped(TackShopItems.HALTER_1.get())
 //                .define('x', (ItemTags.CARPETS))
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
@@ -969,8 +967,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_flymasks", has(TreTags.FLYMASKS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/dye_flymask_1"));
-//
-//    //BRIDLES
+
+////BRIDLES
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BRIDLE_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
@@ -1058,9 +1056,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("cloth_bridle")
 //                .unlockedBy("has_cloth_bridle", has(TreTags.CLOTH_BRIDLES))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_bridle_1_from_bridle"));
-//
-//
-//    //SADDLES
+
+////SADDLES
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_SADDLE_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.TRIPWIRE_HOOK)
@@ -1123,9 +1120,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("english_saddle")
 //                .unlockedBy("has_english_saddle", has(TreTags.ENGLISH_SADDLES))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_saddle_1" + "_from_saddle"));
-//
-//
-//    //BLANKETS
+
+////BLANKETS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BLANKET_1.get())
 //                .define('y', ItemTags.CARPETS)
 //                .define('x', SWTags.REFINED_LEATHER)
@@ -1188,9 +1184,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("english_blanket")
 //                .unlockedBy("has_english_blanket", has(SWTags.ENGLISH_BLANKETS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_blanket_1" + "_from_blanket"));
-//
-//
-//    //BREAST COLLARS
+
+////BREAST COLLARS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BREAST_COLLAR_1.get())
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
 //                .define('x', SWTags.REFINED_LEATHER)
@@ -1272,9 +1267,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("cloth_breast_collar")
 //                .unlockedBy("has_cloth_breast_collar", has(TreTags.CLOTH_BREAST_COLLARS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_breast_collar_1" + "_from_breast_collar"));
-//
-//
-//    //GIRTH STRAPS
+
+////GIRTH STRAPS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_GIRTH_STRAP_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
@@ -1359,8 +1353,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("cloth_girth_strap")
 //                .unlockedBy("has_cloth_girth_strap", has(TreTags.CLOTH_GIRTH_STRAPS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/cloth_girth_strap_1" + "_from_girth_strap"));
-//
-//        //LEG WRAPS
+
+////LEG WRAPS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_LEG_WRAPS_1.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.IRON_NUGGET)
@@ -1423,11 +1417,10 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("english_leg_wraps")
 //                .unlockedBy("has_english_leg_wraps", has(SWTags.ENGLISH_LEG_WRAPS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "1_creamsicle/english_leg_wraps_1" + "_from_leg_wraps"));
-//
-//
-//
-///// JEWEL GENERATION
-//    //PASTURE& QUARTER BLANKETS
+
+
+//////JEWEL GENERATION        
+////PASTURE & QUARTER BLANKETS
 //        ShapedRecipeBuilder.shaped(TackShopItems.QUARTER_SHEET_71.get())
 //                .define('#', ItemTags.WOOL)
 //                .define('A', TreDyeTags.DYE_71)
@@ -1488,8 +1481,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("pasture_blanket_armored")
 //                .unlockedBy("has_pasture_blanket_armored", has(SWTags.PASTURE_BLANKETS_ARMORED))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dyed_pasture_blanket_armored_71"));
-//
-//    //HALTER & FLYMASK
+
+////HALTER & FLYMASK
 //        ShapedRecipeBuilder.shaped(TackShopItems.HALTER_71.get())
 //                .define('x', (ItemTags.CARPETS))
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
@@ -1529,8 +1522,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_flymasks", has(TreTags.FLYMASKS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/dye_flymask_71"));
-//
-//    //BRIDLES
+
+////BRIDLES
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BRIDLE_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
@@ -1618,9 +1611,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("cloth_bridle")
 //                .unlockedBy("has_cloth_bridle", has(TreTags.CLOTH_BRIDLES))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_bridle_71_from_bridle"));
-//
-//
-//    //SADDLES
+
+////SADDLES
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_SADDLE_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.TRIPWIRE_HOOK)
@@ -1683,9 +1675,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("english_saddle")
 //                .unlockedBy("has_english_saddle", has(TreTags.ENGLISH_SADDLES))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_saddle_71" + "_from_saddle"));
-//
-//
-//    //BLANKETS
+        
+////BLANKETS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BLANKET_71.get())
 //                .define('y', ItemTags.CARPETS)
 //                .define('x', SWTags.REFINED_LEATHER)
@@ -1748,9 +1739,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("english_blanket")
 //                .unlockedBy("has_english_blanket", has(SWTags.ENGLISH_BLANKETS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_blanket_71" + "_from_blanket"));
-//
-//
-//    //BREAST COLLARS
+
+////BREAST COLLARS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_BREAST_COLLAR_71.get())
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
 //                .define('x', SWTags.REFINED_LEATHER)
@@ -1832,9 +1822,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("cloth_breast_collar")
 //                .unlockedBy("has_cloth_breast_collar", has(TreTags.CLOTH_BREAST_COLLARS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_breast_collar_71" + "_from_breast_collar"));
-//
-//
-//    //GIRTH STRAPS
+
+////GIRTH STRAPS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_GIRTH_STRAP_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
@@ -1919,8 +1908,8 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("cloth_girth_strap")
 //                .unlockedBy("has_cloth_girth_strap", has(TreTags.CLOTH_GIRTH_STRAPS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/cloth_girth_strap_71" + "_from_girth_strap"));
-//
-//    //LEG WRAPS
+
+////LEG WRAPS
 //        ShapedRecipeBuilder.shaped(TackShopItems.ADVENTURE_LEG_WRAPS_71.get())
 //                .define('x', SWTags.REFINED_LEATHER)
 //                .define('y', Items.IRON_NUGGET)
@@ -1983,7 +1972,10 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .group("english_leg_wraps")
 //                .unlockedBy("has_english_leg_wraps", has(SWTags.ENGLISH_LEG_WRAPS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "71_topaz/english_leg_wraps_71" + "_from_leg_wraps"));
-        //SADDLE BAGS
+
+
+//////DUAL GENERATON
+////SADDLE BAGS
 //        ShapedRecipeBuilder.shaped(TackShopItems.SADDLE_BAG_1.get())
 //                .define('x', ItemTags.CARPETS)
 //                .define('y', Items.CHEST)
@@ -2067,7 +2059,7 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .unlockedBy("has_cloth_armor", has(TreTags.CLOTH_ARMOR))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "7/dyed_cloth_horse_armor_7"));
 
-
+////FLAGS
 //        ShapedRecipeBuilder.shaped(TackShopItems.FLAG_1.get())
 //                .define('x', Items.STRING)
 //                .define('y', Items.IRON_NUGGET)
@@ -2171,94 +2163,499 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "butterfly_flag_7/dyed_butterfly_flag_7_butterfly"));
 
 ////BAREBACK BLANKETS
-        ShapedRecipeBuilder.shaped(TackShopItems.BAREBACK_BLANKET_13.get())
-                .define('x', ItemTags.WOOL)
-                .define('y', SWTags.REFINED_LEATHER)
-                .define('C', Items.LILY_OF_THE_VALLEY)
-                .define('A', TreDyeTags.DYE_13)
-                .define('B', TreDyeTags.TONER_PASTEL)
-                .pattern("xyx")
-                .pattern("xxA")
-                .pattern(" CB")
-                .group("bareback_blanket")
-                .unlockedBy("has_black_wool", has(Items.BLACK_WOOL))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bareback_blanket_13"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.BAREBACK_BLANKET_13.get())
-                .requires(TreTags.BAREBACK_BLANKETS)
-                .requires(TreDyeTags.DYE_13)
-                .requires(TreDyeTags.TONER_PASTEL)
-                .requires(Items.LILY_OF_THE_VALLEY)
-                .group("bareback_blanket")
-                .unlockedBy("has_bareback_blanket", has(TreTags.BAREBACK_BLANKETS))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bareback_blanket_13" + "_from_blanket"));
-
-        ShapedRecipeBuilder.shaped(TackShopItems.BAREBACK_BLANKET_14.get())
-                .define('x', ItemTags.WOOL)
-                .define('y', SWTags.REFINED_LEATHER)
-                .define('C', Items.LILY_OF_THE_VALLEY)
-                .define('A', TreDyeTags.DYE_14)
-                .define('B', TreDyeTags.TONER_JEWEL)
-                .pattern("xyx")
-                .pattern("xxA")
-                .pattern(" CB")
-                .group("bareback_blanket")
-                .unlockedBy("has_black_wool", has(Items.BLACK_WOOL))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bareback_blanket_14"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.BAREBACK_BLANKET_14.get())
-                .requires(TreTags.BAREBACK_BLANKETS)
-                .requires(TreDyeTags.DYE_14)
-                .requires(TreDyeTags.TONER_JEWEL)
-                .requires(Items.LILY_OF_THE_VALLEY)
-                .group("bareback_blanket")
-                .unlockedBy("has_bareback_blanket", has(TreTags.BAREBACK_BLANKETS))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bareback_blanket_14" + "_from_blanket"));
+//        ShapedRecipeBuilder.shaped(TackShopItems.BAREBACK_BLANKET_13.get())
+//                .define('x', ItemTags.WOOL)
+//                .define('y', SWTags.REFINED_LEATHER)
+//                .define('C', Items.LILY_OF_THE_VALLEY)
+//                .define('A', TreDyeTags.DYE_13)
+//                .define('B', TreDyeTags.TONER_PASTEL)
+//                .pattern("xyx")
+//                .pattern("xxA")
+//                .pattern(" CB")
+//                .group("bareback_blanket")
+//                .unlockedBy("has_black_wool", has(Items.BLACK_WOOL))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bareback_blanket_13"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.BAREBACK_BLANKET_13.get())
+//                .requires(TreTags.BAREBACK_BLANKETS)
+//                .requires(TreDyeTags.DYE_13)
+//                .requires(TreDyeTags.TONER_PASTEL)
+//                .requires(Items.LILY_OF_THE_VALLEY)
+//                .group("bareback_blanket")
+//                .unlockedBy("has_bareback_blanket", has(TreTags.BAREBACK_BLANKETS))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bareback_blanket_13" + "_from_blanket"));
+//
+//        ShapedRecipeBuilder.shaped(TackShopItems.BAREBACK_BLANKET_14.get())
+//                .define('x', ItemTags.WOOL)
+//                .define('y', SWTags.REFINED_LEATHER)
+//                .define('C', Items.LILY_OF_THE_VALLEY)
+//                .define('A', TreDyeTags.DYE_14)
+//                .define('B', TreDyeTags.TONER_JEWEL)
+//                .pattern("xyx")
+//                .pattern("xxA")
+//                .pattern(" CB")
+//                .group("bareback_blanket")
+//                .unlockedBy("has_black_wool", has(Items.BLACK_WOOL))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bareback_blanket_14"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.BAREBACK_BLANKET_14.get())
+//                .requires(TreTags.BAREBACK_BLANKETS)
+//                .requires(TreDyeTags.DYE_14)
+//                .requires(TreDyeTags.TONER_JEWEL)
+//                .requires(Items.LILY_OF_THE_VALLEY)
+//                .group("bareback_blanket")
+//                .unlockedBy("has_bareback_blanket", has(TreTags.BAREBACK_BLANKETS))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bareback_blanket_14" + "_from_blanket"));
 
 ////CLOTH BITLESS BRIDLES
-        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BITLESS_BRIDLE_13.get())
-                .define('w', SWTags.REFINED_LEATHER)
-                .define('A', Items.STRING)
-                .define('D', TreDyeTags.DYE_13)
-                .define('B', TreDyeTags.TONER_PASTEL)
-                .define('C', Items.LILY_OF_THE_VALLEY)
-                .pattern("C w")
-                .pattern("wwB")
-                .pattern("ADA")
-                .group("bitless_bridle")
-                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bitless_bridle_13"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BITLESS_BRIDLE_13.get())
-                .requires(TreTags.CLOTH_BITLESS_BRIDLES)
-                .requires(TreDyeTags.DYE_13)
-                .requires(TreDyeTags.TONER_PASTEL)
-                .requires(Items.LILY_OF_THE_VALLEY)
-                .group("bitless_bridle")
-                .unlockedBy("has_bitless_bridle", has(TreTags.CLOTH_BITLESS_BRIDLES))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bitless_bridle_13_from_bridle"));
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BITLESS_BRIDLE_13.get())
+//                .define('w', SWTags.REFINED_LEATHER)
+//                .define('A', Items.STRING)
+//                .define('D', TreDyeTags.DYE_13)
+//                .define('B', TreDyeTags.TONER_PASTEL)
+//                .define('C', Items.LILY_OF_THE_VALLEY)
+//                .pattern("C w")
+//                .pattern("wwB")
+//                .pattern("ADA")
+//                .group("bitless_bridle")
+//                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bitless_bridle_13"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BITLESS_BRIDLE_13.get())
+//                .requires(TreTags.CLOTH_BITLESS_BRIDLES)
+//                .requires(TreDyeTags.DYE_13)
+//                .requires(TreDyeTags.TONER_PASTEL)
+//                .requires(Items.LILY_OF_THE_VALLEY)
+//                .group("bitless_bridle")
+//                .unlockedBy("has_bitless_bridle", has(TreTags.CLOTH_BITLESS_BRIDLES))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "13/bitless_bridle_13_from_bridle"));
+//
+//        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BITLESS_BRIDLE_14.get())
+//                .define('w', SWTags.REFINED_LEATHER)
+//                .define('A', Items.STRING)
+//                .define('D', TreDyeTags.DYE_14)
+//                .define('B', TreDyeTags.TONER_JEWEL)
+//                .define('C', Items.LILY_OF_THE_VALLEY)
+//                .pattern("C w")
+//                .pattern("wwB")
+//                .pattern("ADA")
+//                .group("bitless_bridle")
+//                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bitless_bridle_14"));
+//        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BITLESS_BRIDLE_14.get())
+//                .requires(TreTags.CLOTH_BITLESS_BRIDLES)
+//                .requires(TreDyeTags.DYE_14)
+//                .requires(TreDyeTags.TONER_JEWEL)
+//                .requires(Items.LILY_OF_THE_VALLEY)
+//                .group("bitless_bridle")
+//                .unlockedBy("has_bitless_bridle", has(TreTags.CLOTH_BITLESS_BRIDLES))
+//                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bitless_bridle_14_from_bridle"));
 
-        ShapedRecipeBuilder.shaped(TackShopItems.CLOTH_BITLESS_BRIDLE_14.get())
-                .define('w', SWTags.REFINED_LEATHER)
-                .define('A', Items.STRING)
-                .define('D', TreDyeTags.DYE_14)
+//////TACK BOXES
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_1.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_1)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_1"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_2.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_2)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_2"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_3.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_3)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_3"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_4.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_4)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_4"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_5.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_5)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_5"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_6.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_6)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_6"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_13.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_PASTEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_13)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_13"));
+
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_7.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
                 .define('B', TreDyeTags.TONER_JEWEL)
-                .define('C', Items.LILY_OF_THE_VALLEY)
-                .pattern("C w")
-                .pattern("wwB")
-                .pattern("ADA")
-                .group("bitless_bridle")
-                .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bitless_bridle_14"));
-        ShapelessRecipeBuilder.shapeless(TackShopItems.CLOTH_BITLESS_BRIDLE_14.get())
-                .requires(TreTags.CLOTH_BITLESS_BRIDLES)
-                .requires(TreDyeTags.DYE_14)
-                .requires(TreDyeTags.TONER_JEWEL)
-                .requires(Items.LILY_OF_THE_VALLEY)
-                .group("bitless_bridle")
-                .unlockedBy("has_bitless_bridle", has(TreTags.CLOTH_BITLESS_BRIDLES))
-                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "14/bitless_bridle_14_from_bridle"));
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_7)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_7"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_8.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_JEWEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_8)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_8"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_9.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_JEWEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_9)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_9"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_10.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_JEWEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_10)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_10"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_11.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_JEWEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_11)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_11"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_12.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_JEWEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_12)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_12"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_14.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TreDyeTags.TONER_JEWEL)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', TreDyeTags.DYE_14)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_14"));
+
+    //RAINBOW
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_RAINBOW.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', TackShopItems.RAINBOW_INA_BOTTLE.get())
+                .define('T', Items.LILY_OF_THE_VALLEY)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("BTB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_rainbow"));
+
+    //WOOD
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_CHERRY.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', Items.PINK_DYE)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', ItemTags.PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_cherry"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_MANGROVE.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', Items.RED_DYE)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', ItemTags.PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_mangrove"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_THATCH.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', Items.BROWN_DYE)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', ItemTags.PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_thatch"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_SWDM_BAMBOO.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', Items.GREEN_DYE)
+                .define('A', Items.BAMBOO)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ABA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_swdm_bamboo"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_BAMBOO.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', Items.YELLOW_DYE)
+                .define('A', Items.BAMBOO)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ABA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_bamboo"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_WHITEWASH.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('B', Items.WHITE_DYE)
+                .define('T', ItemTags.SAPLINGS)
+                .define('A', ItemTags.PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATB")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_whitewash"));
+
+
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_ACACIA.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.ACACIA_SAPLING)
+                .define('A', Items.ACACIA_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_acacia"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_CRIMSON.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.CRIMSON_FUNGUS)
+                .define('A', Items.CRIMSON_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_crimson"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_BIRCH.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.BIRCH_SAPLING)
+                .define('A', Items.BIRCH_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_birch"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_DARK_OAK.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.DARK_OAK_SAPLING)
+                .define('A', Items.DARK_OAK_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_dark_oak"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_JUNGLE.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.JUNGLE_SAPLING)
+                .define('A', Items.JUNGLE_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_jungle"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_OAK.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.OAK_SAPLING)
+                .define('A', Items.OAK_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_oak"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_SPRUCE.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.SPRUCE_SAPLING)
+                .define('A', Items.SPRUCE_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_spruce"));
+        ShapedRecipeBuilder.shaped(TackShopItems.TACK_BOX_WARPED.get())
+                .define('#', net.minecraftforge.common.Tags.Items.NUGGETS_IRON)
+                .define('D', net.minecraftforge.common.Tags.Items.INGOTS_IRON)
+                .define('R', SWTags.STAR_WORMS)
+                .define('C', Items.CHEST)
+                .define('T', Items.WARPED_FUNGUS)
+                .define('A', Items.WARPED_PLANKS)
+                .pattern("#D#")
+                .pattern("RCR")
+                .pattern("ATA")
+                .group("tack_box")
+                .unlockedBy("has_iron_nugget", has(Items.IRON_NUGGET))
+                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "tack_boxes/tack_box_warped"));
+    }
 
 
 /// TACK RECIPES
-        /// STANDARD COLOR DYE TACK
+///// STANDARD COLOR DYE TACK
 //        DyeColor[] var0 = DyeColor.values();
 //        int var3 = var0.length;
 //
@@ -2273,46 +2670,46 @@ public class TreRecipeProvider extends RecipeProvider {
 //        }
 //
 }
-        private void barebackBlanketDyed (DyeColor color, Consumer < FinishedRecipe > pFinishedRecipeConsumer){
-            ShapedRecipeBuilder.shaped((ItemLike) ((RegistryObject) TackShopItems.BAREBACK_BLANKETS_DYED.get(color.getId())).get())
-                    .define('x', (ItemLike)ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft", color.getName() + "_wool")))
-                    .define('y', SWTags.REFINED_LEATHER)
-                    .define('C', Items.LILY_OF_THE_VALLEY)
-                    .pattern("xyx")
-                    .pattern("xx ")
-                    .pattern(" C ")
-                    .group("bareback_blanket")
-                    .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bareback/bareback_blanket_" + color.getName()));
-            ShapelessRecipeBuilder.shapeless((ItemLike)((RegistryObject)TackShopItems.BAREBACK_BLANKETS_DYED.get(color.getId())).get())
-                    .requires(TreTags.BAREBACK_BLANKETS)
-                    .requires(color.getTag())
-                    .requires(Items.LILY_OF_THE_VALLEY)
-                    .group("bareback_blanket")
-                    .unlockedBy("has_bareback_blanket", has(TreTags.BAREBACK_BLANKETS))
-                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bareback/dyed_bareback_blanket_" + color.getName()));
-        }
-        private void clothBitlessBridleDyed (DyeColor color, Consumer < FinishedRecipe > pFinishedRecipeConsumer){
-               ShapedRecipeBuilder.shaped((ItemLike) ((RegistryObject) TackShopItems.CLOTH_BITLESS_BRIDLES_DYED.get(color.getId())).get())
-                    .define('w', SWTags.REFINED_LEATHER)
-                    .define('A', Items.STRING)
-                    .define('B', (ItemLike)ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft", color.getName() + "_carpet")))
-                    .define('C', Items.LILY_OF_THE_VALLEY)
-                    .pattern("C w")
-                    .pattern("wwB")
-                    .pattern("AAA")
-                    .group("bitless_bridle")
-                    .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
-                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bitless/bitless_bridle_" + color.getName()));
-            ShapelessRecipeBuilder.shapeless((ItemLike)((RegistryObject)TackShopItems.CLOTH_BITLESS_BRIDLES_DYED.get(color.getId())).get())
-                    .requires(TreTags.CLOTH_BITLESS_BRIDLES)
-                    .requires(color.getTag())
-                    .requires(Items.STRING)
-                    .requires(Items.LILY_OF_THE_VALLEY)
-                    .group("bitless_bridle")
-                    .unlockedBy("has_bitless_bridle", has(TreTags.CLOTH_BITLESS_BRIDLES))
-                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bitless/dyed_bitless_bridle_" + color.getName()));
-        }
+//        private void barebackBlanketDyed (DyeColor color, Consumer < FinishedRecipe > pFinishedRecipeConsumer){
+//            ShapedRecipeBuilder.shaped((ItemLike) ((RegistryObject) TackShopItems.BAREBACK_BLANKETS_DYED.get(color.getId())).get())
+//                    .define('x', (ItemLike)ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft", color.getName() + "_wool")))
+//                    .define('y', SWTags.REFINED_LEATHER)
+//                    .define('C', Items.LILY_OF_THE_VALLEY)
+//                    .pattern("xyx")
+//                    .pattern("xx ")
+//                    .pattern(" C ")
+//                    .group("bareback_blanket")
+//                    .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
+//                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bareback/bareback_blanket_" + color.getName()));
+//            ShapelessRecipeBuilder.shapeless((ItemLike)((RegistryObject)TackShopItems.BAREBACK_BLANKETS_DYED.get(color.getId())).get())
+//                    .requires(TreTags.BAREBACK_BLANKETS)
+//                    .requires(color.getTag())
+//                    .requires(Items.LILY_OF_THE_VALLEY)
+//                    .group("bareback_blanket")
+//                    .unlockedBy("has_bareback_blanket", has(TreTags.BAREBACK_BLANKETS))
+//                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bareback/dyed_bareback_blanket_" + color.getName()));
+//        }
+//        private void clothBitlessBridleDyed (DyeColor color, Consumer < FinishedRecipe > pFinishedRecipeConsumer){
+//               ShapedRecipeBuilder.shaped((ItemLike) ((RegistryObject) TackShopItems.CLOTH_BITLESS_BRIDLES_DYED.get(color.getId())).get())
+//                    .define('w', SWTags.REFINED_LEATHER)
+//                    .define('A', Items.STRING)
+//                    .define('B', (ItemLike)ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft", color.getName() + "_carpet")))
+//                    .define('C', Items.LILY_OF_THE_VALLEY)
+//                    .pattern("C w")
+//                    .pattern("wwB")
+//                    .pattern("AAA")
+//                    .group("bitless_bridle")
+//                    .unlockedBy("has_refined_leather", has(SWTags.REFINED_LEATHER))
+//                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bitless/bitless_bridle_" + color.getName()));
+//            ShapelessRecipeBuilder.shapeless((ItemLike)((RegistryObject)TackShopItems.CLOTH_BITLESS_BRIDLES_DYED.get(color.getId())).get())
+//                    .requires(TreTags.CLOTH_BITLESS_BRIDLES)
+//                    .requires(color.getTag())
+//                    .requires(Items.STRING)
+//                    .requires(Items.LILY_OF_THE_VALLEY)
+//                    .group("bitless_bridle")
+//                    .unlockedBy("has_bitless_bridle", has(TreTags.CLOTH_BITLESS_BRIDLES))
+//                    .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_bitless/dyed_bitless_bridle_" + color.getName()));
+//        }
 
 //private void flymaskDyed(DyeColor color, Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 //            ShapedRecipeBuilder.shaped((ItemLike)((RegistryObject)TackShopItems.FLYMASKS_DYED.get(color.getId())).get())
@@ -2352,7 +2749,7 @@ public class TreRecipeProvider extends RecipeProvider {
 //                .requires(ItemTags.SAPLINGS)
 //                .unlockedBy("has_flag", has(TreTags.FLAGS))
 //                .save(pFinishedRecipeConsumer, new ResourceLocation("tretackshop", "dyed_flags/dyed_flag_"+ color.getName()));
-    }
+
 
 //    private void quarterSheetDyed(DyeColor color, Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 //            ShapedRecipeBuilder.shaped((ItemLike)((RegistryObject)TackShopItems.QUARTER_SHEETS_DYED.get(color.getId())).get())
