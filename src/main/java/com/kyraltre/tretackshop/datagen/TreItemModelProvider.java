@@ -20,59 +20,59 @@ public class TreItemModelProvider extends ItemModelProvider {
 //        simpleItem(TackShopItems.RAINBOW_INA_BOTTLE.get());
 
         //DYE LOOP
-        DyeColor[] var5 = DyeColor.values();
-        int var7 = var5.length;
-        for (int var6 = 0; var6 < var7; ++var6) {
-            DyeColor color = var5[var6];
-//            ((ItemModelBuilder) this.withExistingParent("flymask_" + color.getName(), "item/generated"))
-//                    .texture("layer0", new ResourceLocation("tretackshop", "items/halters/flymask_" + color.getName()));
-//            ((ItemModelBuilder) this.withExistingParent("flag_" + color.getName(), "item/flag_template"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + color.getName()));
-//            ((ItemModelBuilder) this.withExistingParent("cloth_bitless_bridle_" + color.getName(), "item/generated"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/bridles/cloth_bitless_bridle_" + color.getName()));
-//            ((ItemModelBuilder) this.withExistingParent("bareback_blanket_" + color.getName(), "item/generated"))
-//                    .texture("texture", new ResourceLocation("tretackshop", "items/blankets/bareback_blanket_" + color.getName()));
-
-        }
+//        DyeColor[] var5 = DyeColor.values();
+//        int var7 = var5.length;
+//        for (int var6 = 0; var6 < var7; ++var6) {
+//            DyeColor color = var5[var6];
+////            ((ItemModelBuilder) this.withExistingParent("flymask_" + color.getName(), "item/generated"))
+////                    .texture("layer0", new ResourceLocation("tretackshop", "items/halters/flymask_" + color.getName()));
+////            ((ItemModelBuilder) this.withExistingParent("flag_" + color.getName(), "item/flag_template"))
+////                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + color.getName()));
+////            ((ItemModelBuilder) this.withExistingParent("cloth_bitless_bridle_" + color.getName(), "item/generated"))
+////                    .texture("texture", new ResourceLocation("tretackshop", "items/bridles/cloth_bitless_bridle_" + color.getName()));
+////            ((ItemModelBuilder) this.withExistingParent("bareback_blanket_" + color.getName(), "item/generated"))
+////                    .texture("texture", new ResourceLocation("tretackshop", "items/blankets/bareback_blanket_" + color.getName()));
+//
+//        }
 
 
         //crafting loop
 //
-        int var1 = 2;
-        int var2 = 1;
-        while (var2 < var1) {
-            ((ItemModelBuilder) this.withExistingParent("rosette_" + "morpho", "tretackshop:item/rosette_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "morpho", "tretackshop:item/ribbon_two_tailed_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "morpho", "tretackshop:item/ribbon_three_tailed_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "morpho", "tretackshop:item/ribbon_one_tailed_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
-
-            ((ItemModelBuilder) this.withExistingParent("rosette_" + "monarch", "tretackshop:item/rosette_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "monarch", "tretackshop:item/ribbon_two_tailed_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "monarch", "tretackshop:item/ribbon_three_tailed_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "monarch", "tretackshop:item/ribbon_one_tailed_template"))
-                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
-        ++var2;
-        }
-            int var11 = 15;
-            int var22 = 1;
-            while (var22 < var11) {
-                ((ItemModelBuilder) this.withExistingParent("rosette_" + var22, "tretackshop:item/rosette_template"))
-                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-                ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + var22, "tretackshop:item/ribbon_two_tailed_template"))
-                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-                ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + var22, "tretackshop:item/ribbon_three_tailed_template"))
-                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-                ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + var22, "tretackshop:item/ribbon_one_tailed_template"))
-                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
-            ++var22;
-            }
+//        int var1 = 2;
+//        int var2 = 1;
+//        while (var2 < var1) {
+//            ((ItemModelBuilder) this.withExistingParent("rosette_" + "morpho", "tretackshop:item/rosette_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+//            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "morpho", "tretackshop:item/ribbon_two_tailed_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+//            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "morpho", "tretackshop:item/ribbon_three_tailed_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+//            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "morpho", "tretackshop:item/ribbon_one_tailed_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "morpho"));
+//
+//            ((ItemModelBuilder) this.withExistingParent("rosette_" + "monarch", "tretackshop:item/rosette_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+//            ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + "monarch", "tretackshop:item/ribbon_two_tailed_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+//            ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + "monarch", "tretackshop:item/ribbon_three_tailed_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+//            ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + "monarch", "tretackshop:item/ribbon_one_tailed_template"))
+//                    .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + "monarch"));
+//        ++var2;
+//        }
+//            int var11 = 15;
+//            int var22 = 1;
+//            while (var22 < var11) {
+//                ((ItemModelBuilder) this.withExistingParent("rosette_" + var22, "tretackshop:item/rosette_template"))
+//                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
+//                ((ItemModelBuilder) this.withExistingParent("ribbon_two_tails_" + var22, "tretackshop:item/ribbon_two_tailed_template"))
+//                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
+//                ((ItemModelBuilder) this.withExistingParent("ribbon_three_tails_" + var22, "tretackshop:item/ribbon_three_tailed_template"))
+//                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
+//                ((ItemModelBuilder) this.withExistingParent("ribbon_one_tail_" + var22, "tretackshop:item/ribbon_one_tailed_template"))
+//                        .texture("texture", new ResourceLocation("tretackshop", "items/awards/tre_ribbons/ribbon_" + var22));
+//            ++var22;
+//            }
 
         ////TACKBOXES
 //            String var31 = "spruce";
