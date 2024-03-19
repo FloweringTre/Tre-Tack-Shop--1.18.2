@@ -7,8 +7,7 @@ package com.kyraltre.tretackshop.registry;
 
 import com.alaharranhonor.swem.forge.blocks.TackBoxBlock;
 import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
-import com.kyraltre.tretackshop.block.custom.CloverTrophy;
-import com.kyraltre.tretackshop.block.custom.EggTrophy;
+import com.kyraltre.tretackshop.block.custom.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -70,7 +69,6 @@ public class AwardShopBlockRegistry {
     static {
         BLOCKS = DeferredRegister.create(Keys.BLOCKS, "tretackshop");
 
-
         EGG_TROPHY_CHEV = new ArrayList<>();
         EGG_TROPHY_THIN = new ArrayList<>();
         EGG_TROPHY_THICK = new ArrayList<>();
@@ -86,17 +84,5 @@ public class AwardShopBlockRegistry {
                 return new EggTrophy(Properties.of(Material.METAL).noOcclusion().strength(1.0F));
             }));
         }
-
-//            GRAIN_BINS_COLOR.put(counter, register("bin_grain_" + counter, () -> {
-//                return new GrainBinBlock(Properties.of(Material.WOOD).strength(1.0F, 2.0F).noOcclusion());
-//            }));
-//        }
-//
-//        Stream.of(WoodType.OAK, WoodType.BIRCH, WoodType.SPRUCE, WoodType.JUNGLE, WoodType.DARK_OAK, WoodType.ACACIA, WoodType.WARPED, WoodType.CRIMSON).forEach((wood) -> {
-//            GRAIN_BINS_WOOD.put(wood.name(), register("bin_grain_" + wood.name(), () -> {
-//                return new GrainBinBlock(Properties.of(Material.WOOD).strength(1.0F, 2.0F).noOcclusion());
-//            }));
-//        });
-
     }
 }

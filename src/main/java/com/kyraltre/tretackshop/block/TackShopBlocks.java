@@ -29,38 +29,43 @@ public class TackShopBlocks {
             () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
-    public  static final RegistryObject<Block> SNOWFLAKE_GRAND =registerBlock("snowflake_grand", () ->
+    public static final RegistryObject<Block> SNOWFLAKE_GRAND = registerBlock("snowflake_grand", () ->
             new SnowflakeTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
     public static final RegistryObject<Block> SNOWFLAKE_RESERVE = registerBlock("snowflake_reserve",
             () -> new SnowflakeTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
-    public  static final RegistryObject<Block> HEART_GRAND =registerBlock("heart_grand", () ->
+    public static final RegistryObject<Block> HEART_GRAND = registerBlock("heart_grand", () ->
             new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
     public static final RegistryObject<Block> HEART_RESERVE = registerBlock("heart_reserve",
             () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
-    public  static final RegistryObject<Block> CLOVER_GRAND =registerBlock("clover_grand", () ->
+    public static final RegistryObject<Block> CLOVER_GRAND = registerBlock("clover_grand", () ->
             new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
     public static final RegistryObject<Block> CLOVER_RESERVE = registerBlock("clover_reserve",
             () -> new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
-//    //tester trophy
-//    public  static final RegistryObject<Block> E_G_G_TROPHY_THIN =registerBlock("e_g_g_trophy_thin", () ->
-//            new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
-//            ), TackShopCreativeModTab.TREAWARD_TAB);
-//
-//    //rest of the trophies
-//    public static final RegistryObject<Block> E_G_G_TROPHY_THICK = registerBlock("e_g_g_trophy_thick",
-//            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
-//            ), TackShopCreativeModTab.TREAWARD_TAB);
-//    public static final RegistryObject<Block> E_G_G_TROPHY_CHEV = registerBlock("e_g_g_trophy_chev",
-//            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
-//            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> FLORAL_GOLD = registerBlock("floral_gold", () ->
+            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> FLORAL_SILVER = registerBlock("floral_silver", () ->
+            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> FLORAL_BRONZE = registerBlock("floral_bronze", () ->
+            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+
+    public static final RegistryObject<Block> SUN_TROPHY = registerBlock("sun_trophy", () ->
+            new CelestialTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+    public static final RegistryObject<Block> MOON_TROPHY = registerBlock("moon_trophy",
+            () -> new CelestialTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ), TackShopCreativeModTab.TREAWARD_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
