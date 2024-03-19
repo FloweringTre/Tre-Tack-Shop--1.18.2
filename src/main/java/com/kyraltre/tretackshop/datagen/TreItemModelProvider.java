@@ -114,7 +114,7 @@ public class TreItemModelProvider extends ItemModelProvider {
 //            ((ItemModelBuilder) this.withExistingParent("tack_box_" + var2, "tretackshop:blocks/tack_boxes/tack_box_single_" + var2 ))
 //                    .texture("A", new ResourceLocation("deleteme", "imadork"));
 
-        ////EGG TROPHIES
+        ////OTHER OLD ONES TO LOOP WITH FIRST SET
 //            ((ItemModelBuilder) this.withExistingParent("e_g_g_trophy_thin_" + var2, "tretackshop:block/e_g_g_trophy_template"))
 //                    .texture("texture", new ResourceLocation("tretackshop", "blocks/eggs/thin_" + var2));
 //            ((ItemModelBuilder) this.withExistingParent("e_g_g_trophy_thin_" + var2, "tretackshop:block/e_g_g_trophy_thin_" + var2 ))
