@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tretackshop:block/floral_bronze"},
+    "facing=east": { "model": "tretackshop:block/floral_bronze", "y": 90},
+    "facing=south": { "model": "tretackshop:block/floral_bronze", "y": 180},
+    "facing=west": { "model": "tretackshop:block/floral_bronze", "y": 270}
+  }
+}

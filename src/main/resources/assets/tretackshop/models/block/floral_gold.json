@@ -1,0 +1,6 @@
+{
+	"parent": "tretackshop:block/floral_trophy_template",
+	"textures": {
+		"texture": "tretackshop:blocks/floral_gold"
+	}
+}
