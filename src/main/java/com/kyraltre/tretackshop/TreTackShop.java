@@ -20,6 +20,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+import java.awt.*;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TreTackShop.MOD_ID)
 public class TreTackShop
@@ -60,6 +62,9 @@ public class TreTackShop
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_GRAND.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_RESERVE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_GRAND.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.FLORAL_GOLD.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.FLORAL_SILVER.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.FLORAL_BRONZE.get(), RenderType.translucent());
 
     }
 
