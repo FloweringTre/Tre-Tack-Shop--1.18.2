@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dressage_girth_strap",
+  "pattern": [
+    "yxB",
+    " xB",
+    "Cxy"
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "y": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:white_wool"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_bridle_bitless_brown"
+  }
+}
