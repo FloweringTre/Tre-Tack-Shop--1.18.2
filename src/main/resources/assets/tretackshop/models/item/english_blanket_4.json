@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "tretackshop:items/blankets/english_blanket_4"
-  }
-}

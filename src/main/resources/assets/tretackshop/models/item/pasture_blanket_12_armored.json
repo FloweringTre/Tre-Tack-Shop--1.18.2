@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "tretackshop:items/pasture_blanket/pasture_blanket_12_armored_icon"
-  }
-}

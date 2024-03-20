@@ -1,6 +1,0 @@
-{
-	"parent": "tretackshop:block/pumpkin_trophy_template",
-	"textures": {
-		"texture": "tretackshop:blocks/pumpkin_reserve"
-	}
-}
