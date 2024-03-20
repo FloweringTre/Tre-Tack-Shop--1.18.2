@@ -49,22 +49,22 @@ public class TackShopBlocks {
             () -> new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
             ), TackShopCreativeModTab.TREAWARD_TAB);
 
-    public static final RegistryObject<Block> FLORAL_GOLD = registerBlock("floral_gold", () ->
-            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
-    public static final RegistryObject<Block> FLORAL_SILVER = registerBlock("floral_silver", () ->
-            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
-    public static final RegistryObject<Block> FLORAL_BRONZE = registerBlock("floral_bronze", () ->
-            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
-
-    public static final RegistryObject<Block> SUN_TROPHY = registerBlock("sun_trophy", () ->
-            new CelestialTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
-    public static final RegistryObject<Block> MOON_TROPHY = registerBlock("moon_trophy",
-            () -> new CelestialTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
-            ), TackShopCreativeModTab.TREAWARD_TAB);
+//    public static final RegistryObject<Block> FLORAL_GOLD = registerBlock("floral_gold", () ->
+//            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
+//    public static final RegistryObject<Block> FLORAL_SILVER = registerBlock("floral_silver", () ->
+//            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
+//    public static final RegistryObject<Block> FLORAL_BRONZE = registerBlock("floral_bronze", () ->
+//            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
+//
+//    public static final RegistryObject<Block> SUN_TROPHY = registerBlock("sun_trophy", () ->
+//            new CelestialTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
+//    public static final RegistryObject<Block> MOON_TROPHY = registerBlock("moon_trophy",
+//            () -> new CelestialTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+//            ), TackShopCreativeModTab.TREAWARD_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

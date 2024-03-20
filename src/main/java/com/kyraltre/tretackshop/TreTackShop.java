@@ -62,9 +62,6 @@ public class TreTackShop
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_GRAND.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_RESERVE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_GRAND.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.FLORAL_GOLD.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.FLORAL_SILVER.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.FLORAL_BRONZE.get(), RenderType.translucent());
 
     }
 

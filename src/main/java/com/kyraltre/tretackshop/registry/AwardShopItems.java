@@ -141,6 +141,11 @@ public class AwardShopItems {
     public static final RegistryObject<Item> MEDAL_1;
     public static final RegistryObject<Item> MEDAL_2;
     public static final RegistryObject<Item> MEDAL_3;
+    public static final RegistryObject<Item> FLORAL_GOLD;
+    public static final RegistryObject<Item> FLORAL_SILVER;
+    public static final RegistryObject<Item> FLORAL_BRONZE;
+    public static final RegistryObject<Item> SUN_TROPHY;
+    public static final RegistryObject<Item> MOON_TROPHY;
 
 
 
@@ -573,6 +578,17 @@ public class AwardShopItems {
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         TROPHY_3 = ITEMS.register("trophy_3",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        FLORAL_GOLD = ITEMS.register("floral_gold",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        FLORAL_SILVER = ITEMS.register("floral_silver",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        FLORAL_BRONZE = ITEMS.register("floral_bronze",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        SUN_TROPHY = ITEMS.register("sun_trophy",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        MOON_TROPHY = ITEMS.register("moon_trophy",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
         MEDAL_1 = ITEMS.register("medal_1",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         MEDAL_2 = ITEMS.register("medal_2",
