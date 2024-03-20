@@ -69,7 +69,7 @@ public class TackShopItems {
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BROWN;
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BLACK;
 
-    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_DYED;
+
     // RAINBOW TACK
     public static final RegistryObject<HalterItem> HALTER_RAINBOW;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW;
@@ -258,10 +258,6 @@ public class TackShopItems {
         HUNTER_BLANKET = ITEMS.register("hunter_blanket",
                 () -> new EnglishBlanketItem("hunter_blanket", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-
-        PASTURE_BLANKET_DYED= ITEMS.register("pasture_blanket_dyed",
-                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0, "pasture_blanket_dyed",
-                        new Item.Properties().tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
 
         // Rainbow Tack
         HALTER_RAINBOW = ITEMS.register("halter_rainbow",
