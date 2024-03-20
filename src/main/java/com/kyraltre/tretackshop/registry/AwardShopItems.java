@@ -369,8 +369,9 @@ public class AwardShopItems {
         TRE_RIBBON_ONE_TAIL = new ArrayList<>();
         TRE_ROSETTE = new ArrayList<>();
 
+        int var534 = 14;
     //ADVENTURE TACK
-        for(int var1 = 0; var1 < (AWARD_ADVENTURE_TACK_SETS.get()); ++var1) {
+        for(int var1 = 0; var1 < var534; ++var1) {
             int counter = var1+1;
             AWARD_ADVENTURE_SADDLES.add(ITEMS.register("award_adventure_saddle_" + counter, () ->
                     new AdventureSaddleItem("award_adventure_saddle_" + counter, (new Item.Properties())
@@ -400,7 +401,7 @@ public class AwardShopItems {
 
 
     //SADDLE BAGS AND CLOTH ARMOR
-        for(int var1 = 0; var1 < (AWARD_ARMOR_EXTRAS_TACK_SETS.get()); ++var1) {
+        for(int var1 = 0; var1 < var534; ++var1) {
             int counter = var1+1;
             AWARD_CLOTH_ARMOR.add(ITEMS.register("award_cloth_horse_armor_" + counter,
                     () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "award_cloth_" + counter, (new Item.Properties())
@@ -413,7 +414,7 @@ public class AwardShopItems {
         }
 
     //WESTERN TACK
-        for(int var1 = 0; var1 < (AWARD_WESTERN_TACK_SETS.get()); ++var1) {
+        for(int var1 = 0; var1 < var534; ++var1) {
             int counter = var1+1;
             AWARD_WESTERN_SADDLES.add(ITEMS.register("award_western_saddle_" + counter,
                     () -> new WesternSaddleItem("award_western_saddle_" + counter, (new Item.Properties())
@@ -442,7 +443,7 @@ public class AwardShopItems {
         }
 
     //ENGLISH TACK
-        for(int var1 = 0; var1 < (AWARD_ENGLISH_TACK_SETS.get()); ++var1) {
+        for(int var1 = 0; var1 < var534; ++var1) {
             int counter = var1+1;
             AWARD_ENGLISH_SADDLES.add(ITEMS.register("award_english_saddle_" + counter,
                     () -> new EnglishSaddleItem("award_english_saddle_" + counter, (new Item.Properties())
@@ -471,7 +472,7 @@ public class AwardShopItems {
         }
 
     //PADDOCK TACK
-        for(int var1 = 0; var1 < (AWARD_PADDOCK_TACK_SETS.get()); ++var1) {
+        for(int var1 = 0; var1 < var534; ++var1) {
             int counter = var1 + 1;
             AWARD_HALTERS.add(ITEMS.register("award_halter_" + counter,
                     () -> new HalterItem("award_halter_" + counter, (new Item.Properties())
