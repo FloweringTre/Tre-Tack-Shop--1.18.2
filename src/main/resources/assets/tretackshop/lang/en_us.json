@@ -10,11 +10,11 @@
   "block.tretackshop.heart_reserve": "Heart Reserve Grand Champion Trophy",
   "block.tretackshop.clover_grand": "Clover Grand Champion Trophy",
   "block.tretackshop.clover_reserve": "Clover Reserve Grand Champion Trophy",
-  "block.tretackshop.floral_gold": "Floral Gold Trophy",
-  "block.tretackshop.floral_silver": "Floral Silver Trophy",
-  "block.tretackshop.floral_bronze": "Floral Bronze Trophy",
-  "block.tretackshop.sun_trophy": "Sun Trophy",
-  "block.tretackshop.moon_trophy": "Moon Trophy",
+  "item.tretackshop.floral_gold": "Floral Gold Trophy",
+  "item.tretackshop.floral_silver": "Floral Silver Trophy",
+  "item.tretackshop.floral_bronze": "Floral Bronze Trophy",
+  "item.tretackshop.sun_trophy": "Sun Trophy",
+  "item.tretackshop.moon_trophy": "Moon Trophy",
   "itemGroup.tretacktab": "Tre's Tack",
   "itemGroup.treawardtab": "Tre's Awards",
 
@@ -1445,7 +1445,9 @@
 
   "item.tretackshop.pelham_bridle_brown": "Brown Pelham Bridle",
   "item.tretackshop.pelham_bridle_black": "Black Pelham Bridle",
-  "item.tretackshop.double_bridle": "Moon's Double Bridle",
+  "item.tretackshop.medieval_bridle_brown": "Brown Medieval Bridle",
+  "item.tretackshop.medieval_bridle_black": "Black Medieval Bridle",
+  "item.tretackshop.moon_bridle_double": "Moon's Double Bridle",
   "item.tretackshop.english_bridle_bitless": "Moon's Black Bitless Bridle",
   "item.tretackshop.bareback_saddle": "Moon's White Bareback Saddle",
   "item.tretackshop.bareback_blanket": "Moon's Black Bareback Blanket",
@@ -1481,7 +1483,7 @@
   "item.tretackshop.racing_saddle_black": "Black Racing English Saddle",
   "item.tretackshop.dressage_saddle": "Dressage Saddle",
   "item.tretackshop.dressage_blanket": "Dressage Blanket",
-
+  "item.tretackshop.dressage_girth_strap": "Dressage Girth Strap",
 
   "item.tretackshop.pasture_blanket_rainbow": "Rainbow Pasture Blanket",
   "item.tretackshop.pasture_blanket_morpho": "Blue Morpho Pasture Blanket",
