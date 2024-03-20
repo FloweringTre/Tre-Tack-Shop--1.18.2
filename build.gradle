@@ -26,7 +26,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.10.3--1.18.2'
+version = '2.0.3--1.18.2'
 group = 'com.kyraltre.tretackshop' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tretackshop'
 
@@ -130,14 +130,6 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
-// Mixins?
-mixin {
-    add sourceSets.main, "tretackshop.refmap.json"
-
-    config "tretackshop.mixins.json"
-}
-
-
 //dependencies :3
 repositories {
     maven {
@@ -174,6 +166,11 @@ dependencies {
     implementation  fg.deobf("curse.maven:geckolib-388172:4181370")
     implementation  fg.deobf("curse.maven:swem-582697:4870246") // <- NEW SWEM
     //implementation  fg.deobf("curse.maven:swem-582697:4710622") //<- OLD SWEM
+
+    // Adds Tre's Tack Library for runtime dependency -- Change the second numerical value with the new mod updates
+    // Remember to add the texture pack to the run > resourcepacks folder and then implement it.
+    // Texturepack -> https://www.curseforge.com/minecraft/texture-packs/tres-tack-library-resources
+    //runtimeOnly fg.deobf("curse.maven:tretacklibrary-988785:5191427")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
