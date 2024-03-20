@@ -124,17 +124,10 @@ public class TackShopBlockRegistry {
                     return new TackBoxBlockItem((Block) block.get());
                 };
             }));
-            AWARD_TACK_BOX.add(register("award_tack_box_" + counter, () -> {
-                return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
-            }, (block) -> {
-                return () -> {
-                    return new TackBoxBlockItem((Block) block.get());
-                };
-            }));
         }
 
 
-        for (int var2 = 1; var2 < 2; ++var2) {
+        for (int var3 = 1; var3 < 2; ++var3) {
             TACK_BOX_RAINBOW.add(register("tack_box_" + "rainbow", () -> {
                 return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
             }, (block) -> {
@@ -255,6 +248,19 @@ public class TackShopBlockRegistry {
                     return new TackBoxBlockItem((Block) block.get());
                 };
             }));
+
+
+            for (int var4 = 0; var4 < 14; ++var4) {
+                int counter = var4 + 1;
+
+                AWARD_TACK_BOX.add(register("award_tack_box_" + counter, () -> {
+                    return new TackBoxBlock(Properties.of(Material.WOOD).noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+                }, (block) -> {
+                    return () -> {
+                        return new TackBoxBlockItem((Block) block.get());
+                    };
+                }));
+            }
         }
     }
 }

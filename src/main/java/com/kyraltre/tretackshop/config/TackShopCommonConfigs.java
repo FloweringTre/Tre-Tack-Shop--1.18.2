@@ -21,7 +21,7 @@ public class TackShopCommonConfigs {
     public static final ForgeConfigSpec.ConfigValue<Integer> AWARD_ARMOR_EXTRAS_TACK_SETS;
 
     static {
-        BUILDER.push("Award Tack Set Configs for Tre's Tack Shop");
+        BUILDER.push("Award Tack Set Configs for Tre's Tack Shop  ||  --- NOT WORKING RIGHT NOW ---");
         AWARD_ADVENTURE_TACK_SETS = BUILDER.comment("How many Award Adventure sets do you want loaded?")
                 .defineInRange("adventureSetsLoaded", 14, 0, 48);
         AWARD_ARMOR_EXTRAS_TACK_SETS = BUILDER.comment("How many Award Saddle Bags and Cloth Armor sets do you want loaded?")
