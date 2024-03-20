@@ -43,9 +43,11 @@ public class TackShopItems {
     //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
 
     //ONE OFF TACK
-    public static final RegistryObject<EnglishBridleItem> PELHAM_BRIDLE_BLACK;
-    public static final RegistryObject<EnglishBridleItem> PELHAM_BRIDLE_BROWN;
-    public static final RegistryObject<EnglishBridleItem> DOUBLE_BRIDLE;
+    public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BLACK;
+    public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BROWN;
+    public static final RegistryObject<EnglishBridleItem> MEDIEVAL_BRIDLE_BLACK;
+    public static final RegistryObject<EnglishBridleItem> MEDIEVAL_BRIDLE_BROWN;
+    public static final RegistryObject<AdventureBridleItem> MOON_BRIDLE_DOUBLE;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE;
     public static final RegistryObject<WesternSaddleItem> BAREBACK_SADDLE;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET;
@@ -62,6 +64,7 @@ public class TackShopItems {
     public static final RegistryObject<WesternGirthStrapItem> BAREBACK_GIRTH_STRAP_WHITE;
 
     public static final RegistryObject<WesternSaddleItem> DRESSAGE_SADDLE;
+    public static final RegistryObject<EnglishGirthStrap> DRESSAGE_GIRTH_STRAP;
     public static final RegistryObject<WesternBlanketItem> DRESSAGE_BLANKET;
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BROWN;
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BLACK;
@@ -179,13 +182,19 @@ public class TackShopItems {
 
         // ONE OFF TACK
         PELHAM_BRIDLE_BLACK = ITEMS.register("pelham_bridle_black",
-                () -> new EnglishBridleItem("pelham_bridle_black", (new Item.Properties())
+                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_black", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         PELHAM_BRIDLE_BROWN = ITEMS.register("pelham_bridle_brown",
-                () -> new EnglishBridleItem("pelham_bridle_brown", (new Item.Properties())
+                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_brown", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
-        DOUBLE_BRIDLE = ITEMS.register("double_bridle",
-                () -> new EnglishBridleItem("double_bridle", (new Item.Properties())
+        MOON_BRIDLE_DOUBLE = ITEMS.register("moon_bridle_double",
+                () -> new AdventureBridleItem("moon_bridle_double", "moon_double", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        MEDIEVAL_BRIDLE_BLACK = ITEMS.register("medieval_bridle_black",
+                () -> new EnglishBridleItem("medieval_bridle_black", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        MEDIEVAL_BRIDLE_BROWN = ITEMS.register("medieval_bridle_brown",
+                () -> new EnglishBridleItem("medieval_bridle_brown", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         BITLESS_BRIDLE = ITEMS.register("english_bridle_bitless",
                 () -> new EnglishBridleItem("english_bridle_bitless", (new Item.Properties())
@@ -236,6 +245,10 @@ public class TackShopItems {
         DRESSAGE_BLANKET = ITEMS.register("dressage_blanket",
                 () -> new WesternBlanketItem("dressage_blanket", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+        DRESSAGE_GIRTH_STRAP = ITEMS.register("dressage_girth_strap",
+                () -> new EnglishGirthStrap("dressage_girth_strap", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
+
         RACING_SADDLE_BROWN = ITEMS.register("racing_saddle_brown",
                 () -> new EnglishSaddleItem("racing_saddle_brown", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1)));
