@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:4_mint/cloth_bridle_4_from_bridle"
+    ]
+  },
+  "criteria": {
+    "has_cloth_bridle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/cloth_bridles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:4_mint/cloth_bridle_4_from_bridle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cloth_bridle",
+      "has_the_recipe"
+    ]
+  ]
+}

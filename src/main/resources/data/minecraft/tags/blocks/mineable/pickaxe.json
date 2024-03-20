@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tretackshop:snowflake_grand",
+    "tretackshop:snowflake_reserve",
+    "tretackshop:pumpkin_grand",
+    "tretackshop:pumpkin_reserve"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "cloth",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "cloth",
+					"pivot": [0, 0, 13]
+				},
+				{
+					"name": "right",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 13, 6], "size": [8, 17, 1], "inflate": 0.125, "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 13, -7], "size": [8, 17, 1], "inflate": 0.125, "uv": [18, 26]}
+					]
+				},
+				{
+					"name": "iron",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "base",
+					"parent": "iron",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-14, 31, 3], "size": [8, 1, 4], "inflate": 0.0625, "uv": [36, 31]},
+						{"origin": [-14, 20, -8], "size": [8, 11, 1], "inflate": 0.0625, "uv": [46, 48]},
+						{"origin": [-14, 20, 7], "size": [8, 11, 1], "inflate": 0.0625, "uv": [28, 48]},
+						{"origin": [-14, 31, -7], "size": [8, 1, 4], "inflate": 0.0625, "uv": [58, 28]}
+					]
+				},
+				{
+					"name": "back",
+					"parent": "iron",
+					"pivot": [0, 0, 9],
+					"cubes": [
+						{"origin": [4, 20, -8], "size": [11, 11, 1], "inflate": 0.0625, "uv": [36, 36]},
+						{"origin": [4, 20, 7], "size": [11, 11, 1], "inflate": 0.0625, "uv": [32, 14]},
+						{"origin": [4, 31, -7], "size": [11, 1, 5], "inflate": 0.0625, "uv": [0, 20]},
+						{"origin": [4, 31, 2], "size": [11, 1, 5], "inflate": 0.0625, "uv": [0, 14]},
+						{"origin": [4, 31, -2], "size": [9, 1, 4], "uv": [36, 26]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "iron",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-27, 34, 3], "size": [8, 4, 1], "inflate": 0.0625, "uv": [60, 33]},
+						{"origin": [-27, 34, -4], "size": [8, 4, 1], "inflate": 0.0625, "uv": [60, 7]},
+						{"origin": [-22, 38, -4], "size": [3, 5, 1], "inflate": 0.0626, "uv": [71, 71]},
+						{"origin": [-22, 38, 3], "size": [3, 5, 1], "inflate": 0.0626, "uv": [70, 0]},
+						{"origin": [-22, 42, -3], "size": [1, 1, 6], "inflate": 0.125, "uv": [66, 56]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "head",
+					"pivot": [-26, 37, 0],
+					"rotation": [0, 0, -15],
+					"cubes": [
+						{"origin": [-26.78971, 37.78481, -3], "size": [1, 2, 6], "inflate": 0.125, "uv": [64, 48]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "head",
+					"pivot": [-22.9375, 42.875, 0],
+					"rotation": [0, 0, -30],
+					"cubes": [
+						{"origin": [-32.9375, 41.875, -3], "size": [11, 1, 6], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "gold",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head2",
+					"parent": "gold",
+					"pivot": [0.125, -0.125, 0],
+					"cubes": [
+						{"origin": [-26.875, 33.875, -3], "size": [1, 1, 6], "inflate": 0.0625, "uv": [62, 0]}
+					]
+				},
+				{
+					"name": "feet",
+					"parent": "gold",
+					"pivot": [24, 0, 7],
+					"cubes": [
+						{"origin": [-11, 0, -5.25], "size": [3, 3, 3], "inflate": 0.3125, "uv": [33, 70]},
+						{"origin": [-11, 0, 2.25], "size": [3, 3, 3], "inflate": 0.3125, "uv": [24, 67]},
+						{"origin": [11.25, 0, -5.25], "size": [3, 3, 3], "inflate": 0.3125, "uv": [12, 67]},
+						{"origin": [11.25, 0, 2.25], "size": [3, 3, 3], "inflate": 0.3125, "uv": [8, 44]}
+					]
+				},
+				{
+					"name": "diamond",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "neck",
+					"parent": "diamond",
+					"pivot": [-14, 38, 3],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [-19, 38, -3], "size": [12, 1, 6], "inflate": 0.125, "uv": [0, 0]},
+						{"origin": [-19, 33, -3], "size": [12, 6, 1], "inflate": 0.1875, "uv": [36, 0]},
+						{"origin": [-19, 33, 2], "size": [12, 6, 1], "inflate": 0.1875, "uv": [34, 7]}
+					]
+				},
+				{
+					"name": "butt",
+					"parent": "diamond",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [15.125, 21, -8], "size": [1, 10, 6], "inflate": 0.0625, "uv": [14, 44]},
+						{"origin": [15.125, 21, 2], "size": [1, 10, 6], "inflate": 0.0625, "uv": [0, 44]},
+						{"origin": [15, 22, -2], "size": [1, 2, 4], "inflate": -0.0625, "uv": [45, 70]}
+					]
+				},
+				{
+					"name": "amethyst",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "breast",
+					"parent": "amethyst",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-15, 17, 0], "size": [1, 5, 5], "uv": [44, 60]},
+						{"origin": [-15.125, 21, -8], "size": [1, 10, 5], "inflate": 0.0625, "uv": [0, 60]},
+						{"origin": [-15.125, 21, 3], "size": [1, 10, 5], "inflate": 0.0625, "uv": [59, 59]},
+						{"origin": [-15, 17, -5], "size": [1, 5, 5], "uv": [60, 38]}
+					]
+				},
+				{
+					"name": "front",
+					"parent": "amethyst",
+					"pivot": [0, 0, 15],
+					"cubes": [
+						{"origin": [-13, 17, -8], "size": [7, 6, 1], "uv": [28, 60]},
+						{"origin": [-13, 17, 7], "size": [7, 6, 1], "uv": [12, 60]}
+					]
+				},
+				{
+					"name": "back_side",
+					"parent": "amethyst",
+					"pivot": [0, 0, -15],
+					"cubes": [
+						{"origin": [4, 17, 7], "size": [10, 6, 1], "uv": [58, 21]},
+						{"origin": [4, 17, -8], "size": [10, 6, 1], "uv": [56, 14]}
+					]
+				}
+			]
+		}
+	]
+}

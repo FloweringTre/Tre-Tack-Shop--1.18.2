@@ -1,0 +1,6 @@
+{
+	"parent": "tretackshop:block/snowflake_trophy_template",
+	"textures": {
+		"texture": "tretackshop:blocks/snowflake_reserve"
+	}
+}

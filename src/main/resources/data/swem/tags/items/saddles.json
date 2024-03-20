@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#tretackshop:craft/english_saddles",
+    "#tretackshop:craft/western/saddles",
+    "#tretackshop:craft/adventure_saddles"
+
+  ]
+}

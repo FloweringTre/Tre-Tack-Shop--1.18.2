@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flags",
+  "pattern": [
+    "yAx",
+    "yxx",
+    "yC "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "A": {
+      "item": "minecraft:brown_banner"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:flag_brown"
+  }
+}

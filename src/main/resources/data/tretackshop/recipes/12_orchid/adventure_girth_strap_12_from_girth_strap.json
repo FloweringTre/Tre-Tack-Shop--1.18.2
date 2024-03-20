@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_girth_straps"
+    },
+    {
+      "tag": "tretackshop:dyes/orchid"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_girth_strap_12"
+  }
+}

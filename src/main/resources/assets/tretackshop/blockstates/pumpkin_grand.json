@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tretackshop:block/pumpkin_grand"},
+    "facing=east": { "model": "tretackshop:block/pumpkin_grand", "y": 90},
+    "facing=south": { "model": "tretackshop:block/pumpkin_grand", "y": 180},
+    "facing=west": { "model": "tretackshop:block/pumpkin_grand", "y": 270}
+  }
+}

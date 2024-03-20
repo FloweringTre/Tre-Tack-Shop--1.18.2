@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "halter",
+  "pattern": [
+    "x x",
+    "AxB",
+    "yCx"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:carpets"
+    },
+    "y": {
+      "tag": "forge:nuggets/iron"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/dandelion"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:halter_9"
+  }
+}

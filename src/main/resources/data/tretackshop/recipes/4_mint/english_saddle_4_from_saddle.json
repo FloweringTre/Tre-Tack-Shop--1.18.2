@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_saddle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_saddles"
+    },
+    {
+      "tag": "tretackshop:dyes/mint"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_saddle_4"
+  }
+}

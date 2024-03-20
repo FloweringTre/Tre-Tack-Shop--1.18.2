@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "adventure_breast_collar",
+  "pattern": [
+    "xCx",
+    "AyB",
+    " y "
+  ],
+  "key": {
+    "y": {
+      "tag": "forge:ingots/iron"
+    },
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/lavender"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:adventure_breast_collar_6"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_saddle",
+  "ingredients": [
+    {
+      "tag": "swem:western/saddles"
+    },
+    {
+      "tag": "tretackshop:dyes/navy"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_saddle_11"
+  }
+}

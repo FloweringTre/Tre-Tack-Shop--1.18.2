@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flags",
+  "pattern": [
+    "yzx",
+    "yAB",
+    "yC "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "z": {
+      "tag": "minecraft:banners"
+    },
+    "C": {
+      "tag": "tretackshop:craft/butterfly"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/navy"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  },
+  "result": {
+    "item": "tretackshop:flag_butterfly_11"
+  }
+}

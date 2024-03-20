@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    "tretackshop:quarter_sheet_1",
+    "tretackshop:quarter_sheet_2",
+    "tretackshop:quarter_sheet_3",
+    "tretackshop:quarter_sheet_4",
+    "tretackshop:quarter_sheet_5",
+    "tretackshop:quarter_sheet_6",
+    "tretackshop:quarter_sheet_7",
+    "tretackshop:quarter_sheet_8",
+    "tretackshop:quarter_sheet_9",
+    "tretackshop:quarter_sheet_10",
+    "tretackshop:quarter_sheet_11",
+    "tretackshop:quarter_sheet_12",
+    "tretackshop:quarter_sheet_13",
+    "tretackshop:quarter_sheet_14",
+
+    "tretackshop:quarter_sheet_black",
+    "tretackshop:quarter_sheet_blue",
+    "tretackshop:quarter_sheet_brown",
+    "tretackshop:quarter_sheet_cyan",
+    "tretackshop:quarter_sheet_gray",
+    "tretackshop:quarter_sheet_green",
+    "tretackshop:quarter_sheet_light_blue",
+    "tretackshop:quarter_sheet_light_gray",
+    "tretackshop:quarter_sheet_lime",
+    "tretackshop:quarter_sheet_magenta",
+    "tretackshop:quarter_sheet_orange",
+    "tretackshop:quarter_sheet_pink",
+    "tretackshop:quarter_sheet_purple",
+    "tretackshop:quarter_sheet_red",
+    "tretackshop:quarter_sheet_white",
+    "tretackshop:quarter_sheet_yellow"
+
+  ]
+}

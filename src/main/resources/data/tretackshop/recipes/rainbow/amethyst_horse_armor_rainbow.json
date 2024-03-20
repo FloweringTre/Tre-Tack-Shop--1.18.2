@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "amethyst_armor",
+  "ingredients": [
+    {
+      "tag": "swem:amethyst_horse_armors"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:amethyst_horse_armor_rainbow"
+  }
+}

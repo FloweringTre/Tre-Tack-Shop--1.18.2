@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_flymask/dyed_flymask_lime"
+    ]
+  },
+  "criteria": {
+    "has_flymasks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/flymasks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_flymask/dyed_flymask_lime"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flymasks",
+      "has_the_recipe"
+    ]
+  ]
+}

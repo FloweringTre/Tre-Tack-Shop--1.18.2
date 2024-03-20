@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    "tretackshop:flag_1",
+    "tretackshop:flag_2",
+    "tretackshop:flag_3",
+    "tretackshop:flag_4",
+    "tretackshop:flag_5",
+    "tretackshop:flag_6",
+    "tretackshop:flag_7",
+    "tretackshop:flag_8",
+    "tretackshop:flag_9",
+    "tretackshop:flag_10",
+    "tretackshop:flag_11",
+    "tretackshop:flag_12",
+    "tretackshop:flag_13",
+    "tretackshop:flag_14",
+
+    "tretackshop:flag_black",
+    "tretackshop:flag_blue",
+    "tretackshop:flag_brown",
+    "tretackshop:flag_cyan",
+    "tretackshop:flag_gray",
+    "tretackshop:flag_green",
+    "tretackshop:flag_light_blue",
+    "tretackshop:flag_light_gray",
+    "tretackshop:flag_lime",
+    "tretackshop:flag_magenta",
+    "tretackshop:flag_orange",
+    "tretackshop:flag_pink",
+    "tretackshop:flag_purple",
+    "tretackshop:flag_red",
+    "tretackshop:flag_white",
+    "tretackshop:flag_yellow"
+
+  ]
+}

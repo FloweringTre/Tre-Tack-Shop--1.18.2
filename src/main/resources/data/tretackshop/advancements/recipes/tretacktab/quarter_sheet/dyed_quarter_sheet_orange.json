@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:quarter_sheet/dyed_quarter_sheet_orange"
+    ]
+  },
+  "criteria": {
+    "has_quarter_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/quarter_sheets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:quarter_sheet/dyed_quarter_sheet_orange"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_quarter_sheet",
+      "has_the_recipe"
+    ]
+  ]
+}

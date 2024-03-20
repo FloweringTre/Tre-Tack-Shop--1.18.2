@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dressage_saddle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_saddles"
+    },
+    {
+      "tag": "minecraft:lectern_books"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:dressage_saddle"
+  }
+}

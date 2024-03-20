@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/trophy_template",
+  "textures": {
+    "texture": "tretackshop:items/awards/trophy_1"
+  }
+}

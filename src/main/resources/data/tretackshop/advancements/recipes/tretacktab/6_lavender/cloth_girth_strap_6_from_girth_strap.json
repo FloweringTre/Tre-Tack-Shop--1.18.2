@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:6_lavender/cloth_girth_strap_6_from_girth_strap"
+    ]
+  },
+  "criteria": {
+    "has_cloth_girth_strap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/cloth_girth_straps"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:6_lavender/cloth_girth_strap_6_from_girth_strap"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cloth_girth_strap",
+      "has_the_recipe"
+    ]
+  ]
+}

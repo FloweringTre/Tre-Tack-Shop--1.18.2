@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:4_mint/dyed_pasture_blanket_4"
+    ]
+  },
+  "criteria": {
+    "has_pasture_blanket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:pasture_blankets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:4_mint/dyed_pasture_blanket_4"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pasture_blanket",
+      "has_the_recipe"
+    ]
+  ]
+}

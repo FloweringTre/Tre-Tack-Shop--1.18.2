@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flags",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flags_butterfly"
+    },
+    {
+      "tag": "tretackshop:dyes/salmon"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:flag_butterfly_2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#tretackshop:craft/english_girth_straps",
+    "#tretackshop:craft/cloth_girth_straps",
+    "#tretackshop:craft/adventure_girth_straps",
+    "#tretackshop:craft/western/girth_straps"
+  ]
+}

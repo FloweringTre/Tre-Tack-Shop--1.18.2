@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_armor",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_armor"
+    },
+    {
+      "tag": "tretackshop:dyes/sunshine"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_horse_armor_3"
+  }
+}

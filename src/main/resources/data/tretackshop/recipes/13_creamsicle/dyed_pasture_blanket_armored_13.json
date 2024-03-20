@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pasture_blanket_armored",
+  "ingredients": [
+    {
+      "tag": "swem:pasture_blankets_armored"
+    },
+    {
+      "tag": "tretackshop:dyes/creamsicle"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:pasture_blanket_13_armored"
+  }
+}

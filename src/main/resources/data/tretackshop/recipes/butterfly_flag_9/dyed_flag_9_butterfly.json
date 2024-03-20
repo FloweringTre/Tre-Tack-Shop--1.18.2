@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flags",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flags_plain"
+    },
+    {
+      "tag": "tretackshop:dyes/dandelion"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "tretackshop:craft/butterfly"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:flag_butterfly_9"
+  }
+}

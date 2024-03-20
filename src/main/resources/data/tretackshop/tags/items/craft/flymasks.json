@@ -1,0 +1,36 @@
+{
+  "replace": false,
+  "values": [
+    "tretackshop:flymask_1",
+    "tretackshop:flymask_2",
+    "tretackshop:flymask_3",
+    "tretackshop:flymask_4",
+    "tretackshop:flymask_5",
+    "tretackshop:flymask_6",
+    "tretackshop:flymask_7",
+    "tretackshop:flymask_8",
+    "tretackshop:flymask_9",
+    "tretackshop:flymask_10",
+    "tretackshop:flymask_11",
+    "tretackshop:flymask_12",
+    "tretackshop:flymask_13",
+    "tretackshop:flymask_14",
+
+    "tretackshop:flymask_black",
+    "tretackshop:flymask_blue",
+    "tretackshop:flymask_brown",
+    "tretackshop:flymask_cyan",
+    "tretackshop:flymask_gray",
+    "tretackshop:flymask_green",
+    "tretackshop:flymask_light_blue",
+    "tretackshop:flymask_light_gray",
+    "tretackshop:flymask_lime",
+    "tretackshop:flymask_magenta",
+    "tretackshop:flymask_orange",
+    "tretackshop:flymask_pink",
+    "tretackshop:flymask_purple",
+    "tretackshop:flymask_red",
+    "tretackshop:flymask_white",
+    "tretackshop:flymask_yellow"
+  ]
+}

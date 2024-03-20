@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "leg_wraps",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_leg_wraps"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_leg_wraps_trans"
+  }
+}

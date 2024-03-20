@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "saddle",
+  "ingredients": [
+    {
+      "tag": "swem:adventure_saddles"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_saddle_rainbow"
+  }
+}

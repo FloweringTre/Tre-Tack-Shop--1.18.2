@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:items/leg_wraps/adventure_leg_wraps_1"
+  }
+}

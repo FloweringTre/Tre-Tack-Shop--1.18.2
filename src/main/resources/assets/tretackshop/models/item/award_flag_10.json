@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/flag_template",
+  "textures": {
+    "texture": "tretackshop:items/awards/flags/award_flag_10"
+  }
+}

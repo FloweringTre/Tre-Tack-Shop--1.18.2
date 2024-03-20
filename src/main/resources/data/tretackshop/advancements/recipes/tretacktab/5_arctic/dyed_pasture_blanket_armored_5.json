@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:5_arctic/dyed_pasture_blanket_armored_5"
+    ]
+  },
+  "criteria": {
+    "has_pasture_blanket_armored": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:pasture_blankets_armored"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:5_arctic/dyed_pasture_blanket_armored_5"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pasture_blanket_armored",
+      "has_the_recipe"
+    ]
+  ]
+}

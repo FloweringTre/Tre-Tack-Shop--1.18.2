@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:butterfly_flag_2/dyed_butterfly_flag_butterfly_2"
+    ]
+  },
+  "criteria": {
+    "has_butterfly_flag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/flags_butterfly"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:butterfly_flag_2/dyed_butterfly_flag_butterfly_2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_butterfly_flag",
+      "has_the_recipe"
+    ]
+  ]
+}

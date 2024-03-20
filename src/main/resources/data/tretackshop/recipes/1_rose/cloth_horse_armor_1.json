@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cloth_armor",
+  "pattern": [
+    "yBy",
+    "yAy",
+    "yCy"
+  ],
+  "key": {
+    "y": {
+      "tag": "minecraft:carpets"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/rose"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cloth_horse_armor_1"
+  }
+}

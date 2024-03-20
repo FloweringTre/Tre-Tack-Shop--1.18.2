@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/ribbon_one_tailed_template",
+  "textures": {
+    "texture": "tretackshop:items/awards/ribbon_one_tail/ribbon_one_tail_white"
+  }
+}

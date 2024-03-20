@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_bridle",
+  "ingredients": [
+    {
+      "tag": "swem:western/bridles"
+    },
+    {
+      "tag": "tretackshop:dyes/dandelion"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_bridle_9"
+  }
+}

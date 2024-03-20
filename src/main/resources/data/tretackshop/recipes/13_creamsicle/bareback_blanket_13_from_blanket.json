@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bareback_blanket",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/bareback_blankets"
+    },
+    {
+      "tag": "tretackshop:dyes/creamsicle"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_blanket_13"
+  }
+}

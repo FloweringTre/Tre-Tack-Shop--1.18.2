@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_blanket",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_blankets"
+    },
+    {
+      "tag": "tretackshop:dyes/lavender"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_blanket_6"
+  }
+}

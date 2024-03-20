@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:items/awards/tack/pasture_blanket/award_pasture_blanket_24_armored_icon"
+  }
+}

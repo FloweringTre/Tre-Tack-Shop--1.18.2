@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_saddle",
+  "ingredients": [
+    {
+      "tag": "swem:western/saddles"
+    },
+    {
+      "tag": "tretackshop:dyes/lavender"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_saddle_6"
+  }
+}

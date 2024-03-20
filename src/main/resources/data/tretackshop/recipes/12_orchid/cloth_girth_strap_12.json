@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cloth_girth_strap",
+  "pattern": [
+    "xyA",
+    " yB",
+    "Cyx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "y": {
+      "tag": "minecraft:wool"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/orchid"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cloth_girth_strap_12"
+  }
+}

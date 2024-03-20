@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:7_fuchsia/cloth_breast_collar_7_from_breast_collar"
+    ]
+  },
+  "criteria": {
+    "has_cloth_breast_collar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/cloth_breast_collars"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:7_fuchsia/cloth_breast_collar_7_from_breast_collar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cloth_breast_collar",
+      "has_the_recipe"
+    ]
+  ]
+}

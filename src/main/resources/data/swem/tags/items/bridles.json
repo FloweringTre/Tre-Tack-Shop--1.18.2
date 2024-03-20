@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#tretackshop:craft/english_bridles",
+    "#tretackshop:craft/cloth_bridles",
+    "#tretackshop:craft/adventure_bridles",
+    "#tretackshop:craft/western/bridles"
+  ]
+}

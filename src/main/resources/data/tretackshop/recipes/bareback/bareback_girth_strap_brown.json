@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bareback_girth_strap",
+  "pattern": [
+    "xzC",
+    " z ",
+    " zx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "z": {
+      "item": "minecraft:brown_wool"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "tretackshop:bareback_girth_strap_brown"
+  }
+}

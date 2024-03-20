@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:flag_7/dyed_flag_7"
+    ]
+  },
+  "criteria": {
+    "has_flag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/flags"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:flag_7/dyed_flag_7"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flag",
+      "has_the_recipe"
+    ]
+  ]
+}

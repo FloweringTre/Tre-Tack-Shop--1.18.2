@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pasture_blanket",
+  "ingredients": [
+    {
+      "tag": "swem:pasture_blankets_armored"
+    },
+    {
+      "item": "tretackshop:rainbow_ina_bottle"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:pasture_blanket_rainbow_armored"
+  }
+}

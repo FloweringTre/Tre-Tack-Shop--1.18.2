@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:9_dandelion/western_leg_wraps_9_from_leg_wraps"
+    ]
+  },
+  "criteria": {
+    "has_western_leg_wraps": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:carpets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:9_dandelion/western_leg_wraps_9_from_leg_wraps"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_western_leg_wraps",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:8_ruby/western_bridle_8_from_bridle"
+    ]
+  },
+  "criteria": {
+    "has_western_bridle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "swem:western/bridles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:8_ruby/western_bridle_8_from_bridle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_western_bridle",
+      "has_the_recipe"
+    ]
+  ]
+}
