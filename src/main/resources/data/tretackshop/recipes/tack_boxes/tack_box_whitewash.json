@@ -4,7 +4,7 @@
   "pattern": [
     "#D#",
     "RCR",
-    "ATB"
+    "ATA"
   ],
   "key": {
     "#": {
@@ -19,17 +19,14 @@
     "C": {
       "item": "minecraft:chest"
     },
-    "B": {
-      "item": "minecraft:white_dye"
-    },
     "T": {
       "tag": "minecraft:saplings"
     },
     "A": {
-      "tag": "minecraft:planks"
+      "item": "swem:whitewash_planks"
     }
   },
   "result": {
-    "item": "tretackshop:bareback_girth_strap"
+    "item": "tretackshop:tack_box_whitewash"
   }
 }
