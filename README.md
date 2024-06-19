@@ -22,4 +22,4 @@ All tack items have two textures attached to them, the texture on the horse and 
 [Come to our discord!](https://discord.gg/GuYRWK22Mx 'Invite to the server')
 
 ### Note to Modpack makers
-Feel free to add to your pack! Please ensure that SWEM and its dependencies are included. If your pack is for 1.20.1, please double check your SWEM version as sometimes it auto-generates with the wrong SWEM version.
+Feel free to add to your pack! Please ensure that SWEM and its dependencies are included. 
