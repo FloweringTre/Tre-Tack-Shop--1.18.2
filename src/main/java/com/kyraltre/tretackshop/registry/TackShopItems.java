@@ -1,30 +1,17 @@
 package com.kyraltre.tretackshop.registry;
 
 
-import com.alaharranhonor.swem.forge.SWEM;
-import com.alaharranhonor.swem.forge.blocks.TackBoxBlock;
-import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Supplier;
-
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
-import org.lwjgl.system.CallbackI;
 
 public class TackShopItems {
     public static final DeferredRegister<Item> ITEMS;
@@ -38,9 +25,6 @@ public class TackShopItems {
     public static final List<RegistryObject<Item>> FLAGS_DYED;
 
     // TACK ITEMS
-
-    // DYED TACK
-    //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
 
     //ONE OFF TACK
     public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BLACK;
@@ -134,24 +118,45 @@ public class TackShopItems {
     public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBreastCollar>> CLOTH_BREAST_COLLARS;
-    public static final List<RegistryObject<AdventureBreastCollarItem>> QUARTER_SHEETS_DYED;
     public static final List<RegistryObject<AdventureBreastCollarItem>> QUARTER_SHEETS_NUMBERED;
     public static final List<RegistryObject<AdventureBridleItem>> ADVENTURE_BRIDLES;
     public static final List<RegistryObject<WesternBridleItem>> WESTERN_BRIDLES;
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES;
     public static final List<RegistryObject<EnglishBridleItem>> CLOTH_BRIDLES;
     public static final List<RegistryObject<EnglishBridleItem>> CLOTH_BITLESS_BRIDLES;
-    public static final List<RegistryObject<EnglishBridleItem>> CLOTH_BITLESS_BRIDLES_DYED;
     public static final List<RegistryObject<WesternBlanketItem>> BAREBACK_BLANKETS;
-    public static final List<RegistryObject<WesternBlanketItem>> BAREBACK_BLANKETS_DYED;
     public static final List<RegistryObject<AdventureGirthStrapItem>> ADVENTURE_GIRTH_STRAPS;
     public static final List<RegistryObject<WesternGirthStrapItem>> WESTERN_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> CLOTH_GIRTH_STRAPS;
-    public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
     public static final List<RegistryObject<SaddlebagItem>> SADDLE_BAGS;
     public static final List<RegistryObject<SWEMHorseArmorItem>> CLOTH_ARMOR;
-    public static final List<RegistryObject<TackBoxBlock>> TACKBOXES;
+
+
+    // CRAFTABLE TACK IN THE 16 DYEABLE COLORS
+    public static final List<RegistryObject<AdventureBreastCollarItem>> QUARTER_SHEETS_DYED;
+    public static final List<RegistryObject<WesternBlanketItem>> BAREBACK_BLANKETS_DYED;
+    public static final List<RegistryObject<EnglishBridleItem>> CLOTH_BITLESS_BRIDLES_DYED;
+    public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
+    public static final List<RegistryObject<SWEMHorseArmorItem>> CLOTH_ARMOR_DYED;
+    public static final List<RegistryObject<AdventureGirthStrapItem>> ADVENTURE_GIRTH_STRAPS_DYED;
+    public static final List<RegistryObject<AdventureBridleItem>> ADVENTURE_BRIDLES_DYED;
+    public static final List<RegistryObject<AdventureBreastCollarItem>> ADVENTURE_BREAST_COLLARS_DYED;
+    public static final List<RegistryObject<AdventureSaddleItem>> ADVENTURE_SADDLES_DYED;
+    public static final List<RegistryObject<AdventureLegWraps>> ADVENTURE_LEG_WRAPS_DYED;
+    public static final List<RegistryObject<AdventureBlanketItem>> ADVENTURE_BLANKETS_DYED;
+    public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS_BLACK_DYED;
+    public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS_BLACK_DYED;
+    public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES_BLACK_DYED;
+    public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLES_BLACK_DYED;
+    public static final List<RegistryObject<EnglishGirthStrap>> CLOTH_GIRTH_STRAPS_DYED;
+    public static final List<RegistryObject<EnglishBridleItem>> CLOTH_BRIDLES_DYED;
+    public static final List<RegistryObject<EnglishBreastCollar>> CLOTH_BREAST_COLLARS_DYED;
+   // public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS_BROWN_DYED;
+   // public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS_BROWN_DYED;
+   // public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES_BROWN_DYED;
+   // public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLES_BROWN_DYED;
+
 
     public TackShopItems() {
     }
@@ -431,7 +436,6 @@ public class TackShopItems {
         CLOTH_ARMOR = new ArrayList<>();
         BAREBACK_BLANKETS = new ArrayList<>();
         CLOTH_BITLESS_BRIDLES = new ArrayList<>();
-        TACKBOXES = new ArrayList<>();
 
         int var1 = 15;
         var rContext = new Object() {
@@ -584,20 +588,118 @@ public class TackShopItems {
         FLAGS_DYED = new ArrayList<>();
         CLOTH_BITLESS_BRIDLES_DYED = new ArrayList<>();
         BAREBACK_BLANKETS_DYED = new ArrayList<>();
+        ADVENTURE_SADDLES_DYED = new ArrayList<>();
+        ADVENTURE_BLANKETS_DYED = new ArrayList<>();
+        ADVENTURE_BRIDLES_DYED = new ArrayList<>();
+        ADVENTURE_LEG_WRAPS_DYED  = new ArrayList<>();
+        ADVENTURE_BREAST_COLLARS_DYED = new ArrayList<>();
+        ADVENTURE_GIRTH_STRAPS_DYED = new ArrayList<>();
+        CLOTH_ARMOR_DYED = new ArrayList<>();
+        CLOTH_BREAST_COLLARS_DYED = new ArrayList<>();
+        CLOTH_BRIDLES_DYED = new ArrayList<>();
+        CLOTH_GIRTH_STRAPS_DYED = new ArrayList<>();
+        ENGLISH_BRIDLES_BLACK_DYED = new ArrayList<>();
+        ENGLISH_SADDLES_BLACK_DYED = new ArrayList<>();
+        ENGLISH_GIRTH_STRAPS_BLACK_DYED = new ArrayList<>();
+        ENGLISH_BREAST_COLLARS_BLACK_DYED = new ArrayList<>();
+//        ENGLISH_BRIDLES_BROWN_DYED = new ArrayList<>();
+//        ENGLISH_SADDLES_BROWN_DYED = new ArrayList<>();
+//        ENGLISH_GIRTH_STRAPS_BROWN_DYED = new ArrayList<>();
+//        ENGLISH_BREAST_COLLARS_BROWN_DYED = new ArrayList<>();
 
         DyeColor[] var0 = DyeColor.values();
         int var3 = var0.length;
 
         for (int var2 = 0; var2 < var3; ++var2) {
             DyeColor color = var0[var2];
+             ADVENTURE_SADDLES_DYED.add(ITEMS.register("adventure_saddle_" + color.getName(), () ->
+                    new AdventureSaddleItem("adventure_saddle_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+            ));
+            ADVENTURE_BLANKETS_DYED.add(ITEMS.register("adventure_blanket_" + color.getName(), () ->
+                    new AdventureBlanketItem("adventure_blanket_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ADVENTURE_BREAST_COLLARS_DYED.add(ITEMS.register("adventure_breast_collar_" + color.getName(), () ->
+                    new AdventureBreastCollarItem("adventure_breast_collar_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ADVENTURE_LEG_WRAPS_DYED.add(ITEMS.register("adventure_leg_wraps_" + color.getName(), () ->
+                    new AdventureLegWraps("adventure_leg_wraps_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
+            ));
+            ADVENTURE_BRIDLES_DYED.add(ITEMS.register("adventure_bridle_" + color.getName(),
+                    () -> new AdventureBridleItem("adventure_bridle_" + color.getName(), "adventure_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ADVENTURE_GIRTH_STRAPS_DYED.add(ITEMS.register("adventure_girth_strap_" + color.getName(),
+                    () -> new AdventureGirthStrapItem("adventure_girth_strap_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            CLOTH_ARMOR_DYED.add(ITEMS.register("cloth_horse_armor_" + color.getName(),
+                    () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+
             QUARTER_SHEETS_DYED.add(ITEMS.register("quarter_sheet_" + color.getName(), () ->
                     new AdventureBreastCollarItem("quarter_sheet_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+
+            ENGLISH_SADDLES_BLACK_DYED.add(ITEMS.register("english_saddle_black_" + color.getName(), () ->
+                    new EnglishSaddleItem("english_saddle_black_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+            ));
+            ENGLISH_BREAST_COLLARS_BLACK_DYED.add(ITEMS.register("english_breast_collar_black_" + color.getName(), () ->
+                    new EnglishBreastCollar("english_breast_collar_black_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ENGLISH_BRIDLES_BLACK_DYED.add(ITEMS.register("english_bridle_black_" + color.getName(),
+                    () -> new EnglishBridleItem("english_bridle_black_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            ENGLISH_GIRTH_STRAPS_BLACK_DYED.add(ITEMS.register("english_girth_strap_black_" + color.getName(),
+                    () -> new EnglishGirthStrap("english_girth_strap_black_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+
+//            ENGLISH_SADDLES_BROWN_DYED.add(ITEMS.register("english_saddle_brown_" + color.getName(), () ->
+//                    new EnglishSaddleItem("english_saddle_brown_" + color.getName(), (new Item.Properties())
+//                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(1))
+//            ));
+//            ENGLISH_BREAST_COLLARS_BROWN_DYED.add(ITEMS.register("english_breast_collar_brown_" + color.getName(), () ->
+//                    new EnglishBreastCollar("english_breast_collar_brown_" + color.getName(), (new Item.Properties())
+//                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+//            ));
+//            ENGLISH_BRIDLES_BROWN_DYED.add(ITEMS.register("english_bridle_brown_" + color.getName(),
+//                    () -> new EnglishBridleItem("english_bridle_brown_" + color.getName(), (new Item.Properties())
+//                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+//            ));
+//            ENGLISH_GIRTH_STRAPS_BROWN_DYED.add(ITEMS.register("english_girth_strap_brown_" + color.getName(),
+//                    () -> new EnglishGirthStrap("english_girth_strap_brown_" + color.getName(), (new Item.Properties())
+//                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+//            ));
+
+
+            CLOTH_BREAST_COLLARS_DYED.add(ITEMS.register("cloth_breast_collar_" + color.getName(), () ->
+                    new EnglishBreastCollar("cloth_breast_collar_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            CLOTH_BRIDLES_DYED.add(ITEMS.register("cloth_bridle_" + color.getName(),
+                    () -> new EnglishBridleItem("cloth_bridle_" + color.getName(), (new Item.Properties())
+                            .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
+            ));
+            CLOTH_GIRTH_STRAPS_DYED.add(ITEMS.register("cloth_girth_strap_" + color.getName(),
+                    () -> new EnglishGirthStrap("cloth_girth_strap_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             CLOTH_BITLESS_BRIDLES.add(ITEMS.register("cloth_bitless_bridle_" + color.getName(),
                     () -> new EnglishBridleItem("cloth_bitless_bridle_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
+
+
+
             BAREBACK_BLANKETS.add(ITEMS.register("bareback_blanket_" + color.getName(), () ->
                     new WesternBlanketItem("bareback_blanket_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
