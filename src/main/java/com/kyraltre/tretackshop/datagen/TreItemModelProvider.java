@@ -20,20 +20,24 @@ public class TreItemModelProvider extends ItemModelProvider {
 //        simpleItem(TackShopItems.RAINBOW_INA_BOTTLE.get());
 
         //DYE LOOP
-//        DyeColor[] var5 = DyeColor.values();
-//        int var7 = var5.length;
-//        for (int var6 = 0; var6 < var7; ++var6) {
-//            DyeColor color = var5[var6];
-////            ((ItemModelBuilder) this.withExistingParent("flymask_" + color.getName(), "item/generated"))
-////                    .texture("layer0", new ResourceLocation("tretackshop", "items/halters/flymask_" + color.getName()));
-////            ((ItemModelBuilder) this.withExistingParent("flag_" + color.getName(), "item/flag_template"))
-////                    .texture("texture", new ResourceLocation("tretackshop", "items/flags/flag_" + color.getName()));
-////            ((ItemModelBuilder) this.withExistingParent("cloth_bitless_bridle_" + color.getName(), "item/generated"))
-////                    .texture("texture", new ResourceLocation("tretackshop", "items/bridles/cloth_bitless_bridle_" + color.getName()));
-////            ((ItemModelBuilder) this.withExistingParent("bareback_blanket_" + color.getName(), "item/generated"))
-////                    .texture("texture", new ResourceLocation("tretackshop", "items/blankets/bareback_blanket_" + color.getName()));
-//
-//        }
+        DyeColor[] var5 = DyeColor.values();
+        int var7 = var5.length;
+        for (int var6 = 0; var6 < var7; ++var6) {
+            DyeColor color = var5[var6];
+            ((ItemModelBuilder) this.withExistingParent("adventure_saddle_" + color.getName(), "item/generated"))
+                    .texture("layer0", new ResourceLocation("tretackshop", "items/saddles/adventure_saddle_" + color.getName()));
+            ((ItemModelBuilder) this.withExistingParent("adventure_breast_collar_" + color.getName(), "item/flag_template"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/breast_collars/adventure_breast_collar_" + color.getName()));
+            ((ItemModelBuilder) this.withExistingParent("adventure_bridle_" + color.getName(), "item/generated"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/bridles/adventure_bridle_" + color.getName()));
+            ((ItemModelBuilder) this.withExistingParent("adventure_girth_strap_" + color.getName(), "item/generated"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/girth_straps/adventure_girth_strap_" + color.getName()));
+            ((ItemModelBuilder) this.withExistingParent("adventure_blanket_" + color.getName(), "item/generated"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/blankets/adventure_blanket_" + color.getName()));
+            ((ItemModelBuilder) this.withExistingParent("adventure_leg_wraps_" + color.getName(), "item/generated"))
+                    .texture("texture", new ResourceLocation("tretackshop", "items/leg_wraps/adventure_leg_wraps_" + color.getName()));
+
+        }
 
 
         //crafting loop
@@ -398,10 +402,10 @@ public class TreItemModelProvider extends ItemModelProvider {
 //
 //        for(int var3 = 0; var3 < var2; ++var3) {
 //        ((ItemModelBuilder)this.withExistingParent("pasture_blanket_" + color.getName(), "item/generated"))
-//            .texture("layer0", new ResourceLocation("swem", "items/pasture_blanket_" + color.getName() + "_icon"));
+//            .texture("layer0", new ResourceLocation("tretackshop", "items/pasture_blanket_" + color.getName() + "_icon"));
 //
 //        ((ItemModelBuilder)this.withExistingParent("pasture_blanket_" + color.getName() + "_armored", "item/generated")
-//            .texture("layer0", new ResourceLocation("swem", "items/pasture_blanket_" + color.getName() + "_armored_icon"));
+//            .texture("layer0", new ResourceLocation("tretackshop", "items/pasture_blanket_" + color.getName() + "_armored_icon"));
 //    }
 
     }
