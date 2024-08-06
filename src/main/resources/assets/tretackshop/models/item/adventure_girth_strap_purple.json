@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "texture": "tretackshop:items/girth_straps/adventure_girth_strap_purple"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/flag_template",
+  "textures": {
+    "texture": "tretackshop:items/breast_collars/cloth_breast_collar_black"
+  }
+}
