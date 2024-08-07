@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "texture": "tretackshop:items/leg_wraps/adventure_leg_wraps_yellow"
+    "layer0": "tretackshop:items/leg_wraps/adventure_leg_wraps_yellow"
   }
 }

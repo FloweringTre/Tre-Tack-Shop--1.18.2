@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/flag_template",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "texture": "tretackshop:items/breast_collars/cloth_breast_collar_red"
+    "layer0": "tretackshop:items/breast_collars/cloth_breast_collar_red"
   }
 }

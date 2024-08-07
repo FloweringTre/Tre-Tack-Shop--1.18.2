@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "texture": "tretackshop:items/bridles/adventure_bridle_pink"
+    "layer0": "tretackshop:items/bridles/adventure_bridle_pink"
   }
 }
