@@ -16,8 +16,25 @@
     "tretackshop:adventure_saddle_12",
     "tretackshop:adventure_saddle_13",
     "tretackshop:adventure_saddle_14",
-    "tretackshop:adventure_saddle_trans"
+    "tretackshop:adventure_saddle_trans",
 
+    "tretackshop:adventure_saddle_black",
+    "tretackshop:adventure_saddle_blue",
+    "tretackshop:adventure_saddle_brown",
+    "tretackshop:adventure_saddle_cyan",
+    "tretackshop:adventure_saddle_gray",
+    "tretackshop:adventure_saddle_green",
+    "tretackshop:adventure_saddle_light_blue",
+    "tretackshop:adventure_saddle_light_gray",
+    "tretackshop:adventure_saddle_lime",
+    "tretackshop:adventure_saddle_magenta",
+    "tretackshop:adventure_saddle_orange",
+    "tretackshop:adventure_saddle_pink",
+    "tretackshop:adventure_saddle_purple",
+    "tretackshop:adventure_saddle_red",
+    "tretackshop:adventure_saddle_white",
+    "tretackshop:adventure_saddle_yellow",
 
+    "swem:adventure_saddle"
   ]
 }
