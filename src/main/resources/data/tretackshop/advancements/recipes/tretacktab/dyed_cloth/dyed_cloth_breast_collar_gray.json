@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_cloth/dyed_cloth_breast_collar_gray"
+    ]
+  },
+  "criteria": {
+    "has_cloth_breast_collar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/cloth_breast_collars"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_cloth/dyed_cloth_breast_collar_gray"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cloth_breast_collar",
+      "has_the_recipe"
+    ]
+  ]
+}

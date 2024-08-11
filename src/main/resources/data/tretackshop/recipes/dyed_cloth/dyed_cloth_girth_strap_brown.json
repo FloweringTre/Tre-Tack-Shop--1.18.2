@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_girth_straps"
+    },
+    {
+      "tag": "forge:dyes/brown"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_girth_strap_brown"
+  }
+}

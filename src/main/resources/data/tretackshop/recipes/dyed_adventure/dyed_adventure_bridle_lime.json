@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_bridles"
+    },
+    {
+      "tag": "forge:dyes/lime"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_bridle_lime"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_breast_collars"
+    },
+    {
+      "tag": "forge:dyes/lime"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_breast_collar_black_lime"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_english_black/dyed_english_breast_collar_black_light_gray"
+    ]
+  },
+  "criteria": {
+    "has_english_breast_collar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_breast_collars"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_english_black/dyed_english_breast_collar_black_light_gray"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_breast_collar",
+      "has_the_recipe"
+    ]
+  ]
+}

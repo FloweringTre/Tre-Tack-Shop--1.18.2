@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_breast_collars"
+    },
+    {
+      "tag": "forge:dyes/orange"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_breast_collar_orange"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_adventure/dyed_adventure_breast_collar_lime"
+    ]
+  },
+  "criteria": {
+    "has_adventure_breast_collar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/adventure_breast_collars"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_adventure/dyed_adventure_breast_collar_lime"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_adventure_breast_collar",
+      "has_the_recipe"
+    ]
+  ]
+}

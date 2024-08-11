@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_blanket",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_blankets"
+    },
+    {
+      "tag": "forge:dyes/lime"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_blanket_lime"
+  }
+}

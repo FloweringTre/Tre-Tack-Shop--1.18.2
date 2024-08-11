@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_saddle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_saddles"
+    },
+    {
+      "tag": "forge:dyes/light_blue"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_saddle_light_blue"
+  }
+}

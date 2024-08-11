@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_english_black/dyed_english_saddle_black_light_blue"
+    ]
+  },
+  "criteria": {
+    "has_english_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_saddles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_english_black/dyed_english_saddle_black_light_blue"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

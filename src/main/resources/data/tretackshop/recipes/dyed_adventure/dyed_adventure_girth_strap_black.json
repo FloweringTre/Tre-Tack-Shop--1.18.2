@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_girth_straps"
+    },
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_girth_strap_black"
+  }
+}

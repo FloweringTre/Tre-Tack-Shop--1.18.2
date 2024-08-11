@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_breast_collars"
+    },
+    {
+      "tag": "forge:dyes/brown"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_breast_collar_brown"
+  }
+}

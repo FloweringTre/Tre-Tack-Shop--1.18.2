@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_english_black/dyed_english_girth_strap_black_red"
+    ]
+  },
+  "criteria": {
+    "has_english_girth_strap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_girth_straps"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_english_black/dyed_english_girth_strap_black_red"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_girth_strap",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_adventure/dyed_adventure_saddle_light_gray"
+    ]
+  },
+  "criteria": {
+    "has_adventure_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/adventure_saddles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_adventure/dyed_adventure_saddle_light_gray"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_adventure_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

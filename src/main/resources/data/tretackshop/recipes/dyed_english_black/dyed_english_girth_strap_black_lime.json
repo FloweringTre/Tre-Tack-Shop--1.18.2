@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_girth_straps"
+    },
+    {
+      "tag": "forge:dyes/lime"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_girth_strap_black_lime"
+  }
+}

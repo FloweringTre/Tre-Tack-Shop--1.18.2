@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_bridles"
+    },
+    {
+      "tag": "forge:dyes/white"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_bridle_white"
+  }
+}

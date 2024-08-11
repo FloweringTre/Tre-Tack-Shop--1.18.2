@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_leg_wraps",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_leg_wraps"
+    },
+    {
+      "tag": "forge:dyes/green"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_leg_wraps_green"
+  }
+}

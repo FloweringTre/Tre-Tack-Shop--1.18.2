@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_girth_straps"
+    },
+    {
+      "tag": "forge:dyes/gray"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_girth_strap_gray"
+  }
+}

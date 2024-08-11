@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_horse_armor",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_armor"
+    },
+    {
+      "tag": "forge:dyes/gray"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_horse_armor_gray"
+  }
+}

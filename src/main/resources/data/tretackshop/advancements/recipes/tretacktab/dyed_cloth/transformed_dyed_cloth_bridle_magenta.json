@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:dyed_cloth/transformed_dyed_cloth_bridle_magenta"
+    ]
+  },
+  "criteria": {
+    "has_english_bridle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tretackshop:craft/english_bridles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:dyed_cloth/transformed_dyed_cloth_bridle_magenta"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_english_bridle",
+      "has_the_recipe"
+    ]
+  ]
+}

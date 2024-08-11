@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_bridles"
+    },
+    {
+      "tag": "forge:dyes/purple"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_bridle_black_purple"
+  }
+}
