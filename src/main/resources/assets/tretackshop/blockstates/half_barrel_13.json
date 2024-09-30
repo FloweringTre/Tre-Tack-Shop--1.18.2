@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "tretackshop:block/half_barrel_13"
+    },
+    "level=1": {
+      "model": "tretackshop:block/half_barrel_13_level1"
+    },
+    "level=2": {
+      "model": "tretackshop:block/half_barrel_13_level2"
+    },
+    "level=3": {
+      "model": "tretackshop:block/half_barrel_13_level3"
+    }
+  }
+}

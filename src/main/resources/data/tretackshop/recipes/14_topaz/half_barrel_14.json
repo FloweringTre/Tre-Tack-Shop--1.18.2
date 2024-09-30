@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "half_barrels",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/half_barrels"
+    },
+    {
+      "tag": "tretackshop:dyes/topaz"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:half_barrel_14"
+  }
+}

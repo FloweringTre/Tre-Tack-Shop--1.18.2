@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slow_feeders",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/slow_feeders"
+    },
+    {
+      "tag": "tretackshop:dyes/topaz"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:slow_feeder_14"
+  }
+}

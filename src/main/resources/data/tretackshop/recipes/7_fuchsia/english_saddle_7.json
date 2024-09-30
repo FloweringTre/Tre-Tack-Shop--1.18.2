@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "english_saddle",
   "pattern": [
-    " Ax",
+    "DAx",
     "xxB",
     "yxC"
   ],
@@ -19,11 +19,14 @@
     "B": {
       "tag": "tretackshop:dyes/toner_jewel"
     },
+    "D": {
+      "tag": "minecraft:dyes/brown"
+    },
     "C": {
       "tag": "minecraft:saplings"
     }
   },
   "result": {
-    "item": "tretackshop:english_saddle_7"
+    "item": "tretackshop:english_saddle_8"
   }
 }

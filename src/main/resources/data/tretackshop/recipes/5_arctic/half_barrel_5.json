@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "half_barrels",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/half_barrels"
+    },
+    {
+      "tag": "tretackshop:dyes/arctic"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:half_barrel_5"
+  }
+}

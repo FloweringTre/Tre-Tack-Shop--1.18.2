@@ -1,0 +1,50 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "facing=north,type=single": {
+      "model": "tretackshop:block/tack_box_single_hound"
+    },
+    "facing=south,type=single": {
+      "model": "tretackshop:block/tack_box_single_hound",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "tretackshop:block/tack_box_single_hound",
+      "y": 270
+    },
+    "facing=east,type=single": {
+      "model": "tretackshop:block/tack_box_single_hound",
+      "y": 90
+    },
+    "facing=north,type=left": {
+      "model": "tretackshop:block/tack_box_left_hound"
+    },
+    "facing=south,type=left": {
+      "model": "tretackshop:block/tack_box_left_hound",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "tretackshop:block/tack_box_left_hound",
+      "y": 270
+    },
+    "facing=east,type=left": {
+      "model": "tretackshop:block/tack_box_left_hound",
+      "y": 90
+    },
+    "facing=north,type=right": {
+      "model": "tretackshop:block/tack_box_right_hound"
+    },
+    "facing=south,type=right": {
+      "model": "tretackshop:block/tack_box_right_hound",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "tretackshop:block/tack_box_right_hound",
+      "y": 270
+    },
+    "facing=east,type=right": {
+      "model": "tretackshop:block/tack_box_right_hound",
+      "y": 90
+    }
+  }
+}

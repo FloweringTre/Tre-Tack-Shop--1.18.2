@@ -26,7 +26,8 @@ public class AwardShopItems {
     public static final List<RegistryObject<Item>> AWARD_FLAGS;
     public static final RegistryObject<Item> FLAG_MONARCH;
     public static final RegistryObject<Item> FLAG_MORPHO;
-    
+    public static final RegistryObject<Item> FLAG_HOUND;
+
 // BUTTERFLY TACK ITEMS - MORPHO
     public static final RegistryObject<HalterItem> HALTER_MORPHO;
     public static final RegistryObject<HalterItem> FLYMASK_MORPHO;
@@ -54,7 +55,6 @@ public class AwardShopItems {
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MORPHO;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MORPHO;
-
     
 // BUTTERFLY TACK ITEMS - MONARCH
     public static final RegistryObject<HalterItem> HALTER_MONARCH;
@@ -85,7 +85,34 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MONARCH;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MONARCH;
 
+    // HOUND TACK
+    public static final RegistryObject<HalterItem> HALTER_HOUND;
+    public static final RegistryObject<HalterItem> FLYMASK_HOUND;
+    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_HOUND;
+    public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_HOUND;
+    public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_HOUND;
+    public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_HOUND;
+    public static final RegistryObject<AdventureLegWraps> ADVENTURE_LEG_WRAPS_HOUND;
+    public static final RegistryObject<LegWrapsItem> ENGLISH_LEG_WRAPS_HOUND;
+    public static final RegistryObject<LegWrapsItem> WESTERN_LEG_WRAPS_HOUND;
+    public static final RegistryObject<AdventureSaddleItem> ADVENTURE_SADDLE_HOUND;
+    public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_HOUND;
+    public static final RegistryObject<EnglishSaddleItem> ENGLISH_SADDLE_HOUND;
+    public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_HOUND;
+    public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_HOUND;
+    public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_HOUND;
+    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_HOUND;
+    public static final RegistryObject<AdventureBridleItem> ADVENTURE_BRIDLE_HOUND;
+    public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_HOUND;
+    public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_HOUND;
+    public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_HOUND;
+    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_HOUND;
+    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_HOUND;
+    public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_HOUND;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_HOUND;
 
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_HOUND;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_HOUND;
 
 // RETEXTURING TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
@@ -135,6 +162,22 @@ public class AwardShopItems {
     public static final RegistryObject<Item> MONARCH_RIBBON_TWO_TAILS;
     public static final RegistryObject<Item> MONARCH_RIBBON_ONE_TAIL;
     public static final RegistryObject<Item> MONARCH_ROSETTE;
+    public static final RegistryObject<Item> HOUND_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> HOUND_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> HOUND_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> HOUND_ROSETTE;
+    public static final RegistryObject<Item> FIRST_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> FIRST_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> FIRST_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> FIRST_ROSETTE;
+    public static final RegistryObject<Item> SECOND_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> SECOND_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> SECOND_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> SECOND_ROSETTE;
+    public static final RegistryObject<Item> THIRD_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> THIRD_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> THIRD_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> THIRD_ROSETTE;
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
     public static final RegistryObject<Item> TROPHY_3;
@@ -178,7 +221,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_MORPHO = ITEMS.register("adventure_bridle_morpho",
-                () -> new AdventureBridleItem("adventure_bridle_morpho", "adventure_bridle_morpho", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_morpho", "bridle_rack_adventure_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MORPHO = ITEMS.register("adventure_girth_strap_morpho",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
@@ -267,7 +310,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_MONARCH = ITEMS.register("adventure_bridle_monarch",
-                () -> new AdventureBridleItem("adventure_bridle_monarch", "adventure_bridle_monarch", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_monarch", "bridle_rack_adventure_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = ITEMS.register("adventure_girth_strap_monarch",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
@@ -336,7 +379,98 @@ public class AwardShopItems {
         FLAG_MONARCH = ITEMS.register("flag_monarch", () ->
                 new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))));
 
-        
+        // Hound Tack
+        HALTER_HOUND = ITEMS.register("halter_hound",
+                () -> new HalterItem("halter_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        FLYMASK_HOUND = ITEMS.register("flymask_hound",
+                () -> new HalterItem("flymask_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+        ADVENTURE_SADDLE_HOUND = ITEMS.register("adventure_saddle_hound",
+                () -> new AdventureSaddleItem("adventure_saddle_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(1)));
+        ADVENTURE_BLANKET_HOUND = ITEMS.register("adventure_blanket_hound",
+                () -> new AdventureBlanketItem("adventure_blanket_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        ADVENTURE_BREAST_COLLAR_HOUND = ITEMS.register("adventure_breast_collar_hound",
+                () -> new AdventureBreastCollarItem("adventure_breast_collar_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        ADVENTURE_LEG_WRAPS_HOUND = ITEMS.register("adventure_leg_wraps_hound",
+                () -> new AdventureLegWraps("adventure_leg_wraps_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
+        ADVENTURE_BRIDLE_HOUND = ITEMS.register("adventure_bridle_hound",
+                () -> new AdventureBridleItem("adventure_bridle_hound", "bridle_rack_adventure_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        ADVENTURE_GIRTH_STRAP_HOUND = ITEMS.register("adventure_girth_strap_hound",
+                () -> new AdventureGirthStrapItem("adventure_girth_strap_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        CLOTH_HORSE_ARMOR_HOUND = ITEMS.register("cloth_horse_armor_hound",
+                () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        SADDLE_BAG_HOUND = ITEMS.register("saddle_bag_hound",
+                () -> new SaddlebagItem("saddle_bag_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+        WESTERN_SADDLE_HOUND = ITEMS.register("western_saddle_hound",
+                () -> new WesternSaddleItem("western_saddle_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(1)));
+        WESTERN_BLANKET_HOUND = ITEMS.register("western_blanket_hound",
+                () -> new WesternBlanketItem("western_blanket_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        WESTERN_BREAST_COLLAR_HOUND = ITEMS.register("western_breast_collar_hound",
+                () -> new WesternBreastCollarItem("western_breast_collar_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        WESTERN_LEG_WRAPS_HOUND = ITEMS.register("western_leg_wraps_hound",
+                () ->  new WesternLegWraps("western_leg_wraps_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
+        WESTERN_BRIDLE_HOUND = ITEMS.register("western_bridle_hound",
+                () -> new WesternBridleItem("western_bridle_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        WESTERN_GIRTH_STRAP_HOUND = ITEMS.register("western_girth_strap_hound",
+                () -> new WesternGirthStrapItem("western_girth_strap_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+        ENGLISH_SADDLE_HOUND = ITEMS.register("english_saddle_hound",
+                () -> new EnglishSaddleItem("english_saddle_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(1)));
+        ENGLISH_BLANKET_HOUND = ITEMS.register("english_blanket_hound",
+                () -> new EnglishBlanketItem("english_blanket_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        ENGLISH_BREAST_COLLAR_HOUND = ITEMS.register("english_breast_collar_hound",
+                () -> new EnglishBreastCollar("english_breast_collar_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        ENGLISH_LEG_WRAPS_HOUND = ITEMS.register("english_leg_wraps_hound",
+                () -> new EnglishLegWraps("english_leg_wraps_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
+        ENGLISH_BRIDLE_HOUND = ITEMS.register("english_bridle_hound",
+                () -> new EnglishBridleItem("english_bridle_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        ENGLISH_GIRTH_STRAP_HOUND = ITEMS.register("english_girth_strap_hound",
+                () -> new EnglishGirthStrap("english_girth_strap_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+        BITLESS_BRIDLE_HOUND = ITEMS.register("english_bridle_bitless_hound",
+                () -> new EnglishBridleItem("english_bridle_bitless_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        BAREBACK_BLANKET_HOUND = ITEMS.register("bareback_blanket_hound",
+                () -> new WesternBlanketItem("bareback_blanket_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+
+
+
+        PASTURE_BLANKET_HOUND = ITEMS.register("pasture_blanket_hound",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                        "pasture_blanket_hound", new Item.Properties()
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        QUARTER_SHEET_HOUND = ITEMS.register("quarter_sheet_hound",
+                () -> new AdventureBreastCollarItem("quarter_sheet_hound", (new Item.Properties())
+                        .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
+        FLAG_HOUND = ITEMS.register("flag_hound", () ->
+                new Item((new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB))));
+
+
+
     // AWARD - Uncraftable Numbered Tack Items -- 14 Count Items
         AWARD_PASTURE_BLANKETS = new ArrayList<>();
         AWARD_PASTURE_BLANKETS_ARMORED = new ArrayList<>();
@@ -390,7 +524,7 @@ public class AwardShopItems {
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(ITEMS.register("award_adventure_bridle_"+ counter,
-                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_"+ counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "bridle_rack_award_adventure_"+ counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(ITEMS.register("award_adventure_girth_strap_"+ counter,
@@ -525,6 +659,42 @@ public class AwardShopItems {
         MONARCH_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_monarch",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         MONARCH_ROSETTE = ITEMS.register("rosette_monarch",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        HOUND_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_hound",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        HOUND_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_hound",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        HOUND_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_hound",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        HOUND_ROSETTE = ITEMS.register("rosette_hound",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        FIRST_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_first",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        FIRST_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_first",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        FIRST_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_first",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        FIRST_ROSETTE = ITEMS.register("rosette_first",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        SECOND_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_second",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        SECOND_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_second",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        SECOND_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_second",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        SECOND_ROSETTE = ITEMS.register("rosette_second",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        THIRD_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_third",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        THIRD_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_third",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        THIRD_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_third",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        THIRD_ROSETTE = ITEMS.register("rosette_third",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
 
         // RIBBONS IN MY COLORS

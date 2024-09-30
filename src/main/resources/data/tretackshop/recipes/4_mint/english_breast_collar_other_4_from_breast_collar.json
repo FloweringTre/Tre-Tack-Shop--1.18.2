@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_breast_collars"
+    },
+    {
+      "tag": "tretackshop:dyes/mint"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:dyes/brown"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_breast_collar_other_4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flags",
+  "pattern": [
+    "yzx",
+    "y  ",
+    "yC "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "z": {
+      "tag": "minecraft:banners"
+    },
+    "C": {
+      "tag": "tretackshop:rainbow_ina_bottle"
+    }
+  },
+  "result": {
+    "item": "tretackshop:flag_rainbow"
+  }
+}

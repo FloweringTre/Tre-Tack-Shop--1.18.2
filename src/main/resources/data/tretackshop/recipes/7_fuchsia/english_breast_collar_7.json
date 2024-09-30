@@ -3,7 +3,7 @@
   "group": "english_breast_collar",
   "pattern": [
     "xCx",
-    "A B",
+    "ADB",
     " x "
   ],
   "key": {
@@ -15,6 +15,9 @@
     },
     "B": {
       "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "D": {
+      "tag": "minecraft:dyes/brown"
     },
     "C": {
       "tag": "minecraft:saplings"

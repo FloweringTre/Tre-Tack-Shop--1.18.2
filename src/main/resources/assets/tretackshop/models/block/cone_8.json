@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:block/parent/parent_cone",
+  "textures": {
+    "cone": "tretackshop:blocks/cones/cone_8"
+  }
+}

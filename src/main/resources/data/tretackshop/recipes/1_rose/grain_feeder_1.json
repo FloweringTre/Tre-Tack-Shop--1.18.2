@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slow_feeders",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/grain_feeders"
+    },
+    {
+      "tag": "tretackshop:dyes/rose"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:grain_feeder_1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dy ",
+    " x ",
+    "xcx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:dried_kelp"
+    },
+    "y": {
+      "tag": "tretackshop:dyes/orchid"
+    },
+    "c": {
+      "item": "minecraft:peony"
+    },
+    "d": {
+      "tag": "tretackshop:dyes/toner_jewel"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cone_12",
+    "count": 4
+  }
+}

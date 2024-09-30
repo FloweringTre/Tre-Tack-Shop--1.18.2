@@ -1,0 +1,155 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_corner_1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "false",
+        "south": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_corner_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_corner_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "true",
+        "south": "true",
+        "east": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_corner_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false|true",
+        "south": "false",
+        "east": "true|false"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "true|false",
+        "west": "false",
+        "south": "true|false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "true|false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "false",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "true",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "true",
+        "east": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/slow_feeder_1"
+      }
+    },
+    {
+      "when": {
+        "level": "2"
+      },
+      "apply": {
+        "model": "swem:block/full_feeder"
+      }
+    },
+    {
+      "when": {
+        "level": "1"
+      },
+      "apply": {
+        "model": "swem:block/half_feeder"
+      }
+    }
+  ]
+}

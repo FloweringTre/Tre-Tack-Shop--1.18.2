@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "CBC"
+  ],
+  "key": {
+    "A": {
+      "tag": "swem:star_worms"
+    },
+    "B": {
+      "item": "minecraft:peony"
+    },
+    "C": {
+      "item": "minecraft:pink_tulip"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "tretackshop:paw_print",
+    "count": 3
+  }
+}

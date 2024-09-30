@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/slow_feeder",
+  "textures": {
+    "0": "tretackshop:blocks/slow_feeders/slow_feeder_11",
+    "particle": "#texture"
+  }
+}

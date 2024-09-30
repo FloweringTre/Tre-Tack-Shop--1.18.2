@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "english_girth_strap",
   "pattern": [
-    "xz ",
+    "xzD",
     "ACB",
     " zx"
   ],
@@ -18,6 +18,9 @@
     },
     "B": {
       "tag": "tretackshop:dyes/toner_jewel"
+    },
+    "D": {
+      "tag": "minecraft:dyes/brown"
     },
     "C": {
       "tag": "minecraft:saplings"

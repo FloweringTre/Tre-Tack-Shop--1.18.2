@@ -1,9 +1,18 @@
 package com.kyraltre.tretackshop.registry;
 
+import com.alaharranhonor.swem.forge.util.DualDyeableItem;
 import com.kyraltre.tretackshop.TreTackShop;
+import net.minecraft.core.cauldron.CauldronInteraction;
+import net.minecraft.stats.Stats;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.LayeredCauldronBlock;
+import org.w3c.dom.css.Counter;
+
+import java.util.Arrays;
 
 public class TreDyeTags {
     //for dying items

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_breast_collar",
+  "pattern": [
+    "xCx",
+    "ADB",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "tretackshop:dyes/arctic"
+    },
+    "B": {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    "D": {
+      "tag": "minecraft:dyes/brown"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_breast_collar_5"
+  }
+}

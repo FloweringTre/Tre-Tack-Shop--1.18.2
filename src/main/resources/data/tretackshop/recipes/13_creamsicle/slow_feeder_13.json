@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slow_feeders",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/slow_feeders"
+    },
+    {
+      "tag": "tretackshop:dyes/creamsicle"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:slow_feeder_13"
+  }
+}
