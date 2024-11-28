@@ -45,7 +45,7 @@ public class TreTags {
     public static final TagKey<Item> CLOTH_ARMOR = ItemTags.create(TreTackShop.resloc("craft/cloth_armor"));
 
 //    public static final TagKey<Item> HALF_BARRELS = ItemTags.create(TreTackShop.resloc("craft/half_barrel"));
-    public static final TagKey<Item> SLOW_FEEDERS = ItemTags.create(TreTackShop.resloc("craft/slow_feeder"));
+//    public static final TagKey<Item> SLOW_FEEDERS = ItemTags.create(TreTackShop.resloc("craft/slow_feeder"));
 //    public static final TagKey<Item> GRAIN_FEEDERS = ItemTags.create(TreTackShop.resloc("craft/grain_feeder"));
 //    public static final TagKey<Item> GRAIN_BINS = ItemTags.create(TreTackShop.resloc("craft/bin_grain"));
 

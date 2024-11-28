@@ -61,7 +61,7 @@ public class TackShopBlockRegistry {
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_WARPED;
 
 //    public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL;
-    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER;
+//    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER;
 //    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER;
 //    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN;
 
@@ -120,7 +120,7 @@ public class TackShopBlockRegistry {
         TACK_BOX_WARPED = new ArrayList<>();
 
 //        HALF_BARREL = new ArrayList();
-        SLOW_FEEDER = new ArrayList();
+//        SLOW_FEEDER = new ArrayList();
 //        GRAIN_FEEDER = new ArrayList();
 //        BIN_GRAIN = new ArrayList();
 
@@ -141,13 +141,13 @@ public class TackShopBlockRegistry {
 //                    return new BlockItemBase((Block)block.get());
 //                };
 //            }));
-            SLOW_FEEDER.add(register("slow_feeder_" + counter, () -> {
-                return new SlowFeederBlock(Properties.of(Material.METAL).noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
+//            SLOW_FEEDER.add(register("slow_feeder_" + counter, () -> {
+//                return new SlowFeederBlock(Properties.of(Material.METAL).noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+//            }, (block) -> {
+//                return () -> {
+//                    return new BlockItemBase((Block)block.get());
+//                };
+//            }));
 //            GRAIN_FEEDER.add(register("grain_feeder_" + counter, () -> {
 //                return new GrainFeederBlock(Properties.of(Material.METAL).noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
 //            }, (block) -> {

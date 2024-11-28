@@ -44,9 +44,9 @@ public class AwardShopBlockRegistry {
 //    public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_MONARCH;
 //    public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_MORPHO;
 //    public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_HOUND;
-    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_MONARCH;
-    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_MORPHO;
-    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_HOUND;
+//    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_MONARCH;
+//    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_MORPHO;
+//    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_HOUND;
 //    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_MONARCH;
 //    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_MORPHO;
 //    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_HOUND;
@@ -101,9 +101,9 @@ public class AwardShopBlockRegistry {
 //        HALF_BARREL_MONARCH = new ArrayList();
 //        HALF_BARREL_MORPHO = new ArrayList();
 //        HALF_BARREL_HOUND = new ArrayList();
-        SLOW_FEEDER_MONARCH = new ArrayList();
-        SLOW_FEEDER_MORPHO = new ArrayList();
-        SLOW_FEEDER_HOUND = new ArrayList();
+//        SLOW_FEEDER_MONARCH = new ArrayList();
+//        SLOW_FEEDER_MORPHO = new ArrayList();
+//        SLOW_FEEDER_HOUND = new ArrayList();
 //        GRAIN_FEEDER_MONARCH = new ArrayList();
 //        GRAIN_FEEDER_MORPHO = new ArrayList();
 //        GRAIN_FEEDER_HOUND = new ArrayList();
@@ -166,27 +166,27 @@ public class AwardShopBlockRegistry {
 //                    return new BlockItemBase((Block)block.get());
 //                };
 //            }));
-            SLOW_FEEDER_MONARCH.add(register("slow_feeder_"+ "monarch", () -> {
-                return new SlowFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            SLOW_FEEDER_MORPHO.add(register("slow_feeder_"+ "morpho", () -> {
-                return new SlowFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            SLOW_FEEDER_HOUND.add(register("slow_feeder_"+ "hound", () -> {
-                return new SlowFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
+//            SLOW_FEEDER_MONARCH.add(register("slow_feeder_"+ "monarch", () -> {
+//                return new SlowFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
+//            }, (block) -> {
+//                return () -> {
+//                    return new BlockItemBase((Block)block.get());
+//                };
+//            }));
+//            SLOW_FEEDER_MORPHO.add(register("slow_feeder_"+ "morpho", () -> {
+//                return new SlowFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
+//            }, (block) -> {
+//                return () -> {
+//                    return new BlockItemBase((Block)block.get());
+//                };
+//            }));
+//            SLOW_FEEDER_HOUND.add(register("slow_feeder_"+ "hound", () -> {
+//                return new SlowFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
+//            }, (block) -> {
+//                return () -> {
+//                    return new BlockItemBase((Block)block.get());
+//                };
+//            }));
 //            GRAIN_FEEDER_MONARCH.add(register("grain_feeder_"+ "monarch", () -> {
 //                return new GrainFeederBlock(Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.0F, 4.0F), null);
 //            }, (block) -> {
