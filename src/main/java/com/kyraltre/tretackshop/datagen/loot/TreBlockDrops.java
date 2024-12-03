@@ -51,6 +51,7 @@ public class TreBlockDrops extends BlockLoot {
         this.dropSelf(TackShopBlocks.CONE_morpho.get());
         this.dropSelf(TackShopBlocks.CONE_monarch.get());
         this.dropSelf(TackShopBlocks.CONE_hound.get());
+        this.dropSelf(TackShopBlocks.CONE_rainbow.get());
 
     }
     @Override

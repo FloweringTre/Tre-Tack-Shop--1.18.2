@@ -87,6 +87,8 @@ public class TackShopBlocks {
             () -> new ConeBase(), TackShopCreativeModTab.TREBLOCK_TAB);
     public static final RegistryObject<Block> CONE_hound = registerBlock("cone_hound",
             () -> new ConeBase(), TackShopCreativeModTab.TREBLOCK_TAB);
+    public static final RegistryObject<Block> CONE_rainbow = registerBlock("cone_rainbow",
+            () -> new ConeBase(), TackShopCreativeModTab.TREBLOCK_TAB);
 
 //    public static final RegistryObject<Block> FLORAL_GOLD = registerBlock("floral_gold", () ->
 //            new FloralTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)

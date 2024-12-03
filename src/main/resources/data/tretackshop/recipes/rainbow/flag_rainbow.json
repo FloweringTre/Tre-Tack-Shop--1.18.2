@@ -17,7 +17,7 @@
       "tag": "minecraft:banners"
     },
     "C": {
-      "tag": "tretackshop:rainbow_ina_bottle"
+      "item": "tretackshop:rainbow_ina_bottle"
     }
   },
   "result": {

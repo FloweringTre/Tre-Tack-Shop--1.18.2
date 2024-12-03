@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " y ",
+    " x ",
+    "xcx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:dried_kelp"
+    },
+    "y": {
+      "item": "tretackshop:rainbow_ina_bottle"
+    },
+    "c": {
+      "item": "minecraft:peony"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cone_rainbow",
+    "count": 4
+  }
+}

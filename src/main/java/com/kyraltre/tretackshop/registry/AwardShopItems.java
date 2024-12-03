@@ -221,7 +221,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_MORPHO = ITEMS.register("adventure_bridle_morpho",
-                () -> new AdventureBridleItem("adventure_bridle_morpho", "bridle_rack_adventure_morpho", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_morpho", "adventure_morpho", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MORPHO = ITEMS.register("adventure_girth_strap_morpho",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
@@ -310,7 +310,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_MONARCH = ITEMS.register("adventure_bridle_monarch",
-                () -> new AdventureBridleItem("adventure_bridle_monarch", "bridle_rack_adventure_monarch", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_monarch", "adventure_monarch", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = ITEMS.register("adventure_girth_strap_monarch",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
@@ -400,7 +400,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_hound", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_HOUND = ITEMS.register("adventure_bridle_hound",
-                () -> new AdventureBridleItem("adventure_bridle_hound", "bridle_rack_adventure_hound", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_hound", "adventure_hound", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_HOUND = ITEMS.register("adventure_girth_strap_hound",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_hound", (new Item.Properties())
@@ -524,7 +524,7 @@ public class AwardShopItems {
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(ITEMS.register("award_adventure_bridle_"+ counter,
-                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "bridle_rack_award_adventure_"+ counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_"+ counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TREAWARD_TAB).stacksTo(16))
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(ITEMS.register("award_adventure_girth_strap_"+ counter,

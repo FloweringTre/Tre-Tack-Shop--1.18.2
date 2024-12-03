@@ -290,7 +290,7 @@ public class TackShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_RAINBOW = ITEMS.register("adventure_bridle_rainbow",
-                () -> new AdventureBridleItem("adventure_bridle_rainbow", "bridle_rack_adventure_rainbow", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_rainbow", "adventure_rainbow", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_RAINBOW = ITEMS.register("adventure_girth_strap_rainbow",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_rainbow", (new Item.Properties())
@@ -380,7 +380,7 @@ public class TackShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_trans", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64)));
         ADVENTURE_BRIDLE_TRANS = ITEMS.register("adventure_bridle_trans",
-                () -> new AdventureBridleItem("adventure_bridle_trans", "bridle_rack_adventure_trans", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_trans", "adventure_trans", (new Item.Properties())
                         .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_TRANS = ITEMS.register("adventure_girth_strap_trans",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_trans", (new Item.Properties())
@@ -484,7 +484,7 @@ public class TackShopItems {
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
             ));
             ADVENTURE_BRIDLES.add(ITEMS.register("adventure_bridle_" + counter,
-                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "bridle_rack_adventure_" + counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_" + counter, (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS.add(ITEMS.register("adventure_girth_strap_" + counter,
@@ -658,7 +658,7 @@ public class TackShopItems {
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(64))
             ));
             ADVENTURE_BRIDLES_DYED.add(ITEMS.register("adventure_bridle_" + color.getName(),
-                    () -> new AdventureBridleItem("adventure_bridle_" + color.getName(), "bridle_rack_adventure_" + color.getName(), (new Item.Properties())
+                    () -> new AdventureBridleItem("adventure_bridle_" + color.getName(), "adventure_" + color.getName(), (new Item.Properties())
                             .tab(TackShopCreativeModTab.TRETACK_TAB).stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS_DYED.add(ITEMS.register("adventure_girth_strap_" + color.getName(),
