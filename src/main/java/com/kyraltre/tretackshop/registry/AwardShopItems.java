@@ -178,6 +178,10 @@ public class AwardShopItems {
     public static final RegistryObject<Item> THIRD_RIBBON_TWO_TAILS;
     public static final RegistryObject<Item> THIRD_RIBBON_ONE_TAIL;
     public static final RegistryObject<Item> THIRD_ROSETTE;
+    public static final RegistryObject<Item> RAINBOW_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> RAINBOW_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> RAINBOW_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> RAINBOW_ROSETTE;
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
     public static final RegistryObject<Item> TROPHY_3;
@@ -668,6 +672,15 @@ public class AwardShopItems {
         HOUND_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_hound",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
         HOUND_ROSETTE = ITEMS.register("rosette_hound",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+
+        RAINBOW_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_rainbow",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        RAINBOW_RIBBON_TWO_TAILS = ITEMS.register("ribbon_two_tails_rainbow",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        RAINBOW_RIBBON_ONE_TAIL = ITEMS.register("ribbon_one_tail_rainbow",
+                () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
+        RAINBOW_ROSETTE = ITEMS.register("rosette_rainbow",
                 () -> new Item(new Item.Properties().tab(TackShopCreativeModTab.TREAWARD_TAB)));
 
         FIRST_RIBBON_THREE_TAILS = ITEMS.register("ribbon_three_tails_first",
